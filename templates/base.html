@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}AI新聞{% endblock %}</title>
+<meta name="description" content="{% block description %}毎朝、影響が大きいAIニュースを日本語でまとめる新聞形式サイト。{% endblock %}">
+<link rel="canonical" href="{{ site_url }}{% block canonical_path %}{% endblock %}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI新聞">
+<meta property="og:title" content="{% block og_title %}AI新聞{% endblock %}">
+<meta property="og:description" content="{% block og_description %}毎朝、影響が大きいAIニュースを日本語でまとめる新聞形式サイト。{% endblock %}">
+<meta property="og:url" content="{{ site_url }}{% block og_path %}{% endblock %}">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%97%9E%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="{{ root_path }}assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="masthead__top">
+      <p class="masthead__title"><a href="{{ root_path }}index.html"><span aria-hidden="true">🗞️</span> AI新聞</a></p>
+      <div class="masthead__meta">
+        {% if issue_no %}<span class="issue-badge">第{{ issue_no }}号</span>{% endif %}
+        {% if display_date %}<span>{{ display_date }}</span>{% endif %}
+      </div>
+    </div>
+    <hr class="masthead__rules">
+    <nav class="masthead__nav">
+      <a href="{{ root_path }}index.html">最新号</a>
+      <a href="{{ root_path }}archive.html">バックナンバー</a>
+    </nav>
+  </header>
+
+  {% block content %}{% endblock %}
+
+  <footer class="site-footer">
+    <span>AI新聞 — 影響が大きいAIニュースを毎朝お届け</span>
+    <span><a href="{{ root_path }}archive.html">全号アーカイブ</a></span>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Hacker News: Front Page</title>
+  <link>https://news.ycombinator.com/</link>
+  <description>test</description>
+  <item>
+    <title>New AI model beats benchmark records</title>
+    <link>https://example.com/hn-ai-article</link>
+    <description>An AI related story that should pass the keyword filter.</description>
+    <pubDate>Fri, 09 Jan 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Startup raises funding for logistics platform</title>
+    <link>https://example.com/hn-unrelated-article</link>
+    <description>A story with no AI keywords, should be filtered out.</description>
+    <pubDate>Fri, 09 Jan 2026 12:30:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,20 @@
+{% macro importance_dots(n) -%}
+<span class="importance-dots" aria-label="重要度{{ n }}（5段階）">
+  {% for i in range(1, 6) %}<span class="{{ 'on' if i <= n else '' }}"></span>{% endfor %}
+</span>
+{%- endmacro %}
+
+{% macro source_line(a) -%}
+<p class="article__source">
+  <span>出典</span>
+  <a href="{{ a.source_url }}" rel="noopener noreferrer" target="_blank">{{ a.source_name }}<span class="visually-hidden">「{{ a.original_title }}」（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+  <span class="lang-badge">{{ a.original_lang|upper }}</span>
+  {% if a.original_lang != 'ja' %}<span class="article__orig-title" aria-hidden="true">{{ a.original_title }}</span>{% endif %}
+</p>
+{%- endmacro %}
+
+{% macro tag_row(tags) -%}
+{% if tags %}
+<p class="tag-row">{% for t in tags %}<span class="tag">{{ t }}</span>{% endfor %}</p>
+{% endif %}
+{%- endmacro %}

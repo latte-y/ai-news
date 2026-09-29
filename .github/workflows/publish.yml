@@ -1,0 +1,87 @@
+name: サイト公開（AI新聞）
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/issues/**'
+  workflow_dispatch:  # 手動実行ボタン（テスト用。この場合は新規号メール通知は行わない）
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+        with:
+          # git diff で「今回のpushで新規追加された号」を検出するため全履歴を取得する
+          fetch-depth: 0
+
+      - name: Python 3.11 セットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 依存パッケージをインストール
+        run: pip install -r requirements.txt
+
+      - name: サイトをビルド
+        run: python -m src.build --out-dir site
+
+      - name: Pagesアーティファクトをアップロード
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: GitHub Pagesへデプロイ
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: このpushで新規追加された号データを検出
+        id: diff
+        if: github.event_name == 'push'
+        run: |
+          set -eu
+          BEFORE="${{ github.event.before }}"
+          EMPTY_SHA="0000000000000000000000000000000000000000"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "$EMPTY_SHA" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
+            # 初回pushなど比較対象が無い場合は、今回のコミット自体の追加分のみを見る
+            NEW_FILES=$(git show --name-only --diff-filter=A --pretty=format: "${{ github.sha }}" -- 'data/issues/*.json' || true)
+          else
+            NEW_FILES=$(git diff --name-only --diff-filter=A "$BEFORE" "${{ github.sha }}" -- 'data/issues/*.json' || true)
+          fi
+          DATES=$(echo "$NEW_FILES" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | sort -u | tr '\n' ' ')
+          echo "新規追加された号: ${DATES:-なし}"
+          {
+            echo "dates<<EOF"
+            echo "$DATES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: 新規号をメール通知
+        if: github.event_name == 'push' && steps.diff.outputs.dates != ''
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          set -eu
+          for d in ${{ steps.diff.outputs.dates }}; do
+            echo "通知: $d"
+            python -m src.notify --date "$d"
+          done

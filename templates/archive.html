@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}バックナンバー | AI新聞{% endblock %}
+{% block description %}AI新聞のバックナンバー一覧。{% endblock %}
+{% block og_title %}バックナンバー | AI新聞{% endblock %}
+{% block canonical_path %}archive.html{% endblock %}
+{% block og_path %}archive.html{% endblock %}
+
+{% block content %}
+<section class="editorial">
+  <h1 class="editorial__headline">バックナンバー</h1>
+  <p class="editorial__lead">これまでに発行した全{{ issues|length }}号の一覧です。</p>
+</section>
+
+{% if issues %}
+<ul class="archive-list">
+  {% for issue in issues %}
+  <li>
+    <a href="issues/{{ issue.date }}.html">
+      <span class="archive-list__date">{{ issue.date }}（第{{ issue.issue_no }}号）</span>
+      <span class="archive-list__headline">{{ issue.headline }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty-state">まだ号が発行されていません。<a href="{{ root_path }}index.html">最新号ページ</a>を確認してください。</p>
+{% endif %}
+{% endblock %}

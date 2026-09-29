@@ -1,0 +1,130 @@
+# AI新聞 情報源リスト
+#
+# 各項目:
+#   name:  表示名（source_name として号データに載る）
+#   url:   フィードURL
+#   lang:  en | ja
+#   kind:  official（公式ブログ・リリース）/ media（ニュースメディア）/
+#          community（個人・コミュニティ）/ japan（国内メディア・コミュニティ）
+#   weight: 収集時の優先度（大きいほど候補選定で優先。1.0が標準）
+#
+# 検証方法: curl -sL -o /dev/null -w "%{http_code}" <url> で200を確認し、
+# feedparser.parse(url) でエントリ数 > 0 であることを確認済み（2026-09-29）。
+# 削除した候補と理由は README.md / 実装レポート参照。
+
+sources:
+  - name: OpenAI
+    url: https://openai.com/news/rss.xml
+    lang: en
+    kind: official
+    weight: 1.3
+
+  - name: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    lang: en
+    kind: official
+    weight: 1.3
+
+  - name: Google (AI)
+    url: https://blog.google/technology/ai/rss/
+    lang: en
+    kind: official
+    weight: 1.1
+
+  - name: Hugging Face
+    url: https://huggingface.co/blog/feed.xml
+    lang: en
+    kind: official
+    weight: 1.0
+
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    lang: en
+    kind: community
+    weight: 1.0
+
+  - name: Claude Code (GitHub Releases)
+    url: https://github.com/anthropics/claude-code/releases.atom
+    lang: en
+    kind: official
+    weight: 1.0
+
+  - name: OpenAI Codex (GitHub Releases)
+    url: https://github.com/openai/codex/releases.atom
+    lang: en
+    kind: official
+    weight: 1.0
+
+  - name: AWS Machine Learning Blog
+    url: https://aws.amazon.com/blogs/machine-learning/feed/
+    lang: en
+    kind: official
+    weight: 1.0
+
+  - name: Azure AI Blog
+    url: https://azure.microsoft.com/en-us/blog/feed/
+    lang: en
+    kind: official
+    weight: 0.9
+
+  - name: The Verge
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    lang: en
+    kind: media
+    weight: 1.0
+
+  - name: TechCrunch
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    lang: en
+    kind: media
+    weight: 1.0
+
+  - name: Hacker News
+    url: https://hnrss.org/frontpage?points=150
+    lang: en
+    kind: community
+    weight: 0.9
+    # HN は他ソースと違い「話題性の高い記事全般」のフィードなので、
+    # src/collect.py 側で AI 関連キーワードを含むものだけに絞り込む。
+
+  - name: Zenn (LLM)
+    url: https://zenn.dev/topics/llm/feed
+    lang: ja
+    kind: japan
+    weight: 1.0
+
+  - name: Zenn (AI)
+    url: https://zenn.dev/topics/ai/feed
+    lang: ja
+    kind: japan
+    weight: 0.9
+
+  - name: Zenn (Claude Code)
+    url: https://zenn.dev/topics/claudecode/feed
+    lang: ja
+    kind: japan
+    weight: 1.0
+
+  - name: Qiita (AI)
+    url: https://qiita.com/tags/ai/feed
+    lang: ja
+    kind: japan
+    weight: 0.8
+
+  - name: Qiita (LLM)
+    url: https://qiita.com/tags/llm/feed
+    lang: ja
+    kind: japan
+    weight: 0.8
+
+  - name: ITmedia AI+
+    url: https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
+    lang: ja
+    kind: japan
+    weight: 1.1
+
+  - name: Publickey
+    url: https://www.publickey1.jp/atom.xml
+    lang: ja
+    kind: japan
+    weight: 1.0

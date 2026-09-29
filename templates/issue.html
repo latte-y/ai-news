@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+
+{% block title %}{{ issue.headline }} | AI新聞 {{ issue.date }}{% endblock %}
+{% block description %}{{ issue.lead }}{% endblock %}
+{% block og_title %}{{ issue.headline }}{% endblock %}
+{% block og_description %}{{ issue.lead }}{% endblock %}
+{% block canonical_path %}{{ 'index.html' if is_index else 'issues/' + issue.date + '.html' }}{% endblock %}
+{% block og_path %}{{ 'index.html' if is_index else 'issues/' + issue.date + '.html' }}{% endblock %}
+
+{% block content %}
+<section class="editorial">
+  <h1 class="editorial__headline">{{ issue.headline }}</h1>
+  <p class="editorial__lead">{{ issue.lead }}</p>
+</section>
+
+{% for a in top_articles %}
+<article class="top-story">
+  <p class="section-label">トップ</p>
+  {{ m.importance_dots(a.importance) }}
+  <h2 class="top-story__title">{{ a.title }}</h2>
+  <p class="top-story__summary">{{ a.summary }}</p>
+  <p class="article__why"><strong>なぜ重要か:</strong> {{ a.why_it_matters }}</p>
+  {{ m.tag_row(a.tags) }}
+  {{ m.source_line(a) }}
+</article>
+{% endfor %}
+
+<section class="sections">
+  {% for section_key, section_label in section_order %}
+    {% if grouped[section_key] %}
+    <div class="section-block">
+      <h2 class="section-block__title">{{ section_label }}</h2>
+      {% for a in grouped[section_key] %}
+      <article class="article-card">
+        <div class="article-card__head">
+          {{ m.importance_dots(a.importance) }}
+        </div>
+        <h3 class="article-card__title">{{ a.title }}</h3>
+        <p class="article-card__summary">{{ a.summary }}</p>
+        <p class="article__why"><strong>なぜ重要か:</strong> {{ a.why_it_matters }}</p>
+        {{ m.tag_row(a.tags) }}
+        {{ m.source_line(a) }}
+      </article>
+      {% endfor %}
+    </div>
+    {% endif %}
+  {% endfor %}
+</section>
+{% endblock %}

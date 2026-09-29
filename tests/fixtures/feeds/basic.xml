@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Basic Test Feed</title>
+  <link>https://example.com/</link>
+  <description>test</description>
+  <item>
+    <title>In Window Article</title>
+    <link>https://example.com/a1?utm_source=newsletter&amp;utm_medium=email</link>
+    <description>&lt;p&gt;This is an &lt;b&gt;in window&lt;/b&gt; article.&lt;/p&gt;</description>
+    <pubDate>Fri, 09 Jan 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Too Old Article</title>
+    <link>https://example.com/a2</link>
+    <description>This article is too old to be collected.</description>
+    <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Too New Article</title>
+    <link>https://example.com/a3</link>
+    <description>This article is from the future relative to the run date.</description>
+    <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>

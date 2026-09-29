@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Dedupe Test Feed</title>
+  <link>https://example.com/</link>
+  <description>test</description>
+  <item>
+    <title>Already Published Article</title>
+    <link>https://example.com/dup-article?utm_source=x</link>
+    <description>Should be excluded because it already appeared in a past issue.</description>
+    <pubDate>Fri, 09 Jan 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Brand New Article</title>
+    <link>https://example.com/new-article</link>
+    <description>Should be kept, this URL never appeared before.</description>
+    <pubDate>Fri, 09 Jan 2026 13:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>

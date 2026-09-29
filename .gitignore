@@ -1,0 +1,9 @@
+venv/
+site/
+out/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/.notified.json
+data/candidates/*.json
+.DS_Store
