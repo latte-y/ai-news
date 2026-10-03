@@ -19,7 +19,9 @@
       "source_url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
       "original_title": "Inaugurating The Era Of Super Intelligence",
       "original_lang": "en",
-      "published_at": "2026-09-29T00:00:00Z"
+      "published_at": "2026-09-29T00:00:00Z",
+      "image_url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Presidential-Actions-Social-Share-Card.jpg",
+      "image_credit": "The White House"
     },
     {
       "section": "top",
@@ -55,7 +57,9 @@
       "source_url": "https://openai.com/index/introducing-dots/",
       "original_title": "Introducing dots",
       "original_lang": "en",
-      "published_at": "2026-10-02T18:00:00Z"
+      "published_at": "2026-10-02T18:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
     },
     {
       "section": "industry",
@@ -110,7 +114,9 @@
       "source_url": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together",
       "original_title": "Amazon's approach to data centers: community-focused, sustainable and efficient",
       "original_lang": "en",
-      "published_at": "2026-10-02T11:52:20Z"
+      "published_at": "2026-10-02T11:52:20Z",
+      "image_url": "https://assets.aboutamazon.com/dims4/default/751d813/2147483647/strip/true/crop/2000x1000+0+0/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F12%2F26%2F200746cc4971855f5828ce07fb38%2Famazondatacenteremployee-hero-amazonnews-ck92926.png",
+      "image_credit": "Amazon Web Services"
     },
     {
       "section": "models",
@@ -127,7 +133,9 @@
       "source_url": "https://blog.cloudflare.com/clef-decision-models/",
       "original_title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
       "original_lang": "en",
-      "published_at": "2026-10-01T00:00:00Z"
+      "published_at": "2026-10-01T00:00:00Z",
+      "image_url": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJV43SPQCPKJ6GBXFCDKNE.01M3TJV53VYDMVNCZDPH1FBFYN.png",
+      "image_credit": "Cloudflare"
     },
     {
       "section": "tools",
@@ -144,7 +152,9 @@
       "source_url": "https://github.com/facebookincubator/muse-gadget-sdk",
       "original_title": "muse-gadget-sdk",
       "original_lang": "en",
-      "published_at": "2026-10-02T21:08:37Z"
+      "published_at": "2026-10-02T21:08:37Z",
+      "image_url": "https://opengraph.githubassets.com/f5172051375f4a9689bd7b8eefc7eceb09583de02c745819f79a8718bf05d62b/facebookincubator/muse-gadget-sdk",
+      "image_credit": "Meta (GitHub)"
     },
     {
       "section": "cloud",
