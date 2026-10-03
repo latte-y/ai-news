@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T07:10:00+09:00",
+  "headline": "米政権、AI呼称を「超知能」に統一",
+  "lead": "トランプ米大統領はAIを「スーパーインテリジェンス」と呼ぶよう連邦政府に義務づける大統領令に署名し、Anthropicなど主要6社がAI安全協定に加わった。Appleは常時稼働型AIエージェントのリスクを理由にmacOSの権限制御を強化し、OpenAIは新エージェント「dots」を投入するなど、エージェントの自律性を巡る動きが相次いだ。人材育成やデータセンター問題でも各社の発表が続いた一日だった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "米政権、AIを「スーパーインテリジェンス」に呼称統一",
+      "summary": "トランプ米大統領は連邦政府の呼称をAIから「スーパーインテリジェンス(SI)」に統一する大統領令に署名した。同時にAnthropicなど主要6社がAI安全に関する協定に署名したと報じられている。",
+      "why_it_matters": "AIの呼称や安全規範を巡る米政権の姿勢転換であり、各社のガバナンス方針や今後の規制論議に影響を与える可能性がある。",
+      "tags": [
+        "米国政府",
+        "AI安全",
+        "政策"
+      ],
+      "source_name": "The White House",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+      "original_title": "Inaugurating The Era Of Super Intelligence",
+      "original_lang": "en",
+      "published_at": "2026-09-29T00:00:00Z"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Apple、AIエージェント対策でMacの権限制御強化",
+      "summary": "Appleは、AIエージェントの自律性向上に伴うデータ流出リスクを理由に、macOSの「フルディスクアクセス」権限をより明示的な操作でのみ付与できるよう制御を強化すると発表した。",
+      "why_it_matters": "常時稼働型AIエージェントの普及に伴うプライバシーリスクに対し、大手プラットフォームが具体策を打ち出した事例として注目される。",
+      "tags": [
+        "Apple",
+        "macOS",
+        "AIエージェント"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "original_title": "Apple will limit Mac disk access as AI agents 'substantially' increase risk",
+      "original_lang": "en",
+      "published_at": "2026-10-02T20:08:40Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268759_Mac_Mini_AKrales_0079.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAI、常時稼働型エージェント「dots」提供開始",
+      "summary": "OpenAIはGPT-6 Astraを搭載した常時稼働型のAIエージェント「dots」を発表した。独自のクラウド環境上で動作し、ユーザーの目標に向けて24時間作業を続けるという。",
+      "why_it_matters": "Metaの「Muse」など常時稼働型AIエージェント競争が激化するなか、OpenAIの本格参入は自律エージェントの安全性を巡る議論をさらに高める可能性がある。",
+      "tags": [
+        "OpenAI",
+        "dots",
+        "AIエージェント"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "original_title": "Introducing dots",
+      "original_lang": "en",
+      "published_at": "2026-10-02T18:00:00Z"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Anthropic、1億ドルでエンジニア1万人育成へ",
+      "summary": "Anthropicは企業へのClaude導入を担う「Frontier Deployed Engineer」を2027年末までに1万人育成する「Claude Frontier Academy」を発表し、1億ドルを投じる。",
+      "why_it_matters": "企業向けAI導入を主導する人材の不足が課題となるなか、大規模な人材育成への先行投資は他社の追随や採用競争に影響する可能性がある。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "人材育成"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "original_title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+      "original_lang": "en",
+      "published_at": "2026-10-02T00:00:00Z",
+      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=heather",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "OpenAI安全部門社員、「文化は壊れている」と退社",
+      "summary": "OpenAIで安全報告を担ってきたDavid Robinson氏が退社し、The Atlanticへの寄稿で同社や業界の安全文化は「壊れている」と訴えた。",
+      "why_it_matters": "AI開発競争の加速に対し内部関係者が安全体制の遅れを公に警告した形で、業界全体の安全ガバナンスへの関心を高める可能性がある。",
+      "tags": [
+        "OpenAI",
+        "AI安全",
+        "退職"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "original_title": "OpenAI safety employee resigns, claiming the company's 'culture is broken'",
+      "original_lang": "en",
+      "published_at": "2026-10-03T16:30:01Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Amazon、データセンター批判に反論し10億ドル支援",
+      "summary": "AWSのマット・ガーマンCEOはデータセンターへの批判に反論する一方、今後5年で10億ドル超を地域支援に投じ、政府とのNDAも撤廃すると発表した。",
+      "why_it_matters": "データセンター建設への住民反発が全米で広がるなか、AI基盤投資を続けるAmazonの対応は他のクラウド大手の方針にも影響しうる。",
+      "tags": [
+        "Amazon",
+        "AWS",
+        "データセンター"
+      ],
+      "source_name": "Amazon Web Services",
+      "source_url": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together",
+      "original_title": "Amazon's approach to data centers: community-focused, sustainable and efficient",
+      "original_lang": "en",
+      "published_at": "2026-10-02T11:52:20Z"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Cloudflare、判断特化の軽量AI「Clef」公開",
+      "summary": "Cloudflareは分類・判断処理に特化したオープンソースモデル「Clef」「Clef-flash」を公開した。画像入力にも対応し、応答速度は競合比10倍超という。",
+      "why_it_matters": "テキスト生成を伴わない高速な判断特化モデルの普及は、AIエージェントの実運用コストや応答速度を左右する可能性がある。",
+      "tags": [
+        "Cloudflare",
+        "Clef",
+        "OSSモデル"
+      ],
+      "source_name": "Cloudflare",
+      "source_url": "https://blog.cloudflare.com/clef-decision-models/",
+      "original_title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+      "original_lang": "en",
+      "published_at": "2026-10-01T00:00:00Z"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Meta、Muse連携の自作ガジェット向けSDK公開",
+      "summary": "MetaはパーソナルAI「Muse」と連携する自作ハードウェアを作れるSDK「Muse Gadgets」をオープンソースで公開した。ESP32やRaspberry Piなどに対応する。",
+      "why_it_matters": "常時稼働型AIエージェントを家庭内のデバイスへ広げる動きであり、他社のハードウェア連携戦略にも影響する可能性がある。",
+      "tags": [
+        "Meta",
+        "Muse",
+        "OSS"
+      ],
+      "source_name": "Meta (GitHub)",
+      "source_url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "original_title": "muse-gadget-sdk",
+      "original_lang": "en",
+      "published_at": "2026-10-02T21:08:37Z"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、Claude DesktopにセキュアなWeb検索を追加する方法公開",
+      "summary": "AWSは、Amazon Bedrock AgentCore GatewayのWeb検索機能をClaude Desktopに統合し、IAM Identity CenterとCognitoによる認証でセキュアに利用する構成を解説した。",
+      "why_it_matters": "学習データの知識カットオフを超えた最新情報へのアクセスを、企業のID管理基盤を保ったまま実現する手法として参考になる。",
+      "tags": [
+        "AWS",
+        "Claude",
+        "Bedrock"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore",
+      "original_title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+      "original_lang": "en",
+      "published_at": "2026-10-02T15:46:05Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/01/ML-21694-1.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "AWS、検索エージェントをマルチターンRLで微調整",
+      "summary": "AWSは、Amazon SageMaker AI上で検索エージェントを複数ターンにわたる強化学習で微調整し、検索品質と失敗率を大きく改善したと報告した。",
+      "why_it_matters": "小規模モデルでも強化学習の工夫次第でフロンティアモデル並みの信頼性を低コストで達成できる可能性を示す事例として参考になる。",
+      "tags": [
+        "AWS",
+        "強化学習",
+        "検索エージェント"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai",
+      "original_title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+      "original_lang": "en",
+      "published_at": "2026-10-02T15:44:20Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/01/ML-21889-1.png",
+      "image_credit": "AWS Machine Learning Blog"
+    }
+  ]
+}
