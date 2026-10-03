@@ -13,8 +13,19 @@
 </p>
 {%- endmacro %}
 
-{% macro tag_row(tags) -%}
+{% macro tag_row(tags, limit=None) -%}
 {% if tags %}
-<p class="tag-row">{% for t in tags %}<span class="tag">{{ t }}</span>{% endfor %}</p>
+<p class="tag-row">{% for t in (tags[:limit] if limit else tags) %}<span class="tag">{{ t }}</span>{% endfor %}</p>
+{% endif %}
+{%- endmacro %}
+
+{# 記事画像。画像自体が元記事へのリンク。出典リンクが既にあるためタブ停止は重複させない（aria-hidden + tabindex=-1）。
+   装飾画像扱いなのでalt=""。読み込み失敗時は枠（クレジット込み）ごと消す最小のonerror。 #}
+{% macro article_image(a, wrapper_class) -%}
+{% if a.image_url %}
+<div class="media {{ wrapper_class }}">
+  <a class="media__link" href="{{ a.source_url }}" rel="noopener noreferrer" target="_blank" aria-hidden="true" tabindex="-1"><img src="{{ a.image_url }}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.media').remove()"></a>
+  <span class="media__credit" title="画像: {{ a.image_credit }}">画像: {{ a.image_credit }}</span>
+</div>
 {% endif %}
 {%- endmacro %}

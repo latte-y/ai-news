@@ -10,12 +10,17 @@
       "title": "【サンプル】新モデルが発表されたという想定の記事",
       "summary": "これはサンプル記事です。実在の発表内容ではありません。表示レイアウト確認用のダミーテキストです。",
       "why_it_matters": "（サンプル）新モデルの性能向上は開発者の選択肢を広げるため、という想定の理由です。",
-      "tags": ["Sample", "Models"],
+      "tags": [
+        "Sample",
+        "Models"
+      ],
       "source_name": "Example Source",
       "source_url": "https://example.com/articles/sample-model-announcement",
       "original_title": "Sample Model Announcement (example)",
       "original_lang": "en",
-      "published_at": "2026-09-28T09:00:00Z"
+      "published_at": "2026-09-28T09:00:00Z",
+      "image_url": "https://example.com/images/sample-0.jpg",
+      "image_credit": "Example Source"
     },
     {
       "section": "top",
@@ -23,12 +28,17 @@
       "title": "【サンプル】業界再編に関する想定記事",
       "summary": "これはサンプル記事です。業界動向の要約という体裁のダミーテキストです。事実ではありません。",
       "why_it_matters": "（サンプル）市場構造への影響が大きいと考えられるため、という想定の理由です。",
-      "tags": ["Sample", "Industry"],
+      "tags": [
+        "Sample",
+        "Industry"
+      ],
       "source_name": "Example News",
       "source_url": "https://example.com/articles/sample-industry-shift",
       "original_title": "Sample Industry Shift (example)",
       "original_lang": "en",
-      "published_at": "2026-09-28T12:00:00Z"
+      "published_at": "2026-09-28T12:00:00Z",
+      "image_url": "https://example.com/images/sample-1.jpg",
+      "image_credit": "Example News"
     },
     {
       "section": "models",
@@ -36,12 +46,19 @@
       "title": "【サンプル】API価格改定の想定記事",
       "summary": "これはサンプル記事です。API料金体系の変更という想定のダミーテキストです。",
       "why_it_matters": "（サンプル）開発コストに影響する可能性がある、という想定の理由です。",
-      "tags": ["Sample", "API"],
+      "tags": [
+        "Sample",
+        "API",
+        "Pricing",
+        "Extra"
+      ],
       "source_name": "Example Blog",
       "source_url": "https://example.com/articles/sample-api-pricing",
       "original_title": "Sample API Pricing Update (example)",
       "original_lang": "en",
-      "published_at": "2026-09-28T03:00:00Z"
+      "published_at": "2026-09-28T03:00:00Z",
+      "image_url": "https://example.com/images/sample-2.jpg",
+      "image_credit": "Example Blog"
     },
     {
       "section": "tools",
@@ -49,12 +66,17 @@
       "title": "【サンプル】新しい開発ツールのリリース想定記事",
       "summary": "これはサンプル記事です。CLIツールの新バージョンという想定のダミーテキストです。",
       "why_it_matters": "（サンプル）開発者の作業効率が上がる可能性がある、という想定の理由です。",
-      "tags": ["Sample", "CLI"],
+      "tags": [
+        "Sample",
+        "CLI"
+      ],
       "source_name": "Example Dev",
       "source_url": "https://example.com/articles/sample-tool-release",
       "original_title": "Sample Tool Release (example)",
       "original_lang": "en",
-      "published_at": "2026-09-27T22:00:00Z"
+      "published_at": "2026-09-27T22:00:00Z",
+      "image_url": "https://example.com/images/sample-3.jpg",
+      "image_credit": "Example Dev"
     },
     {
       "section": "cloud",
@@ -62,7 +84,10 @@
       "title": "【サンプル】クラウド新リージョン開設の想定記事",
       "summary": "これはサンプル記事です。データセンター増設という想定のダミーテキストです。",
       "why_it_matters": "（サンプル）レイテンシ改善が見込まれる、という想定の理由です。",
-      "tags": ["Sample", "Cloud"],
+      "tags": [
+        "Sample",
+        "Cloud"
+      ],
       "source_name": "Example Cloud",
       "source_url": "https://example.com/articles/sample-cloud-region",
       "original_title": "Sample Cloud Region (example)",
@@ -75,12 +100,17 @@
       "title": "【サンプル】業界団体の声明という想定記事",
       "summary": "これはサンプル記事です。政策提言に関する想定のダミーテキストです。",
       "why_it_matters": "（サンプル）今後の規制動向を占う材料になり得る、という想定の理由です。",
-      "tags": ["Sample", "Policy"],
+      "tags": [
+        "Sample",
+        "Policy"
+      ],
       "source_name": "Example Policy",
       "source_url": "https://example.com/articles/sample-policy-statement",
       "original_title": "Sample Policy Statement (example)",
       "original_lang": "en",
-      "published_at": "2026-09-27T15:00:00Z"
+      "published_at": "2026-09-27T15:00:00Z",
+      "image_url": "https://example.com/images/sample-5.jpg",
+      "image_credit": "Example Policy"
     },
     {
       "section": "research",
@@ -88,7 +118,10 @@
       "title": "【サンプル】新しいベンチマーク論文の想定記事",
       "summary": "これはサンプル記事です。学術論文の要約という想定のダミーテキストです。",
       "why_it_matters": "（サンプル）評価手法の標準化につながる可能性がある、という想定の理由です。",
-      "tags": ["Sample", "Research"],
+      "tags": [
+        "Sample",
+        "Research"
+      ],
       "source_name": "Example Journal",
       "source_url": "https://example.com/articles/sample-benchmark-paper",
       "original_title": "Sample Benchmark Paper (example)",
@@ -101,7 +134,10 @@
       "title": "【サンプル】安全性評価に関する想定記事",
       "summary": "これはサンプル記事です。モデルの安全性検証という想定のダミーテキストです。",
       "why_it_matters": "（サンプル）今後の評価基準に影響し得る、という想定の理由です（推測）。",
-      "tags": ["Sample", "Safety"],
+      "tags": [
+        "Sample",
+        "Safety"
+      ],
       "source_name": "Example Lab",
       "source_url": "https://example.com/articles/sample-safety-eval",
       "original_title": "Sample Safety Evaluation (example)",
@@ -114,7 +150,10 @@
       "title": "【サンプル】国内企業の提携という想定記事",
       "summary": "これはサンプル記事です。日本企業同士の提携に関する想定のダミーテキストです。",
       "why_it_matters": "（サンプル）国内での実用化が進む可能性がある、という想定の理由です。",
-      "tags": ["Sample", "Japan"],
+      "tags": [
+        "Sample",
+        "Japan"
+      ],
       "source_name": "Example Japan",
       "source_url": "https://example.com/articles/sample-japan-partnership",
       "original_title": "サンプル国内提携記事（例）",
@@ -127,7 +166,10 @@
       "title": "【サンプル】国内カンファレンス開催という想定記事",
       "summary": "これはサンプル記事です。技術カンファレンスのレポートという想定のダミーテキストです。",
       "why_it_matters": "（サンプル）コミュニティの活性化を示す一例、という想定の理由です。",
-      "tags": ["Sample", "Community"],
+      "tags": [
+        "Sample",
+        "Community"
+      ],
       "source_name": "Example Community",
       "source_url": "https://example.com/articles/sample-conference",
       "original_title": "サンプル国内カンファレンス記事（例）",

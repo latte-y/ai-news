@@ -36,6 +36,7 @@ MIN_ARTICLES = 5
 MAX_ARTICLES = 15
 MAX_HEADLINE_LEN = 25
 MAX_TITLE_LEN = 40
+MAX_SUMMARY_LEN = 120
 MIN_TOP = 1
 MAX_TOP = 3
 
@@ -111,6 +112,23 @@ def validate_issue(issue: dict, expected_date: str | None = None) -> list[str]:
         for key in ("summary", "why_it_matters", "source_name", "original_title"):
             if not isinstance(art.get(key), str) or not art[key].strip():
                 errors.append(f"{prefix}: {key}が空")
+        summary = art["summary"]
+        if isinstance(summary, str) and len(summary) > MAX_SUMMARY_LEN:
+            errors.append(f"{prefix}: summaryが{MAX_SUMMARY_LEN}字を超過（{len(summary)}字）: {summary!r}")
+
+        # 画像（任意）: image_urlはhttpsのみ、image_urlがあればimage_creditも必須
+        if "image_url" in art:
+            image_url = art["image_url"]
+            iparsed = urlparse(image_url) if isinstance(image_url, str) else None
+            if not iparsed or iparsed.scheme != "https" or not iparsed.netloc:
+                errors.append(f"{prefix}: image_urlはhttpsのURLである必要がある: {image_url!r}")
+            credit = art.get("image_credit")
+            if not isinstance(credit, str) or not credit.strip():
+                errors.append(f"{prefix}: image_urlがある場合はimage_credit（空でない文字列）が必要")
+        elif "image_credit" in art:
+            credit = art["image_credit"]
+            if not isinstance(credit, str) or not credit.strip():
+                errors.append(f"{prefix}: image_creditが空")
 
         tags = art["tags"]
         if not isinstance(tags, list) or not all(isinstance(t, str) for t in tags):

@@ -86,3 +86,39 @@ def test_duplicate_source_url_within_issue_is_rejected():
     issue["articles"][1]["importance"] = 3
     errors = validate.validate_issue(issue)
     assert any("重複" in e for e in errors)
+
+
+def test_sample_issue_has_some_images():
+    issue = _load_sample()
+    assert any("image_url" in a for a in issue["articles"])
+    assert any("image_url" not in a for a in issue["articles"])
+
+
+def test_http_image_url_is_rejected():
+    issue = _load_sample()
+    issue["articles"][0]["image_url"] = "http://example.com/a.jpg"
+    errors = validate.validate_issue(issue)
+    assert any("image_url" in e and "https" in e for e in errors)
+
+
+def test_image_url_without_credit_is_rejected():
+    issue = _load_sample()
+    issue["articles"][0].pop("image_credit", None)
+    errors = validate.validate_issue(issue)
+    assert any("image_credit" in e for e in errors)
+
+
+def test_empty_image_credit_is_rejected():
+    issue = _load_sample()
+    issue["articles"][0]["image_credit"] = "  "
+    errors = validate.validate_issue(issue)
+    assert any("image_credit" in e for e in errors)
+
+
+def test_summary_over_120_chars_is_rejected():
+    issue = _load_sample()
+    issue["articles"][0]["summary"] = "あ" * 121
+    errors = validate.validate_issue(issue)
+    assert any("summaryが120字を超過" in e for e in errors)
+    issue["articles"][0]["summary"] = "あ" * 120
+    assert validate.validate_issue(issue) == []

@@ -14,17 +14,24 @@
   <p class="editorial__lead">{{ issue.lead }}</p>
 </section>
 
-{% for a in top_articles %}
-<article class="top-story">
-  <p class="section-label">トップ</p>
-  {{ m.importance_dots(a.importance) }}
-  <h2 class="top-story__title">{{ a.title }}</h2>
-  <p class="top-story__summary">{{ a.summary }}</p>
-  <p class="article__why"><strong>なぜ重要か:</strong> {{ a.why_it_matters }}</p>
-  {{ m.tag_row(a.tags) }}
-  {{ m.source_line(a) }}
-</article>
-{% endfor %}
+{% if top_articles %}
+<section class="top-section{{ ' top-section--single' if top_articles|length == 1 else '' }}" aria-label="トップ記事">
+  {% for a in top_articles %}
+  {% if loop.index == 2 %}<div class="top-aside">{% endif %}
+  <article class="top-story{{ ' top-story--lead' if loop.first else ' top-story--sub' }}">
+    {{ m.article_image(a, "top-story__media") }}
+    <p class="section-label">トップ</p>
+    {{ m.importance_dots(a.importance) }}
+    <h2 class="top-story__title">{{ a.title }}</h2>
+    <p class="top-story__summary">{{ a.summary }}</p>
+    <p class="article__why"><strong>なぜ重要か</strong>{{ a.why_it_matters }}</p>
+    {{ m.tag_row(a.tags) }}
+    {{ m.source_line(a) }}
+  </article>
+  {% if loop.last and not loop.first %}</div>{% endif %}
+  {% endfor %}
+</section>
+{% endif %}
 
 <section class="sections">
   {% for section_key, section_label in section_order %}
@@ -33,13 +40,21 @@
       <h2 class="section-block__title">{{ section_label }}</h2>
       {% for a in grouped[section_key] %}
       <article class="article-card">
-        <div class="article-card__head">
-          {{ m.importance_dots(a.importance) }}
+        <div class="article-card__row">
+          <div class="article-card__text">
+            <div class="article-card__head">
+              {{ m.importance_dots(a.importance) }}
+            </div>
+            <h3 class="article-card__title">{{ a.title }}</h3>
+            <p class="article-card__summary">{{ a.summary }}</p>
+          </div>
+          {{ m.article_image(a, "article-card__thumb") }}
         </div>
-        <h3 class="article-card__title">{{ a.title }}</h3>
-        <p class="article-card__summary">{{ a.summary }}</p>
-        <p class="article__why"><strong>なぜ重要か:</strong> {{ a.why_it_matters }}</p>
-        {{ m.tag_row(a.tags) }}
+        <details class="article-card__why">
+          <summary>なぜ重要か</summary>
+          <p class="article__why">{{ a.why_it_matters }}</p>
+        </details>
+        {{ m.tag_row(a.tags, 3) }}
         {{ m.source_line(a) }}
       </article>
       {% endfor %}

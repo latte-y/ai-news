@@ -8,7 +8,7 @@ on:
   workflow_dispatch:  # 手動実行ボタン（テスト用。この場合は新規号メール通知は行わない）
 
 permissions:
-  contents: read
+  contents: write   # 画像補完した号データをmainへ書き戻すため
   pages: write
   id-token: write
 
@@ -40,18 +40,6 @@ jobs:
       - name: 依存パッケージをインストール
         run: pip install -r requirements.txt
 
-      - name: サイトをビルド
-        run: python -m src.build --out-dir site
-
-      - name: Pagesアーティファクトをアップロード
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-      - name: GitHub Pagesへデプロイ
-        id: deployment
-        uses: actions/deploy-pages@v4
-
       - name: このpushで新規追加された号データを検出
         id: diff
         if: github.event_name == 'push'
@@ -72,6 +60,36 @@ jobs:
             echo "$DATES"
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
+
+      - name: 新規号の画像を補完（routine環境で取れなかった分）
+        if: github.event_name == 'push' && steps.diff.outputs.dates != ''
+        run: |
+          set -eu
+          # routineの実行環境は通信先が許可リストに限られるため、一次情報サイトのog:imageを取れないことがある。
+          # Actionsは通信制限が無いので、ここで取りこぼしを補完してmainへ書き戻す
+          # （GITHUB_TOKENによるpushではワークフローは再起動しない）。
+          for d in ${{ steps.diff.outputs.dates }}; do
+            python -m src.images "data/issues/$d.json"
+          done
+          if ! git diff --quiet -- data/issues; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/issues
+            git commit -m "images: 画像を補完 (${{ steps.diff.outputs.dates }})"
+            git push origin HEAD:main
+          fi
+
+      - name: サイトをビルド
+        run: python -m src.build --out-dir site
+
+      - name: Pagesアーティファクトをアップロード
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: GitHub Pagesへデプロイ
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       - name: 新規号をメール通知
         if: github.event_name == 'push' && steps.diff.outputs.dates != ''

@@ -12,6 +12,7 @@ import argparse
 import json
 import shutil
 import sys
+from datetime import datetime
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -28,6 +29,19 @@ SECTION_ORDER = [
 ]
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+_WEEKDAYS_JA = "月火水木金土日"
+
+
+def jp_date(date_str: str | None) -> str:
+    """YYYY-MM-DD を「2026年10月3日（土）」形式にする。解釈できなければそのまま返す。"""
+    if not date_str:
+        return ""
+    try:
+        d = datetime.strptime(date_str, "%Y-%m-%d")
+    except ValueError:
+        return date_str
+    return f"{d.year}年{d.month}月{d.day}日（{_WEEKDAYS_JA[d.weekday()]}）"
 
 
 def load_issues(issues_dir: Path, date_cutoff: str | None = None) -> list[dict]:
@@ -70,6 +84,7 @@ def build(data_dir: Path, out_dir: Path, date_cutoff: str | None, site_url: str 
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    env.filters["jp_date"] = jp_date
 
     issues = load_issues(data_dir / "issues", date_cutoff)
 

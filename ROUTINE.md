@@ -35,7 +35,7 @@ python -m src.collect
 ## 2. 候補を読み、編集方針に沿って選定する
 
 `data/candidates/TODAY.json` の `candidates` 配列を全て読む。各候補は
-`{title, url, source, lang, published_at, summary}` を持つ（summaryはRSSのdescriptionを
+`{title, url, source, lang, published_at, summary}` と、あれば `image_url` を持つ（summaryはRSSのdescriptionを
 機械的に切り詰めただけの粗い要約なので、これだけで採否や重要度を断定しない）。
 
 ### 編集方針（SPEC.mdより）
@@ -60,7 +60,7 @@ python -m src.collect
 - `section`: `top | models | tools | cloud | industry | research | japan` のいずれか
 - `importance`: 1〜5の整数。`section: top` の記事は必ず `importance: 5`
 - `title`: 日本語見出し（40字以内）
-- `summary`: 日本語要約（2〜4文、事実のみ。推測を混ぜない）
+- `summary`: 日本語要約（**1〜2文・120字以内**、事実のみ。推測を混ぜない。要点だけに絞り、細部は削る。`src.validate` が120字超をエラーにする）
 - `why_it_matters`: なぜ重要かを1文で（推測は推測とわかる表現で）
 - `tags`: 短いタグの配列（例: `["Claude", "API"]`）
 - `source_name`: 出典名（例: `"Anthropic"`）
@@ -68,6 +68,9 @@ python -m src.collect
 - `original_title`: 元記事のタイトル（原文のまま、翻訳しない）
 - `original_lang`: `en | ja`
 - `published_at`: ISO8601（例: `"2026-09-29T17:00:00Z"`）。候補データの `published_at` を使う
+- `image_url`（任意）: 採用した候補に `image_url` があれば、そのままコピーする。同時に `image_credit` に候補の `source`（出典サイト名）を入れる。
+  候補に `image_url` が無い記事、または複数候補を統合して別URLを出典にした記事では、**書かなくてよい**（手順3.5で自動補完される）。
+  画像URLを自分で推測・捏造しない。`image_url` は https のみ、`image_url` を書くなら `image_credit` は必須
 
 ### 号全体の情報
 
@@ -83,6 +86,18 @@ python -m src.collect
 `data/issues/TODAY.json` に、SPEC.mdのスキーマ通りのJSONを書く。既存の号
 （`data/issues/*.json`）を1つ開いて構造を参考にしてよい（最初の号の場合は
 `tests/fixtures/sample_issue.json` を参考にする。ただしこれはサンプルなので中身はコピーしない）。
+
+## 3.5 画像を補完する
+
+号データを書いたら、`image_url` が無い記事に対して元記事の og:image / twitter:image を取得して補完する。
+
+```bash
+python -m src.images data/issues/TODAY.json
+```
+
+- 取得できなかった記事は画像なしのままでよい（エラーにはならない。標準出力に「画像なし」として列挙される）
+- 画像ファイルは保存・複製しない（URLだけを記録し、サイトは元サイトから直接読み込む）
+- このコマンドは `data/issues/TODAY.json` を書き換えるので、必ず手順4の検証の**前**に実行する
 
 ## 4. 検証する
 

@@ -23,7 +23,7 @@ from pathlib import Path
 import feedparser
 import yaml
 
-from src.util import JST, jst_now, jst_today_str, normalize_url, parse_date_arg, strip_html
+from src.util import JST, jst_now, jst_today_str, normalize_url, parse_date_arg, strip_html, to_https_image_url
 
 log = logging.getLogger("collect")
 
@@ -40,6 +40,9 @@ HN_AI_KEYWORDS = [
 ]
 _HN_KEYWORD_RE = re.compile(r"(?i)\b(" + "|".join(re.escape(k) for k in HN_AI_KEYWORDS) + r")\b")
 
+#: summary/content内の最初の<img src=...>を拾うための簡易パターン
+_IMG_SRC_RE = re.compile(r"""<img\b[^>]*?\bsrc\s*=\s*["']([^"']+)["']""", re.IGNORECASE)
+
 
 def load_sources(path: Path) -> list[dict]:
     """config/sources.yaml を読み込んで情報源のリストを返す。"""
@@ -54,6 +57,44 @@ def _entry_published(entry: dict) -> datetime | None:
         t = entry.get(key)
         if t:
             return datetime.fromtimestamp(timegm(t), tz=timezone.utc)
+    return None
+
+
+def extract_image_url(entry: dict, base_url: str = "") -> str | None:
+    """feedparserエントリからサムネイル画像URL（httpsのみ）を取り出す。取れなければNone。
+
+    優先順: media:content → media:thumbnail → 画像系enclosure → summary/content内の最初の<img>。
+    """
+    base = base_url or entry.get("link") or ""
+
+    for m in entry.get("media_content") or []:
+        mtype = (m.get("type") or "").lower()
+        medium = (m.get("medium") or "").lower()
+        # 動画・音声のmedia:contentはスキップ（type/mediumが不明なものは画像として扱う）
+        if (mtype and not mtype.startswith("image")) or (medium and medium != "image"):
+            continue
+        u = to_https_image_url(m.get("url"), base)
+        if u:
+            return u
+
+    for m in entry.get("media_thumbnail") or []:
+        u = to_https_image_url(m.get("url"), base)
+        if u:
+            return u
+
+    for link in entry.get("links") or []:
+        if link.get("rel") == "enclosure" and (link.get("type") or "").lower().startswith("image"):
+            u = to_https_image_url(link.get("href"), base)
+            if u:
+                return u
+
+    html_sources = [entry.get("summary") or entry.get("description") or ""]
+    html_sources += [c.get("value") or "" for c in entry.get("content") or []]
+    for html in html_sources:
+        for m in _IMG_SRC_RE.finditer(html):
+            u = to_https_image_url(m.group(1), base)
+            if u:
+                return u
     return None
 
 
@@ -142,17 +183,19 @@ def collect(
                 continue
 
             summary_src = entry.get("summary") or entry.get("description") or ""
-            candidates.append(
-                {
-                    "title": title,
-                    "url": norm_url,
-                    "source": name,
-                    "lang": lang,
-                    "published_at": published.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                    "summary": strip_html(summary_src, 600),
-                    "_weight": weight,
-                }
-            )
+            cand = {
+                "title": title,
+                "url": norm_url,
+                "source": name,
+                "lang": lang,
+                "published_at": published.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "summary": strip_html(summary_src, 600),
+                "_weight": weight,
+            }
+            image_url = extract_image_url(entry, link)
+            if image_url:
+                cand["image_url"] = image_url
+            candidates.append(cand)
             seen_urls.add(norm_url)  # 同一実行内での重複（複数フィードが同じ記事を配信）も除去
             kept_here += 1
         per_source_count[name] = kept_here

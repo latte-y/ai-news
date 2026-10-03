@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import re
 from datetime import datetime, timedelta, timezone
-from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qsl, urlencode
 
 JST = timezone(timedelta(hours=9))
 
@@ -69,3 +69,20 @@ def strip_html(text: str, max_len: int = 600) -> str:
     if len(plain) > max_len:
         plain = plain[: max_len - 1].rstrip() + "…"
     return plain
+
+
+def to_https_image_url(url: str | None, base_url: str = "") -> str | None:
+    """画像URLを絶対URL化し、httpsのものだけ返す（それ以外はNone）。
+
+    相対URL・プロトコル相対URL（//host/...）は base_url を基準に絶対化する。
+    """
+    if not url or not isinstance(url, str):
+        return None
+    url = url.strip().replace("&amp;", "&")
+    if not url or url.startswith("data:"):
+        return None
+    absolute = urljoin(base_url, url) if base_url else url
+    parts = urlsplit(absolute)
+    if parts.scheme != "https" or not parts.netloc:
+        return None
+    return absolute

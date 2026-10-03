@@ -38,6 +38,7 @@
 ```
 config/sources.yaml     情報源（RSS/Atomフィード）の定義
 src/collect.py          RSS巡回 → data/candidates/YYYY-MM-DD.json
+src/images.py           号データの画像補完（og:image / twitter:image）
 src/validate.py         data/issues/YYYY-MM-DD.json のスキーマ検証
 src/build.py            data/issues/*.json → site/ の静的サイト生成
 src/notify.py           新規号のGmail通知・watchdogアラート
@@ -60,7 +61,15 @@ ROUTINE.md              毎朝のroutineセッションが従う作業手順書
 - 必須キーの有無、`section`/`original_lang` のenum値
 - `articles` は8〜15件（`top` セクションは1〜3件、全て `importance: 5`）
 - `date` がファイル名と一致していること、`source_url` がURL形式であること・号内で重複しないこと
-- `headline`（25字以内）・`title`（40字以内）の文字数制限
+- `headline`（25字以内）・`title`（40字以内）・`summary`（120字以内）の文字数制限
+- 任意の `image_url`（httpsのみ）と `image_credit`（`image_url` があれば必須）
+
+### 画像
+
+記事のサムネイルは元サイトの画像URLを参照するだけで、画像ファイルは保存・複製しません
+（`画像: 出典名` を必ず表示し、画像自体も元記事へのリンクです）。収集時にRSSから取れた画像URLが候補の
+`image_url` に入り、足りない分は `python -m src.images data/issues/YYYY-MM-DD.json` が
+元記事の og:image / twitter:image から補完します。画像が無い記事は画像枠を出しません。
 
 ## ローカル実行手順
 

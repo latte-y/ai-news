@@ -21,7 +21,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from src.build import SECTION_ORDER
+from src.build import SECTION_ORDER, jp_date
 from src.mailer import send as mailer_send
 from src.util import jst_today_str
 
@@ -33,12 +33,14 @@ STATE_FILENAME = ".notified.json"
 
 
 def _env() -> Environment:
-    return Environment(
+    env = Environment(
         loader=FileSystemLoader(str(REPO_ROOT / "templates")),
         autoescape=select_autoescape(["html"]),
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    env.filters["jp_date"] = jp_date
+    return env
 
 
 def _load_state(data_dir: Path) -> set[str]:

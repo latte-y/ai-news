@@ -137,3 +137,13 @@ def test_run_watchdog_skips_when_issue_exists(tmp_path, monkeypatch):
 
     assert rc == 0
     assert sent == []
+
+
+def test_build_email_includes_image_only_for_articles_with_image():
+    issue = json.loads((Path(__file__).parent / "fixtures" / "sample_issue.json").read_text(encoding="utf-8"))
+    _, html = notify.build_email(issue, issue_no=1, site_url="https://latte-y.github.io/ai-news/")
+    assert "https://example.com/images/sample-0.jpg" in html
+    assert "画像: Example Source" in html
+    assert "width:100%" in html
+    # 画像なし記事（top 3件目に入る可能性のあるもの）の画像は出ない
+    assert html.count("<img") == sum(1 for a in issue["articles"][:3] if a.get("image_url"))

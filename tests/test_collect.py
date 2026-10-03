@@ -105,3 +105,23 @@ def test_collect_continues_when_one_feed_fails(tmp_path):
 
     titles = {c["title"] for c in result["candidates"]}
     assert "In Window Article" in titles
+
+
+def test_collect_extracts_image_url_from_various_feed_fields(tmp_path):
+    sources_path = _write_sources_yaml(
+        tmp_path,
+        [{"name": "Images", "url": str(FIXTURES / "images.xml"), "lang": "en", "kind": "media", "weight": 1.0}],
+    )
+    result = collect.collect(sources_path, tmp_path / "data", date_override="2026-01-10")
+    by_title = {c["title"]: c for c in result["candidates"]}
+
+    # media:content が media:thumbnail より優先される
+    assert by_title["Media Content"]["image_url"] == "https://cdn.example.com/mc.jpg"
+    assert by_title["Media Thumbnail"]["image_url"] == "https://cdn.example.com/thumb.jpg"
+    assert by_title["Enclosure Image"]["image_url"] == "https://cdn.example.com/enc.png"
+    # 相対URLは記事URL基準で絶対化される
+    assert by_title["Img In Summary Relative"]["image_url"] == "https://example.com/static/hero.jpg"
+    assert by_title["Img In Content Encoded"]["image_url"] == "https://cdn.example.com/body.webp"
+    # 音声enclosure・http画像・画像なしはimage_urlキー自体を出さない
+    for t in ("Audio Enclosure Only", "Http Image Rejected", "No Image"):
+        assert "image_url" not in by_title[t]
