@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T06:42:00+09:00",
+  "headline": "トランプ政権、AI統括に新組織発足",
+  "lead": "トランプ大統領は「スーパーインテリジェンス・フォース」と名付けたAI政策の新組織発足を発表し、規制より競争優先の姿勢を鮮明にした。一方Googleは急増するAI生成の無効な報告に耐えかね、OSSの脆弱性報奨金制度を一時凍結。AIエージェントの普及が生むひずみが、インフラ・組織運営・セキュリティの各所に表れた一日となった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "トランプ政権、AI新組織「超知能部隊」発足",
+      "summary": "トランプ大統領は、AI政策を統括する新組織「スーパーインテリジェンス・フォース」発足を発表した。国家情報長官が議長を務め、120日以内にAIのリスクと機会に関する報告書をまとめる。",
+      "why_it_matters": "過剰規制の回避を掲げており、政権が安全規制より開発競争での優位確保を優先している姿勢を示すと考えられる。",
+      "tags": [
+        "AI政策",
+        "米国政府"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force",
+      "original_title": "Trump unveils his new Super Intelligence Force",
+      "original_lang": "en",
+      "published_at": "2026-10-04T15:15:10Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Google、OSSの脆弱性報奨金制度を一時凍結",
+      "summary": "Googleは10月1日、オープンソース向け脆弱性報奨金制度を一時凍結したと発表した。AI生成とみられる無効な報告が急増し対応が追いつかなくなったためで、再開は2027年第1四半期を予定する。",
+      "why_it_matters": "AIによる自動投稿の急増がOSSセキュリティ運用を圧迫する具体例であり、他の報奨金制度にも同様の対応が広がる可能性がある。",
+      "tags": [
+        "セキュリティ",
+        "オープンソース"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+      "original_title": "Google froze its open source bug bounty program due to a 'significant rise' in AI submissions",
+      "original_lang": "en",
+      "published_at": "2026-10-04T20:31:07Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/ai-slop-bug-bounty-reports-1646637201.jpg?resize=1200,863",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Gemini無料版、利用モデルをFlash-Liteに限定",
+      "summary": "Googleは個人向けGeminiの利用モデルをプラン別に制限すると発表した。無料版は10月9日からFlash-Liteのみとなり、Flash利用にはAI Plus以上の契約が必要になる。",
+      "why_it_matters": "無料ユーザーの選択肢を狭めることで、有料プランへの移行を促す狙いがあると考えられる。",
+      "tags": [
+        "Gemini",
+        "Google"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987",
+      "original_title": "個人向けGeminiのモデル選択が厳格化　無料ユーザーが使えるのは「Flash-Lite」のみに",
+      "original_lang": "ja",
+      "published_at": "2026-10-04T02:27:25Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2610/04/2000001987/10008359/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "AWS、判断特化の軽量モデル「Decider 2B」公開",
+      "summary": "AWSのStrands Agentsチームは、Yes/No判定やスコアリングに特化した20億パラメータの判断モデルをオープンソースで公開した。推論は手元GPUで約115ミリ秒という。",
+      "why_it_matters": "ツール選択やガードレールなど、エージェント内の細かな判断を低コスト・低遅延で担うモデルとして採用が広がる可能性がある。",
+      "tags": [
+        "AWS",
+        "OSS"
+      ],
+      "source_name": "AWS Japan",
+      "source_url": "https://zenn.dev/aws_japan/articles/introducing-strands-decider-ja",
+      "original_title": "【翻訳】Strands Decider 2B の紹介：小さなオープンソースの判断モデル",
+      "original_lang": "ja",
+      "published_at": "2026-10-04T09:50:31Z",
+      "image_url": "https://res.cloudinary.com/zenn/image/upload/s--UlzdCL7M--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2580%2591Strands%2520Decider%25202B%2520%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%25EF%25BC%259A%25E5%25B0%258F%25E3%2581%2595%25E3%2581%25AA%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25B3%25E3%2582%25BD%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%25AE%25E5%2588%25A4%25E6%2596%25AD%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Takumi%2520Saito%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZmZTY2NGI3N2IuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25A2%25E3%2583%259E%25E3%2582%25BE%25E3%2583%25B3%2520%25E3%2582%25A6%25E3%2582%25A7%25E3%2583%2596%2520%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%2520%25E3%2582%25B8%25E3%2583%25A3%25E3%2583%2591%25E3%2583%25B3%2520%2528%25E6%259C%2589%25E5%25BF%2597%2529%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvbi5wbmc=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+      "image_credit": "AWS Japan"
+    },
+    {
+      "section": "cloud",
+      "importance": 4,
+      "title": "Supabase、SQLiteの「Turso」買収を発表",
+      "summary": "SupabaseはSQLiteベースのDBサービス「Turso」買収を発表した。AIエージェントが大量の軽量DBを立ち上げる需要に対応し、1サーバで数百万のDBをホストできる技術を取り込む。",
+      "why_it_matters": "AIエージェントの普及で急増する使い捨てDB需要という、新しいインフラ市場が形成されつつあることを示す動きと言える。",
+      "tags": [
+        "Supabase",
+        "データベース"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
+      "original_title": "Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応",
+      "original_lang": "ja",
+      "published_at": "2026-10-04T15:56:27Z",
+      "image_url": "https://www.publickey1.jp/2026/HTo1Om6aAAAYQKJ.jpg",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Amazon、データセンター批判受けNDA廃止と説明",
+      "summary": "AWSのガーマンCEOはブログで、データセンター建設を巡る地域住民の反発に応じ、政府機関とのNDA使用を取りやめたと説明した。水使用量は工業用水の0.5%にとどまるとも主張した。",
+      "why_it_matters": "透明性不足への批判が全米で許可凍結の動きにまで広がる中、業界側が説明責任を問われていることを示す。",
+      "tags": [
+        "Amazon",
+        "データセンター"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas",
+      "original_title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "original_lang": "en",
+      "published_at": "2026-10-03T18:43:57Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 4,
+      "title": "HENNGE、取締役2名だけのAI運営子会社設立",
+      "summary": "HENNGEは子会社「HENNGE AI」設立を発表した。取締役2名以外の従業員を置かず、開発や顧客対応、マーケティングなどの実務をAIエージェントが担う体制とした。",
+      "why_it_matters": "日本企業がAIエージェントによる実務代替を正式な会社形態にまで踏み込んだ事例として注目される。",
+      "tags": [
+        "HENNGE",
+        "AIエージェント"
+      ],
+      "source_name": "Qiita (AI Quotidia)",
+      "source_url": "https://qiita.com/quotidia/items/9f7ee6638c6cc5a2dc63",
+      "original_title": "HENNGE AI設立：取締役2名以外の従業員を置かずAIエージェントが実務を担う組織と「AI Gateway」",
+      "original_lang": "ja",
+      "published_at": "2026-10-04T21:01:02Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9SEVOTkdFJTIwQUklRTglQTglQUQlRTclQUIlOEIlRUYlQkMlOUElRTUlOEYlOTYlRTclQjclQTAlRTUlQkQlQjkyJUU1JTkwJThEJUU0JUJCJUE1JUU1JUE0JTk2JUUzJTgxJUFFJUU1JUJFJTkzJUU2JUE1JUFEJUU1JTkzJUExJUUzJTgyJTkyJUU3JUJEJUFFJUUzJTgxJThCJUUzJTgxJTlBQUklRTMlODIlQTglRTMlODMlQkMlRTMlODIlQjglRTMlODIlQTclRTMlODMlQjMlRTMlODMlODglRTMlODElOEMlRTUlQUUlOUYlRTUlOEIlOTklRTMlODIlOTIlRTYlOEIlODUlRTMlODElODYlRTclQjUlODQlRTclQjklOTQlRTMlODElQTglRTMlODAlOENBSSUyMEdhdGV3YXklRTMlODAlOEQmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz0xOGNjZTU4OWNjNmNiNDEyZjY2Mzc2MTMzN2U3MDkwNQ&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=01bc492b4249298adb2e9b452092a806",
+      "image_credit": "Qiita (AI Quotidia)"
+    },
+    {
+      "section": "research",
+      "importance": 4,
+      "title": "「成功」と報告したAIエージェント、実は8割近くが誤り",
+      "summary": "MicrosoftとHugging Faceは、エージェントの成否をDB状態で判定するベンチマーク「ThinkingBox」を公開した。正常終了した失敗試行の77.6%で実際のデータが誤っていた。",
+      "why_it_matters": "出力の見た目だけでなく裏側の状態変化まで検証しないと、エージェントの信頼性を見誤る可能性があることを定量的に示した。",
+      "tags": [
+        "ベンチマーク",
+        "AIエージェント"
+      ],
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "original_title": "The Agent Said It Was Done. The Database Disagreed.",
+      "original_lang": "en",
+      "published_at": "2026-10-03T22:56:48Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
+      "image_credit": "Hugging Face"
+    }
+  ]
+}
