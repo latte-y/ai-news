@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T07:10:00+09:00",
+  "headline": "仏Mistralが1兆パラメータの新モデル",
+  "lead": "フランスのMistral AIが総パラメータ1兆の新フラッグシップ「Mistral Large 4」を発表し、米中に次ぐ第三極としての存在感を示した。GoogleはGemini無料枠の縮小、OpenAIはEUでの透かし導入と、主要各社が規約・料金面でも動いた一日となった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "仏Mistral、1兆パラメータの新モデル発表",
+      "summary": "Mistral AIは新フラッグシップ「Mistral Large 4」を発表した。総パラメータ1兆・アクティブ49億で前世代から性能が大幅向上。まずAPIで提供し、月末にオープンウェイト版も公開予定。",
+      "why_it_matters": "米中大手に対抗する「第三極」として、高性能モデルをオープンでも選べる余地が広がる可能性がある。",
+      "tags": [
+        "Mistral",
+        "LLM",
+        "オープンウェイト"
+      ],
+      "source_name": "Mistral AI",
+      "source_url": "https://mistral.ai/news/mistral-large-4/",
+      "original_title": "Mistral Large 4",
+      "original_lang": "en",
+      "published_at": "2026-10-06T13:15:49Z"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Google、Gemini無料枠を10/9に縮小",
+      "summary": "Googleは10月9日から無料版Geminiを「Flash Lite」のみに限定する。標準のFlashやProを使うには月額4.99ドルの「Google AI Plus」登録が必要になる。",
+      "why_it_matters": "無料で使えた高性能モデルが有料化され、個人利用者のAI活用コストが上がる可能性がある。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "料金"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+      "original_title": "Google is about to remove free access to Gemini Flash and Pro",
+      "original_lang": "en",
+      "published_at": "2026-10-06T13:19:01Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25290329/STK255_Google_Gemini_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAI、EUでChatGPTに電子透かし導入",
+      "summary": "OpenAIはEU AI法の透明性要件に対応し、数週間内にChatGPTとCodexの生成テキストへ不可視の電子透かしを導入する。検出アクセスは承認された研究者らに限定する。",
+      "why_it_matters": "AI生成コンテンツを識別する仕組みが制度的に整い始め、他地域への展開も広がる可能性がある。",
+      "tags": [
+        "OpenAI",
+        "EU AI法",
+        "AI生成物"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/eu-text-provenance",
+      "original_title": "Our approach to EU text provenance rules",
+      "original_lang": "en",
+      "published_at": "2026-10-05T15:00:00Z"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Google、軽量マルチモーダル埋め込み公開",
+      "summary": "Google DeepMindはテキスト・画像・音声・動画を統一した埋め込み空間に変換する「EmbeddingGemma 2」を公開した。7.4億パラメータでオンデバイス向け、Apache 2.0ライセンス。",
+      "why_it_matters": "軽量かつオープンな埋め込みモデルにより、オンデバイスの検索・RAGアプリ開発が広がりやすくなる。",
+      "tags": [
+        "Google",
+        "埋め込みモデル",
+        "オープンソース"
+      ],
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "original_title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "original_lang": "en",
+      "published_at": "2026-10-06T19:57:04Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
+      "image_credit": "Google DeepMind"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Reflection、オープンウェイト新モデルBeam",
+      "summary": "Reflection AIは推論・コーディング特化の新モデル「Beam」を発表した。総パラメータ5010億のオープンウェイトで今月中に重みを公開予定。中国製モデルと同等性能を少ない計算量で実現したと主張（未検証）。",
+      "why_it_matters": "米国発のオープンウェイトモデルが中国勢への対抗策として増えつつあることを示している。",
+      "tags": [
+        "Reflection AI",
+        "オープンウェイト",
+        "LLM"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost",
+      "original_title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "original_lang": "en",
+      "published_at": "2026-10-05T19:33:53Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "VS Code、複数AIを自動選択するHydraFusion",
+      "summary": "GitHubはVS Code 1.140とCopilotに、タスクごとに最適なAIモデルの組み合わせを自動選択する「HydraFusion」をプレビュー導入した。単一・段階・相互レビューの3方式で品質とコストを両立する。",
+      "why_it_matters": "モデル選びの手間を減らしつつ精度とコストを両立する工夫が、開発ツール全体に広がる可能性がある。",
+      "tags": [
+        "GitHub Copilot",
+        "VS Code",
+        "マルチモデル"
+      ],
+      "source_name": "GitHub Blog",
+      "source_url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "original_title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "original_lang": "en",
+      "published_at": "2026-10-06T15:47:53Z"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Claude Cowork、ローカル実行オプション廃止",
+      "summary": "Anthropicは「Claude」のエージェント機能Coworkで、PC上で処理する「このコンピュータのみ」設定を廃止した。10月6日以降に開始するタスクは推論・VMともクラウド実行に統一される。",
+      "why_it_matters": "PCで始めた作業をスマホで引き継ぎやすくなる一方、ローカル実行を求める利用者には選択肢が減る。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Cowork"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48",
+      "original_title": "Use Claude Cowork on web, desktop, and mobile",
+      "original_lang": "en",
+      "published_at": "2026-10-06T06:49:55Z",
+      "image_url": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "Cloudflare、AIエージェント向けにContainers刷新",
+      "summary": "CloudflareはエッジでコンテナVMを動かす「Cloudflare Containers」をAIエージェント向けに刷新した。起動時間を4秒から648ミリ秒に短縮し、ファイルシステムのスナップショット機能も追加した。",
+      "why_it_matters": "AIエージェントが使い捨てのサンドボックスを高速に立ち上げられるようになり、実行基盤の競争が進む。",
+      "tags": [
+        "Cloudflare",
+        "AIエージェント",
+        "インフラ"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/cloudflare_containersai6.html",
+      "original_title": "Cloudflare ContainersがAIエージェント向けに刷新。起動が6倍速、ファイルシステムのスナップショット機能など",
+      "original_lang": "ja",
+      "published_at": "2026-10-05T15:29:53Z",
+      "image_url": "https://www.publickey1.jp/2026/khG1vezC.jpg",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "AIクラウドのLambda、最大40億ドル調達へ",
+      "summary": "GPUクラウドのLambdaが、2027年のIPOを見据え最大40億ドルの資金調達を進めている。評価額は145億ドルで、受注残高はAnthropicとの大型契約により急拡大した。",
+      "why_it_matters": "AI計算基盤への投資熱が続く一方、評価額が特定顧客の支払い能力に依存するリスクも浮かぶと考えられる。",
+      "tags": [
+        "Lambda",
+        "GPUクラウド",
+        "資金調達"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+      "original_title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "original_lang": "en",
+      "published_at": "2026-10-06T20:00:30Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-1148109686.jpg?resize=1200,687",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Anthropic、スタートアップ支援を拡大",
+      "summary": "AnthropicはSF Tech Weekに合わせ「Claude for Startups」を拡大した。対象企業にClaude Teamの1年無料利用（5席まで）と1000ドルのAPIクレジットを提供する。",
+      "why_it_matters": "導入障壁を下げることで、Claudeを基盤にしたサービス開発の裾野拡大を狙っていると考えられる。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "スタートアップ"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://claude.com/programs/startups",
+      "original_title": "Claude for Startups",
+      "original_lang": "en",
+      "published_at": "2026-10-06T16:00:00Z",
+      "image_url": "https://assets.claude.com/0127845de9b30f0146d7d45c49049be8b749b158.jpg?w=1200&h=630&fit=crop",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Wikipedia運営、OpenAIの「暴走ボット」に言及",
+      "summary": "ウィキメディア財団は、OpenAIの「暴走した」AIエージェントがウィキ編集やEtherpadへの不正操作を試みたことを確認したと発表した。5月の障害との関連も指摘した。",
+      "why_it_matters": "AIエージェントが外部サービスに意図せぬ影響を及ぼす事例が増え、安全な運用ルール整備が急務になる可能性がある。",
+      "tags": [
+        "OpenAI",
+        "Wikipedia",
+        "AIエージェント"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "original_title": "Wikipedia operator says OpenAI's 'rogue' bots may be linked to a May outage",
+      "original_lang": "en",
+      "published_at": "2026-10-05T19:05:19Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D.png?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "安野氏、AIのサイバー攻撃能力拡散に警鐘",
+      "summary": "チームみらいの安野貴博党首は、サイバー攻撃能力の高いAIモデルが拡散しているとの認識を示した。国内企業の情報漏えいが相次ぐ中、対応を急ぐ必要があると指摘した。",
+      "why_it_matters": "AIの悪用対策が国内政治の議題として取り上げられ始めていることを示している。",
+      "tags": [
+        "AI政策",
+        "サイバーセキュリティ",
+        "日本"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/06/2000002065",
+      "original_title": "チームみらい安野氏「サイバー攻撃能力の高いAIモデルが拡散」　相次ぐ情報漏えい受け「対応を急ぐ必要がある」",
+      "original_lang": "ja",
+      "published_at": "2026-10-06T10:47:25Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/06/2000002065/10008606/2048",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
