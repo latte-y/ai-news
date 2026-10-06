@@ -19,7 +19,9 @@
       "source_url": "https://mistral.ai/news/mistral-large-4/",
       "original_title": "Mistral Large 4",
       "original_lang": "en",
-      "published_at": "2026-10-06T13:15:49Z"
+      "published_at": "2026-10-06T13:15:49Z",
+      "image_url": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "image_credit": "Mistral AI"
     },
     {
       "section": "top",
@@ -55,7 +57,9 @@
       "source_url": "https://openai.com/index/eu-text-provenance",
       "original_title": "Our approach to EU text provenance rules",
       "original_lang": "en",
-      "published_at": "2026-10-05T15:00:00Z"
+      "published_at": "2026-10-05T15:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
     },
     {
       "section": "models",
@@ -110,7 +114,9 @@
       "source_url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
       "original_title": "Project HydraFusion: Frontier quality via multi-model orchestration",
       "original_lang": "en",
-      "published_at": "2026-10-06T15:47:53Z"
+      "published_at": "2026-10-06T15:47:53Z",
+      "image_url": "https://github.blog/wp-content/uploads/2026/09/OptA_UI.jpg",
+      "image_credit": "GitHub Blog"
     },
     {
       "section": "tools",
