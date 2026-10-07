@@ -19,7 +19,9 @@
       "source_url": "https://openai.com/index/gpt-6-for-everyone",
       "original_title": "GPT-6 and Intelligent UI for everyone",
       "original_lang": "en",
-      "published_at": "2026-10-07T00:00:00Z"
+      "published_at": "2026-10-07T00:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
     },
     {
       "section": "top",
@@ -93,7 +95,9 @@
       "source_url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
       "original_title": "Sharing AI progress in mathematics",
       "original_lang": "en",
-      "published_at": "2026-10-06T12:00:00Z"
+      "published_at": "2026-10-06T12:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
     },
     {
       "section": "research",
@@ -241,7 +245,9 @@
       "source_url": "https://monoist.itmedia.co.jp/mn/articles/2610/07/news031.html",
       "original_title": "AIが「ヒットの種」から商品化まで一気通貫、NTTデータらが基盤構築で連携",
       "original_lang": "ja",
-      "published_at": "2026-10-07T01:00:00Z"
+      "published_at": "2026-10-07T01:00:00Z",
+      "image_url": "https://image.itmedia.co.jp/mn/articles/2610/07/cover_news031.jpg",
+      "image_credit": "ITmedia (MONOist)"
     }
   ]
 }
