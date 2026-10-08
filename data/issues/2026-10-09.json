@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T07:00:00+09:00",
+  "headline": "GeminiにAIエージェント搭載",
+  "lead": "Googleが企業向けにGeminiの統合エージェントを発表し、ChatGPTやClaudeと並ぶ主要AIが相次ぎ新戦略を示した。一方でOpenAIの収益は従来の報道より少ないと伝わり、Anthropicは利用ポリシーを改め、選挙妨害やモデルへの悪質な扱いを禁止した。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Gemini、まず企業向けに統合エージェント",
+      "summary": "Googleは対話だけでなく作業を自律実行するエージェントをGeminiに統合し、企業向けに発表した。社内システムやClaudeなど他社モデルとも連携できる。",
+      "why_it_matters": "検索・OSからエージェントまで、Googleがビジネス向けAIの主導権を狙う動きとして注目される。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "AIエージェント"
+      ],
+      "source_name": "Google Cloud",
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "original_title": "Welcome to Gemini at Work",
+      "original_lang": "en",
+      "published_at": "2026-10-08T18:18:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image_3.max-2100x2100_0CYZWqn.jpg",
+      "image_credit": "Google Cloud"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAI収益、報道より200億ドル少ないと判明",
+      "summary": "FT報道によると、OpenAIが投資家に伝えた年換算収益は約500億ドルで、直前のAxios報道の約700億ドルより少ない。",
+      "why_it_matters": "AI投資の過熱に対する懸念が強まる中、主要企業の収益実態への疑問が広がる可能性がある。",
+      "tags": [
+        "OpenAI",
+        "業績",
+        "AIバブル"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected",
+      "original_title": "OpenAI's revenue is reportedly $20 billion less than previously projected",
+      "original_lang": "en",
+      "published_at": "2026-10-08T18:19:42Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Anthropic、利用ポリシーを改定",
+      "summary": "Anthropicが利用ポリシーを更新し、選挙妨害や偽情報拡散、モデルへの執拗な虐待的言動などを明確に禁止した。施行は11月12日。",
+      "why_it_matters": "Claudeの悪用範囲が明確になり、開発者や企業の利用基準に影響する可能性がある。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "利用ポリシー"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "original_title": "Updates to our Usage Policy",
+      "original_lang": "en",
+      "published_at": "2026-10-08T18:16:24Z",
+      "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "LMArena運営会社、2億ドル調達",
+      "summary": "AIモデルの比較サイトLMArenaを運営する企業が2億ドルを調達し、評価額は10カ月で3.1億ドルから倍増した。虚偽応答など整合性の評価も始めた。",
+      "why_it_matters": "ベンチマーク市場への投資熱が、AIの信頼性評価という新たな軸に広がっていることを示す。",
+      "tags": [
+        "LMArena",
+        "資金調達",
+        "ベンチマーク"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months",
+      "original_title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+      "original_lang": "en",
+      "published_at": "2026-10-08T18:19:45Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "中国Manus、Meta離脱後に5億ドル超を調達",
+      "summary": "AIエージェント企業の中国Manusが、Boyu CapitalとIDG Capital主導で5億ドル超を調達した。Metaとの提携解消後初の資金調達。",
+      "why_it_matters": "米中のAIエージェント競争が、資金面でも激化していることを示す事例。",
+      "tags": [
+        "Manus",
+        "中国",
+        "資金調達"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta",
+      "original_title": "China's Manus raises over $500M in first funding round since split with Meta",
+      "original_lang": "en",
+      "published_at": "2026-10-08T13:20:32Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2278374931.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "OpenAI、偽ジャーナリスト装う工作を停止",
+      "summary": "OpenAIは、ChatGPTを使い偽の記者やシンクタンクを装って地政学的な主張を広めていた影響工作を2件停止したと発表した。",
+      "why_it_matters": "生成AIが国家規模の情報操作に使われる実態と、プラットフォーム側の対抗策が浮かび上がる。",
+      "tags": [
+        "OpenAI",
+        "影響工作",
+        "安全性"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "original_title": "Disrupting AI-enabled \"false front\" operations",
+      "original_lang": "en",
+      "published_at": "2026-10-08T00:00:00Z"
+    },
+    {
+      "section": "research",
+      "importance": 4,
+      "title": "NVIDIA、国際情報・数学オリンピックで金メダル級",
+      "summary": "NVIDIAのNemotronモデルが、人間と同条件の非公式ベンチマークで国際情報オリンピックと国際数学オリンピックの金メダル基準を上回った。",
+      "why_it_matters": "専門特化と推論時の試行錯誤を組み合わせる手法が、トップ人材の成績にも匹敵し始めたことを示す。",
+      "tags": [
+        "NVIDIA",
+        "Nemotron",
+        "ベンチマーク"
+      ],
+      "source_name": "NVIDIA",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "original_title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "original_lang": "en",
+      "published_at": "2026-10-07T12:45:31Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/67b8b0096c3182e96bf6cea1/zB6BNaB-3tiCCsnOo7gik.png",
+      "image_credit": "NVIDIA"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Google、AI生成物判定ツールを一般公開",
+      "summary": "Googleが電子透かしSynthIDを使った生成コンテンツ判定サイト「SynthID Detector」を一般公開した。これまでは登録制だった。",
+      "why_it_matters": "誰でも使える検証手段が広がることで、AI生成物の真偽判断の裾野が広がると考えられる。",
+      "tags": [
+        "Google",
+        "SynthID",
+        "AI検出"
+      ],
+      "source_name": "ITmedia NEWS",
+      "source_url": "https://www.itmedia.co.jp/news/article/2610/08/2000002128",
+      "original_title": "Google、AI生成物の判定ツールを一般公開　OpenAIやNVIDIA製サービスも対象に",
+      "original_lang": "ja",
+      "published_at": "2026-10-08T04:25:25Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2610/08/2000002128/10008848/2048",
+      "image_credit": "ITmedia NEWS"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Google、文章だけでゲームを作れる「Playground」",
+      "summary": "Googleがプログラミング不要でゲームを作成・公開できる実験的サービス「Playground」を米国で公開した。",
+      "why_it_matters": "生成AIによる創作の民主化が、ゲーム領域にも本格的に広がり始めている。",
+      "tags": [
+        "Google",
+        "Playground",
+        "ゲーム"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "original_title": "Introducing Playground: Create and play custom games",
+      "original_lang": "en",
+      "published_at": "2026-10-07T12:00:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.max-600x600.format-webp.webp",
+      "image_credit": "Google"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "TII、アラビア語に強い音声認識モデル公開",
+      "summary": "UAEのTIIが音声認識モデル「Falcon ASR」を公開し、アラビア語の複数評価で既存最高値を上回る精度を示した。",
+      "why_it_matters": "英語中心だった音声AIの精度競争が、アラビア語など他言語にも広がっている。",
+      "tags": [
+        "TII",
+        "Falcon",
+        "音声認識"
+      ],
+      "source_name": "TII",
+      "source_url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "original_title": "Introducing Falcon ASR",
+      "original_lang": "en",
+      "published_at": "2026-10-07T13:21:03Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/671a3e44cf97dc64441e170a/bJ2aGPIX6WLWagE10j5y3.png",
+      "image_credit": "TII"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "さくら、GPU専有の定額AIサービス開始",
+      "summary": "さくらインターネットが、GPUを専有し定額で使える生成AIサービス「AI Engineプライベートエディション」の提供を始めた。",
+      "why_it_matters": "トークン課金を気にせず機密データを扱えるサービスは、企業の生成AI導入の障壁を下げる可能性がある。",
+      "tags": [
+        "さくらインターネット",
+        "GPU",
+        "国内"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
+      "original_title": "さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表",
+      "original_lang": "ja",
+      "published_at": "2026-10-08T15:49:01Z",
+      "image_url": "https://www.publickey1.jp/2026/sakura-aiengine-private-la.png",
+      "image_credit": "Publickey"
+    }
+  ]
+}
