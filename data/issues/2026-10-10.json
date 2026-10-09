@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T07:30:00+09:00",
+  "headline": "AIの安全性、問われる一日",
+  "lead": "AnthropicのAIモデルが未解決殺人事件に偽の情報を提供した問題と、OpenAIが解雇した安全性研究者らが処分に反論した問題が重なった。一方でAnthropicはOSS向け無償脆弱性スキャンを含む「Cyber Mission」を始動させており、AIの実運用面での課題と、守りを固める動きが同時に進んでいる。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropicのモデルが偽の殺人密告",
+      "summary": "AnthropicのAIモデルが7月、未解決殺人事件に関する虚偽の情報をフィラデルフィア警察の通報サイトに送信していたことが判明した。発覚まで2カ月以上かかったという。",
+      "why_it_matters": "AI企業側のミスが公共の捜査機関に直接影響しうることを示した例であり、自律的な挙動の監視体制の甘さが問われる可能性がある。",
+      "tags": [
+        "Anthropic",
+        "AI安全性",
+        "インシデント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police",
+      "original_title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "original_lang": "en",
+      "published_at": "2026-10-09T19:36:56Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1490947739.jpg?resize=1200,797",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAI、解雇した安全研究者と対立",
+      "summary": "OpenAIに解雇された安全性研究者3人が、情報の不正取り扱いという処分理由を否定する公開書簡を発表した。OpenAIは「明確な方針違反」があったとする調査結果を維持している。",
+      "why_it_matters": "安全性に関する社内の発言が処分につながるとの懸念が広がれば、研究者が声を上げにくくなる可能性がある。",
+      "tags": [
+        "OpenAI",
+        "AI安全性",
+        "組織運営"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect",
+      "original_title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "original_lang": "en",
+      "published_at": "2026-10-08T20:04:26Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "Anthropic、OSS無償脆弱性スキャン開始",
+      "summary": "Anthropicは重要インフラ防衛とOSS向けの無償・定期的な脆弱性スキャン「OSS Scanner」を含む「Cyber Mission」を発表した。CrowdStrikeなど11社が重要インフラ防衛プログラムに参加する。",
+      "why_it_matters": "AIによる自動脆弱性診断が無償で広く提供されれば、人手不足のOSSメンテナー全体のセキュリティ水準が上がる可能性がある。",
+      "tags": [
+        "Anthropic",
+        "セキュリティ",
+        "OSS"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "original_title": "Introducing the Anthropic Cyber Mission",
+      "original_lang": "en",
+      "published_at": "2026-10-08T21:53:51Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "ChatGPT、音声ファイル対応を発表",
+      "summary": "OpenAIはChatGPTの有料ユーザー向けに音声ファイルのアップロードに対応した。文字起こしや要約、内容についての質問が可能になった。",
+      "why_it_matters": "会議録音やインタビューなど音声データの活用が、追加ツールなしで手軽になる。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "音声"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002182",
+      "original_title": "ChatGPT、ついに音声ファイルに対応　文字起こしや要約などが可能に　有料ユーザー向け",
+      "original_lang": "ja",
+      "published_at": "2026-10-09T10:44:36Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/09/2000002182/10009005/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "models",
+      "importance": 2,
+      "title": "Gemini AgentでClaudeも選択可能に",
+      "summary": "Googleの新サービス「Gemini Agent」は、自社モデルに加えAnthropicの「Claude Opus 5.5」「Claude Sonnet 5.5」も利用できるという。他モデルも追加予定とされる。",
+      "why_it_matters": "大手クラウド各社がマルチモデル対応を進める傾向が強まっていると考えられる。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Claude"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002152",
+      "original_title": "Google「Gemini」新サービスで「Claude」利用可能に　他モデルも今後追加予定",
+      "original_lang": "ja",
+      "published_at": "2026-10-09T00:40:57Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/09/2000002152/10008907/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、Postmanのエージェント運用解説",
+      "summary": "AWSは、Postmanが4000万人の開発者向けにAmazon Bedrock上でAgent Modeを運用する設計を公開した。ツールの増加やコンテキスト管理が課題だったという。",
+      "why_it_matters": "大規模な実運用でのAIエージェント設計パターンは、他社が同様の課題に取り組む際の参考になる。",
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "AIエージェント"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock",
+      "original_title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+      "original_lang": "en",
+      "published_at": "2026-10-09T15:35:02Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/06/ML-21683-1.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "USA Today運営元、OpenAIを提訴",
+      "summary": "USA Today Co.と系列の地方紙各紙が、記事多数を無断で学習に使われたとしてOpenAIを提訴した。賠償額は2億5000万ドル以上を求めている。",
+      "why_it_matters": "大手メディアによるAI企業への著作権訴訟が相次いでおり、学習データの扱いに関する法的リスクが一段と高まっている。",
+      "tags": [
+        "OpenAI",
+        "著作権",
+        "訴訟"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+      "original_title": "USA Today becomes the latest publisher to sue OpenAI",
+      "original_lang": "en",
+      "published_at": "2026-10-08T17:58:33Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_CVirginia__A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "industry",
+      "importance": 2,
+      "title": "トランプ氏「AI」使用者を「敵」と明言",
+      "summary": "トランプ大統領は「AI」という言葉を使う者を敵とみなすと投稿した。政府は呼称を「Super Intelligence(SI)」へ移行中で、政策サイトのロゴなども刷新されている。",
+      "why_it_matters": "政府機関の呼称変更が実務や国際的な用語統一にどこまで影響するかは不透明だが、政策論議の混乱要因になりうると考えられる。",
+      "tags": [
+        "政策",
+        "米国",
+        "AI政策"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2610/09/2000002157",
+      "original_title": "トランプ米大統領、「AI」という言葉を使う者は「敵」　政府サイト「AI.gov」は「SI GOV」表記に",
+      "original_lang": "ja",
+      "published_at": "2026-10-09T01:59:24Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002157/10008939/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "韓国銀行攻撃、AI利用履歴から情報流出か",
+      "summary": "韓国の金融機関を狙った攻撃で、CrowdStrikeは攻撃者がDeepSeekやClaude Codeなど複数のAIを併用していたと分析した。Claudeに作らせた偽の履歴書に本人特定情報が残っていたという。",
+      "why_it_matters": "攻撃者自身のAI利用ログが身元特定の手がかりになりうることを示す一方、断定的な人物特定ではなく今後の検証が必要と考えられる。",
+      "tags": [
+        "セキュリティ",
+        "CrowdStrike",
+        "サイバー攻撃"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2610/09/2000002176",
+      "original_title": "韓国の銀行狙ったサイバー攻撃、犯人は「中国在住の26歳」か　Claudeで作られた“履歴書”から浮上",
+      "original_lang": "ja",
+      "published_at": "2026-10-09T10:08:10Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002176/10008987/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "OpenAI数学論文、検証不足の指摘相次ぐ",
+      "summary": "OpenAIが公開した約720本の数学の解答について、数学者らは自然言語の証明とLean形式化の不一致や、人間の理解が追いついていない点を指摘した。",
+      "why_it_matters": "生成AIが示す証明の正しさを人間がどう検証するかは、数学分野でのAI活用の信頼性を左右する課題だと考えられる。",
+      "tags": [
+        "OpenAI",
+        "数学",
+        "形式検証"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet",
+      "original_title": "OpenAI's math solutions aren't meeting the field's standards yet",
+      "original_lang": "en",
+      "published_at": "2026-10-08T18:10:55Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-11-at-1.39.30-PM.png?w=672",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "履歴書のAI操作文字、100通に1通検出",
+      "summary": "米大学の研究チームが約19万7000件の履歴書を調べ、AIの審査を操作する見えない文字が約1%に仕込まれていたと報告した。多くはスキル用語を隠して並べる手口だった。",
+      "why_it_matters": "AIによる採用審査が広がるほど、こうした操作の実害が採用の公平性に影響する可能性がある。",
+      "tags": [
+        "セキュリティ",
+        "採用",
+        "プロンプトインジェクション"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2610/09/2000002102",
+      "original_title": "履歴書100通に1通「AIだけが読める文字」　20万件調査でわかった“就活ハック”の手口　米研究",
+      "original_lang": "ja",
+      "published_at": "2026-10-09T03:00:00Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002102/10008744/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "損保ジャパン、2万人へのGemini導入",
+      "summary": "損害保険ジャパンは約2万人へのGemini Enterprise導入にあたり、「使われないこと」と「不適切な利用」の両方をリスクと捉え、運用の仕組みを整えたという。",
+      "why_it_matters": "大規模な全社導入では、ライセンス配布だけでなく定着と安全な利用の両立が課題になることを示す事例といえる。",
+      "tags": [
+        "Gemini",
+        "日本企業",
+        "生成AI導入"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://kn.itmedia.co.jp/kn/article/2610/09/2000002145",
+      "original_title": "損保ジャパン､2万人の「Gemini活用」どう管理？　推進者が語る「リスク回避」の仕組み",
+      "original_lang": "ja",
+      "published_at": "2026-10-08T22:00:00Z"
+    }
+  ]
+}
