@@ -24,6 +24,7 @@
     {{ m.importance_dots(a.importance) }}
     <h2 class="top-story__title">{{ a.title }}</h2>
     <p class="top-story__summary">{{ a.summary }}</p>
+    {% if a.detail %}<p class="article__detail">{{ a.detail }}</p>{% endif %}
     <p class="article__why"><strong>なぜ重要か</strong>{{ a.why_it_matters }}</p>
     {{ m.tag_row(a.tags) }}
     {{ m.source_line(a) }}
@@ -50,9 +51,11 @@
           </div>
           {{ m.article_image(a, "article-card__thumb") }}
         </div>
+        {# 詳しい説明（detail）は折りたたみ。detailが無い過去の号は「なぜ重要か」だけを入れる #}
         <details class="article-card__why">
-          <summary>なぜ重要か</summary>
-          <p class="article__why">{{ a.why_it_matters }}</p>
+          <summary>{{ '詳しく読む' if a.detail else 'なぜ重要か' }}</summary>
+          {% if a.detail %}<p class="article__detail">{{ a.detail }}</p>{% endif %}
+          <p class="article__why">{% if a.detail %}<strong>なぜ重要か</strong>{% endif %}{{ a.why_it_matters }}</p>
         </details>
         {{ m.tag_row(a.tags, 3) }}
         {{ m.source_line(a) }}

@@ -22,6 +22,7 @@ REQUIRED_ARTICLE_KEYS = {
     "title",
     "summary",
     "why_it_matters",
+    "detail",
     "tags",
     "source_name",
     "source_url",
@@ -37,6 +38,9 @@ MAX_ARTICLES = 15
 MAX_HEADLINE_LEN = 25
 MAX_TITLE_LEN = 40
 MAX_SUMMARY_LEN = 120
+#: 詳しい説明（detail）の字数範囲。一覧では折りたたみ表示
+MIN_DETAIL_LEN = 150
+MAX_DETAIL_LEN = 400
 MIN_TOP = 1
 MAX_TOP = 3
 
@@ -109,12 +113,15 @@ def validate_issue(issue: dict, expected_date: str | None = None) -> list[str]:
         elif len(title) > MAX_TITLE_LEN:
             errors.append(f"{prefix}: titleが{MAX_TITLE_LEN}字を超過（{len(title)}字）: {title!r}")
 
-        for key in ("summary", "why_it_matters", "source_name", "original_title"):
+        for key in ("summary", "detail", "why_it_matters", "source_name", "original_title"):
             if not isinstance(art.get(key), str) or not art[key].strip():
                 errors.append(f"{prefix}: {key}が空")
         summary = art["summary"]
         if isinstance(summary, str) and len(summary) > MAX_SUMMARY_LEN:
             errors.append(f"{prefix}: summaryが{MAX_SUMMARY_LEN}字を超過（{len(summary)}字）: {summary!r}")
+        detail = art.get("detail")
+        if isinstance(detail, str) and detail.strip() and not (MIN_DETAIL_LEN <= len(detail) <= MAX_DETAIL_LEN):
+            errors.append(f"{prefix}: detailは{MIN_DETAIL_LEN}〜{MAX_DETAIL_LEN}字にする（現在{len(detail)}字）")
 
         # 画像（任意）: image_urlはhttpsのみ、image_urlがあればimage_creditも必須
         if "image_url" in art:

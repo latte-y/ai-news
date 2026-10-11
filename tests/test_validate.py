@@ -122,3 +122,24 @@ def test_summary_over_120_chars_is_rejected():
     assert any("summaryが120字を超過" in e for e in errors)
     issue["articles"][0]["summary"] = "あ" * 120
     assert validate.validate_issue(issue) == []
+
+
+def test_missing_detail_is_rejected():
+    issue = _load_sample()
+    del issue["articles"][0]["detail"]
+    errors = validate.validate_issue(issue, expected_date="2026-09-29")
+    assert any("detail" in e for e in errors)
+
+
+def test_detail_too_short_is_rejected():
+    issue = _load_sample()
+    issue["articles"][0]["detail"] = "短すぎる説明。"
+    errors = validate.validate_issue(issue, expected_date="2026-09-29")
+    assert any("detail" in e and "150" in e for e in errors)
+
+
+def test_detail_too_long_is_rejected():
+    issue = _load_sample()
+    issue["articles"][0]["detail"] = "あ" * 401
+    errors = validate.validate_issue(issue, expected_date="2026-09-29")
+    assert any("detail" in e and "400" in e for e in errors)

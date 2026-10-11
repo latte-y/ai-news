@@ -228,6 +228,20 @@ summary:focus-visible {
 }
 
 /* なぜ重要か: 色付きの箱ではなく細い左罫＋インデント */
+/* 詳しい説明。トップ記事は常時表示、セクション記事は「詳しく読む」で展開 */
+.article__detail {
+  margin: 0 0 12px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+
+.article-card__why .article__detail {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
 .article__why {
   margin: 0 0 12px;
   padding: 2px 0 2px 12px;

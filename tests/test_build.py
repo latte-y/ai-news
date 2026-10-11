@@ -148,3 +148,15 @@ def test_build_masthead_shows_japanese_date_and_issue_no(tmp_path):
     assert "2026年10月3日（土）" in html
     assert "第1号" in html
     assert "prefers-color-scheme" not in (out_dir / "assets" / "style.css").read_text(encoding="utf-8")
+
+
+def test_detail_is_rendered_and_collapsible(tmp_path):
+    """detailはトップ記事では常時表示、セクション記事では「詳しく読む」の折りたたみに入る。"""
+    data_dir = _prepare_data_dir(tmp_path, ["2026-09-29"])
+    out_dir = tmp_path / "site"
+    build.build(data_dir, out_dir, date_cutoff=None)
+
+    html = (out_dir / "index.html").read_text(encoding="utf-8")
+    detail = json.loads(FIXTURE.read_text(encoding="utf-8"))["articles"][0]["detail"]
+    assert detail in html
+    assert "<summary>詳しく読む</summary>" in html

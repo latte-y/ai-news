@@ -20,7 +20,8 @@
       "original_lang": "en",
       "published_at": "2026-09-28T09:00:00Z",
       "image_url": "https://example.com/images/sample-0.jpg",
-      "image_credit": "Example Source"
+      "image_credit": "Example Source",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "top",
@@ -38,7 +39,8 @@
       "original_lang": "en",
       "published_at": "2026-09-28T12:00:00Z",
       "image_url": "https://example.com/images/sample-1.jpg",
-      "image_credit": "Example News"
+      "image_credit": "Example News",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "models",
@@ -58,7 +60,8 @@
       "original_lang": "en",
       "published_at": "2026-09-28T03:00:00Z",
       "image_url": "https://example.com/images/sample-2.jpg",
-      "image_credit": "Example Blog"
+      "image_credit": "Example Blog",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "tools",
@@ -76,7 +79,8 @@
       "original_lang": "en",
       "published_at": "2026-09-27T22:00:00Z",
       "image_url": "https://example.com/images/sample-3.jpg",
-      "image_credit": "Example Dev"
+      "image_credit": "Example Dev",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "cloud",
@@ -92,7 +96,8 @@
       "source_url": "https://example.com/articles/sample-cloud-region",
       "original_title": "Sample Cloud Region (example)",
       "original_lang": "en",
-      "published_at": "2026-09-27T18:00:00Z"
+      "published_at": "2026-09-27T18:00:00Z",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "industry",
@@ -110,7 +115,8 @@
       "original_lang": "en",
       "published_at": "2026-09-27T15:00:00Z",
       "image_url": "https://example.com/images/sample-5.jpg",
-      "image_credit": "Example Policy"
+      "image_credit": "Example Policy",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "research",
@@ -126,7 +132,8 @@
       "source_url": "https://example.com/articles/sample-benchmark-paper",
       "original_title": "Sample Benchmark Paper (example)",
       "original_lang": "en",
-      "published_at": "2026-09-27T10:00:00Z"
+      "published_at": "2026-09-27T10:00:00Z",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "research",
@@ -142,7 +149,8 @@
       "source_url": "https://example.com/articles/sample-safety-eval",
       "original_title": "Sample Safety Evaluation (example)",
       "original_lang": "en",
-      "published_at": "2026-09-27T06:00:00Z"
+      "published_at": "2026-09-27T06:00:00Z",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "japan",
@@ -158,7 +166,8 @@
       "source_url": "https://example.com/articles/sample-japan-partnership",
       "original_title": "サンプル国内提携記事（例）",
       "original_lang": "ja",
-      "published_at": "2026-09-27T01:00:00Z"
+      "published_at": "2026-09-27T01:00:00Z",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     },
     {
       "section": "japan",
@@ -174,7 +183,8 @@
       "source_url": "https://example.com/articles/sample-conference",
       "original_title": "サンプル国内カンファレンス記事（例）",
       "original_lang": "ja",
-      "published_at": "2026-09-26T23:00:00Z"
+      "published_at": "2026-09-26T23:00:00Z",
+      "detail": "（サンプル）これは詳しい説明欄の見本です。背景として、この想定の発表に至るまでの経緯や前提となる知識を説明します。次に、何が新しいのかを具体的な機能・数字・価格・提供範囲とともに書きます。最後に、使う側にとって何が変わるのかを、元記事や一次情報で確認できた事実の範囲でまとめます。実在の発表ではありません。"
     }
   ]
 }
