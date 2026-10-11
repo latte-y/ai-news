@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T06:48:16+09:00",
+  "headline": "「超知能」改称にシリコンバレー追随",
+  "lead": "トランプ政権が主導する「AI」から「超知能」への呼称変更に、マスク氏やナデラ氏ら大手企業の経営陣が相次いで追随していることが明らかになった。一方でOpenAIとMetaはAIエージェントのプライバシー保護を競い、Google CloudはAIエージェント向けのデータ連携ツールを正式提供した。国内ではChatGPTの利用者が1年で急増するなど、生成AIの定着を示すデータも相次いだ。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "シリコンバレー、「AI」改称の波に続々追随",
+      "summary": "トランプ政権が主導する「AI」から「超知能」への呼称変更に、マスク氏やエヌビディアのフアン氏、マイクロソフトのナデラ氏ら大手企業の経営陣が相次いで追随していると米メディアが報じた。",
+      "detail": "トランプ政権は10月上旬、政府機関に「AI」ではなく「超知能(Super Intelligence)」という呼称を使うよう義務付ける大統領令を出した。これを受け、イーロン・マスク氏はSpaceXAIをSpaceXSIへ改称する方針を示し、エヌビディアのフアン氏も同様の表現を採用。マイクロソフトのナデラ氏も、AIの危険性について論じた投稿の中で「超知能」という表現を繰り返し使っていたことが指摘されている。技術の呼称そのものが政治的な踏み絵になりつつある状況で、業界大手が相次いで政権寄りの表現に合わせている。",
+      "why_it_matters": "技術の呼称が政治化することで、AI政策やブランディング戦略に業界全体が影響され始めていることを示す。",
+      "tags": [
+        "AI政策",
+        "Microsoft",
+        "Nvidia",
+        "Trump"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "original_title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "original_lang": "en",
+      "published_at": "2026-10-11T18:33:56Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2297269621.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "AIエージェントの個人情報保護競争が過熱",
+      "summary": "OpenAIの新エージェント「Dots」とMeta「Muse」が、利用者データの扱いを巡って互いの弱点を指摘し合う形でプライバシー訴求を競っていると米メディアが報じた。",
+      "detail": "両社は9月のOpenAI DevDayやMeta Muse発表を機に、チャットよりも広範な個人情報(メッセージや決済情報など)を預けることを前提としたAIエージェントを競って展開している。MetaのMuseは米国でApp Store上位にランクインし日次利用者数十万人を得たが、ユーザーの私的メッセージを無断で読み取ったとの指摘が出ている。これに対しOpenAIは新エージェント「Dots」で、企業向けのゼロデータ保持オプションなどを示し「最も信頼できる」設計を打ち出して対抗している。利用者は各社の実際のデータ保護の実装差を見極める必要が出てきている。",
+      "why_it_matters": "利用者の機密データへのアクセス範囲が拡大するエージェント競争で、実効性のあるプライバシー保護が業界の信頼性を左右し始めている。",
+      "tags": [
+        "OpenAI",
+        "Meta",
+        "プライバシー",
+        "AIエージェント"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "original_title": "AI agent makers are promising privacy — will they deliver?",
+      "original_lang": "en",
+      "published_at": "2026-10-10T13:00:00Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "Google、Data Agent Kitを正式提供",
+      "summary": "Google Cloudが、BigQueryなど20以上のデータサービスにAIコーディングエージェントから直接アクセスできる「Data Agent Kit」を正式提供(GA)したと公式サイトで案内している。",
+      "detail": "コーディングエージェントにSQLを書かせる際、テーブル定義や失敗したジョブのログをコンソールからチャットへ貼り付ける手間が従来の課題だった。Data Agent KitはBigQueryやAlloyDBなど20以上のGoogle Data CloudサービスにVS Code・Antigravity・Claude Code・Codexなどから直接接続できるツールとスキルのセットで、Google Cloud利用者は追加費用なしで利用できる。公式サイトでは「正式に利用可能」と案内されており、スキーマ確認やクエリ実行、パイプライン作成をエディタ内の自然言語指示だけで行えるようになる。",
+      "why_it_matters": "AIコーディングエージェントとクラウドのデータ基盤を直結させる動きが主要クラウド事業者にも広がっていることを示す。",
+      "tags": [
+        "Google Cloud",
+        "Claude Code",
+        "BigQuery",
+        "MCP"
+      ],
+      "source_name": "Google Cloud",
+      "source_url": "https://cloud.google.com/products/data-agent-kit",
+      "original_title": "Data Agent Kit",
+      "original_lang": "en",
+      "published_at": "2026-10-11T08:02:19Z",
+      "image_url": "https://www.gstatic.com/bricks/image/720624ce-2196-48d4-9963-a31aa86bdfbc.webp",
+      "image_credit": "Google Cloud"
+    },
+    {
+      "section": "industry",
+      "importance": 2,
+      "title": "Apple、AI音声ポッドキャスト企業と提携",
+      "summary": "Appleが、AI生成のパーソナライズポッドキャストを手掛けたスタートアップHuxeの元チームへの採用提示と技術の非独占ライセンス供与で合意したことを欧州委員会に開示したと報じられた。",
+      "detail": "HuxeはAIで要約・生成したパーソナライズポッドキャストを手掛け、NotebookLM(現Gemini Notebook)のAIポッドキャスト機能を開発した人物らが創業したが、5月に事業停止を発表していた。Appleは6月、Huxeの従業員への採用提示と、同社知的財産の非独占ライセンス取得について欧州委員会に通知したことが、MacRumorsの報道をもとに判明した。企業買収を伴わず人材と技術のみを取り込む「リバース買収」と呼ばれる手法で、独禁当局の審査を避けやすいとされる。Spotifyが先行するAI生成ポッドキャスト機能への対抗策とみられる。",
+      "why_it_matters": "大手テック企業が買収ではなく人材・技術のみを取り込む「リバース買収」でAI人材を確保する動きが広がっていることを示す一例。",
+      "tags": [
+        "Apple",
+        "M&A",
+        "ポッドキャスト",
+        "音声AI"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe",
+      "original_title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "original_lang": "en",
+      "published_at": "2026-10-10T19:50:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/01/apple-podcasts-1.jpg?w=1200",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "国内ChatGPT利用者、1年で695%増の2670万人",
+      "summary": "調査会社ヴァリューズによると、2026年5月時点で国内のChatGPT月間利用者は推計2,670万人に達し、2024年6月から約7.9倍に増えたという。",
+      "detail": "調査会社ヴァリューズが10月9日、国内の生成AIサービス利用実態調査を発表した。ChatGPTの月間アクティブユーザー(MAU)は2024年6月の336万人から2026年5月に推計2,670万人へ695%増加し、月平均のアプリ起動日数も4.3日から9.8日に伸びたという。同調査ではGeminiが1,190万人(参考値)、LINEヤフーの「Agent i」がWebブラウザ利用のみで623万人、Claudeが253万人、Microsoft Copilotが194万人、Perplexity AIが98万人と報じられている。国内でも生成AIの日常利用がこの2年で大きく広がったことが数字で裏付けられた。",
+      "why_it_matters": "国内の生成AI利用が一部の早期利用者だけでなく、広い年齢層に本格的に広がり始めている可能性を示す。",
+      "tags": [
+        "ChatGPT",
+        "日本",
+        "利用者数",
+        "市場調査"
+      ],
+      "source_name": "AI Quotidia (Qiita)",
+      "source_url": "https://qiita.com/quotidia/items/5bbdaa80aeb480978970",
+      "original_title": "国内の生成AI利用者数 (2026年5月推計)：ChatGPT 2,670万人、Agent i 623万人など6サービス",
+      "original_lang": "ja",
+      "published_at": "2026-10-11T21:01:06Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU1JTlCJUJEJUU1JTg2JTg1JUUzJTgxJUFFJUU3JTk0JTlGJUU2JTg4JTkwQUklRTUlODglQTklRTclOTQlQTglRTglODAlODUlRTYlOTUlQjAlMjAlMjgyMDI2JUU1JUI5JUI0NSVFNiU5QyU4OCVFNiU4RSVBOCVFOCVBOCU4OCUyOSVFRiVCQyU5QUNoYXRHUFQlMjAyJTJDNjcwJUU0JUI4JTg3JUU0JUJBJUJBJUUzJTgwJTgxQWdlbnQlMjBpJTIwNjIzJUU0JUI4JTg3JUU0JUJBJUJBJUUzJTgxJUFBJUUzJTgxJUE5NiVFMyU4MiVCNSVFMyU4MyVCQyVFMyU4MyU5MyVFMyU4MiVCOSZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWMzNmNkMDA2ZjFmMjliZGU1ZTc3ODAxMjVjYWRmMzA5&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=7968dc77d635d6312538550d46d90627",
+      "image_credit": "AI Quotidia (Qiita)"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "複数AIエージェントを束ねるCLI「magi」公開",
+      "summary": "個人開発者が、ClaudeやCodexなど既存のAIコーディングエージェントCLIを複数組み合わせ、設計からレビュー・PR・リリースまで自動でつなぐRust製ツール「magi」を公開した。",
+      "detail": "単一のAIエージェントに実装を任せると設計方針が偏ったり、PR作成後のCI対応やレビュー指摘の修正を結局人間が見張る必要があったりする課題があった。magiはclaude・codex・opencodeなど既存の契約済みCLIをそのまま動かす仕組みで、複数の設計案を1つにまとめる「synthesizer」、複数の実装案を投票で選ぶ「judges」、有限回のレビュー修正ループ、Rustリポジトリ向けの自動バージョンアップなどを備える。チャットで依頼するだけで、人間は要所の承認やリリース判断に集中できるようになるという。",
+      "why_it_matters": "複数のAIコーディングエージェントを役割分担させて開発工程全体を無人化する試みが、個人開発者レベルでも実用段階に進んでいることを示す。",
+      "tags": [
+        "Claude Code",
+        "Codex",
+        "OSS",
+        "Rust"
+      ],
+      "source_name": "Zenn",
+      "source_url": "https://zenn.dev/yukimemi/articles/2026-10-10-magi",
+      "original_title": "Chat で頼んで、設計からリリースまでつなぐ magi",
+      "original_lang": "ja",
+      "published_at": "2026-10-11T09:38:06Z",
+      "image_url": "https://res.cloudinary.com/zenn/image/upload/s--dM3XekII--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Chat%2520%25E3%2581%25A7%25E9%25A0%25BC%25E3%2582%2593%25E3%2581%25A7%25E3%2580%2581%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%258B%25E3%2582%2589%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%25BE%25E3%2581%25A7%25E3%2581%25A4%25E3%2581%25AA%25E3%2581%2590%2520magi%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yukimemi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pzeElfNVdLakZIWG1BUVZuX0RZbVFGdWxPVjMwNjZfYmVNM0JHTW1BPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+      "image_credit": "Zenn"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "プロンプトキャッシュ、変数位置で割引ゼロに",
+      "summary": "OpenAI APIのプロンプトキャッシュは、入力の末尾近くに可変部分を置かないと長さの条件を満たしていても割引が一切適用されないと、実測を基にした技術記事が報告した。",
+      "detail": "スマートグラス向けに会話を字幕化し用語解説を加えるアプリを運用したところ、1時間あたり約5.4ドルかかり費用削減が課題になっていた。OpenAIのプロンプトキャッシュは入力が一定の長さを超え、かつ毎回変わる部分を末尾に置かないと適用されないことを、API応答のcached_tokens値を基に確認した。可変部分を指示文の途中に置くと、長さの条件を満たしていても割引率が0%のままだったという。キャッシュ適用だけでは費用は3割程度しか下がらず、エージェントを呼ぶ回数自体を減らす設計変更の方が効果が大きかったと報告されている。",
+      "why_it_matters": "プロンプトキャッシュの条件を誤解していると、意図せず費用が最大単価のままになりうることを具体的な数値で示す実例。",
+      "tags": [
+        "OpenAI",
+        "プロンプトキャッシュ",
+        "コスト最適化",
+        "API"
+      ],
+      "source_name": "Zenn",
+      "source_url": "https://zenn.dev/maruhana/articles/llm-call-count-prompt-cache-variable-position",
+      "original_title": "プロンプトキャッシュは、変数の位置ひとつで 72% から 0% になる。LLM の費用を決めていたのは呼ぶ回数だった",
+      "original_lang": "ja",
+      "published_at": "2026-10-11T10:11:51Z",
+      "image_url": "https://res.cloudinary.com/zenn/image/upload/s--1QijId0W--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2597%25E3%2583%2588%25E3%2582%25AD%25E3%2583%25A3%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E3%2581%25AF%25E3%2580%2581%25E5%25A4%2589%25E6%2595%25B0%25E3%2581%25AE%25E4%25BD%258D%25E7%25BD%25AE%25E3%2581%25B2%25E3%2581%25A8%25E3%2581%25A4%25E3%2581%25A7%252072%2525%2520%25E3%2581%258B%25E3%2582%2589%25200%2525%2520%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E3%2580%2582LLM%2520%25E3%2581%25AE%25E8%25B2%25BB%25E7%2594%25A8%25E3%2582%2592%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%25E5%2591%25BC%25E3%2581%25B6%25E5%259B%259E%25E6%2595%25B0%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:maruhana%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NmNWIyZmJmNTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+      "image_credit": "Zenn"
+    },
+    {
+      "section": "research",
+      "importance": 2,
+      "title": "家庭用GPUでLLM圧縮再現を試みた記録",
+      "summary": "個人開発者が、LLMの重み行列を約50分の1に圧縮する手法「LittleBit」をRTX 3060上で再現しようとしたところ、計算誤差が大きく元の挙動を再現できなかったと報告した。",
+      "detail": "LittleBitはSamsung系の研究チームが発表した、LLMの重み行列を極端に圧縮する手法で、公式実装がGitHubで公開されている。筆者は家庭用GPU(RTX 3060 12GB)で圧縮処理自体は実行できたものの、圧縮後の行列を元の行列と比較すると数値誤差が大きく、低rank近似のrankを増やしても誤差が十分に改善しなかったと報告している。論文の最終性能を再現・評価する前段階の検証として、この時点で実験を打ち切ったという。公開手法を小規模環境に持ち込んでも、論文通りの性能が出るとは限らない点を具体的な検証で示した。",
+      "why_it_matters": "極端な量子化・圧縮手法を個人の環境で試す際に生じる再現性の壁を具体的に示し、研究成果と実運用の間のギャップを浮かび上がらせる。",
+      "tags": [
+        "量子化",
+        "ローカルLLM",
+        "研究",
+        "GPU"
+      ],
+      "source_name": "Zenn",
+      "source_url": "https://zenn.dev/skot2km/articles/5007884357200f",
+      "original_title": "RTX 3060でLLMの重み行列を約50分の1に圧縮した時、元の計算は再現するのか",
+      "original_lang": "ja",
+      "published_at": "2026-10-11T10:46:05Z",
+      "image_url": "https://res.cloudinary.com/zenn/image/upload/s--gOE7rcpj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:RTX%25203060%25E3%2581%25A7LLM%25E3%2581%25AE%25E9%2587%258D%25E3%2581%25BF%25E8%25A1%258C%25E5%2588%2597%25E3%2582%2592%25E7%25B4%258450%25E5%2588%2586%25E3%2581%25AE1%25E3%2581%25AB%25E5%259C%25A7%25E7%25B8%25AE%25E3%2581%2597%25E3%2581%259F%25E6%2599%2582%25E3%2580%2581%25E5%2585%2583%25E3%2581%25AE%25E8%25A8%2588%25E7%25AE%2597%25E3%2581%25AF%25E5%2586%258D%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%25A2%25E3%2583%2596%25E3%2581%258A%25E3%2581%2598%25E3%2581%2595%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSk03QUtvZmt3SzhvOVZjcGNFa1h4TldwOVJYYVpDcUpuU3NTaVRYbTN3TzFzRWp3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+      "image_credit": "Zenn"
+    }
+  ]
+}
