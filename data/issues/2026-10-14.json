@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T06:46:00+09:00",
+  "headline": "新Gemini始動とAI企業の淘汰",
+  "lead": "Googleが新フラッグシップモデル「Gemini 4 Argon」を発表し、コーディングや専門業務向けの性能で優位を主張した。一方、対話型AIのCharacter.AIは連邦破産法11章の適用を申請し、急成長してきたAIサービスにも事業継続の難しさが突きつけられた。企業向けではエージェントの自動決済や個人用アプリ開発など、AIを実務に組み込む動きも相次いだ。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Google、新フラッグシップ「Gemini 4 Argon」公開",
+      "summary": "Googleが新フラッグシップモデル「Gemini 4 Argon」を発表。コーディングや金融・法律分野の指標で他社モデルを上回るとしている。",
+      "detail": "Googleは10月13日、最新の基盤モデル「Gemini 4 Argon」を発表した。コーディングや金融、法律、科学分野の複雑な実務タスクに強みを持つとし、金融・法律・税務分野を測る「Vals Index」で首位を獲得したとする。入出力合計100万トークンの文脈長に対応し、ロボティクス向けの身体性推論ベンチマークでも87%を記録した。価格は当初入力100万トークンあたり2ドル・出力10ドルだが、11月30日以降は4ドル・20ドルに上がる。API経由で全世界の開発者・企業に提供し、Google AI UltraおよびProの契約者はGeminiアプリでも利用できる。",
+      "why_it_matters": "フロンティアモデル競争でGoogleが再び優位に立つ可能性があり、価格改定は11月末までの早期移行を促す狙いとみられる。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "LLM"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "original_title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "original_lang": "en",
+      "published_at": "2026-10-13T16:00:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp",
+      "image_credit": "Google"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Character.AI、連邦破産法11章を申請",
+      "summary": "対話型AIサービスのCharacter.AIが連邦破産法11章の適用を申請した。未成年の安全に関する訴訟や規制対応が重荷になったという。",
+      "detail": "Character.AIは創業5年で、未成年の安全に関する訴訟や規制対応の重荷から事業継続が難しくなり、連邦破産法11章の適用を申請した。過去には14歳の少年がチャットボットに依存した末に自殺したとする訴訟などを受け、未成年の利用禁止や安全機能の追加を進めてきたが、収益化の圧力は解消しなかったという。資産・負債は5000万〜1億ドル規模で、Disneyが2000万ドルで一部資産を買収し、技術の非独占的な永久利用権を得る。裁判所管理下での売却は11月末から12月初旬に完了する見通しで、買い手が現れなければサービス停止の可能性もあるとCEOは述べた。",
+      "why_it_matters": "対話型AIの安全規制とマネタイズの難しさを象徴する事例で、同様のサービスを運営する他社にも影響しうる。",
+      "tags": [
+        "Character.AI",
+        "破産",
+        "AI安全性"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy",
+      "original_title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "original_lang": "en",
+      "published_at": "2026-10-13T12:23:42Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?resize=1200,672",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "Liquid AI、オンデバイス向け新モデル公開",
+      "summary": "Liquid AIが端末上で動くエージェント向け推論モデル「LFM2.5-24B-A2B」を公開。前世代より文脈長と語彙を拡張した。",
+      "detail": "LFM2.5-24B-A2Bは240億パラメータ中約20億のみを使うMoE構成の推論特化モデルで、常に思考過程を出力してから回答する。文脈長は3.2万から13.1万トークンに、語彙数は6.5万から12.8万に拡張された。事前学習データは約33兆トークンに増え、エージェント向けの強化学習を含む5段階の事後学習を経た。独自ベンチマーク「LiveClaw」ではパラメータ規模が1.5倍大きいQwen3.5-35B-A3Bを上回ったとする。Apple M5 Maxで毎秒184トークンの速度を達成し、llama.cppやMLXなどに初日から対応する。",
+      "why_it_matters": "大規模モデルに頼らずローカル端末で動くエージェントの実用性が高まれば、プライバシーやコストの両面でAI活用の選択肢が広がる。",
+      "tags": [
+        "LiquidAI",
+        "オンデバイスAI",
+        "オープンウェイト"
+      ],
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "original_title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "original_lang": "en",
+      "published_at": "2026-10-13T17:05:48Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/YxGx9U6yV6_mumklCyMsE.png",
+      "image_credit": "Hugging Face"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Anthropic、独自ソース管理システムに移行",
+      "summary": "Anthropicは肥大化したモノレポのため、Gitから独自の社内ソース管理システム「Scion」に移行したと公表した。",
+      "detail": "Anthropicのモノレポへのマージ件数は2026年5月の日次約2500件から9月には3万件超に増え、常時オンラインのエージェントやCIが主な利用者となったことで、Gitの分散型設計が負荷の主因になっていたという。7人のチームが5カ月かけ、サーバー側で変更を処理し差分のみを記録する独自システム「Scion」を構築して移行した。クライアントは必要なファイルだけを取得する仕組みで、従来のGitミラー運用に比べCPU・メモリ使用量を約200分の1に削減したとする。CIのチェックアウト時間も分単位から秒単位に短縮された。Anthropicは汎用的なGit代替ではないとしつつ、設計思想の一部は他組織にも参考になるとしている。",
+      "why_it_matters": "AI開発を支える社内基盤そのものが巨大化している実態を示し、常時オンラインのエージェント・CI時代に適したツール設計の必要性を浮き立たせる。",
+      "tags": [
+        "Anthropic",
+        "開発基盤",
+        "Claude Code"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "original_title": "Redesigning source control at Anthropic",
+      "original_lang": "en",
+      "published_at": "2026-10-13T15:49:56Z",
+      "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d344b849251502fade67ad16f09bb86fa6f42363-500x263.png",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Google Play、個人用AI生成アプリに対応",
+      "summary": "Google Playが、AIで作った自分専用アプリをストアに公開せず動かせる新機能を米国で開始した。",
+      "detail": "Google AI Studioで作成したアプリをGoogle Play経由でAndroid端末にインストールし、検索結果や一覧に表示せず本人のみが使える「個人用アプリ」機能が始まった。対象はまず米国の18歳以上のユーザーで、既存のPlayポリシーは引き続き適用される。信頼できる友人・家族と共有する機能は今後数カ月で追加予定としており、現時点では利用できない。人気が出たアプリは審査を経て通常のストアに公開する道も用意されている。同時にAIを使ったゲーム推薦機能「Game Finder」なども発表された。",
+      "why_it_matters": "個人が作る「バイブコーディング」アプリの受け皿をプラットフォーム側が用意する動きで、アプリ配布の裾野が広がる可能性がある。",
+      "tags": [
+        "Google Play",
+        "バイブコーディング",
+        "Android"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you",
+      "original_title": "Google Play now supports private, vibe-coded apps built just for you",
+      "original_lang": "en",
+      "published_at": "2026-10-13T17:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/PersonalApps_desktop_16x9_Static.png?resize=1200,675",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、AIエージェントの自動決済機能を拡充",
+      "summary": "AWSがAIエージェント向けブラウザ「Anchor Browser」とBedrock AgentCore paymentsを連携し、課金ページへの自動決済に対応した。",
+      "detail": "有料ページやAPIが返す「402 Payment Required」応答に対し、AgentCore paymentsが設定予算内で決済を承認・署名し、ブラウザが処理を自動的にやり直す仕組み。セッション作成時に設定を有効にするだけで、PlaywrightやPuppeteerなど既存コードの変更は不要という。秘密鍵はエージェントの実行環境の外側でCoinbase CDPやStripe Privyが管理し、支出上限の適用や決済ログの記録をインフラ側で行う。AWS Marketplaceからも利用できる。",
+      "why_it_matters": "人手を介さず従量課金のAPIやコンテンツに支払うエージェントが実用段階に近づき、エージェント経済の基盤整備が進む。",
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "AIエージェント"
+      ],
+      "source_name": "AWS",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments",
+      "original_title": "Building agents that transact with Anchor Browser and AgentCore payments",
+      "original_lang": "en",
+      "published_at": "2026-10-13T20:10:33Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21771-1-1.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Apple対OpenAI訴訟、裁判所が資料開示命令",
+      "summary": "AppleがOpenAIを訴えた企業秘密訴訟で、裁判官がOpenAIに面接記録や私的メッセージの開示を命じた。",
+      "detail": "Appleは2026年7月、OpenAIがコンシューマー向けハードウェアを開発する過程で企業秘密を侵害したとして提訴していた。元Apple社員がApple支給の端末で機密資料をダウンロードしたり、転職希望者に持参すべき情報を助言していたなどの疑いがある。デービラ判事は、消費者向けハード・ロボティクス部門の元Apple社員に関する面接資料や、名前が挙がった社員間のLINEメッセージの開示、幹部3人への証言録取をAppleに認めた。一方で金属加工や電源管理など特定分野の研究開発資料への即時アクセスは認めなかった。OpenAIは資料提出に5日から14日の期限を課された。",
+      "why_it_matters": "AI企業がハードウェア事業に進出する際の人材移動と秘密情報の取り扱いが、訴訟を通じて業界の注目点になっている。",
+      "tags": [
+        "OpenAI",
+        "Apple",
+        "訴訟"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case",
+      "original_title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+      "original_lang": "en",
+      "published_at": "2026-10-13T20:36:44Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "X、GrokとCursorを束ねた新プランに統合",
+      "summary": "イーロン・マスク氏のXが、X Premium・Grok・Cursorを1つにまとめた新サブスクリプションを開始した。",
+      "detail": "新プラン「The X Subscription」は無料から月額200ドルまで5段階で、上位ほどAIの利用上限が高くなる。GrokのチャットやAPI、エージェント機能、AIコーディングツールのCursor、X Premiumの認証バッジや広告減少などを1つの契約でまとめた。既存のX Premium+契約者は同額以下の新プランに移行できるが、現行プランの継続も選べる。今回の統合は、トランプ米大統領が9月29日に連邦文書で「AI」の代わりに「Super Intelligence」の使用を定める大統領令に署名したことを受け、X・Tesla関連のAI部門アカウントが「SI」を冠した名称に改名した動きと時期が重なる。",
+      "why_it_matters": "OpenAIやAnthropicなど競合が広げるサブスク市場で、複数サービスを束ねた価格戦略により契約者数の拡大を狙う狙いとみられる。",
+      "tags": [
+        "X",
+        "Grok",
+        "Cursor"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription",
+      "original_title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+      "original_lang": "en",
+      "published_at": "2026-10-13T13:50:19Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/07/x-twitter.jpg?resize=1200,550",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "ソフトバンク系「Sarashina」が無償β公開",
+      "summary": "ソフトバンク子会社のSB Intuitionsが、国産AI「Sarashina」を無償で試せるβ版サイトとAPIを公開した。",
+      "detail": "公開されたのは対話・翻訳を試せるWebチャット機能と、文章生成、高速な簡易処理、文書検索・RAG向け埋め込み、検索精度を高めるリランク、入力の安全性判定、日英・英日翻訳の6モデルを呼び出せるAPIの合計7サービス。いずれも無料で、事前申し込みは不要でGoogleアカウントがあれば利用できる。ただし一定時間あたりのリクエスト数には制限がある。同社は利用状況やフィードバックを今後の製品開発に生かすとしており、品質向上のため利用データを活用する場合があるとしている。β版の終了時期は未定。",
+      "why_it_matters": "国産LLMを無償で試せる場が広がることで、海外製AIに依存しない開発・検証の選択肢が企業に増える。",
+      "tags": [
+        "Sarashina",
+        "国産AI",
+        "SB Intuitions"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2610/13/2000002224",
+      "original_title": "国産AI「Sarashina」が無料で試せるWebサイト、ソフトバンク子会社が公開　6つのAIモデルが呼び出せるAPIも",
+      "original_lang": "ja",
+      "published_at": "2026-10-13T09:24:12Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2610/13/2000002224/10009202/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "japan",
+      "importance": 2,
+      "title": "AIエージェント利用企業、7人に1人が違反リスク",
+      "summary": "KiteRaの調査で、AIエージェントが古い社内規定を参照し法令違反の恐れが生じた回答者が13.4%に上った。",
+      "detail": "KiteRaがAIエージェントを利用・検証中の企業を対象に実施したデータガバナンス実態調査で公表された結果。社内の古いルールや、最新版かどうか判別できないデータをAIエージェントが参照した結果、社内規定や法令に違反しそうになった、または実際に違反した経験があると答えた回答者が13.4%に達した。約7人に1人の割合に相当する。背景には、AIエージェントに読み込ませる社内文書の更新・管理体制が整っていない企業が多い実態があるとみられる。",
+      "why_it_matters": "AIエージェントの導入が進む一方、参照データのガバナンス整備が追いついていない企業が少なくない可能性を示している。",
+      "tags": [
+        "AIエージェント",
+        "ガバナンス",
+        "コンプライアンス"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/13/news029.html",
+      "original_title": "AIエージェントで「約7人に1人が法令違反リスク」　古いルールを参照させた代償とは",
+      "original_lang": "ja",
+      "published_at": "2026-10-13T02:00:00Z"
+    }
+  ]
+}
