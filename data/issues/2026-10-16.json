@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T07:30:00+09:00",
+  "headline": "Meta新モデルと問われるAIの安全性",
+  "lead": "Metaが816BパラメータのオープンモデルMuse Spark OpenをMac向けに公開し、クラウド非依存のAI活用が現実味を帯びた。Anthropicは投資家にIPOを控えた好調な業績を示す一方、外部機関METRに社員同等のアクセスを与え安全対策の独立検証に踏み出した。国内でもAIエージェントによる攻撃が観測され、安全性を測る取り組みが官民で進んでいる。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Meta、Mac向け大型オープンモデル公開",
+      "summary": "Metaが総パラメータ816B・活性42BのMoEモデル「Muse Spark Open」を公開。テキスト・画像・音声・動画を入力でき、Mac Studioでローカル実行できる。",
+      "detail": "Muse Spark Openは8月公開の高密度モデルMuse Glimmer(30B)の後継で、MoE構造を採用し総パラメータは816B、トークンごとに約42Bが稼働する。入力はテキスト・画像・音声・動画に対応し、出力はテキストのみで、コンテキスト長は最大100万トークン。複数ファイルのリファクタリングやデバッグなど、自律的なコーディング作業向けに学習された。BF16版とNVIDIA Blackwell向け4bit量子化版をHugging Faceで公開し、M3 Ultra搭載Macでもllama.cppやMLXでローカル実行できる（3bit版でも256GB以上のメモリが必要）。Metaはコーディングターミナル「Muse Code」と組み合わせ、クラウドを使わない利用を想定している。",
+      "why_it_matters": "クラウド依存を前提としない大規模オープンモデルが登場したことで、企業が自社のMac環境でAIエージェントを動かす選択肢が広がる。",
+      "tags": [
+        "Meta",
+        "オープンウェイト",
+        "Mac"
+      ],
+      "source_name": "Meta（Hugging Face Blog）",
+      "source_url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "original_title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "original_lang": "en",
+      "published_at": "2026-10-15T00:00:00Z",
+      "image_url": "https://huggingface.co/blog/assets/meta-muse-spark-open/thumbnail.png",
+      "image_credit": "Meta（Hugging Face Blog）"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropic、四半期収益168億ドルとIPO準備",
+      "summary": "Anthropicが投資家に、2026年第3四半期の収益が168億ドルと前期比約46%増えたと説明。IPOを控えた説明会での内容とFTが報道した。",
+      "detail": "英フィナンシャル・タイムズが事情に詳しい関係者の情報として報じたところによると、Anthropicの四半期収益は第1四半期の約48億ドルから第2四半期115億ドル、第3四半期168億ドルへと伸びている。IPOを控えた水曜の投資家向け説明会では、計算能力への支出1ドルあたり1.70ドルの収益を得ており、株式報酬を除く調整後営業利益率は11%だったと説明されたという。また、競合他社がAnthropicのモデル出力を学習に使う「蒸留」が収益の5〜7%を占めていたが、第3四半期には大幅に減らしたとされる。",
+      "why_it_matters": "AI企業として初の大型IPOが近づく中、収益の急成長と収益性の両立を示す数字であり、業界の評価基準になり得る。",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "資金"
+      ],
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors",
+      "original_title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "original_lang": "en",
+      "published_at": "2026-10-15T13:04:03Z"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropic、METRに社員同等アクセス付与",
+      "summary": "Anthropicが非営利団体METRの研究者6人に社員同等の社内アクセスを付与し、同社の安全対策を独立評価できるようにした。公表の差し止め権も放棄。",
+      "detail": "Anthropicは10月15日のブログで、AIモデル評価団体METRの研究者6人に、社用PCやオフィススペース、リスク評価チームとほぼ同等の社内ツールへのアクセスを与えたと発表した。METRは自らの評価結果を公表でき、Anthropicはそれを拒否できない。顧客データや弁護士秘匿情報などの限られた情報については墨消しを求められるが、METRはその妥当性を内容を明かさずに論評できる。背景には、8月末以降にAIエージェントが指示から逸脱する事例が相次ぎ、独立した外部チェックを求める声が強まったことがある。Anthropicは評価者を3段階に分け、現時点でこの最上位のアクセスを得たのはMETRのみとしている。",
+      "why_it_matters": "AI企業が自社の安全対策を外部の独立機関に社員同等でチェックさせる取り組みは珍しく、業界の説明責任の基準を変える可能性がある。",
+      "tags": [
+        "Anthropic",
+        "AI安全性",
+        "METR"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
+      "original_title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "original_lang": "en",
+      "published_at": "2026-10-15T19:14:26Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "IBM、チャット・判定・音声を1モデルに統合",
+      "summary": "IBMがGranite Switch 4.1を公開。チャット応答・安全性判定・音声認識を1つのエンドポイントで、ベースモデルとほぼ同じVRAM使用量で切り替えられる。",
+      "detail": "Granite Switch 4.1は、IBM Graniteのベースモデル(8B/30B)に複数のaLoRAアダプタを組み込んだモデル。応答生成用、安全性判定に特化した「Guardian aLoRA」、音声認識用の「Granite-Speech-5.0-Turbo-CTC」を1つのモデルにまとめ、用途に応じて切り替えて使える。通常はこれらを別々にデプロイする必要があるが、aLoRA方式によりベースモデルの生成で作ったKVキャッシュを後続の判定でも再利用でき、GPUメモリ使用量をベースモデル単体とほぼ同じに抑えつつ高速化している。Hugging Faceで現在利用可能。",
+      "why_it_matters": "複数モデルの個別運用が不要になり、チャットボットに安全性チェックや音声対応を低コストで組み込めるようになる。",
+      "tags": [
+        "IBM",
+        "Granite",
+        "音声AI"
+      ],
+      "source_name": "IBM（Hugging Face Blog）",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "original_title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "original_lang": "en",
+      "published_at": "2026-10-15T20:34:01Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/gltB0o--PV_Jh0D3aDm8-.png",
+      "image_credit": "IBM（Hugging Face Blog）"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "スイス製オープンLLM「Apertus 1.5」公開",
+      "summary": "スイスのAI共同体がApertus 1.5を公開。画像・音声入力と思考モードを追加し、文脈長を1.0の4倍の約26万トークンに拡大した。重みはApache2.0。",
+      "detail": "Apertus 1.5は、学習データや手法まで公開する「完全にオープン」な大規模言語モデルApertus 1.0(8B/70B)の拡張版。画像と音声をテキストと同じトークン列として扱うことで、アーキテクチャを変えずにマルチモーダル入力に対応した（出力はテキストのみ、音声入力は実験的機能）。回答前に推論させる思考モードを切り替えられるようになり、推論系ベンチマークで性能が向上した。コンテキストウィンドウは262,144トークンで1.0の4倍。8Bに4兆、70Bに2兆トークンの追加事前学習を行い、重みはApache2.0ライセンスで公開されている。",
+      "why_it_matters": "学習データまで含めて公開される欧州発の高性能オープンモデルは少なく、研究や公共部門での採用の選択肢を広げる。",
+      "tags": [
+        "Apertus",
+        "オープンソース",
+        "スイス"
+      ],
+      "source_name": "Swiss AI Initiative（Hugging Face Blog）",
+      "source_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "original_title": "Apertus 1.5 Release Notes",
+      "original_lang": "en",
+      "published_at": "2026-10-15T09:08:45Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/61f1877a168a0b52fda88455/2mHXxCtfos6CgwFSNKFVi.jpeg",
+      "image_credit": "Swiss AI Initiative（Hugging Face Blog）"
+    },
+    {
+      "section": "models",
+      "importance": 2,
+      "title": "画像生成「FLUX.3 Image Klein」が配信開始",
+      "summary": "Black Forest Labsの新画像生成モデルがDiffusersに対応。座標指定でレイアウトを制御でき、蒸留版はH100で約2秒で1024px画像を生成する。",
+      "detail": "FLUX.3 Image Klein は Black Forest Labs が公開したオープンな画像生成モデルで、Hugging FaceのDiffusersライブラリで発売初日から利用できる。テキストからの画像生成と、複数の参照画像を使った画像編集の両方に1つのモデルで対応する。プロンプト内に0〜1000の正規化座標でバウンディングボックスを書き込み、要素の配置や参照画像の移動先を指定できるのが新しい点。蒸留版チェックポイントはCFGを使わない16ステップで、H100上で1024×1024画像を約2秒で生成できるとされる。NVFP4やFP8の軽量な量子化版も用意され、小型GPUでも動かしやすい。",
+      "why_it_matters": "レイアウトを座標で直接指定できる画像生成モデルは、デザイン用途でのAI活用の精度を高める可能性がある。",
+      "tags": [
+        "画像生成",
+        "Diffusers",
+        "オープンソース"
+      ],
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog/flux-3",
+      "original_title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "original_lang": "en",
+      "published_at": "2026-10-15T00:00:00Z",
+      "image_url": "https://huggingface.co/blog/assets/flux3/thumbnail.png",
+      "image_credit": "Hugging Face Blog"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Figma、AIエージェントの振る舞いを定義する機能",
+      "summary": "Figmaがインド初開催のConfigで新機能を発表。デザイン方針を書く「Figma Specs」などで、AIエージェントが自社ルールに沿って作業できるようにする。",
+      "detail": "Figmaはインドで初開催したイベント「Config」で、AIエージェントがデザインルールに沿って作業できるようにする新機能群を発表した。デザイン方針をMarkdownで書き、キャンバス上の要素やコードを埋め込んで参照できる「Figma Specs」を新設し、デザインライブラリ・コードライブラリ・ガイドラインを一元管理してエージェントに参照させられるようにした。6月にプライベートベータで発表した「コードレイヤー」は今回パブリックベータとなり、エージェントにコード化や部分修正を依頼できる。MCP対応も20以上のツールに拡充された。",
+      "why_it_matters": "デザインルールをエージェントに明示的に守らせる仕組みは、AI生成デザインの品質やブランド一貫性の課題に対する実務的な解になる。",
+      "tags": [
+        "Figma",
+        "デザインツール",
+        "AIエージェント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform",
+      "original_title": "Figma announces new features to define how agents work on its platform",
+      "original_lang": "en",
+      "published_at": "2026-10-15T04:30:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Specs_agent.jpeg?resize=1200,675",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "Bluesky、AIでサイトやゲームを作れる機能拡大",
+      "summary": "BlueskyのAI実験アプリ「Attie」が、ウェブサイトやクイズ、ゲームの作成に対応。作成物はAT Protocol上で公開され、作成者と紐づく。",
+      "detail": "BlueskyはAI実験プラットフォーム「Attie」を、ウェブサイト・クイズ・ゲーム・投票などのインタラクティブな体験を誰でも作れる機能に拡張した。作成物はBlueskyと同じAT Protocol上で公開され、作成者のATProtoアイデンティティと紐づけられる。Attieは利用者の公開Blueskyプロフィールをもとに作る内容を提案し、完成したものはBlueskyのユーザー層に向けて配信される。CEOのToni Schneiderはこれを「social vibe coding」と呼び、個人のバイブコーディングをグループでの創作に広げるものと説明した。利用者は自分のAIモデルを持ち込むか、オープンウェイトモデルを使える。",
+      "why_it_matters": "SNS上でのAIによる創作・公開を手軽にする試みで、ソーシャルプラットフォームとAI生成コンテンツの融合が進む一例となる。",
+      "tags": [
+        "Bluesky",
+        "AIエージェント",
+        "AT Protocol"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more",
+      "original_title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "original_lang": "en",
+      "published_at": "2026-10-15T18:56:46Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/55591989690_9a07db512f_k.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Google、買い物カート統合機能を米国で提供開始",
+      "summary": "GoogleがGoogle検索とGeminiアプリをまたいで商品を一括管理できる「Universal Cart」の米国提供を開始。価格低下や再入荷の通知機能も備える。",
+      "detail": "Googleは10月15日、5月のGoogle I/Oでプレビューしていた買い物支援機能「Universal Cart」の米国での提供を開始した。Google検索とGeminiアプリで見つけた複数の小売店の商品を一つのカートにまとめて保存・管理でき、後で見返しても検索や比較の進捗が残る。保存した商品の価格が下がったときや、売り切れ商品が再入荷したときに通知を受け取れるほか、クレジットカード特典を考慮した支払い方法の提案や関連クーポンの表示も行う。決済にはGoogleが開発したオープン規格「Universal Commerce Protocol」を利用し、AIエージェントと小売店が購買プロセスで連携できるようにしている。",
+      "why_it_matters": "複数サイトに分散する買い物体験をAIが一元化する動きで、ホリデー商戦を前にEコマースの主導権争いが一段と激しくなる可能性がある。",
+      "tags": [
+        "Google",
+        "Eコマース",
+        "Gemini"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us",
+      "original_title": "Google’s Universal Cart shopping tool launches in the US",
+      "original_lang": "en",
+      "published_at": "2026-10-15T14:29:33Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Google-UniversalCart.png?w=1200",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 2,
+      "title": "Amazon傘下Bee、75ドルからの新ウェアラブル2種",
+      "summary": "Amazon傘下のBeeが、会話を記録・要約するウェアラブル新製品2種を発表。手首装着型「Frontier」は74.99ドル、名刺大の「Eclipse」は99.99ドル。",
+      "detail": "Amazon傘下のウェアラブルAI企業Beeが、買収後初の新製品として「Bee Frontier」(74.99ドル)と「Bee Eclipse」(99.99ドル)を発表した。Frontierは手首装着または衣服にピンで留めるウェアラブルで、IP67防水・最大7日間のバッテリー駆動を備え現在Amazonで販売中。Eclipseはクレジットカード大でスマートフォン背面に磁石で取り付けるタイプで、Frontierの後に発売予定。両機種とも会話を聞き取って要約し、To-Doリストやカレンダー登録を自動生成する。生の音声は保存せずリアルタイム処理後に削除し、文字起こしはユーザー管理の鍵で暗号化されるとしている。",
+      "why_it_matters": "常時装着型の音声AIデバイスが手の届く価格帯で広がることで、日常会話がAIの記憶・自動化対象になる範囲が拡大する。",
+      "tags": [
+        "Amazon",
+        "ウェアラブル",
+        "音声AI"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75",
+      "original_title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "original_lang": "en",
+      "published_at": "2026-10-15T12:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/BEE_FAMILY_01_1080x1080.jpg?w=1080",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "国内サイトへのAIエージェント攻撃、8時間弱観測",
+      "summary": "クラウド型WAF事業者ビットフォレストが、国内企業サイトへのAIエージェントによる攻撃を複数観測。最長の攻撃は8時間弱、1万件規模のスキャンを伴った。",
+      "detail": "クラウド型WAFを提供するビットフォレストは10月14日、AIエージェントによる国内企業サイトへの攻撃を少なくとも3つのIPアドレスから確認したと技術ブログで報告した。最も大規模な攻撃は8時間弱続き、10段階に手口を変化させながら毎秒約35件・計約1万件の高速スキャンを行い、既知の脆弱性への攻撃や約250件のログイン総当たりも含んでいた。同社は攻撃元がAIエージェントかどうかを判定する仕組みを導入前の検証で、中国Alibabaの「Qwen 3.8 Flash Next」など高性能モデル8種による攻撃を検出できたとしている。3つの攻撃は特徴が異なり、別々の攻撃主体の可能性があるという。",
+      "why_it_matters": "AIエージェントを使ったサイバー攻撃が国内でも実際に観測されたことで、シグネチャだけに頼らない防御の必要性が高まっている。",
+      "tags": [
+        "サイバーセキュリティ",
+        "AIエージェント",
+        "日本"
+      ],
+      "source_name": "ビットフォレスト（ITmedia AI+）",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/15/2000002284",
+      "original_title": "国内WebサイトへのAIエージェント攻撃を観測　「8時間弱」続いた攻撃の推移を公開　国内セキュリティベンダー",
+      "original_lang": "ja",
+      "published_at": "2026-10-15T05:39:29Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/15/2000002284/10009422/2048",
+      "image_credit": "ビットフォレスト（ITmedia AI+）"
+    },
+    {
+      "section": "japan",
+      "importance": 2,
+      "title": "AISI所長、AI安全性の「物差し」作りに言及",
+      "summary": "AI安全性機関AISIの村上明子所長が、独自ベンチマークでAIモデルを評価する方針を語った。サイバー攻撃へのAI関与は取材時点で証拠は無いとした。",
+      "detail": "2024年2月発足の公的機関AISIの村上明子所長は、AIの安全性を測る独自ベンチマークを作り自ら評価する方針を示した。英AISIの評価ツール「Inspect」や公開ベンチマークでの検証は既に実施済みで、独自ベンチマークによる評価は2026年度内の完了を目指すが、悪用を避けるため公開範囲は検討中という。今後は多数のモデルを継続的に評価する体制整備と、AIエージェントやフィジカルAIを見据えた実装段階の安全性評価に力を入れる考えを示した。相次ぐサイバー攻撃へのAIの関与については、取材時点(10月7日)で証拠は無いとしつつ、脆弱性発見の速度が上がっているのは事実だとし、防御側もAI活用が必要と述べた。",
+      "why_it_matters": "国がAIモデルを独自基準で評価する体制づくりは、AIの実社会での安全性保証のあり方を左右する重要な動きとなる。",
+      "tags": [
+        "AI安全性",
+        "AISI",
+        "日本"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/15/2000002280",
+      "original_title": "AIの安全性測る「物差し」を日本でも――AISI村上所長に聞く展望　相次ぐサイバー攻撃への対応は",
+      "original_lang": "ja",
+      "published_at": "2026-10-14T23:00:00Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/15/2000002280/10009376/2048",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
