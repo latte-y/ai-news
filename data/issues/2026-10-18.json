@@ -100,7 +100,9 @@
       "source_url": "https://arxiv.org/abs/2607.08716",
       "original_title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
       "original_lang": "en",
-      "published_at": "2026-07-09T00:00:00Z"
+      "published_at": "2026-07-09T00:00:00Z",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_credit": "arXiv"
     },
     {
       "section": "cloud",
@@ -118,7 +120,9 @@
       "source_url": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments",
       "original_title": "Managing open-weight model risk in enterprise deployments",
       "original_lang": "en",
-      "published_at": "2026-10-16T16:05:00Z"
+      "published_at": "2026-10-16T16:05:00Z",
+      "image_url": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/MSFT-NVIDIA-SCI.jpg",
+      "image_credit": "Microsoft Azure"
     },
     {
       "section": "tools",
@@ -156,7 +160,9 @@
       "source_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news007.html",
       "original_title": "「そもそも親にAIなんて必要ない」　65歳以上の生成AI利用、子世代の7割が拒否する理由",
       "original_lang": "ja",
-      "published_at": "2026-10-17T08:00:00Z"
+      "published_at": "2026-10-17T08:00:00Z",
+      "image_url": "https://image.itmedia.co.jp/ait/articles/2610/17/cover_news007.jpg",
+      "image_credit": "ITmedia AI+"
     },
     {
       "section": "japan",
