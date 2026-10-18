@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T06:53:00+09:00",
+  "headline": "AI業界、公益配分と再編が進む",
+  "lead": "Anthropicが株式5%を公益目的の新基金に拠出すると発表し、企業価値の拠出でAI企業の社会的責任が改めて問われた。破産したCharacter.AIの従業員の大半はDisneyへの移籍が固まり、Replitは既定AIをOpenAIに切り替えると表明するなど、AI企業間の提携・再編も相次いだ。国内では、みずほがAIコーディングを前提に人材育成期間を3か月に短縮するなど、実務面での動きも見られた。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropic、株式5%を公益基金に拠出へ",
+      "summary": "Anthropicが自社株式の5%を公益目的の新基金に拠出すると発表。企業価値が50%上がるごとに追加で2%拠出する仕組みも用意した。",
+      "detail": "AIへの社会的な不信感が強まる中、AnthropicのCEOダリオ・アモデイ氏は今回の動きを『信頼の危機への対応』と位置づけている。新設する基金はAnthropicの完全子会社として運営され、まず株式5%を拠出し、その後は企業価値が50%上昇するごとに追加で2%を拠出できる仕組みを設ける。使途はまだ固まっておらず、伝統的な非営利団体への寄付や個人への直接給付、AIが雇用に及ぼす影響への対応などが検討されているとされる。Anthropicは既にAIの雇用影響を調べる研究に2億ドルを投じると表明しており、新基金はより幅広い取り組みの土台になるとみられる。運営体制や使途の決定プロセスなど詳細は今後数か月で公表するとしている。",
+      "why_it_matters": "AI企業の急成長と社会的反発が同時に進む中、利益の一部を公益に回す仕組みづくりが業界の信頼回復策の試金石となりうる。",
+      "tags": [
+        "Anthropic",
+        "公益基金",
+        "AI企業"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+      "original_title": "Anthropic says it's committing 5% of its shares to a 'public benefit fund'",
+      "original_lang": "en",
+      "published_at": "2026-10-18T20:37:40Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Disney、Character.AI社員の大半を採用へ",
+      "summary": "破産したCharacter.AIの従業員60人超（大半）にDisneyが採用を提示し、大多数が入社を承諾したと判明。",
+      "detail": "対話型AIチャットボットを提供してきたCharacter.AIは今月13日に破産を申請した。巨額のインフラコストに加え、未成年ユーザーの自殺をめぐる訴訟や児童の安全に関する当局の調査が経営を圧迫していたとされる。Disneyは既に同社の一部資産を2000万ドルで取得することに合意していたが、新たに判明した法的文書によると、推定年間報酬6000万ドル規模にあたる60人超、すなわち従業員の大半に採用を提示し、その大多数が入社を承諾したという。この提示は破産手続きにおける『ストーキングホース』、つまり基準額を示す最初の買い手としてのもので、今後より高い条件を示す買い手が現れる可能性も残る。Character.AIの元CEOは既にDisney初代CTOに就任している。",
+      "why_it_matters": "対話型AIサービスの先駆けだった企業が安全面の問題と訴訟コストで立ち行かなくなった事例であり、AIキャラクター事業の持続可能性に疑問を投げかける。",
+      "tags": [
+        "Disney",
+        "Character.AI",
+        "破産"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+      "original_title": "Disney agrees to hire the majority of Character.AI's workforce",
+      "original_lang": "en",
+      "published_at": "2026-10-18T16:30:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Replit、既定AIをAnthropicからOpenAIへ",
+      "summary": "ReplitのCEOがAnthropicとの提携を事実上やめ、既定モデルをOpenAIに切り替えたと明言。Claudeも選択可能という。",
+      "detail": "開発支援プラットフォームReplitの共同創業者でCEOのAmjad Masad氏が、TechCrunch Disruptの舞台でAnthropicとの提携をやめたと述べた。理由としてコスト・提携関係・性能の3点を挙げ、社内外のベンチマークでOpenAIのモデルがバイブコーディングによるアプリ構築で優れていると説明した。既定のモデルはOpenAIのモデルになるが、利用者はClaudeなど対応する他モデルを選べるとしている。Replitは企業向け売上の比率が前年の約2%から今年は約15%に伸び、2027年には売上の半分超を企業・政府顧客から得る見込みだという。ただしAnthropicとの提携が完全に終わったのかについては関係者の説明が分かれており、不透明な部分も残る。",
+      "why_it_matters": "大口顧客だった開発プラットフォームが既定モデルを切り替えたことは、AIベンダー間の競争がコストや性能を軸に激化している実例となる。",
+      "tags": [
+        "Replit",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "original_title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "original_lang": "en",
+      "published_at": "2026-10-17T18:48:08Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "ECやエアライン、AIエージェントを締め出し",
+      "summary": "Amazonがメタの『Muse』を遮断するなど、ウェブ各社が自律型AIエージェントのアクセス制限を強めている。",
+      "detail": "自律的にウェブを操作してチャット予約や買い物を代行するAIエージェントが広がる一方、受け手側のサイトが接続を拒む動きが目立ってきた。TechCrunchによると、Amazonは自社の商品カタログを閲覧・購入できなくするため、Metaのエージェント『Muse』を意図的に遮断した。Walmartでも同様の不具合が起きたが、同社はMuseと提携しており意図的ではないと説明している。Delta・Unitedなど航空会社はセキュリティ上のリスクを懸念してAIトラフィックを制限し、Yelpはデータ利用のライセンス料を支払わないエージェントからの非人間トラフィックを受け入れないとしている。業界側ではMetaなどがエージェントと事業者の通信方式を定める標準づくりを進め、IETFの『Web Bot Auth』などエージェントの身元を検証する仕組みも検討されている。",
+      "why_it_matters": "AIエージェント経済の普及には、ウェブサイト側にアクセスを認めてもらうための信頼と標準づくりが不可欠であることを示す。",
+      "tags": [
+        "AIエージェント",
+        "Amazon",
+        "ウェブ標準"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "original_title": "Websites are closing their doors to AI agents",
+      "original_lang": "en",
+      "published_at": "2026-10-17T13:00:00Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Meta、規約の『スクレイピング疑惑』文言削除",
+      "summary": "Metaが商用規約から報道サイト等のコンテンツをAI学習に使えると読める一文を削除。批判を受けた対応とみられる。",
+      "detail": "The Vergeによると、Metaの商用利用規約には、事業者アカウントが持つドメインやウェブページの『あらゆるコンテンツ』を自社サービスの提供・開発・改善に使えるとする文言があった。この表現がニュースサイトを含むコンテンツの無断スクレイピングを許す規定と読めるとして批判が強まったことを受け、Metaは当該の文言を規約から削除した。Metaはウェブクロールの実際の運用方法自体は変えていないと説明している一方、報道各社とAI企業の間では著作権や無断学習を巡る緊張が続いている。規約の一文がAI企業への不信を増幅させかねないことを示す事例となった。",
+      "why_it_matters": "AI企業の利用規約の文言ひとつが、報道機関との著作権摩擦を再燃させるリスクを持つことを示している。",
+      "tags": [
+        "Meta",
+        "著作権",
+        "利用規約"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "original_title": "Meta removes language that may have allowed it to scrape news sites",
+      "original_lang": "en",
+      "published_at": "2026-10-17T15:04:36Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_2_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "AIが書いたコードを出荷前に試問するツール",
+      "summary": "OSS『Sphinx』は、本番へのプッシュ前にAI生成コードの理解度を問うクイズを出すフック。Hacker Newsで話題。",
+      "detail": "Hacker Newsに投稿されたOSSツール『Sphinx』は、既存のAIコーディングエージェントのワークフローに組み込んで使うフックとして作られている。本番環境へのプッシュのたびに、プッシュしようとしているコードの仕組みを理解しているかを確認する質問を自動で表示する仕組みだという。AIにコードを書かせたまま十分に理解せずデプロイしてしまう『バイブコーディング』への懸念に応える狙いとみられる。Show HNへの投稿はHacker Newsで233ポイント・76件のコメントを集め、AIエージェントを使う開発者の間で関心を呼んでいる。",
+      "why_it_matters": "AIが生成したコードを人間がどこまで理解・検証すべきかという課題に対し、プロセスに組み込む形の解決策を示す一例になる。",
+      "tags": [
+        "AIコーディング",
+        "OSS",
+        "Hacker News"
+      ],
+      "source_name": "Hacker News",
+      "source_url": "https://sphinx-six-theta.vercel.app/",
+      "original_title": "Show HN: Sphinx - A hook that quizzes you on your AI's code before shipping",
+      "original_lang": "en",
+      "published_at": "2026-10-18T04:33:49Z"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "AIエージェントの成果を測る「5次元スコアカード」",
+      "summary": "AIエージェント運用の実務記事が、稼働率などの従来KPIでは『忙しそうでも成果不明』になる問題を指摘し、5つの指標で測る手法を提案した。",
+      "detail": "AIエージェントを業務に導入した現場では、処理件数やSLA達成率といった従来の稼働指標が高くても、実際には上長による修正や問い合わせの再発が増えているケースがあると、この記事は指摘する。従来のKPIは人が単独で作業する前提で作られており、人とAIが協働する業務の成果を正しく捉えられないという。そこで著者は、ビジネス成果・エージェントの品質（修正なしで完了した割合など）・信頼と採用（人がAIの提案を上書きする頻度など）・リスクと制御・コスト効率の5つの軸からなるスコアカードを提案している。特に、AIの提案を人が一度も上書きしていない状態は品質が高いからではなく使われていないだけの危険信号だとし、上書き率の高さを改善の最優先課題として扱うよう勧めている。",
+      "why_it_matters": "AIエージェントの導入効果を『動いているか』ではなく『成果を生んでいるか』で測る視点は、他の現場でも参考になりうる。",
+      "tags": [
+        "AIエージェント",
+        "KPI",
+        "業務効率化"
+      ],
+      "source_name": "Qiita",
+      "source_url": "https://qiita.com/ariefwara/items/0531efb65feb037e41ef",
+      "original_title": "AIエージェントは忙しそうに見えるが、本当に成果を出しているのか？ — 5次元スコアカードで測る実践的評価指標",
+      "original_lang": "ja",
+      "published_at": "2026-10-18T17:16:01Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkY0NDM5MTcwJTJGYmQwYzI1NzQzMTNjZWY3ZWU1ZWYxODE4ZTFiYjk5NDdkMDE5ZTgzMyUyRnhfbGFyZ2UucG5nJTNGMTc4MDEwMjgxOT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9MzlmZDE4ZmI0NmZiYjc0ZmZjMjA3MjQ0OGE3ODBiZTE%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dd1a01ed3c736ee5ed8c432ae0ecd3cd1?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9QUklRTMlODIlQTglRTMlODMlQkMlRTMlODIlQjglRTMlODIlQTclRTMlODMlQjMlRTMlODMlODglRTMlODElQUYlRTUlQkYlOTklRTMlODElOTclRTMlODElOUQlRTMlODElODYlRTMlODElQUIlRTglQTYlOEIlRTMlODElODglRTMlODIlOEIlRTMlODElOEMlRTMlODAlODElRTYlOUMlQUMlRTUlQkQlOTMlRTMlODElQUIlRTYlODglOTAlRTYlOUUlOUMlRTMlODIlOTIlRTUlODclQkElRTMlODElOTclRTMlODElQTYlRTMlODElODQlRTMlODIlOEIlRTMlODElQUUlRTMlODElOEIlRUYlQkMlOUYlMjAlRTIlODAlOTQlMjA1JUU2JUFDJUExJUU1JTg1JTgzJUUzJTgyJUI5JUUzJTgyJUIzJUUzJTgyJUEyJUUzJTgyJUFCJUUzJTgzJUJDJUUzJTgzJTg5JUUzJTgxJUE3JUU2JUI4JUFDJUUzJTgyJThCJUU1JUFFJTlGJUU4JUI3JUI1JUUyJTgwJUE2JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9NDM2ZDM5NzA4Y2NjNjQ4YzgwZTU2ZWU3ZDgyODFkNDg&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBhcmllZndhcmEmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz0xZjI5Yzg4MDVjNWYzODg4NWVjYjJmNTRhNmJiYTM2Zg&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=7df6da85918edd39a12a992bfd9a4205",
+      "image_credit": "Qiita"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "重要な指示は資料の前か後か、8通り試した結果",
+      "summary": "Anthropic・Google・OpenAIの公式助言は指示を置く位置の推奨が分かれ、著者が8通り試すとClaude Haiku 5.5でのみ結果に差が出た。",
+      "detail": "長い資料をAIに渡して作業を頼む際、指示を資料の前に書くか後に書くかについて、Anthropic・Google・OpenAIの助言は一致していない。Anthropicは資料を質問や指示より前に、Googleは質問を資料の後に置くよう勧め、OpenAIは指示を資料の前後両方に置くのが理想とする。著者が資料・命令・指示の順序を8通り変えて同じ書き直し作業を試すと、Claude Fable 5.1とGeminiはどの並びでも満点だった一方、Claude Haiku 5.5だけは資料を最後に置く並びの方が先頭に置く並びより平均点が高かった。ただしツールの説明やCLAUDE.mdなど他の情報が入ると、並び順による差はほぼ無くなったという。著者は、指示は資料の外に、資料は最後に置くことを勧めている。",
+      "why_it_matters": "プロンプト設計の『定石』がモデルや利用環境によって当てはまらない場合があることを、実験で具体的に示している。",
+      "tags": [
+        "プロンプト設計",
+        "Claude",
+        "比較検証"
+      ],
+      "source_name": "Qiita",
+      "source_url": "https://qiita.com/songchong/items/542892c6d4c569c9c15f",
+      "original_title": "重要な指示は最初か最後か？ AI 大手 3 社の助言が異なるので、資料→命令→指示の並び方を 8 通り試してみた",
+      "original_lang": "ja",
+      "published_at": "2026-10-18T18:30:44Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNTY2NzAlMkZwcm9maWxlLWltYWdlcyUyRjE3ODcyMzgxODE_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPWU3NzQ3ZjMzNzE4MDJjYjI2M2FjMjM3NzUzODlmOTE5%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dc73920274995f5a321a69858db1e61f3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU5JTg3JThEJUU4JUE2JTgxJUUzJTgxJUFBJUU2JThDJTg3JUU3JUE0JUJBJUUzJTgxJUFGJUU2JTlDJTgwJUU1JTg4JTlEJUUzJTgxJThCJUU2JTlDJTgwJUU1JUJFJThDJUUzJTgxJThCJUVGJUJDJTlGJTIwQUklMjAlRTUlQTQlQTclRTYlODklOEIlMjAzJTIwJUU3JUE0JUJFJUUzJTgxJUFFJUU1JThBJUE5JUU4JUE4JTgwJUUzJTgxJThDJUU3JTk1JUIwJUUzJTgxJUFBJUUzJTgyJThCJUUzJTgxJUFFJUUzJTgxJUE3JUUzJTgwJTgxJUU4JUIzJTg3JUU2JTk2JTk5JUUyJTg2JTkyJUU1JTkxJUJEJUU0JUJCJUE0JUUyJTg2JTkyJUU2JThDJTg3JUU3JUE0JUJBJUUzJTgxJUFFJUU0JUI4JUE2JUUzJTgxJUIzJUU2JTk2JUI5JUUzJTgyJTkyJTIwOCUyMCVFOSU4MCU5QSVFMyU4MiU4QSVFOCVBOSVBNiVFMyU4MSU5NyVFMyU4MSVBNiVFMiU4MCVBNiZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWFlYmQ4MGQxOTFiZGFhMTE3MmU5NmFkOGRhOTI3ZDI0&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBzb25nY2hvbmcmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz1jYThhODE5MGI3ZTMyOWM0MDRkZTcyYjU3YzZiNzYwNA&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=ffb65a47e9216370d0f237884e05b063",
+      "image_credit": "Qiita"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "みずほ、非エンジニアを3か月でAI開発人材に",
+      "summary": "みずほFGがAI Bootcampを本格運用開始。従来1年半かかる育成期間をAIコーディング活用で3か月に短縮する。",
+      "detail": "みずほフィナンシャルグループは2026年10月15日、エンジニアでない社員をAIアプリケーション開発の人材に育てる『みずほAI Bootcamp』の本格運用を始めると発表した。従来、同様の人材育成には1年半程度かかっていたとされるが、新プログラムではこれを6分の1の3か月に短縮する。構成は、AIコーディング支援ツールの使い方を学ぶ1か月間の集中学習と、実際の案件で要件理解からAIを使った実装、検証・改善までを担当する2か月間のOJTからなる。従来の『人がコードを直接書く』前提から、『自然言語の指示に基づきAIがコードを書き、人が業務要件・品質・セキュリティの観点で確認する』前提への転換を伴う取り組みだという。",
+      "why_it_matters": "大手金融機関がAIコーディングを前提に人材育成期間を大幅短縮する取り組みは、他業界の人材戦略にも影響しうる。",
+      "tags": [
+        "みずほ",
+        "人材育成",
+        "AIコーディング"
+      ],
+      "source_name": "Qiita",
+      "source_url": "https://qiita.com/quotidia/items/5a013f2c59af5a4b3239",
+      "original_title": "非エンジニアを3か月でAIアプリ開発人材に：みずほ「AI Bootcamp」の育成設計",
+      "original_lang": "ja",
+      "published_at": "2026-10-18T21:01:09Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU5JTlEJTlFJUUzJTgyJUE4JUUzJTgzJUIzJUUzJTgyJUI4JUUzJTgzJThCJUUzJTgyJUEyJUUzJTgyJTkyMyVFMyU4MSU4QiVFNiU5QyU4OCVFMyU4MSVBN0FJJUUzJTgyJUEyJUUzJTgzJTk3JUUzJTgzJUFBJUU5JTk2JThCJUU3JTk5JUJBJUU0JUJBJUJBJUU2JTlEJTkwJUUzJTgxJUFCJUVGJUJDJTlBJUUzJTgxJUJGJUUzJTgxJTlBJUUzJTgxJUJCJUUzJTgwJThDQUklMjBCb290Y2FtcCVFMyU4MCU4RCVFMyU4MSVBRSVFOCU4MiVCMiVFNiU4OCU5MCVFOCVBOCVBRCVFOCVBOCU4OCZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPTg1YTFhMzEzYjRhNGE3ZTNjODA1M2RhZDQ3MDQxM2Q4&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=6bf11c820d57037811835099eae86607",
+      "image_credit": "Qiita"
+    }
+  ]
+}
