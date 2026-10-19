@@ -100,7 +100,9 @@
       "source_url": "https://mistral.ai/news/timestral",
       "original_title": "Timestral: Mistral's time-series foundation models",
       "original_lang": "en",
-      "published_at": "2026-10-19T09:59:32Z"
+      "published_at": "2026-10-19T09:59:32Z",
+      "image_url": "https://mistral.ai/cms-media/api/media/file/og-timestral.webp",
+      "image_credit": "Mistral AI"
     },
     {
       "section": "tools",
