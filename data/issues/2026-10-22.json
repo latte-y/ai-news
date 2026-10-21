@@ -60,7 +60,9 @@
       "source_url": "https://mistral.ai/news/mistral-large-4",
       "original_title": "Mistral Large 4",
       "original_lang": "en",
-      "published_at": "2026-10-21T19:20:55Z"
+      "published_at": "2026-10-21T19:20:55Z",
+      "image_url": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "image_credit": "Mistral AI"
     },
     {
       "section": "models",
@@ -98,7 +100,9 @@
       "source_url": "https://openai.com/index/openai-models-google-cloud",
       "original_title": "OpenAI models are coming to Google Cloud",
       "original_lang": "en",
-      "published_at": "2026-10-21T12:00:00Z"
+      "published_at": "2026-10-21T12:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
     },
     {
       "section": "tools",
