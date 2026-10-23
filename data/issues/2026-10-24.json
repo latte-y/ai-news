@@ -100,7 +100,9 @@
       "source_url": "https://block.xyz/dessa",
       "original_title": "Dessa - the Conversation Model trained only on speech",
       "original_lang": "en",
-      "published_at": "2026-10-23T00:00:00Z"
+      "published_at": "2026-10-23T00:00:00Z",
+      "image_url": "https://block.xyz/dessa/_media/6865f35ec6013672f8f8/assets/marketing/variants/v3.jpg",
+      "image_credit": "Block"
     },
     {
       "section": "tools",
@@ -118,7 +120,9 @@
       "source_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
       "original_title": "Claude Code CHANGELOG — v2.1.309",
       "original_lang": "en",
-      "published_at": "2026-10-23T00:00:00Z"
+      "published_at": "2026-10-23T00:00:00Z",
+      "image_url": "https://opengraph.githubassets.com/0794b233deff53185eb383774a69e3ab11b83dda908d00400407b2e31c4136cb/anthropics/claude-code",
+      "image_credit": "Anthropic"
     },
     {
       "section": "tools",
