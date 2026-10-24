@@ -20,7 +20,9 @@
       "source_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "original_title": "Securing our frontier model training environment",
       "original_lang": "en",
-      "published_at": "2026-10-23T10:00:00Z"
+      "published_at": "2026-10-23T10:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
     },
     {
       "section": "top",
@@ -118,7 +120,9 @@
       "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "original_title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "original_lang": "en",
-      "published_at": "2026-10-23T17:00:00Z"
+      "published_at": "2026-10-23T17:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1p8WL4wct7MU8nnw6609WL/6ae794fe4cc93d37cc095d4d45730669/scaling-storage-one-billion-users-part-two-social.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
     },
     {
       "section": "tools",
@@ -156,7 +160,9 @@
       "source_url": "https://www.digital.go.jp/resources/machine-readability-rule/harunobu",
       "original_title": "機械可読性に関するルール：Harunobu",
       "original_lang": "ja",
-      "published_at": "2026-10-24T21:01:35Z"
+      "published_at": "2026-10-24T21:01:35Z",
+      "image_url": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "image_credit": "デジタル庁"
     }
   ]
 }
