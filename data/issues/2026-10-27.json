@@ -38,7 +38,9 @@
       "source_url": "https://openai.com/index/introducing-gpt-6-1-terra",
       "original_title": "Introducing GPT-6.1 Terra",
       "original_lang": "en",
-      "published_at": "2026-10-26T00:00:00Z"
+      "published_at": "2026-10-26T00:00:00Z",
+      "image_url": "https://cdn.openai.com/mdx-assets/71f084db-a08b-48c5-b96e-5fbdc21a1a00/terra-art-card-16x9.0394724b.png",
+      "image_credit": "OpenAI"
     },
     {
       "section": "models",
@@ -76,7 +78,9 @@
       "source_url": "https://monoist.itmedia.co.jp/mn/articles/2610/26/news027.html",
       "original_title": "データセンター級のAIをローカルで、HPが大規模AI向けワークステーション発売",
       "original_lang": "ja",
-      "published_at": "2026-10-26T02:15:00Z"
+      "published_at": "2026-10-26T02:15:00Z",
+      "image_url": "https://image.itmedia.co.jp/mn/articles/2610/26/cover_news027.jpg",
+      "image_credit": "日本HP"
     },
     {
       "section": "cloud",
