@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T07:30:00+09:00",
+  "headline": "Anthropicが上場申請、AI業界節目",
+  "lead": "AnthropicがIPOに向けS-1を提出し、AI企業の資金調達が新たな段階に入った。OpenAIは安価な「コンピュータ操作」モデルGPT-6.1 Terraを投入し、クラウド・人材戦略でも大手各社の動きが目立つ一日となった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropicが上場申請、「ANT」で",
+      "summary": "AnthropicがSECに新規株式公開(IPO)の申請書を提出した。創業者らが議決権の過半を握る統治体制を維持する方針。",
+      "detail": "Anthropicは10月26日、米SECに新規株式公開に向けたS-1登録届出書を提出した。2026年上半期の収益は163億ドルで前年同期の12億ドルから急増したが、転換社債に伴う非現金の会計調整などにより純損失は807億ドルに達した。年間支出10万ドル超の大口顧客は1万1900社を超え、1000万ドル超の顧客も約250社にのぼる。共同創業者7人が設立した「Founder LLC」が議決権の50.1%を握り、長期利益信託が取締役会の過半を指名する体制を維持し、AI安全性の使命を守る狙いだとしている。",
+      "why_it_matters": "主要AI企業の上場は資金調達環境だけでなく、安全性重視を掲げる企業統治の先例としても注目される。",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "Claude"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "original_title": "Anthropic S-1",
+      "original_lang": "en",
+      "published_at": "2026-10-26T13:04:50Z"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAI「GPT-6.1 Terra」公開",
+      "summary": "OpenAIがコンピュータ操作に強みを持つ新モデル「GPT-6.1 Terra」を公開。API価格は旧世代の半額。",
+      "detail": "OpenAIは10月26日、画面操作や視覚的な作業を低コストで処理する新モデル「GPT-6.1 Terra」を発表した。フォーム入力や図面の読み取りなど日常的な繰り返し作業を想定し、ChatGPT WorkやCodexのPlus・Pro・Business・Enterprise・Eduプランで利用できる。API版は「gpt-6.1-terra」として提供され、価格は入力100万トークンあたり1ドル、出力5ドルで、前世代のGPT-5.6 Terraの半額とされる。複数手順を要する操作タスクの評価では、上位モデル「GPT-6 Astra」に匹敵する精度を約10分の1の価格で達成したという。",
+      "why_it_matters": "安価な『コンピュータ操作』特化モデルの投入により、定型的なPC作業の自動化がより普及する可能性がある。",
+      "tags": [
+        "OpenAI",
+        "GPT-6.1",
+        "コンピュータ操作"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "original_title": "Introducing GPT-6.1 Terra",
+      "original_lang": "en",
+      "published_at": "2026-10-26T00:00:00Z"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "Gemini API、保存設定が既定オンに",
+      "summary": "Gemini APIの有料枠で、新規プロジェクトのリクエスト保存が既定でオンに変更された。既存プロジェクトは変更なし。",
+      "detail": "Googleは10月26日付のGemini APIリリースノートで、有料枠で新しく作成するプロジェクトについて、generateContentなど3つのエンドポイントのリクエスト保存を既定でオン（store=true）にしたと発表した。Interactions APIの既定動作に合わせた変更で、既存プロジェクトの設定は変わらずコード変更も不要なため破壊的変更ではないが、プロンプトや応答がログとして保存されるようになる。個人情報や顧客データを扱うアプリでは、リクエスト単位のstore=false指定か、管理画面でのログ記録オフが必要になる。",
+      "why_it_matters": "既定値の変更に気づかずに開発を続けると、意図せず機密データを保存してしまう恐れがあり注意が必要と考えられる。",
+      "tags": [
+        "Gemini API",
+        "Google",
+        "プライバシー"
+      ],
+      "source_name": "Google",
+      "source_url": "https://qiita.com/picnic/items/aacfd85e3fee38c2d444",
+      "original_title": "Gemini API 有料枠の新規プロジェクトでリクエスト保存が既定オンに",
+      "original_lang": "ja",
+      "published_at": "2026-10-26T17:24:53Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmxoMy5nb29nbGV1c2VyY29udGVudC5jb20lMkZhJTJGQUNnOG9jS0oza2lJamRVZjd6UHZDUHNqTGhkcHFzbDlYU2MweGJscHRZRzgwOWd5dlhYWWh2UTElM0RzOTYtYz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9OGM4MDU5ODEyMzY3Y2ZlNmIzMDVkYTMzMjAwNjcwMDE%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dfd6ab3c0ea5267b0e6bf5b2f6bc36ab2?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9R2VtaW5pJTIwQVBJJTIwJUU2JTlDJTg5JUU2JTk2JTk5JUU2JTlFJUEwJUUzJTgxJUFFJUU2JTk2JUIwJUU4JUE2JThGJUUzJTgzJTk3JUUzJTgzJUFEJUUzJTgyJUI4JUUzJTgyJUE3JUUzJTgyJUFGJUUzJTgzJTg4JUUzJTgxJUE3JUUzJTgzJUFBJUUzJTgyJUFGJUUzJTgyJUE4JUUzJTgyJUI5JUUzJTgzJTg4JUU0JUJGJTlEJUU1JUFEJTk4JUUzJTgxJThDJUU2JTk3JUEyJUU1JUFFJTlBJUUzJTgyJUFBJUUzJTgzJUIzJUUzJTgxJUFCJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9NjI5MDMzZTBiZjk1ODllMWJlMzJiNjQ4YjY3NmQ0OWM&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBwaWNuaWMmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz1iZTllNDg4YzE3YjgzYzFmZGE3MTQ2MjU5MjlkYzU1ZQ&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=c1048c61b415e7fe4fc85f9307cd63d6",
+      "image_credit": "Google"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "HP、1兆パラメータ対応AI機発売",
+      "summary": "日本HPが、最大1兆パラメータ規模のAIモデルをローカルで推論できるワークステーションを発売した。",
+      "detail": "日本HPは10月26日、大規模AIモデルの開発・推論に特化したワークステーション「HP ZGX Fury G1n AI Station」を発表した。NVIDIAの「GB300 Grace Blackwell Ultra Desktop Superchip」と748GBのコヒーレントメモリを搭載し、最大1兆パラメーター規模のモデルによる推論処理に対応するとしている。機密データを外部に出さずに、AIモデルの開発から本番運用までを社内のローカル環境で完結させられる点を特徴としている。",
+      "why_it_matters": "データを外部に出せない企業でも大規模AIを自前運用できる選択肢が広がることで、クラウド依存を避けたいニーズに応えると考えられる。",
+      "tags": [
+        "HP",
+        "ワークステーション",
+        "オンプレミス"
+      ],
+      "source_name": "日本HP",
+      "source_url": "https://monoist.itmedia.co.jp/mn/articles/2610/26/news027.html",
+      "original_title": "データセンター級のAIをローカルで、HPが大規模AI向けワークステーション発売",
+      "original_lang": "ja",
+      "published_at": "2026-10-26T02:15:00Z"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS・Google、PyTorch対応版をOSS化",
+      "summary": "AWSとGoogle Cloudが、自社AIプロセッサ向けPyTorch対応版をそれぞれオープンソースで公開した。",
+      "detail": "米カリフォルニア州で10月20〜21日に開催された「PyTorch Conference 2026」で、AWSとGoogle Cloudが自社AIプロセッサ向けのPyTorch対応版を相次いでオープンソース公開した。AWSは「TorchNeuron」でTrainium上でのPyTorchネイティブ実行を可能にし、既存コードを`.to('neuron')`に切り替えるだけで利用できるとする。Google Cloudの「TorchTPU」はCloud TPU上でのハードウェアアクセラレーションを活かした実行を目指す。いずれも、事実上の標準であるNVIDIAのCUDA環境からの移行を促す狙いがある。",
+      "why_it_matters": "NVIDIA一強だったAI計算基盤の選択肢が広がれば、学習・推論コストの低下につながる可能性があると考えられる。",
+      "tags": [
+        "AWS",
+        "Google Cloud",
+        "PyTorch"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
+      "original_title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
+      "original_lang": "ja",
+      "published_at": "2026-10-26T15:59:52Z",
+      "image_url": "https://www.publickey1.jp/2026/yycsrzk6.jpg",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "SpaceX、Apolloと4兆円GPU融資契約",
+      "summary": "SpaceXがApollo Global Managementとの間で、AIチップ調達に向け約400億ドルの融資契約を結んだ。",
+      "detail": "SpaceXは、AIチップや関連データセンター機器の調達資金として、Apollo Global Management傘下の事業体との間で約400億ドルの拘束力あるリース型融資契約を結んだと規制当局への提出書類で明らかにした。Apolloの事業体がチップやサーバー機器を購入してSpaceXにリースする仕組みで、リース期間は機器到着ごとに約5年〜5年3か月、2027年上半期の開始を見込む。SpaceXのCFOは、資金調達源の多様化に役立つと説明している。第3四半期はAI事業の売上が76億ドルに達し、同社全体売上の過半を占めたという。",
+      "why_it_matters": "伝統的な債務市場に頼らない資金調達手法が広がれば、AIインフラ投資競争がさらに加速する可能性があると考えられる。",
+      "tags": [
+        "SpaceX",
+        "Apollo",
+        "GPU"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+      "original_title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "original_lang": "en",
+      "published_at": "2026-10-26T16:46:36Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM-e1793033116950.png?resize=1200,911",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Microsoft、6万人に自主退職を提示",
+      "summary": "Microsoftが米英加印の最大6万人を対象に自主退職制度を提示した。コスト抑制とAI投資資金の確保が狙い。",
+      "detail": "Microsoftは、米国・カナダ・インド・英国の従業員を対象に、最大6万人が対象となる自主退職制度を提示した。対象は全世界の従業員約22万3000人の約27%にあたり、Xbox・Windows・Copilot・財務など一部部門が対象で、データセンターや営業・マーケティングの一部従業員は対象外とされる。既存の退職金制度に沿った条件に加え、株式の継続的な権利確定や一定期間の医療保険、転職支援が提供される。対象者は12月上旬までに応じるか判断し、応じた場合は12月31日付で退職する。4月にも米国従業員の約7%を対象にした同様の制度を実施しており、今回は2回目となる。",
+      "why_it_matters": "巨額のAI投資の原資をコスト削減で確保する動きが、大手テック企業の人員戦略にも及んでいることを示していると考えられる。",
+      "tags": [
+        "Microsoft",
+        "人員削減",
+        "AI投資"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "original_title": "Microsoft offers buyouts to 60,000 employees",
+      "original_lang": "en",
+      "published_at": "2026-10-26T15:58:27Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832915/STK095_MICROSOFT_2_CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "チームみらい、AI失業対策を提言",
+      "summary": "チームみらいの安野貴博氏らが、AIの普及による失業対策を求める提言を木原官房長官に提出した。",
+      "detail": "チームみらいの安野貴博党首らは10月26日、AIの社会実装が雇用に及ぼす影響への対策を求める提言を木原稔官房長官に手渡した。提言は、AIの普及によって仕事の内容がどう変化し、人々がそれに適応できているかを調査すること、必要な支援が行き渡る仕組みを整えること、労働政策に加えてAIの社会実装を支える規制・制度の改革を検討することなどを求めている。提言ではAIの影響が特定の産業に留まらず、社会のあり方そのものを変えつつあると位置づけている。",
+      "why_it_matters": "AIによる雇用への影響を見据えた政策論議が、与党だけでなく野党側からも具体的に提起され始めていることを示す。",
+      "tags": [
+        "チームみらい",
+        "AI失業",
+        "政策"
+      ],
+      "source_name": "チームみらい",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/26/2000002581",
+      "original_title": "「AI失業」対策を　チームみらい安野氏、官房長官に提言　詳細も公開",
+      "original_lang": "ja",
+      "published_at": "2026-10-26T03:15:40Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/26/2000002581/10010444/2048",
+      "image_credit": "チームみらい"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "Meta「Muse」、日本で提供開始",
+      "summary": "MetaのAIエージェント「Muse」が日本で提供開始された。メール送信や旅行予約などを代わりに進める。",
+      "detail": "Metaは10月23日、利用者に代わってメールの送信や旅行の予約などを進めるパーソナルAIエージェント「Muse」の日本での提供を開始した。2026年9月に先行した北米に続き、北米以外では初の提供地域となる。iOS・Android・ウェブ（muse.ai）で利用でき、基本機能は無料。ブラウザでのフォーム入力などをアプリを閉じた後も継続して実行し、メール送信や商品購入など重要な操作の前には本人に確認を求める。Gmail、Googleカレンダー、Instagram、Stripe、Shopifyなどと連携済みで、メルカリやマネーフォワード MEなどは連携を準備中としている。",
+      "why_it_matters": "主要SNS企業のAIエージェントが日本語環境にも対応したことで、日常業務や私生活での自動化が実際に試される機会が増えると考えられる。",
+      "tags": [
+        "Meta",
+        "Muse",
+        "AIエージェント"
+      ],
+      "source_name": "Meta",
+      "source_url": "https://qiita.com/quotidia/items/b24c54ac89eadd684b3c",
+      "original_title": "MetaのAIエージェント「Muse」が日本で提供開始。メールの送信や旅行の予約を代わりに進める",
+      "original_lang": "ja",
+      "published_at": "2026-10-26T21:00:59Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9TWV0YSVFMyU4MSVBRUFJJUUzJTgyJUE4JUUzJTgzJUJDJUUzJTgyJUI4JUUzJTgyJUE3JUUzJTgzJUIzJUUzJTgzJTg4JUUzJTgwJThDTXVzZSVFMyU4MCU4RCVFMyU4MSU4QyVFNiU5NyVBNSVFNiU5QyVBQyVFMyU4MSVBNyVFNiU4RiU5MCVFNCVCRSU5QiVFOSU5NiU4QiVFNSVBNyU4QiVFMyU4MCU4MiVFMyU4MyVBMSVFMyU4MyVCQyVFMyU4MyVBQiVFMyU4MSVBRSVFOSU4MCU4MSVFNCVCRiVBMSVFMyU4MiU4NCVFNiU5NyU4NSVFOCVBMSU4QyVFMyU4MSVBRSVFNCVCQSU4OCVFNyVCNCU4NCVFMyU4MiU5MiVFNCVCQiVBMyVFMyU4MiU4RiVFMyU4MiU4QSVFMyU4MSVBQiVFOSU4MCVCMiVFMyU4MiU4MSVFMyU4MiU4QiZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPTg1OGFjMGIwYzc1OWVkOTJhOWJhZWFlY2Q1MDY2ZTk0&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=e415e8118d9ac99565574faa7e8ae59d",
+      "image_credit": "Meta"
+    }
+  ]
+}
