@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T08:30:00+09:00",
+  "headline": "Mistral、1兆パラメータ級AIをOSS公開",
+  "lead": "フランスのMistral AIが、サイバー防御用途を掲げる総パラメータ1兆の「Mistral Large 4」の重みを公開した。一方でOpenAI系Thrive HoldingsがADTを153億ドルで買収するなど、AI企業による大型M&Aや資金調達も相次いだ。Microsoftのクラウド収益開示や、国内ではKDDI子会社の活用事例公開など、実務への浸透を示す動きも目立った。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Mistral、1兆パラメータの巨大モデルをOSS公開",
+      "summary": "フランスのMistral AIが総パラメータ1兆・アクティブ49Bのオープンウェイトモデル「Mistral Large 4」を公開した。サイバー防御用途に重点を置く。",
+      "detail": "Mistral AIが2026年10月29日、マルチモーダルMoEモデル「Mistral Large 4(愛称Le Chonk)」の重みをHugging Faceで公開した。総パラメータは約1兆、アクティブパラメータは49Bで、FP8・NVFP4版などを配布する。ライセンスは商用利用を一部制限する独自のオープンウェイトライセンス。脆弱性の再現・修正やマルウェア分析など防御的セキュリティ用途を主眼に設計され、独自ベンチマークではサイバー関連タスクで上位、プロンプトインジェクション耐性も高いとする。外部クラウドに依存せず自社環境で運用できるため、企業や政府機関が自前のセキュリティ防御にAIを組み込みやすくなる。",
+      "why_it_matters": "クローズドモデルに頼らず自社で防御用AIを運用できる選択肢が増え、サイバーセキュリティ分野でのオープンモデル活用が進む可能性がある。",
+      "tags": [
+        "Mistral AI",
+        "オープンウェイト",
+        "サイバーセキュリティ"
+      ],
+      "source_name": "Mistral AI",
+      "source_url": "https://huggingface.co/blog/mistral-large4",
+      "original_title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "original_lang": "en",
+      "published_at": "2026-10-29T00:00:00Z",
+      "image_url": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
+      "image_credit": "Mistral AI"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "IBM、ソフト感覚で更新できるAIモデル公開",
+      "summary": "IBMが基盤モデル本体を再学習せず、音声認識や意思決定の「アダプター」だけを差し替えられる「Granite Switch 4.1.1」を公開した。",
+      "detail": "Granite Switchは、1つのエンドポイントに専門機能を追加できるモジュール型アーキテクチャを採用したIBM Graniteチームのモデル群。今回のパッチでは、10言語対応で句読点・大文字化までネイティブに出力する音声認識(ASR)モデルと、意思決定支援アダプターを更新した。ベースモデル自体には手を加えておらず、既存の4.1と完全互換のため移行作業は不要という。ソフトウェアのバージョン管理と同じ発想でAIモデルを継続的に更新できる点が特徴で、IBMは今後、開発者が自作のアダプターを作れるSDKも用意する予定としている。",
+      "why_it_matters": "基盤モデルを丸ごと再学習せず機能単位で更新する仕組みが広がれば、企業のAI運用・保守のコストや手間を下げられる可能性がある。",
+      "tags": [
+        "IBM",
+        "Granite",
+        "オープンモデル"
+      ],
+      "source_name": "IBM",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "original_title": "Granite Switch 4.1.1 — Update models like you update software",
+      "original_lang": "en",
+      "published_at": "2026-10-29T13:37:07Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png",
+      "image_credit": "IBM"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "ChatGPT Pro/Businessに月500ドルのAPI枠",
+      "summary": "OpenAIがChatGPTのPro・Businessプラン利用者に、API利用料を月最大500ドル分付与する特典を追加した。",
+      "detail": "対象はChatGPT Proの月額100・200・500ドルの各プランで、それぞれの月額と同額のAPI利用枠が付与される。Businessプランではスタンダードシートが1人あたり月20ドル分、プレミアムシートが月100ドル分で、1ワークスペースの上限は月500ドル分。無料プランやPlus、Go、Enterprise、Eduは対象外。特典を受けるには、ChatGPTアカウントとAPIアカウントを同じメールアドレスで連携する設定が必要となる。",
+      "why_it_matters": "ChatGPT利用料の一部を自社システムへのAPI組み込みに回せるようになり、企業がOpenAIの技術をより活用しやすくなる。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "API"
+      ],
+      "source_name": "ITmedia",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/29/2000002728",
+      "original_title": "ChatGPTのPro・Businessプランで「API利用」可能に　月最大500ドル分",
+      "original_lang": "ja",
+      "published_at": "2026-10-29T08:46:39Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/29/2000002728/10010924/2048",
+      "image_credit": "ITmedia"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "Google、検索とGeminiに外部アプリ連携基盤公開",
+      "summary": "Googleが企業アプリを検索・Geminiから直接操作できる「Connected Apps Platform」を公開。米国でベータ提供を開始した。",
+      "detail": "開発者はクラウドホスト型のMCPサーバーやAndroid MCPをAppFunctions APIで統合し、Google Connected Consoleから登録・テスト・提出できる。検索・Geminiいずれか、または両方への提供を選択できる。Geminiでは既にAdobeやCanva、Instacartなど50以上のアプリが連携済みで、検索にも今後数週間で同様の連携が拡大する予定。現在は米国の開発者向けベータで、ウェイトリスト登録制となっている。",
+      "why_it_matters": "ユーザーが個別アプリを起動せず検索やGemini経由で外部サービスを使う流れが進めば、企業にとってAIエージェント時代の新たな集客経路になりうる。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "検索"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+      "original_title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "original_lang": "en",
+      "published_at": "2026-10-28T17:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Blog_ConnectedApps_1027_2.width-2200.format-webp.webp?resize=1200,675",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "Microsoft、Azure売上を初めて金額で開示",
+      "summary": "Microsoftが2026年7〜9月期のAzure売上を初めて金額で公表した。332億ドルで前年比48%増だった。",
+      "detail": "これまでMicrosoftはAzureの四半期売上を成長率などの表現でしか開示してこなかったが、今回初めて実額を示した。332億ドルは市場予想の323億ドルを上回り、成長率48%もCFOが7月に示した44〜45%の見通しを超えた。同時期のGoogle Cloudの売上は307億ドルで前年比約2倍の成長とされ、AWSは10月29日の決算発表を控えていた。各社が金額で報告するようになったことで、クラウド大手3社の売上規模を直接比較しやすくなった。",
+      "why_it_matters": "クラウド大手3社の売上規模が金額で比較可能になり、AI需要がどの事業者にどれだけ流れているかが見えやすくなる。",
+      "tags": [
+        "Microsoft",
+        "Azure",
+        "クラウド"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
+      "original_title": "Microsoft just shared Azure's actual revenue in dollars: $33.2 billion",
+      "original_lang": "en",
+      "published_at": "2026-10-28T21:58:32Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/dollar-signs-data-center.png?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "OpenAI系Thrive、警備大手ADTを153億ドルで買収",
+      "summary": "OpenAIが出資するThrive Holdingsが、警備大手ADTを企業価値153億ドルで買収する契約を発表した。",
+      "detail": "Thriveは投資会社Thrive Capitalからスピンアウトしたプライベートエクイティ型企業で、傘下に75社以上を抱え、AIを使って既存事業を立て直すことを掲げる。OpenAIはThriveの出資者・パートナーであり、傘下企業にAIモデルや技術者(フォワード・デプロイド・エンジニア)を提供する関係にある。買収額は1株10ドルで株式価値は約76億ドル、企業価値は153億ドル。具体的な新AI製品はまだ発表されていないが、ADTをThriveのスマートホーム防犯事業の基盤にする計画だという。",
+      "why_it_matters": "OpenAIの技術と資本が家庭用セキュリティという物理空間のAI活用に広がる動きとして注目される。",
+      "tags": [
+        "OpenAI",
+        "Thrive Holdings",
+        "M&A"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt",
+      "original_title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "original_lang": "en",
+      "published_at": "2026-10-29T19:56:19Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/ADT-logo.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 2,
+      "title": "Deepgram、音声AI基盤Pipecatの開発元を買収",
+      "summary": "音声AI企業DeepgramがオープンソースのリアルタイムAIフレームワーク「Pipecat」の開発元Dailyを買収した。買収額は非公開。",
+      "detail": "Pipecatは音声認識・LLM・音声合成などをパイプラインとしてつなぎ、低遅延な音声・映像AIアプリを作れるオープンソースフレームワーク。Dailyはこれまでに6200万ドル以上を調達していた。両社はPipecatチームと共同で、音声から得た文脈情報などを定義する新プロトコル「Real-Time Context Standard」も発表した。Deepgramは自社モデルに限らず開発者が最適なモデルを組み合わせられるオープンな環境を目指すとしており、音声以外のリアルタイム通信分野への事業拡大も狙うという。",
+      "why_it_matters": "音声AIのインフラ競争が激しくなる中、オープンソースの中立的な基盤を押さえる動きとして業界の注目を集めている。",
+      "tags": [
+        "Deepgram",
+        "音声AI",
+        "M&A"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+      "original_title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "original_lang": "en",
+      "published_at": "2026-10-29T13:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Scott-Kwin-1.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 2,
+      "title": "個人AIエージェント「Wabi」評価額12.5億ドルに",
+      "summary": "ミニアプリを作れるAIエージェント「Wabi」の開発企業が5500万ドルを調達し、評価額12億5000万ドルとなった。",
+      "detail": "創業者はAIコンパニオン「Replika」も手がけたEugenia Kuyda氏。Wabiは当初プロンプトでアプリを作れるサービスとして始まったが、2026年9月にAIメッセンジャーへ方向転換を発表しており、新バージョンではユーザー専用の「パーソナルエージェント」として、食事計画やデートプラン作成など個別の用途に合わせたインターフェースを自動で作れるとする。調達はIVPが主導し、Andreessen HorowitzやAmazonのAlexa Fundなども参加した。AIエージェント企業への大型投資が相次ぐ中での資金調達となる。",
+      "why_it_matters": "汎用チャットではなく個人専用のインターフェースを自動生成するAIエージェントに、投資家の関心が集まっていることを示す。",
+      "tags": [
+        "Wabi",
+        "AIエージェント",
+        "資金調達"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
+      "original_title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "original_lang": "en",
+      "published_at": "2026-10-29T14:35:26Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/wabi-20.jpg?resize=1200,620",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "AIエージェントは増やせば賢くなるか、Meta等が検証",
+      "summary": "Metaとハーバード大の研究チームが、複数のAIエージェントを使う「分業」が効果を発揮する条件を論文で示した。",
+      "detail": "論文「Scaling Multi-Agent Intelligence with Substrate-Centric Coordination」(10月12日公開)は、エージェントを増やしても性能が比例して伸びない原因を整理し、情報の受け渡し方を工夫する「ScaleMAS」という仕組みを提案した。検証では、ソフトウェア修正タスクで4体のScaleMASが独立した8体と同等の成績を約半分のトークン数で達成。文書の矛盾検出では128体まで性能が伸び続けたが、数学の定理証明では16体程度で効果が頭打ちになったという。AnthropicやOpenAI、Cognitionなど主要AI企業も、安易なマルチエージェント化によるコスト増や矛盾のリスクに注意を促している。",
+      "why_it_matters": "エージェントの数を増やすだけでなく、仕事の内容に応じた情報共有の設計が性能とコストを左右することを示す研究結果。",
+      "tags": [
+        "Meta",
+        "マルチエージェント",
+        "研究"
+      ],
+      "source_name": "ITmedia",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/29/2000002632",
+      "original_title": "AIエージェントは「増やせば賢くなる」のか　Metaとハーバード大の研究が示す“分業の条件”",
+      "original_lang": "ja",
+      "published_at": "2026-10-28T23:00:00Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/29/2000002632/10010590/2048",
+      "image_credit": "ITmedia"
+    },
+    {
+      "section": "research",
+      "importance": 2,
+      "title": "GitHub調査、コミット数が1年で3倍超に急増",
+      "summary": "GitHubの年次調査「Octoverse 2026」によると、月間コミット数が1年足らずで3倍以上に増え、増加の大半は今年後半に集中していた。",
+      "detail": "Octoverse 2026では、マージされたプルリクエストが月2.2億件で1年足らずで約3倍、新規リポジトリは月3030万件で今年中に倍増したと報告された。筆者のSimon Willison氏は、これらの急増を「エージェント型エンジニアリング」、つまりAIエージェントによる自律的なコード生成・変更の広がりを示す間接的な指標だと分析している。調査では公開リポジトリを産業分野別に分類する手法や、国別のプッシュ数集計なども行われているが、AIツールの利用率そのものを示す直接の統計は示されていない。",
+      "why_it_matters": "ソフトウェア開発の現場でAIエージェントによる変更がどれほど急速に増えているかを示す、業界全体の定量的な手がかりとなる。",
+      "tags": [
+        "GitHub",
+        "Octoverse",
+        "ソフトウェア開発"
+      ],
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "original_title": "GitHub Octoverse 2026",
+      "original_lang": "en",
+      "published_at": "2026-10-28T16:45:23Z"
+    },
+    {
+      "section": "japan",
+      "importance": 2,
+      "title": "KDDI子会社、社内AI活用事例113件を無料公開",
+      "summary": "KDDIアイレットが社内のAI活用事例113件をまとめた特設サイトを無料公開した。エンジニア職63件、非エンジニア職50件を含む。",
+      "detail": "事例は2026年7月までに社内で募集したもので、文章作成やコーディング、データ分析などにGeminiやClaudeをどう使っているかを紹介する。各事例には概要スライドのほか詳細・ポイント・削減時間が掲載され、使用ツールや分野で検索もできる。紹介されている活用例の一つに、「Gemini Notebook」を使った稟議データのチェック支援がある。事例の収集・資料作成自体にもGeminiを活用したという。",
+      "why_it_matters": "一企業の社内AI活用の具体例が無料で公開されることで、他社が業務別の導入イメージを参考にしやすくなる。",
+      "tags": [
+        "KDDI",
+        "社内活用",
+        "日本"
+      ],
+      "source_name": "ITmedia",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/29/2000002685",
+      "original_title": "KDDI傘下、社内のAI活用事例113件を無料公開　「Gemini Notebook」で稟議データのチェック支援も",
+      "original_lang": "ja",
+      "published_at": "2026-10-28T23:00:00Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/29/2000002685/10010758/2048",
+      "image_credit": "ITmedia"
+    },
+    {
+      "section": "japan",
+      "importance": 2,
+      "title": "沖縄の建設会社、見積書処理をAIで10分の1に",
+      "summary": "沖縄県の建設会社・福地組がAI文書処理サービスを活用し、見積書1枚あたりの処理時間を10〜15分から約1分に短縮した。",
+      "detail": "建設現場では協力会社ごとに書式が異なる見積書の転記作業に多くの時間がかかっていたが、AI文書処理サービスの活用でこの課題に対応した。1枚あたりの処理時間が10〜15分から約1分程度に短縮されたとされ、見積書が100枚を超える案件でも処理負担が大きく軽減される。中小の建設会社でも、書式が統一されていない書類処理にAIを使うことで効率化を図れる一例といえる。",
+      "why_it_matters": "大企業だけでなく地方の中小建設会社でも、定型外文書の処理にAIを活用し効率化する動きが広がっていることを示す。",
+      "tags": [
+        "建設業",
+        "AI活用",
+        "日本"
+      ],
+      "source_name": "ITmedia",
+      "source_url": "https://kn.itmedia.co.jp/kn/article/2610/30/2000002725",
+      "original_title": "見積書100枚超をどうさばく？　「半日仕事」を約30分にした建設会社のAI活用",
+      "original_lang": "ja",
+      "published_at": "2026-10-29T21:00:00Z"
+    }
+  ]
+}
