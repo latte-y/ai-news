@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T07:30:00+09:00",
+  "headline": "AIの規律刷新とセキュリティ警鐘",
+  "lead": "OpenAIがChatGPTの行動指針「Model Spec」を大幅改定し、AIの振る舞いの土台を再整理した。一方でMistralが1兆パラメータモデルの重みを公開し、Claude Code拡張機能の改ざん配布という開発者を直接狙った事件も起きている。AI投資の持続性への市場の懐疑も強まりつつあり、普及と警戒が同時に進む一日となった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAIが行動指針「Model Spec」を改定",
+      "summary": "OpenAIがChatGPTの行動指針「Model Spec」を改定し、5つの価値観で再構成した。記憶の扱いや人間の監督への服従を明記し、呼称を「GPT」に統一した。",
+      "detail": "ChatGPTなどの振る舞いを規定する「Model Spec」の改定版が公開された。従来の人格設定や細かな文体規定の大半を廃止し、全体を正直さなど5つの核となる価値観で再構成した。メモリや会話履歴の扱い方、エージェントが自律的に行動する際に人間の監督指示へ従う義務を新たに明記している。文書内の呼称も「the assistant」から「GPT」に統一された。AIがより高度な自律性を持つようになる中で、行動原則をシンプルかつ一貫させる狙いがあるとみられる。",
+      "why_it_matters": "ChatGPTの振る舞いの土台となる文書であり、今後のエージェント機能の挙動や安全性の考え方に直結する。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Model Spec"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/updated-model-spec",
+      "original_title": "An updated Model Spec for more capable and beneficial AI",
+      "original_lang": "en",
+      "published_at": "2026-10-29T17:00:00Z"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Mistral、1兆パラメータ「Le Chonk」公開",
+      "summary": "仏Mistral AIが1兆パラメータの新モデル「Mistral Large 4」（通称Le Chonk）の重みをHugging Faceで公開した。企業は自社環境に導入できる。",
+      "detail": "Mistral AIは新モデルの重みをHugging Faceと自社APIの両方で提供し、企業や政府機関が自社環境にそのまま導入できるようにした。サイバー脅威の検知・分析・対応に強い「主権的サイバー防御」を掲げ、中国の公開モデルGLM-5.3と同等の性能を、1タスクあたりのトークン消費量を47%抑えて実現したと主張している。エージェント型コーディングの指標「Coding Agent Index」でも公開モデルの中で最高位を主張する。重みを公開しているため外部から利用を止められない点を強みとして説明している。",
+      "why_it_matters": "巨大モデルの重みを丸ごと公開する動きは、企業がクラウド事業者に依存せずAIを「所有」する選択肢を広げるものとして注目される。",
+      "tags": [
+        "Mistral AI",
+        "オープンウェイト",
+        "サイバーセキュリティ"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "original_title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "original_lang": "en",
+      "published_at": "2026-10-29T17:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/06/GettyImages-1760104305.jpg?resize=1200,798",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Claude Code拡張機能にバックドア混入",
+      "summary": "Cursorの拡張機能マーケットプレイスでClaude Code拡張機能の改ざん版（v2.1.313）が約11時間配布された。導入するとSSH経由で外部から接続可能になる。",
+      "detail": "2026年10月29日から約11時間、Cursorの拡張機能マーケットプレイスでAnthropic製ではない改ざん版（v2.1.313）が配布された。導入すると端末情報が外部サーバーへ送信され、「~/.ssh/authorized_keys」に攻撃者の公開鍵が追加されるほか、再起動後も自動実行される仕組みが仕込まれ、SSH経由の不正接続を試みる。影響を受けた可能性があるのは期間中にCursorでClaude Code拡張機能を導入・更新した最大5000人とされ、VS Code版マーケットプレイスの利用者は対象外。Cursorは該当バージョンを削除し、公式の復旧スクリプトの実行とSSH鍵・トークン類の再発行を呼びかけている。",
+      "why_it_matters": "開発者が日常的に使うツールの配布経路そのものが狙われた事例で、サプライチェーン攻撃への警戒を改めて促す。",
+      "tags": [
+        "Claude Code",
+        "セキュリティ",
+        "サプライチェーン攻撃"
+      ],
+      "source_name": "Cursor",
+      "source_url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "original_title": "Claude Code extension security notice",
+      "original_lang": "en",
+      "published_at": "2026-10-30T07:09:12Z"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "ChatGPT Pro、利用上限「半減」撤回し倍増",
+      "summary": "OpenAIはChatGPT Pro100/500プランの利用上限を2倍にし、Pro200で発表していた上限半減を撤回した。10月29日に発表された。",
+      "detail": "OpenAIは9月末、Pro200プランの利用量算定方法を変更し、API料金換算で上限が従来の半分になったと説明していた。この変更にユーザーから批判が集まり、同社は10月5日から28日間、日々の改善を約束するキャンペーンを開始していた。10月29日、その25日目の措置として、Pro200の上限半減を撤回するとともに、Pro100とPro500の利用上限を2倍にすると発表した。担当者はユーザーからの批判を「温かいフィードバック」と表現している。",
+      "why_it_matters": "有料プランの利用条件変更は既存ユーザーの実利用に直結するため、発表のたびに大きな反応を呼んでいる。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "料金プラン"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002738",
+      "original_title": "ChatGPT Pro 100／500プランの利用上限を「倍」に　Pro 200プランの「半減」は撤回　経緯まとめ",
+      "original_lang": "ja",
+      "published_at": "2026-10-30T02:34:51Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/30/2000002738/10010966/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "Gemini APIのComputer Useが一般提供に",
+      "summary": "GoogleがGemini APIの「Computer Use」ツールをプレビューから一般提供(GA)に移行した。画面を見てクリックや入力を行いGUI操作を自動化できる。",
+      "detail": "Computer Useは、モデルが画面を見てクリックや文字入力などの操作を行い、ブラウザやGUIを使った作業を自動化する機能。これまでプレビュー版だったため本番導入を避ける開発者もいたが、2026年10月30日付のリリースノートで一般提供に切り替わったことが明らかになった。Interactions APIとGenerateContent APIの両方で利用できる。料金や対応モデルの詳細は公式ドキュメントでの確認が必要とされている。",
+      "why_it_matters": "GUI操作エージェントが正式機能になることで、RPAやE2Eテスト支援など業務自動化への本番導入が進みやすくなる。",
+      "tags": [
+        "Google",
+        "Gemini API",
+        "Computer Use"
+      ],
+      "source_name": "Qiita",
+      "source_url": "https://qiita.com/picnic/items/b569820140e98ee5872d",
+      "original_title": "Gemini API の Computer Use ツールが GA に：対応API・確認事項まとめ",
+      "original_lang": "ja",
+      "published_at": "2026-10-30T17:23:15Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmxoMy5nb29nbGV1c2VyY29udGVudC5jb20lMkZhJTJGQUNnOG9jS0oza2lJamRVZjd6UHZDUHNqTGhkcHFzbDlYU2MweGJscHRZRzgwOWd5dlhYWWh2UTElM0RzOTYtYz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9OGM4MDU5ODEyMzY3Y2ZlNmIzMDVkYTMzMjAwNjcwMDE%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dfd6ab3c0ea5267b0e6bf5b2f6bc36ab2?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9R2VtaW5pJTIwQVBJJTIwJUUzJTgxJUFFJTIwQ29tcHV0ZXIlMjBVc2UlMjAlRTMlODMlODQlRTMlODMlQkMlRTMlODMlQUIlRTMlODElOEMlMjBHQSUyMCVFMyU4MSVBQiVFRiVCQyU5QSVFNSVBRiVCRSVFNSVCRiU5Q0FQSSVFMyU4MyVCQiVFNyVBMiVCQSVFOCVBQSU4RCVFNCVCQSU4QiVFOSVBMCU4NSVFMyU4MSVCRSVFMyU4MSVBOCVFMyU4MiU4MSZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPTQyZjZjOGNmNDdkNTJjY2MzODQyYzg1NDRiZjg1MzFi&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBwaWNuaWMmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz1iZTllNDg4YzE3YjgzYzFmZGE3MTQ2MjU5MjlkYzU1ZQ&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=6f459b3c3041cf45059657096eca6b17",
+      "image_credit": "Qiita"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Claude Code v2.1.314、書き込み制限など追加",
+      "summary": "Claude Codeの最新版v2.1.314で、作業ディレクトリ外への書き込みを拒否する設定とアイドル時の自動要約機能が追加された。",
+      "detail": "新設定「permissions.blockWritesOutsideWorkingDirectories」を有効にすると、auto modeを含む全ての権限モードでWrite・Edit・NotebookEditによる作業ディレクトリ外への書き込みを拒否できる。VS CodeとClaude Desktopには、20万トークンを超える会話がアイドル状態になると要約を作る「idle compaction」機能が加わった。セキュリティ関連では、リモート管理設定の期限切れ時にポリシーなしでセッションが始まる恐れがあった不具合や、worktree内でサンドボックスが効いていなかった不具合などが修正された。",
+      "why_it_matters": "書き込み範囲の制限はエージェントに広い権限を与える運用でのリスクを抑える機能で、自動化を進める開発チームには直接関係する。",
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "アップデート"
+      ],
+      "source_name": "Qiita",
+      "source_url": "https://qiita.com/picnic/items/ca04a5b5a7666096fee9",
+      "original_title": "Claude Code v2.1.314の変更点まとめ：書き込み制限設定・idle compaction・挙動変更への対応",
+      "original_lang": "ja",
+      "published_at": "2026-10-30T17:22:03Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmxoMy5nb29nbGV1c2VyY29udGVudC5jb20lMkZhJTJGQUNnOG9jS0oza2lJamRVZjd6UHZDUHNqTGhkcHFzbDlYU2MweGJscHRZRzgwOWd5dlhYWWh2UTElM0RzOTYtYz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9OGM4MDU5ODEyMzY3Y2ZlNmIzMDVkYTMzMjAwNjcwMDE%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dfd6ab3c0ea5267b0e6bf5b2f6bc36ab2?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9Q2xhdWRlJTIwQ29kZSUyMHYyLjEuMzE0JUUzJTgxJUFFJUU1JUE0JTg5JUU2JTlCJUI0JUU3JTgyJUI5JUUzJTgxJUJFJUUzJTgxJUE4JUUzJTgyJTgxJUVGJUJDJTlBJUU2JTlCJUI4JUUzJTgxJThEJUU4JUJFJUJDJUUzJTgxJUJGJUU1JTg4JUI2JUU5JTk5JTkwJUU4JUE4JUFEJUU1JUFFJTlBJUUzJTgzJUJCaWRsZSUyMGNvbXBhY3Rpb24lRTMlODMlQkIlRTYlOEMlOTklRTUlOEIlOTUlRTUlQTQlODklRTYlOUIlQjQlRTMlODElQjglRTMlODElQUUlRTUlQUYlQkUlRTUlQkYlOUMmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz1kMWJjZDEzNDM3NTEwYjQ0M2RkNTA5NDM3OTk0N2U2MA&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBwaWNuaWMmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz1iZTllNDg4YzE3YjgzYzFmZGE3MTQ2MjU5MjlkYzU1ZQ&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=be121577f2110c43072a6e57fd9d392c",
+      "image_credit": "Qiita"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "Gemini、チャット内でPDF・スライド編集可能に",
+      "summary": "Geminiのチャット内で生成したPDFやスライド、ドキュメントをそのまま編集できる機能が、個人プランとGoogle Workspaceの両方で使えるようになった。",
+      "detail": "Geminiとのチャットで生成したPDF、Googleドキュメント／スプレッドシート、スライド、コードなどを同じ画面でプレビューし、文字を選んでプロンプトで編集できるようになった。PDFの編集はWebとモバイルの両方、それ以外はWeb版のみで使える。検証では、個人向けGoogle AI Pro（Gemini 4 Argon）とWorkspace版（Gemini 3.8）のいずれでもPDF・スライドの生成から編集可能なPowerPoint形式での出力まで一通り動作した。手動操作では文字色やフォントの変更はできず、変更にはプロンプトでの指示が必要という。",
+      "why_it_matters": "資料作成の「生成してからの手直し」が同じ画面内で完結するため、実務での利用場面が広がりやすい。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "ドキュメント生成"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002757",
+      "original_title": "Geminiで生成したPDFやスライドを「チャット上で直接編集」可能に　個人プランとGoogle Workspaceで試してみた",
+      "original_lang": "ja",
+      "published_at": "2026-10-30T06:31:36Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/30/2000002757/10011018/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、コーディングエージェントの成果をライブ表示",
+      "summary": "Amazon Bedrock AgentCore runtimeに、エージェントが作ったWebアプリをデプロイ不要でブラウザ確認できる「Session endpoints」機能が加わった。",
+      "detail": "コーディングエージェントが作るWebアプリは、従来デプロイして確認するまで変更ごとに待ち時間が生じていた。新機能「Session endpoints」は、エージェントが動いているセッションに認証付きURLを発行し、HTTPやWebSocket通信を許可したポートへ転送することで、アプリを動かしたまま直接ブラウザで確認できるようにする。ファイルを保存するたびにページが再読み込みなしで更新される。利用にはmicroVM型ランタイムでの「allowedPorts」指定などの設定が必要で、公開アプリのホスティング用途ではなく開発・レビュー用途を想定している。",
+      "why_it_matters": "動作確認のたびにデプロイが要らなくなることで、コーディングエージェントを使った開発のレビューサイクルが速くなる。",
+      "tags": [
+        "AWS",
+        "Amazon Bedrock",
+        "AgentCore"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime",
+      "original_title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "original_lang": "en",
+      "published_at": "2026-10-30T21:40:03Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22062-1.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "AI投資ブームに「ひび」、市場に警戒感",
+      "summary": "Alphabet・Amazon・Meta・Microsoftの旺盛なAI投資に対し、自由キャッシュフローの悪化や負債増加を懸念する声が強まり株価が下落した。",
+      "detail": "4社は今年の設備投資を合計7400億ドル超と計画する一方、AlphabetとAmazonは自由キャッシュフローが悪化している。Alphabetは検索広告の伸び鈍化とAI投資の二重苦が指摘され、木曜には時価総額約5000億ドルが失われたと報じられた。S&P Global Market Intelligenceによると、Microsoft・Alphabet・Amazon・Meta・Oracleの5社が2026年に調達した負債は合計3260億ドルで前年の3倍に達した。Financial Timesは、新規株式公開（IPO）を申請したAnthropicについて、Blackstoneが上場後も投資適格格付けを得られない可能性があると投資家に警告したと報じている。",
+      "why_it_matters": "AIへの巨額投資を支えてきた「成長への期待」から「コストへの懐疑」へと市場の見方が変わりつつあることを示す動きで、今後の資金調達環境に影響しうる。",
+      "tags": [
+        "AI投資",
+        "Big Tech",
+        "Anthropic"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom",
+      "original_title": "Cracks are emerging in the AI spending boom",
+      "original_lang": "en",
+      "published_at": "2026-10-30T21:17:40Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "AI大手4社、学習拒否の共通規格を採用",
+      "summary": "OpenAI・Google・Microsoft・Anthropicが、サイトがAI学習への利用を一括で拒否できる共通の「ポリシートークン」規格を採用すると発表した。",
+      "detail": "新しい規格は、robots.txtの中に「ポリシートークン」という共通の信号を置き、サイト運営者がAI学習への利用拒否を各社に個別設定せずまとめて示せるようにするもの。IETFの標準化作業の一環としてAnthropicの技術リードが提案した。4社はこの信号を検知した場合、自社のAIクローラーによるサイトへのアクセスを控えるとしている。Microsoftはさらに、AI学習とAIグラウンディング（回答の裏付けに使う参照）を別々に拒否できる細かい制御も用意する。Anthropicは既に対応済みで、GoogleとMicrosoftは来年の対応を、OpenAIは「今後数カ月以内」の対応を予定している。",
+      "why_it_matters": "出版社など発信者側がAI学習への利用を主要AI企業に一括で意思表示できる仕組みが整うことで、無断学習をめぐる摩擦が和らぐ可能性がある。",
+      "tags": [
+        "OpenAI",
+        "Google",
+        "Anthropic"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "original_title": "Making it easier for websites to express AI training preferences",
+      "original_lang": "en",
+      "published_at": "2026-10-30T09:30:00Z"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "Googleの衛星AIサーバーが軌道上で初応答",
+      "summary": "GoogleのProject Suncatcherの試験衛星が軌道上でTPUを起動し、搭載モデルが宇宙に関する俳句を生成して初応答した。",
+      "detail": "Googleは今月打ち上げた試験衛星で、搭載したTPU（Tensor Processing Unit）の起動に成功し、搭載したGemma 4モデルに宇宙についての俳句を作らせることに成功したと発表した。これは、将来的に宇宙空間にAIデータセンターを置く構想「Project Suncatcher」の一環。今後は熱ストレスや放射線がTPUの稼働に与える影響を検証する試験を続け、2027年に予定する2基の衛星を連携させる次の段階に備えるとしている。",
+      "why_it_matters": "データセンターの電力・冷却制約を回避する手段として、宇宙空間でのAI計算基盤が実証段階に入りつつあることを示す。",
+      "tags": [
+        "Google",
+        "TPU",
+        "宇宙"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "original_title": "Google's satellite AI server transmits its first response to Earth",
+      "original_lang": "en",
+      "published_at": "2026-10-30T18:21:38Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "キオクシア、AI需要で中間決算が過去最高",
+      "summary": "キオクシアの2027年3月期中間決算は、AI向け需要によるメモリ市況の好転で純利益が過去最高となり、上場後初の配当を実施する。",
+      "detail": "キオクシアホールディングスが発表した中間決算は、AI向けデータセンター需要を背景とするメモリ市況の改善により、純利益・売上高ともに過去最高を記録した。第2四半期単体の売上高が前年通期の売上高を上回ったとしている。好調な業績を受け、上場後初となる中間配当を実施する。同社はAI需要による成長が今後さらに加速するとの見通しを示している。",
+      "why_it_matters": "AI向け半導体需要の広がりが、GPUだけでなくメモリ業界の業績にも及んでいることを示す事例。",
+      "tags": [
+        "キオクシア",
+        "半導体",
+        "メモリ"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/business/articles/2610/30/news090.html",
+      "original_title": "キオクシア中間決算「過去最高」連呼　純利益2.2兆円、初の配当実施　AI需要で「成長さらに加速」",
+      "original_lang": "ja",
+      "published_at": "2026-10-30T12:45:00Z",
+      "image_url": "https://image.itmedia.co.jp/business/articles/2610/30/cover_news090.jpg",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "国産LLM「Sarashina」に初の思考モデル",
+      "summary": "SB IntuitionsがSarashinaシリーズ初の思考モデル「Sarashina3.2 mini thinking」を発表した。ツール呼び出しやWeb検索の性能が向上し、APIで提供される。",
+      "detail": "ソフトバンク傘下のSB Intuitionsが、フルスクラッチ開発する国産LLM「Sarashina」シリーズで初めてとなる思考モデルを発表した。回答の精度を高めるため出力に時間をかける仕組みで、「思考の深さ」をlow・medium・highの3段階から選べ、応答時間と精度のバランスを調整できる。非思考版の「Sarashina3 mini」より複雑なタスクに対応でき、コーディングやツール呼び出し、Web検索の性能が向上したとしている。Web検索を伴う質問応答やECサイトのカスタマーサポート向けシステム操作を想定用途とし、無償β版のSarashinaサービスを通じてAPI提供される。",
+      "why_it_matters": "海外の大規模モデルに頼らない国産の思考モデルが実用段階に進んだことを示す動き。",
+      "tags": [
+        "SB Intuitions",
+        "国産LLM",
+        "Sarashina"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002743",
+      "original_title": "国産LLM「Sarashina」に初の「思考モデル」　ツール呼び出しやWeb検索性能が向上　APIで提供",
+      "original_lang": "ja",
+      "published_at": "2026-10-30T02:11:54Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/30/2000002743/10010977/2048",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
