@@ -80,7 +80,9 @@
       "source_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
       "original_title": "Claude Code v2.1.316",
       "original_lang": "en",
-      "published_at": "2026-10-30T00:00:00Z"
+      "published_at": "2026-10-30T00:00:00Z",
+      "image_url": "https://opengraph.githubassets.com/fed8be51b4d7a1cc18bf8bb8003e94d470ce897768a50453485068c4f10f88b0/anthropics/claude-code",
+      "image_credit": "Anthropic"
     },
     {
       "section": "tools",
@@ -216,7 +218,9 @@
       "source_url": "https://www.lycorp.co.jp/ja/news/release/020887/",
       "original_title": "「LINE」に食事写真を送るだけでAIがカロリーや栄養素を分析　「Agent i」の新領域、「食事管理」エージェントを提供開始",
       "original_lang": "ja",
-      "published_at": "2026-10-28T00:00:00Z"
+      "published_at": "2026-10-28T00:00:00Z",
+      "image_url": "https://www.lycorp.co.jp/ja/news/2026/21a7824ab7d8daa6c2b59c3716ecf92b44a1fa3c.png",
+      "image_credit": "LINEヤフー"
     }
   ]
 }
