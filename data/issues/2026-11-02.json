@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T06:50:00+09:00",
+  "headline": "ChatGPT脆弱性とAI学習ルール統一が焦点",
+  "lead": "ChatGPTのHTMLプレビュー機能に重大な脆弱性が見つかり、OpenAIが修正する一幕があった。一方でOpenAI・Google・Microsoft・Anthropicは、robots.txtでAI学習への利用可否を一括指定できる共通の仕組みへの対応を表明した。国内ではAlexa+の早期アクセスが始まるなど、AIの実装と利用環境を整える動きが目立つ一日だった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "ChatGPTのHTML機能に乗っ取りの脆弱性",
+      "summary": "Parameter Labsが、ChatGPTのHTML機能のサンドボックスを突破し、他ユーザーの非公開データを盗める脆弱性を発見。OpenAIは修正済み。",
+      "detail": "ChatGPTのインタラクティブなHTMLアプリは、サンドボックス化したiframeで表示される。Parameter Labsは、数式入力ライブラリMathLiveの仮想キーボードをpostMessageで呼び出せる点を悪用し、innerHTMLへの書き込みを通じて制限のないiframeを挿入できることを見つけた。さらにOpenAIのCSPが許可するYouTubeのoEmbedエンドポイントを使い、スクリプトの実行に成功したという。共有URLを開いた別のユーザーのChatGPT上でコードを実行できれば、APIを通じて非公開データを持ち出したり本人になり代わって操作したりできたとされる。OpenAIは脆弱性を修正し、発見者に5000ドルの報奨金を支払った。",
+      "why_it_matters": "ChatGPTの共有機能を悪用すれば他人のアカウントを乗っ取れた可能性があり、AIサービスのサンドボックス実装の脆弱性の深刻さを示す事例と言える。",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "脆弱性"
+      ],
+      "source_name": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+      "original_title": "How We Took Over ChatGPT Accounts",
+      "original_lang": "en",
+      "published_at": "2026-10-31T23:15:22Z"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "AI学習の拒否、robots.txtで一括指定へ",
+      "summary": "OpenAI・Google・Microsoftは、robots.txtの共通トークンでAI学習利用の拒否を一括指定できる仕組みに対応すると発表。Anthropicも実装中。",
+      "detail": "Anthropicのケビン・ケリー氏がIETFに個人名義で提出した草案「Machine-Readable Training Preference Signal」に基づく仕組みで、robots.txtのUser-Agent行に「__usage_ai-training」というトークンを書き、その下でDisallow/Allowを指定するとAI学習への利用可否を複数のAI企業へ一括で伝えられる。クロール自体は制限しない。OpenAIは数カ月以内の対応を、Googleは2027年の対応を目指すとし、Microsoftは2027年2月1日から新設定を読み取るが、Bing検索結果の表示には影響しないという。Anthropicはすでに実装に着手したが、サービス全体への展開には時間がかかるとしている。",
+      "why_it_matters": "主要AI企業が別々に運用していたコンテンツ利用方針のルールを業界横断で統一しようとする動きで、Web上のコンテンツとAIの関係に大きな影響を与えると考えられる。",
+      "tags": [
+        "AI学習",
+        "robots.txt",
+        "OpenAI",
+        "Google"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/01/2000002776",
+      "original_title": "AI学習への利用拒否をrobots.txtで一括指定へ　OpenAIやGoogleなどが対応表明",
+      "original_lang": "ja",
+      "published_at": "2026-10-31T23:31:07Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/01/2000002776/10011089/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "xAIデータセンター汚染訴訟、審理継続へ",
+      "summary": "米連邦判事は、xAIのメンフィス近郊データセンターの大気汚染を巡るNAACPの訴訟で、xAI側の却下申し立てを退けた。審理は続く。",
+      "detail": "南部環境法センターがNAACPの代理で起こした訴訟で、xAIが許可なく35基以上のガスタービンなど大気汚染源を設置・運用し、大気浄化法（Clean Air Act）に違反したと主張している。xAI側はタービンが移動式で許可対象外であることや、原告適格の欠如、市民訴訟規定の違憲性を主張していたが、Debra M. Brown判事はいずれも退けた。米司法省による同様の却下申し立ても今月初めに退けられている。データセンターへの反発が広がる中、AmazonやMicrosoftが政府機関との契約でNDAを使わないと約束するなど、社会的な圧力も強まっているという。",
+      "why_it_matters": "AIデータセンターの環境負荷に対する法的責任を問う訴訟が前進したことは、他地域での同種訴訟や事業者の対応にも影響しうると考えられる。",
+      "tags": [
+        "xAI",
+        "データセンター",
+        "環境訴訟"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+      "original_title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "original_lang": "en",
+      "published_at": "2026-10-31T21:17:03Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "生成AI版Alexa+、日本で早期アクセス開始",
+      "summary": "Amazonは10月29日、生成AI搭載の次世代アシスタント「Alexa+」の早期アクセスを日本で開始した。早期アクセス中は無料。",
+      "detail": "対象はAlexa+に対応するEcho・Fire TV・Fire TV搭載スマートテレビの新規購入者や既存ユーザーで、順次案内が届くほか専用サイトからも申し込める。早期アクセス終了後は、単独利用で月額3,000円、Amazonプライム会員は追加料金なしで使える（プライム会費は別途必要）。日本語での会話やスケジュール管理、スマートホーム操作、書類からの情報取り出し、音声でのメール送信などに対応するという。レストラン予約などの一部機能は今後の提供予定とされる。",
+      "why_it_matters": "音声アシスタントへの生成AI搭載が国内の主要プラットフォームにも広がる動きで、家庭でのAI活用の裾野を広げる事例になり得る。",
+      "tags": [
+        "Amazon",
+        "Alexa+",
+        "国内"
+      ],
+      "source_name": "Qiita",
+      "source_url": "https://qiita.com/quotidia/items/8b1ccab0baff9d39482e",
+      "original_title": "生成AI版のAlexa「Alexa+」が日本に。早期アクセス後は月額3,000円、プライム会員は追加料金なし",
+      "original_lang": "ja",
+      "published_at": "2026-11-01T21:01:09Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU3JTk0JTlGJUU2JTg4JTkwQUklRTclODklODglRTMlODElQUVBbGV4YSVFMyU4MCU4Q0FsZXhhJTJCJUUzJTgwJThEJUUzJTgxJThDJUU2JTk3JUE1JUU2JTlDJUFDJUUzJTgxJUFCJUUzJTgwJTgyJUU2JTk3JUE5JUU2JTlDJTlGJUUzJTgyJUEyJUUzJTgyJUFGJUUzJTgyJUJCJUUzJTgyJUI5JUU1JUJFJThDJUUzJTgxJUFGJUU2JTlDJTg4JUU5JUExJThEMyUyQzAwMCVFNSU4NiU4NiVFMyU4MCU4MSVFMyU4MyU5NyVFMyU4MyVBOSVFMyU4MiVBNCVFMyU4MyVBMCVFNCVCQyU5QSVFNSU5MyVBMSVFMyU4MSVBRiVFOCVCRiVCRCVFNSU4QSVBMCVFNiU5NiU5OSVFOSU4NyU5MSVFMyU4MSVBQSVFMyU4MSU5NyZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPTg1Y2Q5OTQxNWExZTUzYmVkYWU2ZjFiYzAyNmUzNTAw&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=98ac73d07b7d068cb78c5aa474f6a0d9",
+      "image_credit": "Qiita"
+    },
+    {
+      "section": "research",
+      "importance": 2,
+      "title": "拡散VLMの省力化手法「LOWN」を3Dゲーム化",
+      "summary": "KAISTの手法「LOWN」は画像を見る必要があるステップだけ再読み込みして拡散VLMを高速化する。開発者はLLaDA-Vの推論記録で体感できる3Dゲームを作った。",
+      "detail": "拡散型の視覚言語モデル（DVLM）は通常、各ステップで入力画像を含め全体を読み直すため計算コストが大きい。LOWNは画像なしの予想と直前の画像ありの予想を比較し、食い違いが出た位置だけ画像を使って再推論する手法で、著者の報告によれば10個のベンチマークでLLaDA-Vのスコアの99.6%を保ちながらデコードのFLOPsを平均35.3%まで減らしたとされる。著者はLLaDA-V 8BをM4 Pro搭載Mac上で実際に動かし、画像あり・なしそれぞれの推論記録を保存して、画像を見ないと正しい道が分からない3Dの飛行ゲームに仕立てた。記録の再現では、画像なしの予想が画像ありと異なったステップは50.0%だったという。",
+      "why_it_matters": "推論コストの高い拡散系モデルを効率化する手法の効果を、遊べる形のデモで体感させた例として研究コミュニティの関心を引くと考えられる。",
+      "tags": [
+        "拡散モデル",
+        "VLM",
+        "研究"
+      ],
+      "source_name": "Zenn",
+      "source_url": "https://zenn.dev/zguo/articles/c86799626b7ece",
+      "original_title": "拡散VLMの論文 LOWN を、LLaDA-V の実際の推論記録で遊べる3Dゲームにした",
+      "original_lang": "ja",
+      "published_at": "2026-11-01T13:22:35Z",
+      "image_url": "https://res.cloudinary.com/zenn/image/upload/s--stESL_Kv--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%258B%25A1%25E6%2595%25A3VLM%25E3%2581%25AE%25E8%25AB%2596%25E6%2596%2587%2520LOWN%2520%25E3%2582%2592%25E3%2580%2581LLaDA-V%2520%25E3%2581%25AE%25E5%25AE%259F%25E9%259A%259B%25E3%2581%25AE%25E6%258E%25A8%25E8%25AB%2596%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%25A7%25E9%2581%258A%25E3%2581%25B9%25E3%2582%258B3D%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Ziyu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSkNkRzhyTXU0anhYX2J0cGg0M0o2UUo2QURDemxhQWZySUprZm05NFdETDZlLTlHakc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+      "image_credit": "Zenn"
+    }
+  ]
+}
