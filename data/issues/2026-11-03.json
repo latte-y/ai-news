@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T07:10:00+09:00",
+  "headline": "Claude「Ultra」登場、Brave提訴も",
+  "lead": "AnthropicがClaudeの有料プラン「Ultra」を新設し5時間ごとの利用制限を撤廃、OpenAIはChatGPTのChatとWorkの統合およびCodexとの利用枠共通化を発表した。NYTなど米主要紙はAI企業へのデータ供給が疑われるブラウザ企業Braveを提訴し、著作権を巡る動きも広がっている。国内ではISUCON2026で完全自律のAIエージェントが優勝するなど、開発現場でのAI活用も加速している。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "ClaudeのMax 20xが「Ultra」に、5時間制限撤廃",
+      "summary": "Anthropicは有料プラン「Max 20x」を「Ultra」に改称（月200ドル、価格は維持）。認証済みアカウントは5時間ごとの利用上限を撤廃した。",
+      "why_it_matters": "最上位プランの5時間ごとの利用制限撤廃により、長時間のコーディング作業などでClaudeを使いやすくなる。",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "料金プラン"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/02/2000002777",
+      "original_title": "Anthropic、「Claude」の「Max 20x」を「Ultra」に名称変更　月200ドルで5時間ごとの利用制限を撤廃",
+      "original_lang": "ja",
+      "published_at": "2026-11-01T22:00:23Z",
+      "detail": "Anthropicは2026年10月30日、個人向け有料プラン「Max」シリーズの名称を変更した。月100ドルの「Max 5x」は「Max」に、月200ドルの「Max 20x」は「Ultra」となり、料金は従来どおり。最大の変更点は、Ultraで認証済みアカウントを対象に5時間ごとの利用上限を撤廃したことで、週ごとの上限は維持される。両プランとも高性能モデル「Fable」を週間利用上限の50%まで使えるほか、Claude Platformで使えるAPIクレジットが毎月付与される（Maxは100ドル分、Ultraは200ドル分）。既存契約者は手続き不要で新プランに移行する。",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002777/10011093/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "ChatGPTのChatとWork統合、Codexと利用枠共通化",
+      "summary": "OpenAIはChatGPTの「Chat」と「Work」を統合し、Codexとの利用量制限を12月に一本化する方針を示した。",
+      "why_it_matters": "ChatGPTと業務向け機能、Codexの利用枠が一本化されることで、エージェント機能の使い勝手やコスト管理の考え方が変わる可能性がある。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Codex"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/02/2000002781",
+      "original_title": "ChatGPTの「Chat」と「Work」統合へ　利用制限はCodexと共通化",
+      "original_lang": "ja",
+      "published_at": "2026-11-02T01:50:32Z",
+      "detail": "OpenAIは2026年11月1日、ChatGPT Workのエージェント機能をChatGPTに統合する方針を示した。プロダクト責任者は10月28日、2026年中の統合を目指すとXで述べている。あわせて、Work基盤のCodexとChatGPTの利用量制限を2026年12月に共通化する予定で、消費量はモデルやタスクによって異なり、即時応答の「Instant」は利用枠を消費しない。OpenAIは多くの利用者にとって利用枠のリセットを待つ頻度は今より増えないとみている。",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/02/2000002781/10011117/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "NYTなど米有力紙4社、Braveを著作権侵害で提訴",
+      "summary": "NYTなど米有力紙4社が、無断スクレイピングとペイウォール回避を理由にBraveをニューヨーク連邦地裁に提訴した。",
+      "why_it_matters": "AI企業へのデータ供給を担うブラウザ事業者も著作権訴訟の対象になり始めたことで、AI学習データの調達を巡る法的リスクがさらに広がる可能性がある。",
+      "tags": [
+        "著作権",
+        "Brave",
+        "AI規制"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping",
+      "original_title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "original_lang": "en",
+      "published_at": "2026-11-02T19:19:17Z",
+      "detail": "ニューヨーク・タイムズは2026年11月2日、Daily News、Chicago Tribune、Orlando Sentinelとともにブラウザ企業Braveをマンハッタンの連邦地裁に提訴した。訴状によると、Braveは身元不明のクローラーで300億ページ超の索引を構築し、出版社側はこれをブロックできないとされる。NYTは、盗用したコンテンツをAnthropic・Perplexity・Mistral・xAI・CohereなどのAI企業に配信しているとも主張し、Braveが有料記事のペイウォールを回避するブラウザ機能を提供している点も問題視している。NYTは差止命令と損害賠償を求めている。",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/08/brave-browser.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "Claude APIにmessage threadsベータ登場",
+      "summary": "Claude Messages APIにサーバー側で会話履歴を保持する「message threads」がベータで登場。2回目以降は新規メッセージのみ送れば済むという。",
+      "why_it_matters": "エージェント型の利用が増える中、会話履歴の送信コストを減らせれば、応答速度とAPIコストの両面で開発者の負担が軽くなる可能性がある。",
+      "tags": [
+        "Claude",
+        "API",
+        "Anthropic"
+      ],
+      "source_name": "Qiita（@picnic）",
+      "source_url": "https://qiita.com/picnic/items/92953755c2a458faf409",
+      "original_title": "Claude Messages API の message threads ベータ解説|新メッセージだけ送ってTTFT短縮",
+      "original_lang": "ja",
+      "published_at": "2026-11-02T20:56:37Z",
+      "detail": "Anthropicは2026年11月2日ごろ、Claude Messages APIのベータ機能「message threads」を提供したとされる。従来のステートレスな方式では毎回全履歴を送る必要があったが、message threadsを使うとサーバー側に会話を保持し、2回目以降は新しいメッセージだけ送信すればよくなるという。リクエストサイズの縮小や、最初のトークンが返るまでの時間（TTFT）短縮が見込まれ、長い会話やツール呼び出しを繰り返すエージェント用途に向くとされる。利用には専用のベータヘッダー指定が必要で、スレッドは最後のやり取りから5分で失効するという。",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmxoMy5nb29nbGV1c2VyY29udGVudC5jb20lMkZhJTJGQUNnOG9jS0oza2lJamRVZjd6UHZDUHNqTGhkcHFzbDlYU2MweGJscHRZRzgwOWd5dlhYWWh2UTElM0RzOTYtYz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9OGM4MDU5ODEyMzY3Y2ZlNmIzMDVkYTMzMjAwNjcwMDE%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dfd6ab3c0ea5267b0e6bf5b2f6bc36ab2?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9Q2xhdWRlJTIwTWVzc2FnZXMlMjBBUEklMjAlRTMlODElQUUlMjBtZXNzYWdlJTIwdGhyZWFkcyUyMCVFMyU4MyU5OSVFMyU4MyVCQyVFMyU4MiVCRiVFOCVBNyVBMyVFOCVBQSVBQyU3QyVFNiU5NiVCMCVFMyU4MyVBMSVFMyU4MyU4MyVFMyU4MiVCQiVFMyU4MyVCQyVFMyU4MiVCOCVFMyU4MSVBMCVFMyU4MSU5MSVFOSU4MCU4MSVFMyU4MSVBMyVFMyU4MSVBNlRURlQlRTclOUYlQUQlRTclQjglQUUmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz1mZDEzYmQ3ZDE4NjEzMWJmMzk5YzY3N2JlYTMzNjFkNQ&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBwaWNuaWMmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz1iZTllNDg4YzE3YjgzYzFmZGE3MTQ2MjU5MjlkYzU1ZQ&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=a56c2808f1140dddff68da08479c3afa",
+      "image_credit": "Qiita（@picnic）"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "Gemini API、10月に相次ぎ仕様変更",
+      "summary": "Googleは10月、Gemini APIでstore=trueの既定化やFlashモデル非推奨、Computer Use GAなど複数の変更を行った。",
+      "why_it_matters": "既定動作の変更やモデルの自動切り替えは何もしなくても挙動やコストが変わるため、Gemini APIを使う開発者は早めの確認が必要になる。",
+      "tags": [
+        "Gemini",
+        "Google",
+        "API"
+      ],
+      "source_name": "Qiita（@picnic）",
+      "source_url": "https://qiita.com/picnic/items/0b26f38fbccc496c277e",
+      "original_title": "Gemini API 変更まとめ:store=trueデフォルト化・Flash非推奨・Computer Use GA",
+      "original_lang": "ja",
+      "published_at": "2026-11-02T20:57:47Z",
+      "detail": "Gemini APIでは2026年10月、開発者に影響する変更が相次いだ。26日には有料ティアの新規プロジェクトでgenerateContent系リクエストの保存（store=true）が既定で有効になり、オフにするには明示的な指定が必要になった。8日にはgemini-3.7-flashとgemini-3.5-flashが非推奨となり後継モデルへ自動的に振り替えられるため、出力傾向やコストが変わる可能性がある。30日にはComputer Useツールが正式提供（GA）となり、6月からのパブリックプレビューを終えた。23日にはDeep Researchの一部モデルが提供終了し、後継モデルへの移行が必要という。",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmxoMy5nb29nbGV1c2VyY29udGVudC5jb20lMkZhJTJGQUNnOG9jS0oza2lJamRVZjd6UHZDUHNqTGhkcHFzbDlYU2MweGJscHRZRzgwOWd5dlhYWWh2UTElM0RzOTYtYz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9OGM4MDU5ODEyMzY3Y2ZlNmIzMDVkYTMzMjAwNjcwMDE%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dfd6ab3c0ea5267b0e6bf5b2f6bc36ab2?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9R2VtaW5pJTIwQVBJJTIwJUU1JUE0JTg5JUU2JTlCJUI0JUUzJTgxJUJFJUUzJTgxJUE4JUUzJTgyJTgxJTNBc3RvcmUlM0R0cnVlJUUzJTgzJTg3JUUzJTgzJTk1JUUzJTgyJUE5JUUzJTgzJUFCJUUzJTgzJTg4JUU1JThDJTk2JUUzJTgzJUJCRmxhc2glRTklOUQlOUUlRTYlOEUlQTglRTUlQTUlQTglRTMlODMlQkJDb21wdXRlciUyMFVzZSUyMEdBJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9YjRiODNhYTE3NTUwZGRhZGM0YzNhMDNmOThiMWQzODg&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBwaWNuaWMmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz1iZTllNDg4YzE3YjgzYzFmZGE3MTQ2MjU5MjlkYzU1ZQ&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=85c377489677c66c3e8e13473deabb34",
+      "image_credit": "Qiita（@picnic）"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "GitHub、「Copilot Fusion」を正式リリース",
+      "summary": "GitHubはGitHub Universe 2026で、タスクに応じて複数AIモデルを自動選択・組み合わせる「Copilot Fusion」を正式リリースした。",
+      "why_it_matters": "モデル選択の手間を自動化しつつコストと品質のバランスを取れる仕組みは、開発者がAIコーディング支援を使う際の体験を大きく変える可能性がある。",
+      "tags": [
+        "GitHub",
+        "Copilot",
+        "開発ツール"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html",
+      "original_title": "GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026",
+      "original_lang": "ja",
+      "published_at": "2026-11-02T14:36:38Z",
+      "detail": "GitHubは2026年10月28〜29日開催の「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表した。Fusionは、推論・コード生成・デバッグなど課題に必要な能力を評価し、単一モデルで解く「Single」、効率モデルの案を高性能モデルが検証する「Cascade」、別系統のモデルが互いにレビューし合う「Critique」の3パターンから最適な組み合わせを自動で選ぶ。コスト・品質・速度のバランスに応じて「Standard」「High」「Max」「Fast」の負荷レベルも用意される。パブリックプレビューでは、ローカルのMAI Code 1.1 FlashやQwen3.8 Flash Nextを選んで実行することもできる。",
+      "image_url": "https://www.publickey1.jp/2026/copilot-fusion-githubuniverse2601.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Claude Code、既存ゲームの複製作成を制限",
+      "summary": "Anthropicは Claude Code のシステムプロンプトを更新し、既存の特定ビデオゲームを複製する指示に応じにくくしたと報じられている。",
+      "why_it_matters": "AIコーディング支援が既存コンテンツの無断複製に使われる問題への対応策として注目され、他のAIコーディングツールにも同様の制約が広がる可能性がある。",
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "著作権"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "original_title": "Anthropic clamps down on Claude's AI video game clones",
+      "original_lang": "en",
+      "published_at": "2026-11-02T18:56:02Z",
+      "detail": "複数の海外メディアによると、Anthropicは Claude Code 上のモデルOpus 5.5の挙動を調整し、ユーザーが機能名や見た目を変えても既存の特定ビデオゲームを再現する依頼には応じにくくするよう更新したとされる。レトロゲームの分野ではAIによる無断の複製・移植・リメイクが増えており、この動きへの対応と報じられている。制限の仕組みについては、サーバー側から配信される一行のテキストがシステムプロンプトに追加されているとの報道があるが、Anthropicからの公式な説明は確認できていない。なお、Claude Code以外の経路（直接のAPI呼び出しや他のエディタ）にはこの制限は及ばないとされる。",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "Circle K、Bedrockでインシデント対応を15分に",
+      "summary": "コンビニチェーンのCircle Kは、Amazon Bedrockでエージェントを構築し、障害対応のトリアージ時間を45〜60分から15分未満に短縮した。",
+      "why_it_matters": "生成AIエージェントを段階的に本番運用へ移行した具体的な事例として、他企業のAgentCore活用の参考になる。",
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "AIエージェント"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
+      "original_title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
+      "original_lang": "en",
+      "published_at": "2026-11-02T17:00:58Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21514-first-arch-final.jpg",
+      "image_credit": "AWS Machine Learning Blog",
+      "detail": "Circle Kは店舗システムやEV充電アプリの障害対応で、ログやトレース、タスク状態を人手で確認する時間がかかっていた課題を、Amazon Bedrockを使ったエージェントで解消した。当初はAmazon Bedrock Flowsで、AWSリソース調査・ログ調査・GitHub検索の各エージェントを並列実行し要約を生成する構成を作り、現在はAmazon Bedrock AgentCoreに移行して複数エージェントを1つに統合、長時間の調査にも対応できるようにした。これにより、チーム内部の指標ではトリアージ時間が平均45〜60分から15分未満に短縮され、単純な障害は5〜8分で要約が届くという。今後はSlackでの承認を経た自動修復機能の追加も計画している。"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "42AI、$62.5M調達で「行動予測AI」発表",
+      "summary": "イスラエルの42AIがステルスを脱し、人の行動を予測する「行動ワールドモデル」と6250万ドルの調達を公表した。",
+      "why_it_matters": "人の行動そのものを予測するAIは、活用が広がれば便利さと同時に、行動データの悪用やプライバシー面の懸念も強まる可能性がある。",
+      "tags": [
+        "世界モデル",
+        "資金調達",
+        "行動予測"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior",
+      "original_title": "42AI comes out of stealth with $62.5M and a world model that can 'predict human behavior'",
+      "original_lang": "en",
+      "published_at": "2026-11-02T16:30:00Z",
+      "detail": "42AIは、取引やKYC、サポート通話などの行動データを数値化し、Transformerベースのワールドモデルに入力して、新しい状況でも人がどう判断するかの確率分布を予測する技術を3年かけて開発したと説明している。シード資金として6250万ドルを創業者とInfinity Groupから調達し、現在は大手証券ブローカー10社で、相場急変時のトレーダーの反応予測に使われているという。性能を示す「98%の精度」は個々の取引を正確に当てた割合ではなく取引の流れが予測範囲に収まった割合で、方向性と量に関するF1スコアは0.8〜0.85とされる。今後は金融以外にゲームや詐欺防止、サイバーセキュリティへの応用も検討しているという。",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3572.jpeg?resize=1200,895",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Grok Bot、コスト高騰で利用制限を強化",
+      "summary": "イーロン・マスク氏は、Grok Botの提供コストが収益に対して「持続不可能なほど高かった」として利用制限の強化を認めた。",
+      "why_it_matters": "急成長したAIサービスほど提供コストの重さが早く表面化しやすく、無料・低価格プランの持続可能性が今後の課題になりそうだ。",
+      "tags": [
+        "xAI",
+        "Grok",
+        "AIコスト"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+      "original_title": "Elon Musk throttles Grok Bot limits due to 'unsustainably high' costs",
+      "original_lang": "en",
+      "published_at": "2026-11-02T16:23:21Z",
+      "detail": "ハロウィーン週末、一部のGrok Botユーザーの週次利用上限が、夜間に使っていないにもかかわらず急に上限へ達する事態が起きた。マスク氏はXで、これが不具合ではなく意図的な制限強化だと認め、「Grok Botの提供コストは収益に対して持続不可能なほど高かった」と説明した。一方で、Grok Botについては「これまで見た中で最速の成長を遂げた製品」とも述べている。新しい利用上限の詳細は、記事時点では明らかにされていない。",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 4,
+      "title": "ISUCON2026、AI完全自律参加のチームが優勝",
+      "summary": "ISUCON2026で、人が指示を出さず完全自律で動くAIエージェントを使ったチームが625,857点で優勝した。",
+      "why_it_matters": "AIエージェントが人の介入なしに技術的な判断を下し、国内屈指のパフォーマンス改善コンテストで結果を出した例として注目される。",
+      "tags": [
+        "ISUCON",
+        "Claude Code",
+        "AIエージェント"
+      ],
+      "source_name": "Zenn（@luvtechno）",
+      "source_url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+      "original_title": "ISUCON2026 で優勝しました（当日編）",
+      "original_lang": "ja",
+      "published_at": "2026-11-02T13:26:09Z",
+      "detail": "ISUCON2026で、個人参加のエンジニアが、競技開始後は一行の指示だけを与えて以降は介入しない「人間がループの外にいる」方式のAIエージェントを使い、最終スコア625,857点で優勝した。エージェントはClaude Opus 5.5を用い、データベースへの問い合わせをやめてサーバーのメモリ上にデータを持たせる構成への転換や、重いHMAC計算の事前計算、nginxを外す構成簡素化などの技術的判断を自ら行ったという。競技中にエージェントが人間を呼んだ回数は0回で、著者は準備段階での繰り返し試行によるハーネス改善と、競技開始の操作のみを担ったとしている。",
+      "image_url": "https://res.cloudinary.com/zenn/image/upload/s--GF9caNks--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON2026%2520%25E3%2581%25A7%25E5%2584%25AA%25E5%258B%259D%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2588%25E5%25BD%2593%25E6%2597%25A5%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yoshinori%2520Kawasaki%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEpMVlQ2WjlNQlhlcndlbDZoY1JYUDVLSjAxYWNITUdNcmUwVThZTG5EaDY4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+      "image_credit": "Zenn（@luvtechno）"
+    }
+  ]
+}
