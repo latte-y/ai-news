@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T07:40:00+09:00",
+  "headline": "Anthropic、自己改善AI接近を警告",
+  "lead": "AnthropicはIPO申請書の修正で、AIが自らの開発を急加速させる「再帰的自己改善」の基準に近づく可能性を認めつつ、売上急増とコンピュートコスト悪化による赤字転落も開示した。半導体のMarvellは光通信のLumentumを約1150億ドルで買収し、AIデータセンターの接続技術強化に動く。GitHubはAIエージェント時代に対応した基盤の大幅強化を発表し、研究分野ではAIが他モデルの重みを直接編集できるとする報告も話題になった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropic、再帰的自己改善の接近を警告",
+      "summary": "Anthropicは11月2日公開のIPO書類で、AIが自らの学習を急加速させる「再帰的自己改善」の基準に近づく可能性があると述べた。現行モデルはまだ基準を超えていないとしている。",
+      "why_it_matters": "AIが人間の管理を超えて自己改善を始める転換点が近づいている可能性を、AI企業自身が公式文書で認めた点で注目される。",
+      "tags": [
+        "Anthropic",
+        "AI安全性",
+        "IPO"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+      "original_title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "original_lang": "en",
+      "published_at": "2026-11-02T22:14:50Z",
+      "detail": "AnthropicはSECに提出した改訂版S-1(IPO届出書)のリスク要因で、社内の責任ある拡大方針(RSP)が定める「AIがAI研究開発を劇的に加速させる」基準に近い将来達する可能性があると開示した。これは、AIが自らの学習を次々に改善し能力が急激に加速する「再帰的自己改善(RSI)」と呼ばれる段階に関わる。同社は過去に自社モデルの能力の飛躍に気づかなかった例があったことも明らかにし、現行モデルがこの基準を超えたとは判定していないと説明している。将来、十分な人間の監督なしに最先端モデルを自律的に設計・構築させることは安全ではないとの見方を示し、RSPの改定も検討しているという。",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Recursive-Neural-Spiral-in-Circuitry.png?resize=1200,600",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Anthropic、Q3売上170億ドルも赤字転落",
+      "summary": "Anthropicの2026年7-9月期売上は前年比12倍超の約170億ドルに達したが、コンピュート費急増で営業損益は赤字に転じた。インフラ将来支出は約8954億ドルに上る。",
+      "why_it_matters": "急成長の裏でAI企業のコンピュートコストが利益を圧迫している実態と、今後の巨額インフラ投資の規模が初めて具体的な数字で示された。",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "決算"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/03/2000002831",
+      "original_title": "Anthropic、IPO申請書を修正　7-9月売上高は約170億ドル、インフラ契約額は約8954億ドル",
+      "original_lang": "ja",
+      "published_at": "2026-11-02T23:20:20Z",
+      "detail": "AnthropicはSECに提出した改訂版S-1で2026年第3四半期の業績を初めて開示した。売上高は169億5600万ドルで前年同期の約12.3倍、前四半期比約47%増と急成長を続けているが、コンピュートコストが売上の58%(前期48%)まで上昇し、営業損益は5億6700万ドルの赤字に転落した。TechCrunchの分析によれば、需要急増に対応するため多年契約より割高な短期契約で計算資源を確保したことがコスト悪化の一因とされる。あわせて、計算資源・インフラの将来支出約束額が総額約8954億ドル(多くは2030年以降)に達することも明らかになった。",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/03/2000002831/10011209/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "cloud",
+      "importance": 4,
+      "title": "Marvell、Lumentumを1150億ドルで買収",
+      "summary": "半導体のMarvellが光通信のLumentumを全額株式交換で買収すると発表。企業価値は約1150億ドルで、AIデータセンターの光接続需要拡大に対応する。",
+      "why_it_matters": "AIインフラの電力・帯域の限界を突破する光接続技術の統合が進むことで、今後のデータセンター設計の方向性に影響する可能性がある。",
+      "tags": [
+        "Marvell",
+        "Lumentum",
+        "M&A",
+        "データセンター"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/03/2000002830",
+      "original_title": "Marvell、光通信技術のLumentumを約18兆円で買収　AIデータセンターの高速化に対応",
+      "original_lang": "ja",
+      "published_at": "2026-11-02T22:07:56Z",
+      "detail": "AIデータセンターでは通信需要の急増により銅線による電気信号伝送が帯域・電力の限界に近づいており、光通信への移行が進んでいる。Marvellはデータセンター向け半導体に強みを持ち、Lumentumは高性能レーザーや光トランシーバー、光回路スイッチ(OCS)を手掛ける。両社は全額株式交換で合意し、企業価値(負債含む)は約1150億ドル(約18兆円)。買収により対応市場は5500億ドル規模に拡大し、年10億ドル以上のコスト削減効果も見込むとしている。買収完了は2028年上半期を予定し、株主・規制当局の承認が条件となる。",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/03/2000002830/10011205/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "GitHub、書き込み性能を180倍にする新基盤",
+      "summary": "GitHubは基盤をAzureへ移行し、ブランチ単位ロックなどでAIエージェント時代に向け書き込み性能を従来比180倍にする新アーキテクチャを発表した。2027年初頭に展開予定。",
+      "why_it_matters": "多数のAIエージェントが同時にコードを書き込む開発スタイルが広がる中、開発基盤側のスケーラビリティが課題になりつつあることを示す事例。",
+      "tags": [
+        "GitHub",
+        "AIエージェント",
+        "開発基盤"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html",
+      "original_title": "GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026",
+      "original_lang": "ja",
+      "published_at": "2026-11-03T15:16:22Z",
+      "detail": "GitHubは「GitHub Universe 2026」で、AIエージェントによる大量の同時アクセスに対応する新アーキテクチャを発表した。コードの保存先をAzureのBlobストレージに分離し、Gitサーバーはキャッシュのみを担う構成に変更。書き込み時のロック単位をリポジトリ単位からブランチ単位に変更したことで、異なるブランチで作業する複数のAIエージェントが並行して書き込めるようになった。5000エージェントでの検証では1リポジトリへの書き込みが毎秒7200回に達し、従来比で約180倍のスループットを記録したという。全ユーザーへの展開は2027年初頭を予定している。",
+      "image_url": "https://www.publickey1.jp/2026/github180x07.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "GitHub、「Copilot Code Review Max」発表",
+      "summary": "GitHubは複数のAIモデルで並行レビューし結果を集約する新機能「Copilot Code Review Max」を発表した。現在パブリックプレビューで提供中。",
+      "why_it_matters": "AI生成コードの増加に伴い、レビュー側にも複数AIを組み合わせた多層的な検証が求められる流れを示している。",
+      "tags": [
+        "GitHub",
+        "Copilot",
+        "コードレビュー"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/githubcopilot_code_review_maxgithub_universe_2026.html",
+      "original_title": "GitHub、より高度なコードレビューを行う「Copilot Code Review Max」発表。GitHub Universe 2026",
+      "original_lang": "ja",
+      "published_at": "2026-11-03T15:14:57Z",
+      "detail": "AIエージェントによるコード生成やプルリクエストの急増でレビューの重要性が高まる中、GitHubは「GitHub Universe 2026」でコードレビュー機能の新しいエフォートレベル「Max」を発表した。従来のLite・Balancedに加え、Maxでは複数の独立したAIレビューエージェントが同時に動き、それぞれの長所を組み合わせて単一モデルでは見落としやすい問題を検出する。各エージェントの結果は集約エージェントが相違を調整し精度を確認した上でまとめて報告する。GitHubによれば、重大な問題の検出精度を測るベンチマークで最高のF1スコアを記録したとしている。現在はパブリックプレビューとして提供されている。",
+      "image_url": "https://www.publickey1.jp/2026/copilot-codereviewmax-githubuniverse2603.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "AI推論のFal、バリュエーション160億ドルに倍増",
+      "summary": "AI推論スタートアップFalがBessemer主導の13億ドルのシリーズFを調達し、バリュエーションは4月の80億ドルから160億ドルに倍増した。",
+      "why_it_matters": "モデル開発企業だけでなく、推論を担うインフラ企業にも資金が集中していることを示す動き。",
+      "tags": [
+        "Fal",
+        "AI推論",
+        "資金調達"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges",
+      "original_title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "original_lang": "en",
+      "published_at": "2026-11-03T19:34:43Z",
+      "detail": "サンフランシスコのFalは、AIの動画・画像・音声モデルをホスティングして実行する推論サービスを提供している。特にオープンソースモデルを使う顧客からの推論需要が急増しており、年換算売上は今年前半に8億ドルを超えたと報じられている。今回のシリーズFはBessemer Venture Partnersが主導し、Nvidia、Sound Ventures、T. Rowe Priceなども参加、調達額は13億ドルで、直近のシリーズEと合わせた累計調達額は16.5億ドルに達した。バリュエーションは4月の80億ドルから倍増して160億ドルとなったが、コンピュートの調達・リースコストの高さから業界全体の粗利率は依然低いとされる。",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1268605503.jpg?resize=1200,420",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Palantir、好決算も企業契約に鈍化の兆し",
+      "summary": "Palantirの第3四半期売上は前年比96%増の23.1億ドルと好調だったが、米企業の総契約額は前四半期の過去最高から減少し、株価は小幅安となった。",
+      "why_it_matters": "AI企業向けソフトウェアの急成長が続く一方で、大型契約の規模縮小という需要の質的変化を示す可能性がある指標として注目される。",
+      "tags": [
+        "Palantir",
+        "決算",
+        "エンタープライズAI"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal",
+      "original_title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+      "original_lang": "en",
+      "published_at": "2026-11-03T21:05:55Z",
+      "detail": "Palantirの2026年第3四半期決算は売上高23.1億ドルで前年同期比96%増、初めて20億ドルを超えアナリスト予想も上回った。調整後1株利益も予想を上回り、通期の米国商業部門売上高ガイダンスを「35億5900万ドル超(成長率143%以上)」に引き上げた。米国商業売上は9.84億ドル(前年比148%増)と、米国政府売上の9.53億ドルを初めて上回った。一方、米企業からの総契約額(TCV)は14.6億ドルで、前四半期の過去最高21.3億ドルから減少し、CEOのアレックス・カープ氏も契約期間の短期化に言及した。好決算にもかかわらず火曜日の株価はわずかに下落した。",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Palantir-Alex-Karp.png?resize=1200,688",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Google、AI拒否の学校はSearchも利用不可に",
+      "summary": "Googleは来年、K-12の学校がAI機能を全面拒否する場合、Gemini等だけでなくGoogle検索自体も利用できなくする方針を示した。検索とAIが統合されているためとしている。",
+      "why_it_matters": "教育現場でのAI活用をめぐり、検索という必須サービスを事実上の条件にする形でAI普及を進める構図に、賛否が分かれる可能性がある。",
+      "tags": [
+        "Google",
+        "教育",
+        "AI政策"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
+      "original_title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "original_lang": "en",
+      "published_at": "2026-11-03T16:30:34Z",
+      "detail": "Googleは教育向けのAI機能(Gemini、NotebookLM、Classroom内のGemini)について、来年から学校管理者が明示的に有効化しない限り無効にする方針を発表した。ただしGoogle検索にもAI機能が深く統合されているため、AIを全面的に拒否する学校はGoogle検索自体も使えなくなる。教育担当副社長のクリス・フィリップス氏は「検索とAIは深く統合されている」と説明している。発表は、答えを直接示さず理解を促す「Guided Learning」の学校向け提供開始と同時に行われた。詳細な展開方法は数か月以内に学校側へ共有される予定という。",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "Google、創薬を支援するAIエージェント機能公開",
+      "summary": "Google DeepMindは創薬ワークフローを支援する「Cheminformatics Skills」をAntigravityに追加した。通常数日かかる分析を約1時間で行えた事例を示した。",
+      "why_it_matters": "AIエージェントが化学計算ツールや専門データベースと連携することで、創薬の初期段階の分析を大幅に時短できる可能性を示している。",
+      "tags": [
+        "Google DeepMind",
+        "Antigravity",
+        "創薬"
+      ],
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "original_title": "Agentic cheminformatics with Google Antigravity",
+      "original_lang": "en",
+      "published_at": "2026-11-03T17:01:49Z",
+      "detail": "新機能はAIエージェントがワークフローの統括や文献探索を担い、オープンソースの化学計算ツールRDKitや、ChEMBL・PubChemのデータベースと連携して分子計算を実行する仕組み。文献・特許からの化合物抽出、分子の可視化、構造の違いが効力に与える影響の分析(マッチド分子ペア解析)、機械学習による効力予測、新規マクロサイクルの合成経路提案などができるという。事例として、肺がん治療薬クリゾチニブを環状化したローラチニブの構造変化を分析し、環化による効力向上を裏付けた。Antigravityアプリとプラグインの形で利用可能で、科学者1万人に最上位プランを6か月無償提供するプログラムも開始した。なお提案はあくまで検証すべき仮説で、実験による確認が必要と説明している。",
+      "image_url": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo",
+      "image_credit": "Google DeepMind"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "Ai2、長文での状態追跡を測るベンチマーク公開",
+      "summary": "Ai2はLLMが長い文書中のエンティティの状態変化をどれだけ追跡できるか測る「StateBench」を公開した。フロンティアモデルも難しい段階では13%以下に落ちた。",
+      "why_it_matters": "長い文脈を扱う現行の大規模モデルにも状態追跡という基本的な能力の限界があることを示し、次世代アーキテクチャ開発の指針になりうる。",
+      "tags": [
+        "Ai2",
+        "ベンチマーク",
+        "LLM研究"
+      ],
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/statebench",
+      "original_title": "StateBench: Testing how language models track state changes over long documents",
+      "original_lang": "en",
+      "published_at": "2026-11-03T17:15:21Z",
+      "detail": "StateBenchは、変数の再代入や物語中の人物・物の移動など「状態追跡」の能力を、易から難まで4段階(値不変の代入、再代入、自己参照的な更新、変数同士の入れ替えを含む最も難しい段階)で測定するベンチマーク。Gemini 3.8 Flash、Claude Opus 5.5、GPT-6 Sol、GPT-6 Lunaなどのフロンティアモデルは簡単な段階では良好な成績を示したが、入力が長くなるにつれて精度が急落し、最も難しい段階の最長問題では正答率13%以下まで落ちた。一方、Transformerではなく再帰的な記憶更新の仕組み(Gated DeltaNet)を持つアーキテクチャを使って学習したモデルは、学習時より大幅に長い系列でも高い精度を保てたという。",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
+      "image_credit": "Hugging Face"
+    },
+    {
+      "section": "research",
+      "importance": 2,
+      "title": "LLMが他モデルの重みを直接編集する研究",
+      "summary": "研究者らは、GPT-6 Astraなど最先端モデルがニューラルネット重みを直接解釈・編集できると報告。Qwenの重み編集でMATH-500正答率が7.9%から48.1%に向上した。",
+      "why_it_matters": "モデルがモデル自身の重みを直接操作できる可能性は、AIによるAI改良(再帰的自己改善)の議論にも関わる基礎研究として注目される。",
+      "tags": [
+        "LLM研究",
+        "重み編集",
+        "Qwen"
+      ],
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+      "original_title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "original_lang": "en",
+      "published_at": "2026-11-03T16:29:48Z",
+      "detail": "Rikiya Takehi氏らの研究「Sparks of Weight-Space Programming」は、最先端のLLM、特にGPT-6 Astraがニューラルネットワークの生の重み(浮動小数点数の集合としてテキスト化したもの)を解釈し、書き換えられることを報告した。実験では、学習済みの小さなゲーム用ネットワークの重みを見せるだけで、どのゲーム(Breakout、Pong等)用かをモデルに当てさせることに成功。さらにQwen3.5-0.8Bの重みの約0.016%を編集させたところ、MATH-500の正答率が7.9%から48.1%に、IFEvalの成績も3倍に改善したという。Simon Willisonは手元のノートPCでQwen 3.8 27Bを使い再現を試み、複数のゲームを概ね当てられたが推論に数十分〜1時間以上かかったと報告している。"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "富士フイルム、磁気テープ製造能力を5倍に",
+      "summary": "富士フイルムは神奈川県小田原市の工場に約100億円を投資し、データ保存用磁気テープの製造能力(出荷容量ベース)を2025年度比で約5倍に増やすと発表した。",
+      "why_it_matters": "生成AIの普及で急増するデータの保存需要が、クラウドだけでなく磁気テープのような従来型ストレージの需要も押し上げている。",
+      "tags": [
+        "富士フイルム",
+        "ストレージ",
+        "日本企業"
+      ],
+      "source_name": "Qiita (AI Quotidia)",
+      "source_url": "https://qiita.com/quotidia/items/03266d4dfecacb0dc989",
+      "original_title": "生成AIで磁気テープが増産へ。富士フイルムが約100億円で製造能力を約5倍に",
+      "original_lang": "ja",
+      "published_at": "2026-11-03T21:01:00Z",
+      "detail": "富士フイルムは2026年10月29日、神奈川事業場小田原サイトに約100億円を投じ、2026〜2028年度にかけて磁気テープの製造設備を増強すると発表した。出荷できるテープの記録容量の合計で見て、2025年度比で約5倍の生産能力を目指すという。中心となる製品は最新世代の「FUJIFILM LTO Ultrium10」(1巻あたり30TB・40TB)で、設備増強に加えて生産体制強化のための人員増も行う。生成AIの普及に伴うデータアーカイブ需要の拡大に応え、大容量・低コストの保存手段である磁気テープの安定供給体制を強化する狙いがあるとされる。",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU3JTk0JTlGJUU2JTg4JTkwQUklRTMlODElQTclRTclQTMlODElRTYlQjAlOTclRTMlODMlODYlRTMlODMlQkMlRTMlODMlOTclRTMlODElOEMlRTUlQTIlOTclRTclOTQlQTMlRTMlODElQjglRTMlODAlODIlRTUlQUYlOEMlRTUlQTMlQUIlRTMlODMlOTUlRTMlODIlQTQlRTMlODMlQUIlRTMlODMlQTAlRTMlODElOEMlRTclQjQlODQxMDAlRTUlODQlODQlRTUlODYlODYlRTMlODElQTclRTglQTMlQkQlRTklODAlQTAlRTglODMlQkQlRTUlOEElOUIlRTMlODIlOTIlRTclQjQlODQ1JUU1JTgwJThEJUUzJTgxJUFCJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9ZTY0MTBhODVlODQ3NDdiMjNhMzUzMDBhNzVjMzZjM2Q&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=2c9cae66d72dc0f3059f5511e6a980c5",
+      "image_credit": "Qiita (AI Quotidia)"
+    }
+  ]
+}
