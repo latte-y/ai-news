@@ -1,0 +1,277 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T06:48:43+09:00",
+  "headline": "中間選挙の逆風、AI業界に試練",
+  "lead": "米中間選挙でデータセンター規制を求める民意が示され、OpenAIは地域社会への約束を強化した。一方でMetaは「Muse」に音声対話アバターと専用ワークスペース「Spaces」を追加し、Perplexityも職場向けエージェント「Teammates」を発表するなど、AI企業は政治的逆風の中でも製品競争を加速させている。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "中間選挙、データセンター建設に逆風",
+      "summary": "11月の米中間選挙で民主党が歴史的勝利を収め、データセンター関連の住民投票41件のうち40件で開発への規制強化が支持された。AI業界に逆風が強まっている。",
+      "detail": "11月3日の米中間選挙で民主党が主要知事選や連邦下院選で歴史的勝利を収めた。同時に行われたデータセンター関連の住民投票41件のうち40件で、建設・拡張に規制をかける側が過半数を得た。新たに選出された知事や議員の多くもデータセンター規制強化を支持する立場とされ、今後はAI企業の施設拡大に対する行政・住民双方からの監視が強まる可能性がある。OpenAIはこの流れを受け、データセンターを「Compute Campus」と呼び替え、地域社会への約束を強化する動きも見せている。",
+      "why_it_matters": "AIインフラ拡大の最大の制約が、計算資源そのものより政治・住民との合意形成に移りつつある可能性がある。",
+      "tags": [
+        "データセンター",
+        "中間選挙",
+        "規制",
+        "AI業界"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+      "original_title": "How a Blue Wave midterm might reshape the AI industry",
+      "original_lang": "en",
+      "published_at": "2026-11-06T18:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/11/GettyImages-1368458052.jpg?resize=1200,750",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Metaの「Muse」、音声対話アバターに対応",
+      "summary": "Metaは消費者向けAIエージェント「Muse」に音声通話・ビデオ通話機能を追加した。表情豊かなアニメーションアバターと会話でき、米国全ユーザーに提供を開始した。",
+      "detail": "Museは米国・カナダで1000万人超が使うMetaの消費者向けAIエージェント。新機能「Muse Realtime Voice」と「Muse Realtime Avatar」により、電話やビデオ通話のように話しかけて作業を依頼できるようになった。アバターは人や動物など好みの見た目にカスタマイズでき、会話の内容に応じて表情やしぐさが変化する。ただしアバターはユーザーの様子を見ているわけではなく、音声のみに反応する仕組み。モバイル・ウェブ・Macで利用可能で、今後はAIグラスや年内発売予定のウェアラブル端末「Muse Charm」にも対応する計画。",
+      "why_it_matters": "音声・表情を伴う会話型AIは日常的な利用を促し、ウェアラブル端末展開の重要な入口になり得る。",
+      "tags": [
+        "Meta",
+        "Muse",
+        "AIエージェント",
+        "音声AI"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar",
+      "original_title": "Meta says US users can now video chat with their Muse AI avatar",
+      "original_lang": "en",
+      "published_at": "2026-11-05T19:48:28Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "OpenAI、データセンターでNDA不使用を約束",
+      "summary": "OpenAIは今後運営するデータセンター「Compute Campus」について、電力費の全額負担や公職者とのNDA原則不使用などを盛り込んだ地域社会への約束と政策提言を発表した。",
+      "detail": "米中間選挙でデータセンター規制を掲げた候補が相次いで勝利し、住民の反発が強まる中での発表。OpenAIは「National Community Compact」で、電力・インフラ費用の全額負担、計画中止時のコスト転嫁禁止、節水型冷却の優先、施設ごとの電力・水使用量の公開などを約束した。あわせて「Compute Campus Policy Blueprint」で、大口電力利用者への追加負担や、税優遇を守らなかった企業からの優遇回収など、業界共通ルールの整備を政府に求めた。ジョージア州では学校給食支援に480万ドルを拠出する例も示した。",
+      "why_it_matters": "規制の逆風が強まる中、自主的な地域対策を先んじて示すことで反発を和らげたい思惑があるとみられる。",
+      "tags": [
+        "OpenAI",
+        "データセンター",
+        "政策",
+        "地域社会"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/06/2000002928",
+      "original_title": "OpenAI、データセンター立地地域への約束と政策提言を発表　電力費の全額負担や公職者とのNDA不使用など",
+      "original_lang": "ja",
+      "published_at": "2026-11-05T22:03:55Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/06/2000002928/10011434/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "AI支出の伸び急減速、Anthropic評価額も下落",
+      "summary": "決済大手RampのデータでAI利用料支出の伸びが8〜9月に前月比1.5%まで急減速。価格引き下げが響き、Anthropicの想定IPO評価額も下落したと報じられた。",
+      "detail": "決済・経費管理サービスRampの集計によると、企業のAI関連トークン支出の伸びは7月の前月比42%増から、8〜9月は1.5%増まで急減速した。10月には8.9%増に戻ったが、背景にはOpenAIがGPT-6 Sol・Lunaの API価格を半額に下げ、AnthropicもFable 5.1やOpus 5.5を値下げしたことがある。Anthropicは価格引き下げで収益成長が約6億ドル押し下げられたと開示しており、Bloombergによれば想定IPO評価額は10月初めの2兆ドルから1.2〜1.3兆ドルへ下落、信用格付けで「ジャンク」級となる可能性も報じられている。OpenAIも想定評価額と資金調達目標を下方修正したとされる。",
+      "why_it_matters": "利用量は伸びても支出が伸び悩むのは、価格競争でAI企業の収益化が想定より難しくなっている可能性を示す。",
+      "tags": [
+        "AI投資",
+        "Anthropic",
+        "IPO",
+        "市場動向"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo",
+      "original_title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "original_lang": "en",
+      "published_at": "2026-11-06T15:54:47Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Palo Alto、AIエージェント警備のClutch買収交渉",
+      "summary": "Palo Alto Networksが、AIエージェントの企業システムアクセスを守るスタートアップClutchを現金5億ドル規模で買収する交渉に入ったと報じられた。",
+      "detail": "Clutchは2023年創業で、AIエージェントが社内システムにアクセスする際の権限や挙動を管理・監視するセキュリティを手がける。年間経常収益(ARR)は1000万ドル規模で、買収額はARRの約50倍に相当する。2025年1月のシリーズAではLightspeedとSignalFireが主導し、評価額は8500万ドルだった。買収はまだ交渉段階で正式発表はなく、両社はコメントを控えている。",
+      "why_it_matters": "AIエージェントの企業導入が進むにつれ、その権限管理・セキュリティ専業企業への需要と評価が急速に高まっていることを示す。",
+      "tags": [
+        "Palo Alto Networks",
+        "M&A",
+        "AIエージェント",
+        "セキュリティ"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+      "original_title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "original_lang": "en",
+      "published_at": "2026-11-06T06:28:32Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2215666246.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Meta「Muse」、専用ワークスペース「Spaces」追加",
+      "summary": "MetaはAIエージェント「Muse」に、旅行計画や家計管理など目的別の作業スペースを自動生成する新機能「Spaces」を追加した。外部アプリと連携し自動更新される。",
+      "detail": "SpacesはMuseのサイドバーに表示される、トピックごとの専用ワークスペース。チャットでアイデアを伝えるとMuseがトラッカーやプランナー、プロジェクトボードなどの形式でSpaceを作成する。例として旅行計画、家族行事向けレシピ集め、ホリデーのプレゼント管理、結婚式の準備などが挙げられている。外部アプリを接続すると、コンサートの日程変更や価格変動、貯金の進捗といった情報がユーザーの指示なしに自動で反映される。Museは10月時点で米国・カナダで1000万人超が利用しているという。",
+      "why_it_matters": "チャット形式を超え、目的別に自動更新される「場」を提供することで、AIエージェントの日常利用の定着を狙っているとみられる。",
+      "tags": [
+        "Meta",
+        "Muse",
+        "AIエージェント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent",
+      "original_title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "original_lang": "en",
+      "published_at": "2026-11-06T18:44:20Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Perplexity、職場向けAIエージェント「Teammates」",
+      "summary": "Perplexityは、常時稼働する職場向けAIエージェント「Teammates」を発表した。OpenAIやAnthropicの同種サービスに対抗する。",
+      "detail": "Teammatesは、ワークスペース内で複数の役割を担える常時稼働型のAIエージェント。既存のPerplexityのプロジェクトやスキル、メモリを引き継いで利用できるとされる。端末上でエージェントを動かす「Perplexity Computer」とも連携する。報道によれば、職場向けAI支援で先行するOpenAIやAnthropicに対抗する狙いがあるという。具体的な提供時期や価格など詳細はまだ明らかにされていない。",
+      "why_it_matters": "検索エンジン発のPerplexityが企業向け常時稼働エージェント市場に参入することで、主要AI企業間の競争がさらに激しくなる可能性がある。",
+      "tags": [
+        "Perplexity",
+        "AIエージェント",
+        "企業向けAI"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "original_title": "Perplexity launches its own take on AI agents for work",
+      "original_lang": "en",
+      "published_at": "2026-11-05T22:26:50Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472503/STK271_PERPLEXITY_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Airbnb、AI旅行エージェントを2027年前半投入",
+      "summary": "Airbnbは2027年上半期に、旅行計画から現地サポートまで担うAIエージェントを一般提供すると発表した。従来のチャット形式ではなく専用コンポーネントで画面を構成する。",
+      "detail": "2026年11月5日の第3四半期決算で発表された。地図や写真、比較表、カレンダー、旅程など数百種類の旅行専用コンポーネントを組み合わせ、リアルタイムに画面を構成する点が特徴で、テキスト中心のチャットとは一線を画す。予約だけでなく、予約変更や返金、24時間対応の安全サポートなど滞在中の支援も行う計画。CEOのブライアン・チェスキー氏は、旅行者の8割が旅のリサーチ自体を楽しんでいるとして、汎用チャット型エージェントは旅行計画に向かないと説明した。同四半期の売上高は前年同期比19%増の48億7000万ドルだった。",
+      "why_it_matters": "汎用AIエージェントでは応えにくい「体験の探索」をどう設計するかという課題への、業界側からの一つの回答例となる。",
+      "tags": [
+        "Airbnb",
+        "AIエージェント",
+        "旅行"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027",
+      "original_title": "Airbnb says it's launching an AI travel agent in the first half of 2027",
+      "original_lang": "en",
+      "published_at": "2026-11-05T22:40:55Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/05/Airbnb-Summer-feat.jpg?resize=1200,675",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 2,
+      "title": "Underdog、32MBの軽量音声・音楽生成モデル公開",
+      "summary": "AI企業Underdogが、ブラウザ上でオフライン動作する3100万パラメータ・約32MBの音声合成モデル「Woof」を公開した。音声に加え音楽も生成できる。",
+      "detail": "同社はゲーム「Escape」でこのモデルを使ったデモを公開し、タイプライターに入力した文章を読み上げたり、ダイヤルを回すと異なる音楽を生成したりする様子を示した。ゲーム内の声はすべてこのモデルによるもの。数週間前には167MBの音声認識モデル「Bark」も発表しており、端末上で動く小型・オープンなモデル作りを方針としている。創業者は数か月以内に現在の大型モデルの多くが手元の端末で動くようになるとの見通しを示した一方、記事はこの小型モデルが大型モデルに取って代わる可能性は低いとも指摘している。",
+      "why_it_matters": "巨大モデル偏重の流れの中で、端末上で動く超小型モデルがローカルアシスタントや個人向け用途を開拓する可能性を示す。",
+      "tags": [
+        "音声AI",
+        "オンデバイスAI",
+        "オープンモデル"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo",
+      "original_title": "Underdog shows off a 32MB speech model in new demo",
+      "original_lang": "en",
+      "published_at": "2026-11-06T13:02:16Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-7.02.34-PM.jpg?resize=1200,542",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 2,
+      "title": "Ai2、ロボット学習向け評価環境「ToyBlocks」公開",
+      "summary": "Allen Institute for AI(Ai2)が、ロボットアームがブロックを押す・積むなどの操作を学習・評価できるシミュレーション環境「ToyBlocks」を公開した。",
+      "detail": "遠隔操作によるデモ収集を使わず、強化学習とモーションプランニングでブロックを掴まずに押す・裏返すなどのスキルを示すデモを自動生成する点が特徴。タスク・動作計画器を1つのGPUで並列実行し、最大24倍のリアルタイム速度を実現しているという。物体のサイズやテーブルの高さを変えるドメインランダマイゼーションに対応し、成功率だけでなく実行速度や物体にかかる力なども評価指標にする。8万5336件のデモを含むデータセットと学習済みモデル、学習・評価コードを公開し、Claudeなど基盤モデルを自然言語で操作できるWebインターフェースも備える。数週間以内により大規模な第2弾データセットの公開も予定している。",
+      "why_it_matters": "ロボット学習の再現性・評価基盤を整えることで、研究コミュニティ全体での手法比較や進歩の検証がしやすくなる。",
+      "tags": [
+        "ロボティクス",
+        "強化学習",
+        "データセット",
+        "Ai2"
+      ],
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/toyblocks",
+      "original_title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "original_lang": "en",
+      "published_at": "2026-11-06T14:00:48Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+      "image_credit": "Hugging Face"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "AIはAI開発を加速中か、第三者機関がAnthropicを調査",
+      "summary": "非営利機関METRがAnthropicの協力を得て調査し、AI研究開発の能力向上速度が過去1年半で約2倍になった可能性が高いとの報告書を公開した。",
+      "detail": "METRは事前学習から強化学習まで開発パイプライン全体の証拠共有と従業員インタビューを基に、2024年3月〜2025年10月で能力向上速度が1.3〜3倍、おそらく約2倍になったと推定した。この加速の大部分はAI自体の研究利用によるもので、計算資源の単純な増強によるものではないと分析している。一方、METRがAnthropicに提出した完全版報告書100ページのうち、結論を支えた根拠の大半は、他社の開発を加速させうる機密情報だとしてAnthropicにより公開版から削除された。そのため公開版の結論はMETR独自の判断に依存する部分が大きいとされ、第三者検証の難しさも浮き彫りになった。",
+      "why_it_matters": "「AIがAI開発を加速させているか」という安全性論議の核心的な問いに対し、独立機関による検証の限界も示した点が重要。",
+      "tags": [
+        "Anthropic",
+        "METR",
+        "AI安全性",
+        "研究"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/06/2000002938",
+      "original_title": "根拠の大半は「黒塗り」　AIはAI開発を加速しているか、第三者機関がAnthropic内部を調査",
+      "original_lang": "ja",
+      "published_at": "2026-11-06T01:31:59Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/06/2000002938/10011468/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "cloud",
+      "importance": 2,
+      "title": "AWS、SageMaker推論でGPU分割利用に対応",
+      "summary": "AWSはSageMaker Inferenceで、1枚のGPUをハードウェアで分離した複数区画に分けて別モデルを配置できる「Multi-Instance GPU」対応を追加した。",
+      "detail": "対象はP4d(A100)、P5(H100)、G7・G7eのBlackwell系GPUで、A100・H100では最大7分割まで可能。区画ごとにメモリ帯域が専用化されるため、他モデルの負荷急増やクラッシュの影響を受けにくくなる。各モデルを常時ロードした状態で保持できるためコールドスタートが発生せず、小中規模モデルを1台のGPUに複数配置してコストをモデルやチーム単位で把握しやすくなる。既存のCreateEndpointConfigとInference Componentsの設定にオプション項目を追加するだけで利用でき、新たなAPIは不要という。単一モデル専用エンドポイントやサーバーレスエンドポイントは対象外。",
+      "why_it_matters": "GPU調達コストが高止まりする中、既存GPUの利用効率を高める基盤機能は推論コスト削減に直結する。",
+      "tags": [
+        "AWS",
+        "SageMaker",
+        "GPU",
+        "推論基盤"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints",
+      "original_title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+      "original_lang": "en",
+      "published_at": "2026-11-06T18:01:00Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-featured-image.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "NTT東日本関東病院、出典付き生成AIを実証",
+      "summary": "医学書院・NTT・NTTドコモビジネスがUbieと組み、NTT東日本関東病院で出典を示す医療従事者向け生成AIの実証実験を11月から始めた。",
+      "detail": "医療従事者が電子カルテ端末から「ユビー生成AI」に問いかけると、医学書院の医療情報を検索・参照し、根拠となる出典を示しながら回答する仕組み。外部サービスを別途立ち上げる必要がなく、診療の場で直接参照できる点が特徴という。実証では、情報の検索・確認にかかる時間の短縮効果、回答や出典の有用性・信頼性、臨床現場での使いやすさ、導入・運用に必要な機能や条件、制度・運用面の課題という5点を検証する。対象は東京都品川区のNTT東日本関東病院で、2026年11月に開始した。",
+      "why_it_matters": "出典を明示する生成AIは、医療現場で懸念される誤情報・ハルシネーションへの実務的な対策の一例となる。",
+      "tags": [
+        "医療AI",
+        "生成AI",
+        "日本",
+        "Ubie"
+      ],
+      "source_name": "Qiita (AI Quotidia)",
+      "source_url": "https://qiita.com/quotidia/items/9a6a9248c65cc5406cc3",
+      "original_title": "病院の生成AIが、答えと一緒に出典を示す。医学書院・NTTなどがNTT東日本関東病院で実証を開始",
+      "original_lang": "ja",
+      "published_at": "2026-11-06T21:01:02Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU3JTk3JTg1JUU5JTk5JUEyJUUzJTgxJUFFJUU3JTk0JTlGJUU2JTg4JTkwQUklRTMlODElOEMlRTMlODAlODElRTclQUQlOTQlRTMlODElODglRTMlODElQTglRTQlQjglODAlRTclQjclOTIlRTMlODElQUIlRTUlODclQkElRTUlODUlQjglRTMlODIlOTIlRTclQTQlQkElRTMlODElOTklRTMlODAlODIlRTUlOEMlQkIlRTUlQUQlQTYlRTYlOUIlQjglRTklOTklQTIlRTMlODMlQkJOVFQlRTMlODElQUElRTMlODElQTklRTMlODElOENOVFQlRTYlOUQlQjElRTYlOTclQTUlRTYlOUMlQUMlRTklOTYlQTIlRTYlOUQlQjElRTclOTclODUlRTklOTklQTIlRTMlODElQTclRTUlQUUlOUYlRTglQTglQkMlRTMlODIlOTIlRTklOTYlOEIlRTUlQTclOEImdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz02ZTZmNmNjODkzYjBmZTZlNTU4MGI0OGM1ZDkxNDAzMA&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=2c5530bf49be13619c972e5db6a62c17",
+      "image_credit": "Qiita (AI Quotidia)"
+    }
+  ]
+}
