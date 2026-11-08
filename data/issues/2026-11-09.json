@@ -60,7 +60,9 @@
       "source_url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
       "original_title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
       "original_lang": "en",
-      "published_at": "2026-11-08T18:16:07Z"
+      "published_at": "2026-11-08T18:16:07Z",
+      "image_url": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
+      "image_credit": "The State of AI"
     },
     {
       "section": "industry",
@@ -98,7 +100,9 @@
       "source_url": "https://github.com/synchopate/llama-modchip",
       "original_title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
       "original_lang": "en",
-      "published_at": "2026-11-08T10:22:04Z"
+      "published_at": "2026-11-08T10:22:04Z",
+      "image_url": "https://opengraph.githubassets.com/3785a225c520fcd2fae429a28500c236a5477ba3b62f9d89fd1c1f97023223eb/synchopate/llama-modchip",
+      "image_credit": "GitHub (synchopate/llama-modchip)"
     },
     {
       "section": "tools",
@@ -136,7 +140,9 @@
       "source_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
       "original_title": "【図解あり】マルチエージェント設計「15のパターン」　GitHub、Google、Siemensの知見を一気に整理",
       "original_lang": "ja",
-      "published_at": "2026-11-07T23:00:00Z"
+      "published_at": "2026-11-07T23:00:00Z",
+      "image_url": "https://image.itmedia.co.jp/ait/articles/2611/08/cover_news001.jpg",
+      "image_credit": "@IT（アイティメディア）"
     },
     {
       "section": "japan",
@@ -154,7 +160,9 @@
       "source_url": "https://kn.itmedia.co.jp/kn/article/2611/09/2000002973",
       "original_title": "コクヨが開発部門の「資料散乱」をAIでゼロに　「Notion」をどう使ったか？",
       "original_lang": "ja",
-      "published_at": "2026-11-08T21:00:00Z"
+      "published_at": "2026-11-08T21:00:00Z",
+      "image_url": "https://kn.itmedia.co.jp/kn/article/ogp/2611/09/2000002973/10011528/2048",
+      "image_credit": "ITmedia エンタープライズ"
     }
   ]
 }
