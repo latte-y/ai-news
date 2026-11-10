@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T06:48:53+09:00",
+  "headline": "AI三大モデル刷新、Anthropic上場へ",
+  "lead": "Anthropicが上場価格を1株70〜78ドルに設定し、時価総額は最大1兆4040億ドル規模に達する見通しとなった。同じ週にClaude Fable/Mythos 5.2、Google Gemini 4 Carbon、Meta Muse Emberと主要フロンティアモデルが相次いで発表され、開発競争が一段と激しくなっている。OpenAIやAdobe、Anthropicは業務向けAI機能の拡充を進める一方、ニューヨーク州ではAI安全法が施行され、規制対応も本格化した。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropic、IPO価格帯を70〜78ドルに設定",
+      "summary": "Anthropicは新規株式公開の価格帯を1株70〜78ドルに設定した。完全希薄化後の想定時価総額は最大1兆4040億ドルで、Nasdaqに「ANT」で上場予定。",
+      "detail": "Anthropicは発行株数8億2500万株、価格帯70〜78ドルでのIPOを発表した。調達額は最大643億5000万ドルで、Goldman SachsやMorgan Stanleyなどが主幹事を務める。AMDやGoogle、Nvidia、Microsoftなど主要半導体・クラウド企業が計260億ドル分の非公開株を同時に引き受ける。5月時点の評価額9650億ドルから引き上げられた形だが、一時報じられた2兆ドル目標には届かない水準となった。創業者7人はそれぞれ約2.5億ドルを売却する見通し。",
+      "why_it_matters": "AI企業として史上最大規模のIPOになる可能性があり、資金力と株主構成が今後の開発競争や各社との提携関係に影響すると考えられる。",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "資金調達"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion",
+      "original_title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "original_lang": "en",
+      "published_at": "2026-11-10T14:01:39Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropic、Claude Fable/Mythos 5.2発表",
+      "summary": "Anthropicは最上位モデル「Claude Fable 5.2」と審査制「Mythos 5.2」を発表した。API料金は2割下げつつ出力速度は最大30%向上した。",
+      "detail": "Fable 5.2とMythos 5.2は同じ基盤モデルで、安全対策の強さが異なる。Fableは全ユーザー向け、Mythosはサイバー・生命科学分野の審査制プログラム経由で提供される。API料金は入力100万トークン8ドル・出力40ドルで前世代比2割安く、高速モード利用時は生成が最大2.5倍速い。エージェント型コーディングのベンチマーク「FrontierCode 2.0」では49.1%を記録し、現行最上位のOpus 5.5(45.5%)を上回った。発表同日からAWS・Google Cloud・Azureを含む全主要プラットフォームで利用可能になっている。",
+      "why_it_matters": "コーディングやエージェント作業で業界最高水準の性能を示し、価格も下げたことで競合との開発競争がさらに激化すると考えられる。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "新モデル"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "original_title": "Claude Fable and Mythos 5.2",
+      "original_lang": "en",
+      "published_at": "2026-11-09T20:04:37Z",
+      "image_url": "https://assets.claude.com/21b3240f9264f8e4c8ab1390e2702cf1401b2367.jpg",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Google、Gemini 4 Carbonを一般公開",
+      "summary": "Googleは最上位モデル「Gemini 4 Carbon」を一般公開した。複数AIが連携する新機能「swarm」をプレビュー提供する。",
+      "detail": "Gemini 4 Carbonは、サイバーセキュリティ防御者向けに2週間先行提供された後、開発者・企業・一般ユーザー向けに公開された。新機能「/swarm」はGoogle Antigravity上で、1つの指示を複数の協調エージェントによるチームに変換し、設計・調整・監査などの役割を割り振ってリアルタイムに進行を追跡できる。価格は導入価格として入力100万トークン2ドル・出力10ドルで、2026年11月30日以降は入力4ドル・出力10ドル(出力20ドル)に上がる。エージェント型コーディングのCursorBench 4.0など複数のベンチマークで首位を獲得したとしている。",
+      "why_it_matters": "複数エージェントの協調作業を標準機能として前面に出した点で、単体モデルの性能競争から「エージェント群の運用」へ競争軸が広がる可能性がある。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "新モデル"
+      ],
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "original_title": "Gemini 4 Carbon is now available",
+      "original_lang": "en",
+      "published_at": "2026-11-10T16:03:47Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "image_credit": "Google DeepMind"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Meta、最小モデル「Muse Ember」発表",
+      "summary": "Metaは最小・最安クラスの新モデル「Muse Ember」を発表した。ツール呼び出しなどエージェントの反復作業向けで、価格はClaude Haiku 5.5と同水準。",
+      "detail": "Muse Emberは、ツール呼び出しやコーディングのサブタスク、情報抽出、長文書解析など、エージェントが繰り返す軽量な処理を想定したモデル。価格は入力100万トークン0.10ドル・出力0.50ドルで、同クラスのGPT-6 LunaやClaude Haiku 5.5とほぼ同水準だが、キャッシュ入力料金は3モデル中最安とされる。上位モデルのClaude Fable 5.2(入力8ドル・出力40ドル)と比べると約80分の1の価格になる。推論の強さはminimalからmaxまで6段階で調整できる。",
+      "why_it_matters": "大規模モデルの性能競争とは別に、エージェントの反復処理を低コストで支える「小型・高効率モデル」の争いが激しくなっていることを示している。",
+      "tags": [
+        "Meta",
+        "Muse",
+        "小型モデル"
+      ],
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "original_title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "original_lang": "en",
+      "published_at": "2026-11-10T07:28:21Z",
+      "image_url": "https://static.simonwillison.net/static/2026/artificial-analysis-haiku-class.webp",
+      "image_credit": "Simon Willison"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "ChatGPTに企業向け「Businesses」機能",
+      "summary": "OpenAIはChatGPTに企業プロフィールと「Business Agents」機能をベータ公開した。対象企業はAIと直接対話する専用エージェントを持てる。",
+      "detail": "新機能は企業が自社の製品・サービス情報を管理する「ビジネスハブ」と、対象企業が公開できる専用の対話エージェント「Business Agents」から成る。ChatGPT利用者はこのエージェントを通じて企業や製品について質問できるほか、企業側は表示回数や言及数、サイトへのクリック数といった指標を確認できる。対象企業には認証プロセスが必要とされるが、具体的な基準は公表されていない。OpenAIは過去にChatGPT内の購入機能を展開したが普及せず2026年3月に終了しており、今回は消費者向け「発見」機能としての再挑戦となる。",
+      "why_it_matters": "検索エンジンに近い企業向け機能を持つことで、ChatGPTが商品比較や購買相談の起点としての存在感を強めようとしていると考えられる。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "ビジネス"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
+      "original_title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "original_lang": "en",
+      "published_at": "2026-11-10T18:49:52Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-8.46.19-AM.png?resize=1200,677",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "Anthropic、会議AI「Claude Meetings」投入",
+      "summary": "AnthropicはオンラインミーティングにAIが参加する「Claude Meetings」をベータ公開した。ホワイトボードやスプレッドシート機能も同時に追加した。",
+      "detail": "Claude Meetingsは会議の参加者としてClaudeが加わり、議論中の計画をその場で下書きし、ホワイトボードにタイムラインを作成し、会議チャットの質問に答える機能。社外ゲストが参加する会議には管理者の許可がない限り参加しない設計で、現時点の対応サービスはGoogle Meetのみ。同時に発表された「Claude Whiteboards」はチームでの作図・計画作成、「Claude Sheets」は共同でのスプレッドシート編集に対応する。いずれもTeam・Enterpriseプラン向けのベータ提供で、料金は明らかにされていない。",
+      "why_it_matters": "Anthropicがコーディング支援にとどまらず会議やオフィス業務全般に進出したことで、MicrosoftやGoogleの業務ソフトとの競合領域が広がると考えられる。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "業務ツール"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+      "original_title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "original_lang": "en",
+      "published_at": "2026-11-10T17:30:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png?resize=1200,675",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Adobe、創作ツールにAIエージェント統合",
+      "summary": "AdobeはMAXイベントでPhotoshopやPremiere、Fireflyに新AI機能を発表した。外部AIから機能を呼び出せるMCP対応も公開した。",
+      "detail": "Adobeは、ChatGPTやClaude、GeminiなどからIllustrator・Photoshop・After Effects・Premiereの機能を呼び出せるローカルのMCP(Model Context Protocol)対応を発表した。Fireflyには、デザインの試作ができる「Builder」(プライベートベータ)や、画像の一部だけを編集できる部分編集ツールなどを追加。Photoshopにはプロンプトで照明を調整するリライティング機能、Premiereにはプロ向けカラーグレーディングと物体除去機能が加わる。買収したTopaz Labs由来のアップスケール・HDR化モデルも提供される。",
+      "why_it_matters": "創作ツール最大手のAdobeが外部AIエージェントとの連携を前面に出したことで、エージェント経由でのソフト操作が一般的な使い方になっていく可能性がある。",
+      "tags": [
+        "Adobe",
+        "Firefly",
+        "MCP"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp",
+      "original_title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "original_lang": "en",
+      "published_at": "2026-11-10T14:05:10Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/FF-AIA-PlanMode-No-Logo-4.jpg?resize=1200,675",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "Google、第8世代TPUに新2モデル追加",
+      "summary": "Googleは第8世代TPUに機密データ処理向け「8tx」と長文脈処理向け「8i Max」を追加した。自律型AIエージェントの普及に対応する。",
+      "detail": "TPU 8txはTPU 8tと同じ半導体にAMD第5世代EPYCを組み合わせ、処理中のデータやモデルの重みをハードウェアレベルで保護しながら、低遅延ネットワーク「Boardfly」で遅延を最大半分に短縮する。TPU 8i Maxは既存チップ2個を1パッケージに統合し、演算性能・オンチップメモリ・HBM帯域幅をいずれも2倍にした。大規模なコードベースや長時間の動画を複数のAIエージェントが扱う場面を想定している。提供開始日や料金は現時点で明らかにされていない。",
+      "why_it_matters": "自律型AIエージェントの普及に伴うセキュリティやメモリ性能の課題に、クラウド基盤側から対応する動きとして注目される。",
+      "tags": [
+        "Google",
+        "TPU",
+        "クラウド基盤"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003043",
+      "original_title": "Google、第8世代TPUに「8tx」と「8i Max」を追加　機密データ処理と大規模AIエージェントに特化",
+      "original_lang": "ja",
+      "published_at": "2026-11-09T22:26:48Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/10/2000003043/10011685/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "NY州AI安全法が施行、登録ポータル開設",
+      "summary": "ニューヨーク州のAI安全法が施行され、登録ポータルが開設された。OpenAIやAnthropicなど大規模AI開発企業は2027年1月までの登録が必要になる。",
+      "detail": "対象は年間売上5億ドルを超える大規模フロンティアAI開発企業で、安全フレームワークの自社サイトでの公開、重大インシデントの72時間以内報告、モデル透明性報告書の発行などが義務付けられる。監督は新設のOffice of Digital Innovation, Governance, Integrity, and Trust(DIGIT)が担い、違反には1件最大100万ドル、再違反は最大300万ドルの罰金が科される。カリフォルニア州SB53やイリノイ州SB315など、他州でも同種の規制が動き出している。",
+      "why_it_matters": "大規模AI開発企業に対する州単位の情報開示義務が実際に動き出したことで、今後の規制対応コストやAI安全性報告の標準化に影響すると考えられる。",
+      "tags": [
+        "AI規制",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
+      "original_title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "original_lang": "en",
+      "published_at": "2026-11-10T20:52:13Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Hugging Face幹部、攻撃増加に警鐘",
+      "summary": "Hugging Faceの幹部は、オープンなAIプラットフォームへのサイバー攻撃増加が「閉じた」環境への移行を招く恐れがあると警告した。",
+      "detail": "Hugging FaceのチーフポリシーオフィサーIrene Solaiman氏は、開かれたアクセスという利点自体が攻撃対象になりやすい弱点にもなっていると指摘した。実例として、OpenCodeでのAPIキー窃取、Hugging Face自社への侵入とサイバー評価回答へのアクセス、AIインフラ企業Fireworksでのモデル重みやデータセットへの不正アクセスを挙げている。対策として管理者トークンの更新頻度を上げ、監視体制やネットワーク制御を強化しているが、本人確認強化などの対策は個人開発者の参加を難しくする懸念もあるとしている。",
+      "why_it_matters": "オープンソースAIの開かれた文化とセキュリティ対策の両立が難しくなれば、コミュニティ主導の開発モデル自体が縮小する可能性があると考えられる。",
+      "tags": [
+        "Hugging Face",
+        "セキュリティ",
+        "オープンソース"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns",
+      "original_title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+      "original_lang": "en",
+      "published_at": "2026-11-10T13:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/55593309591_7cc2d3aba6_k.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "生成AI利用急増も信頼はやや慎重に",
+      "summary": "オックスフォード大学の調査で、生成AIを毎日使う人が2年で約4倍に増えた一方、利用者の信頼はやや慎重になっていることが分かった。",
+      "detail": "ロイター・ジャーナリズム研究所(オックスフォード大学)の「Generative AI and News Report 2026」は、日本を含む9カ国で各国約2000人を対象に調査した。情報収集目的で前週に生成AIを使った人は2024年の約1割から2026年は約4割に増加。利用理由の最多は「速くて手軽」で、「情報がより信頼できるから」は約2割にとどまる。科学者や医療従事者による利用には楽観的だが、政府や報道機関による利用には慎重な見方が多い。日本は9カ国の中でも利用の伸びが大きく、AIが作るニュースへの抵抗感が他国より小さい一方、AIの限界に関する設問の正答率は偶然並みの約5割だったという。",
+      "why_it_matters": "利用の広がりと理解の不足が同時に進んでいる状況であり、AIの限界についての説明や教育が追いついていない可能性があると考えられる。",
+      "tags": [
+        "生成AI",
+        "調査",
+        "ニュース業界"
+      ],
+      "source_name": "Zenn (syoshida07)",
+      "source_url": "https://zenn.dev/syoshida07/articles/a9703104f45941",
+      "original_title": "便利だから使うけど信頼してない？ オックスフォード大学が明らかにした生成AI利用者の本音",
+      "original_lang": "ja",
+      "published_at": "2026-11-10T12:49:14Z",
+      "image_url": "https://res.cloudinary.com/zenn/image/upload/s--iz6R5tvZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BE%25BF%25E5%2588%25A9%25E3%2581%25A0%25E3%2581%258B%25E3%2582%2589%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%2591%25E3%2581%25A9%25E4%25BF%25A1%25E9%25A0%25BC%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%259F%2520%25E3%2582%25AA%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%2589%25E5%25A4%25A7%25E5%25AD%25A6%25E3%2581%258C%25E6%2598%258E%25E3%2582%2589%25E3%2581%258B%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E7%2594%259F%25E6%2588%2590AI%25E5%2588%25A9%25E7%2594%25A8%25E8%2580%2585%25E3%2581%25AE%25E6%259C%25AC%25E9%259F%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:satoshi%2520yoshida%2520-%2520...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSlp2aXh2cTdVMmFMYUhDSHJTcTBiSGJWWWcwZjVqTEZLajRCMVVmOXpyV2ZPSTJOOD1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+      "image_credit": "Zenn (syoshida07)"
+    },
+    {
+      "section": "japan",
+      "importance": 2,
+      "title": "NII、オープンAIモデルの講演資料を公開",
+      "summary": "国立情報学研究所(NII)は、オープンな大規模言語モデルに関するシンポジウムの講演資料を公開した。「LLM-jp」の開発手法なども含まれる。",
+      "detail": "資料は11月5日に開催された「第2回オープン大規模言語モデルシンポジウム」で使われたもので、11月9日に公開された。国内の研究プロジェクト「LLM-jp」による開発手法の解説に加え、EUの24の公用語対応を目指すオープンモデル「EuroLLM」に関する海外有識者の講演資料も含まれている。講演動画は準備が整い次第、公式サイトで公開される予定で、一部の講演資料・動画は非公開となっている。",
+      "why_it_matters": "海外の巨大AI企業に依存しない国内発のオープンモデル開発の知見が公開され、国内の研究・開発コミュニティに共有される意義があると考えられる。",
+      "tags": [
+        "LLM-jp",
+        "NII",
+        "オープンモデル"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003046",
+      "original_title": "「オープンなAIモデル」に関する資料を無料公開、NII　「LLM-jp」の開発手法など解説",
+      "original_lang": "ja",
+      "published_at": "2026-11-10T01:30:52Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/10/2000003046/10011696/2048",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
