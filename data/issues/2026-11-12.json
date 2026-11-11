@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T08:30:00+09:00",
+  "headline": "AIが暗号検証、OpenAI収益急伸",
+  "lead": "Google DeepMindのAIエージェントがSignalの暗号実装を形式検証するなど、AIによる安全性証明が新たな段階に入った。OpenAIの四半期売上は初めて100億ドルを超えたと報じられた一方、Nvidiaのジェンスン・フアンCEOはスパイ疑惑のある人物との関係について米議会から説明を迫られている。国内ではソフトバンク・NTT・KDDIがロボットを動かす「フィジカルAI」に相次いで参入し、AIの応用範囲は研究からビジネス、実世界へと広がりを見せた。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "AI主導の形式検証、Signalの暗号を証明",
+      "summary": "Google DeepMindのAlphaProof Codeが、AIエージェントでSignalの暗号実装を形式検証した。600万行超のLean証明を約4週間で作成した。",
+      "detail": "これまで暗号プロトコルの形式検証は設計レベルが中心で、実際のコンパイル済みコードを検証するには専門家チームが数年を要していた。AlphaProof Codeは、人間が証明すべき性質を定めた上でAIエージェント群が証明を担う仕組みで、Signalの暗号実装について鍵の保護などの性質を約4週間で証明し、600万行超のLean証明を生成した。全体の約1%は人による確認が必要と判定された。検証の有効性を確かめるため、過去に修正済みのバグ2件をわざと再現したコードでも、脆弱性を示す証明を機械的に作成できたという。DeepMindは今回の検証手法や成果物をオープンソースとして公開した。",
+      "why_it_matters": "広く使われる暗号プロトコルの実装そのものをAIが形式検証した初めての事例であり、将来は医療機器や電力網のソフトウェアにも応用できる可能性があると考えられる。",
+      "tags": [
+        "Google DeepMind",
+        "形式検証",
+        "セキュリティ"
+      ],
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "original_title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "original_lang": "en",
+      "published_at": "2026-11-10T12:02:28Z",
+      "image_url": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
+      "image_credit": "Google DeepMind"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAI、四半期売上が初の100億ドル超",
+      "summary": "OpenAIの四半期売上が初めて100億ドルを超えたと報じられた。前四半期から約5割増で、年間換算は500億ドル規模という。",
+      "detail": "Bloombergの報道によると、OpenAIの第3四半期売上は100億ドルを超え、前四半期の約67億ドルから約5割増えた。年間換算の売上規模は約500億ドルとされる。調整後営業利益率は前四半期のマイナス150%からマイナス109%まで改善したという。背景には、新しいAIモデルへの需要に加え、価格戦略の見直しや法人向け製品・AIエージェントの拡販があるとされる。競合Anthropicも10月末時点で年間換算810億ドルの売上規模を報告しているが、両社の算出方法は異なり単純比較はできない。",
+      "why_it_matters": "AI企業の収益規模が急拡大していることを示す一方、依然として大幅な損失を抱えており、投資回収の持続性が今後の焦点になると考えられる。",
+      "tags": [
+        "OpenAI",
+        "業績",
+        "AI企業"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time",
+      "original_title": "OpenAI's quarterly revenue reportedly crosses $10B for the first time",
+      "original_lang": "en",
+      "published_at": "2026-11-11T16:14:44Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-rose.jpg?resize=1200,675",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "米議会、Nvidiaのフアン氏に説明要求",
+      "summary": "米下院が、スパイ疑惑のある人物との関係についてNvidiaのジェンスン・フアンCEOに非公開説明を要求した。応じない場合は召喚状を検討する。",
+      "detail": "米下院外交委員会と下院中国特別委員会の委員長らは、フアン氏に対し、中国のスパイ疑惑がある人物アリス・フアン氏との関係について、非公開の合同説明会への出席を求める書簡を送った。中国特別委員会のムーレナー委員長は、11月11日(水)終業時までの回答期限を示した。外交委員会のマスト委員長は、フアン氏が応じない場合は召喚状の発行を準備していると述べた。記事公開時点でNvidiaからのコメントは得られていない。",
+      "why_it_matters": "世界最大のAI半導体企業のCEOが安全保障上の疑惑で議会の調査対象となったことで、米中間のAI・半導体を巡る緊張がさらに高まる可能性があると考えられる。",
+      "tags": [
+        "Nvidia",
+        "ジェンスン・フアン",
+        "米議会"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair",
+      "original_title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "original_lang": "en",
+      "published_at": "2026-11-11T19:22:22Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Alibaba、新AIモデル「Qwen4」を発表",
+      "summary": "中国Alibabaは「Qwen4」を発表し、最上位版「Qwen4-Max」のプレビューを提供開始した。知識・コーディング・自律タスク遂行の能力が向上したという。",
+      "detail": "Alibaba Cloudは公式X上で新モデル「Qwen4」を発表した。複雑なコーディングから知識労働、フロントエンド構築、ソフトウェア開発のワークフローまで、実世界のタスクへの対応を念頭に設計したと説明している。具体的なベンチマーク結果やモデルの詳細は明らかにされていないが、最上位版「Qwen4-Max」のプレビューをサブスクリプション「Token Plan」経由で提供し、「QwenWork」「Qoder」「Qwen APP」「QwenStudio」といった関連サービスでも早期アクセスできるとしている。正式版の提供時期は未定。",
+      "why_it_matters": "米国企業が主導する最先端モデル競争に中国企業が引き続き追随していることを示し、グローバルなAI開発競争の激化を裏付けると考えられる。",
+      "tags": [
+        "Alibaba",
+        "Qwen",
+        "中国AI"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003098",
+      "original_title": "中国AI「Qwen4」ついに登場　プレビュー版を提供開始、AlibabaのAIサービスで",
+      "original_lang": "ja",
+      "published_at": "2026-11-11T02:30:32Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/11/2000003098/10011843/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "Google、判定専用「Gemini Decisions API」",
+      "summary": "Googleは、要否判定や分類に特化した「Gemini Decisions API」を公開した。専用モデル「Gemini Decision」が1回の処理で候補を採点する。",
+      "detail": "新APIは、ツール選択やポリシー確認、モデルのルーティングといった「閉じた選択肢」の判定に特化しており、文章を生成せずに候補へ確率と信頼度スコアを付けて返す。1リクエストで最大1000件のYes/No・多肢選択・採点式の質問をまとめて処理でき、応答にかかる時間はおよそ150〜250ミリ秒。価格は入力100万トークンあたり0.10ドルで出力トークンの課金はない。Gemini APIとGoogle AI Studioから利用でき、無料枠も用意されている。Google Cloud版のGeminiへの対応は今後予定されている。",
+      "why_it_matters": "AIエージェントが内部で繰り返す小さな判定処理を安く高速に担う専用モデルが登場したことで、エージェントの運用コスト低減が進むと考えられる。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "API"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "original_title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "original_lang": "en",
+      "published_at": "2026-11-11T18:00:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+      "image_credit": "Google"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "GoogleとAdobe、創作ツールで連携拡大",
+      "summary": "GoogleとAdobeは提携を拡大し、Google DriveでのPDF編集やGemini内でのAdobeツール利用を発表した。Photoshop向けの新しい画像編集機能も検討する。",
+      "detail": "両社はAdobe MAXで発表した提携拡大により、Google DriveとGmailでAdobe Acrobatをアプリとして提案し、ファイルのプレビューから直接PDFを編集できるようにする。Gemini・Gemini Enterprise・検索の「AIモード」ではAcrobatや他の創作ツールへの接続を拡充し、企業向けにはAdobeのエージェント「CX Enterprise Coworker」をGemini Enterprise上で利用できるようにする。さらにGoogle DeepMindと共同で、Photoshop向けにほぼリアルタイムで編集できる画像モデルの開発も検討している。提供開始時期は明らかにされていない。",
+      "why_it_matters": "大手創作ツール企業のAdobeがGoogleのAI基盤と広く連携することで、日常的な文書・画像編集にAIが組み込まれる動きがさらに進むと考えられる。",
+      "tags": [
+        "Google",
+        "Adobe",
+        "提携"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "original_title": "We're bringing Adobe's creative and productivity tools closer to your everyday Google apps.",
+      "original_lang": "en",
+      "published_at": "2026-11-10T14:00:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-1440x810.png",
+      "image_credit": "Google"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、AIエージェント向け軽量VMを提供",
+      "summary": "AWSは、AIエージェントが生成した未検証コードを安全に実行する軽量VM「AWS Nitro Sandboxes」を発表した。EC2並みの性能とハードウェア級の隔離を両立する。",
+      "detail": "コンテナはホストのカーネルを共有するため、1つのコンテナが悪意あるコードに侵害されると他のサービスに影響しうるという課題があった。Nitro Sandboxesは、コンテナ的な軽さを保ちながら各サンドボックスに独立したOSを持たせ、AWSのNitroシステムによるハードウェアレベルの隔離を適用する。EC2上でサンドボックスとして動かすほか、Amazon ECSやEKSのPodとしても利用でき、EKS Auto Modeでは既存のコンテナイメージやデプロイの仕組みをそのまま使えるとしている。想定する主な用途は、AIエージェントが生成した未検証コードの実行や、Kubernetes上でのワークロード分離。",
+      "why_it_matters": "AIエージェントに生成・実行させるコードが増える中、クラウド側が安全な実行環境を整えることで、エージェント活用の裾野が広がると考えられる。",
+      "tags": [
+        "AWS",
+        "AIエージェント",
+        "セキュリティ"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/awsaiec2vmaws_nitro_sandboxes.html",
+      "original_title": "AWS、AIエージェント向けに強力な隔離環境とネイティブなEC2性能を備えた軽量VM「AWS Nitro Sandboxes」提供開始",
+      "original_lang": "ja",
+      "published_at": "2026-11-11T15:04:47Z",
+      "image_url": "https://www.publickey1.jp/2026/aws-nitrosandboxes-la.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "Google Cloud、医療向け「Gemini」提供",
+      "summary": "Google Cloudは、医療機関向けAI「Gemini for healthcare」を発表した。電子カルテなど分断されたシステムを連携し、事務作業の削減を目指す。",
+      "detail": "新サービスは、電子カルテ(EHR)や請求システム、診療ガイドライン、Medicareのデータセットといった既存の第三者システムと専用のコネクタで連携し、組み合わせたデータをもとに診療記録の統合や事前承認審査などの複数手順の作業をこなす。処理は定めた範囲内かつ人の監督下で実行されるとしている。Google Cloudが2024年にHarris Pollと行った調査では、臨床スタッフが事務作業に週あたり約28時間を費やしているとされ、今回はその負担軽減を狙う。提供はまずプレビューで、HCA Healthcare、Highmark Health、Northwell Healthが導入パートナーとなっている。",
+      "why_it_matters": "医療現場の事務負担軽減を、既存システムを置き換えずに実現しようとする動きであり、医療分野でのAI活用がさらに広がる可能性があると考えられる。",
+      "tags": [
+        "Google Cloud",
+        "Gemini",
+        "医療"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+      "original_title": "Google Cloud launches Gemini for healthcare.",
+      "original_lang": "en",
+      "published_at": "2026-11-10T13:00:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-1440x810.png",
+      "image_credit": "Google"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Notion AIのチャット記録、漏えいの恐れ",
+      "summary": "Notion Labsは、委託先への不正アクセスによりNotion AIのチャット記録が漏えいした恐れがあると発表した。影響は全ワークスペースの1%未満という。",
+      "detail": "Notion Labsによると、原因は外部委託先の米Fireworks.aiへの不正アクセスで、利用状況を分析する機能「Insights」のチャット記録が流出した可能性があるとしている。影響を受けたワークスペースの大半には利用者を示すラベルが付いていなかったが、チャット記録の内容自体には利用者に関する情報が含まれる可能性があるという。同社は対象となる利用者に個別に連絡し、チャットに機密情報やパスワード、APIキーなどの認証情報が含まれていた場合は更新するよう呼びかけている。日本語の公式Xアカウントも同日、同件を案内した。",
+      "why_it_matters": "AI機能を支える外部委託先を経由した情報漏えいであり、生成AIサービスのサプライチェーン全体でのセキュリティ管理が課題になると考えられる。",
+      "tags": [
+        "Notion",
+        "情報漏えい",
+        "セキュリティ"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003104",
+      "original_title": "「AIとのチャット記録」が漏えいか、Notion　委託先に不正アクセス",
+      "original_lang": "ja",
+      "published_at": "2026-11-11T05:16:43Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/11/2000003104/10011860/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "CoreWeave、前払いで資金調達へ転換",
+      "summary": "AI計算基盤を貸すCoreWeaveは、今後3カ月で約90億ドルの顧客前払いを見込むなど資金調達方法を転換した。四半期の純損失は7億ドル超だった。",
+      "detail": "CoreWeaveは、無担保債ではなく個別契約を担保にした借り入れや、今後3カ月で見込む約90億ドルの前払い・預け金への依存を強めている。短期契約には1メガワット当たり年4000万ドル超という高値を付け、4〜5年の長期契約の2000万〜2500万ドルを上回る。今年7月と四半期後半の2回にわたり、価格を上昇させた。第3四半期の売上は前年比168%増の36.6億ドルだったが、純損失は7億900万ドル、四半期の金利負担は8億4600万ドルに達し、受注残高は1325億ドルに積み上がっている。",
+      "why_it_matters": "AI計算基盤への投資ブームを支える資金調達が、顧客からの前払いという形に偏りつつあることを示し、需要が続く前提が崩れた場合のリスクが懸念されると考えられる。",
+      "tags": [
+        "CoreWeave",
+        "AIインフラ",
+        "資金調達"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
+      "original_title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "original_lang": "en",
+      "published_at": "2026-11-11T19:54:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304376406.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 4,
+      "title": "DeepMind、細胞ごとのDNA影響を予測するAI",
+      "summary": "Google DeepMindは、DNAの変化が細胞の種類ごとにどう働くかを予測する新モデル「AlphaGenome 2」を発表した。病気の原因解明への応用を見込む。",
+      "detail": "前身のAlphaGenomeは100万文字のDNA配列から多数の組織を同時に予測していたが、能力が分散する課題があった。AlphaGenome 2は配列に加え、対象とする組織や細胞の種類・状態を指定して1条件ごとに予測する方式に変え、ヒトとマウスのバルクおよびシングルセルデータ、1億件超の単一細胞プロファイルで学習した。免疫細胞データセット「TenK10K」では、比較対象のモデルの16%に対し約30%の因果変異を特定したという。研究目的ではAlphaGenome APIを通じて非商用利用が可能で、商用研究向けは非公開プレビュー提供。臨床・診断目的での使用は想定されていない。",
+      "why_it_matters": "細胞レベルでの病気の原因解明を助けるツールが広く使えるようになることで、新しい治療法の探索が進む可能性があると考えられる。",
+      "tags": [
+        "Google DeepMind",
+        "AlphaGenome",
+        "医療研究"
+      ],
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "original_title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "original_lang": "en",
+      "published_at": "2026-11-11T15:00:15Z",
+      "image_url": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo",
+      "image_credit": "Google DeepMind"
+    },
+    {
+      "section": "research",
+      "importance": 4,
+      "title": "未発表のAnthropicモデル、量子計算の難問に挑む",
+      "summary": "研究ラボPSIは、未発表のAnthropicモデルを使い量子計算の18年来の未解決問題に否定的な結論を示したと発表した。専門家が証明を検証中という。",
+      "detail": "PSIの研究者David Turturean氏は、未公開のAnthropicモデルの早期アクセスを使い、量子計算機が古典計算機に対してどこまで優位に立てるかを問う「Aaronson-Ambainis予想」に取り組んだ。結果は否定的で、量子高速化の一部の可能性を閉じる内容という。問題提起者の一人であるScott Aaronson氏は証明を完全には追えていないとしつつ、Lean言語での形式化と専門家チームの説明をもとに正しいと考えていると述べた。PSIはこれまでデータセンターの熱・電力・水・音を模擬して最適化する事業で収益を得ており、CEOのMatt Pines氏は、数カ月前には投資家への説明に苦労したと振り返っている。",
+      "why_it_matters": "AIが数学・理論分野の未解決問題に実質的な貢献を示した例であり、検証や発表の作法がまだ定まっていない段階にあることも浮き彫りになったと考えられる。",
+      "tags": [
+        "Anthropic",
+        "PSI",
+        "量子計算"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery",
+      "original_title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "original_lang": "en",
+      "published_at": "2026-11-10T19:03:52Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.00.33-AM.png?w=683",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "通信大手3社、「フィジカルAI」に参入",
+      "summary": "ソフトバンク・NTT・KDDIが相次いでロボットを動かす「フィジカルAI」事業に参入した。各社は低遅延網と計算基盤を生かした異なる戦略を取る。",
+      "detail": "KDDIはロボット向けAIを開発する新会社ELYZA Roboticsを立ち上げ、2030年までに1000台超のロボット稼働を目指す。ソフトバンクは産業用ロボットメーカーと提携し、基地局近くで動く「MEC」AIを自社で開発、ロボットの個別動作制御はメーカー側が担う分業とした。NTTはロボット制御ソフト企業Mujinと、NTTドコモビジネスを通じて提携し、光伝送技術「IOWN」を使った実証では約700キロの距離でロボットを制御したという。ロボットの稼働が増えるほど通信・計算の需要も伸びるため、各社は既存の通信網や計算基盤を生かした新事業と位置付けている。",
+      "why_it_matters": "生成AIの応用範囲がソフトウェアから実世界のロボット制御に広がる動きが、国内の通信大手を巻き込んで本格化し始めたことを示していると考えられる。",
+      "tags": [
+        "フィジカルAI",
+        "ロボット",
+        "通信"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/business/articles/2611/11/news038.html",
+      "original_title": "通信大手3社こぞって「フィジカルAI」に参入、なぜ？　ロボットが動くともうかるワケ",
+      "original_lang": "ja",
+      "published_at": "2026-11-10T22:00:00Z",
+      "image_url": "https://image.itmedia.co.jp/business/articles/2611/11/cover_news038.jpg",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
