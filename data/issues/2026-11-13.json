@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T07:30:00+09:00",
+  "headline": "Gemini4発表、Nvidia CEO辞任",
+  "lead": "Googleは検索にも組み込む新モデル「Gemini 4 Hydrogen」を発表し、エージェント作業の高速化を進めた。Nvidiaではスキャンダルを受けてジェンセン・フアンCEOが辞任し、暫定CEOにコレット・クレス氏が就任するなど、業界の勢力図に影響しうる動きが相次いだ。企業向けAIのセキュリティ対応も進む一方、NotionのAIチャット漏えい懸念は国内企業にも広がっている。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Google、新モデル「Gemini 4 Hydrogen」投入",
+      "summary": "Googleは高速なエージェント実行に特化した新モデル「Gemini 4 Hydrogen」を発表し、Google検索にも組み込んだ。前モデル比で約2.5倍速くタスクを完了するとしている。",
+      "detail": "Gemini 4 Hydrogenは、深い推論を担う上位モデルCarbon・Argonと役割を分け、日常的なエージェント作業の高速実行を担うモデルとして11月12日に発表された。既定の思考レベルでは前モデル比で約2.5倍速くタスクを完了し、新設した最上位の思考レベル「xhigh」も選べる。入出力とも最大100万トークンのコンテキストに対応し、料金は入力100万トークンあたり1.50ドル、出力7.50ドル。Gemini API・Google AI Studio・Antigravityなどで同日から提供が始まり、Google検索でも全利用者向けに展開され、複数の視点に分けて検索する機能などが強化された。",
+      "why_it_matters": "検索エンジンという最大の接点に新モデルが組み込まれたことで、生成AIが日常の情報収集に一段と浸透すると考えられる。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "検索"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "original_title": "Introducing Gemini 4 Hydrogen",
+      "original_lang": "en",
+      "published_at": "2026-11-12T18:00:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+      "image_credit": "Google"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Nvidia CEOジェンセン・フアン氏が辞任",
+      "summary": "Nvidiaの取締役会は、不倫関係の報道を受けてジェンセン・フアンCEOが辞任したと発表した。暫定CEOにはCFOのコレット・クレス氏が就任した。",
+      "detail": "フアン氏は33年間Nvidiaを率いてきた共同創業者兼CEOだったが、中国のスパイとされる人物および社内の部下との不倫関係が報じられ、11月12日に社長・CEO・取締役を即時辞任した。後任探しが続く間、2013年から財務を統括してきたCFOのコレット・クレス氏が暫定CEOに就任し、同社の強みは人材にあるとして基盤を引き継ぐ考えを示した。この動きを受け株価は下落し、オープンソースAIへの同社の支援姿勢が続くか懸念する声も出ている。Nvidiaは直後の火曜日に決算発表を控えており、経営体制の詳細な説明が見込まれている。",
+      "why_it_matters": "AI半導体市場を支配する企業の創業社長が異例の形で退いたことで、半導体・AI業界全体の投資判断や協業方針に影響が及ぶ可能性があると考えられる。",
+      "tags": [
+        "Nvidia",
+        "ジェンセン・フアン",
+        "経営"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement",
+      "original_title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+      "original_lang": "en",
+      "published_at": "2026-11-12T15:37:29Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv.jpg?resize=1200,1200",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "Claude Enterprise、セキュリティ機能強化",
+      "summary": "Anthropicは「Claude Enterprise」のセキュリティ・管理機能を拡充した。DLPやEDR連携、設定の一元管理などを追加した。",
+      "detail": "企業での生成AI利用が広がる中、設定の可視化やシャドーIT対策が課題になっていた。新機能では、組織のClaude設定を推奨構成と比較する「セキュリティセンター」や、既存のDLPポリシーをプロンプト・ツール呼び出しに適用する「インファレンスフック」が利用できる。親組織の管理コンソールでSSOやSCIMなどを一元管理できるほか、CoworkのmacOS・Windows仮想マシン向けにEDRセンサー連携もベータで追加された。多くの機能はベータ提供で、対象は主にClaude Enterpriseとなる。",
+      "why_it_matters": "企業の情報システム部門が使い慣れた既存のセキュリティ基盤とClaudeを連携できるようになることで、大企業でのAI導入のハードルが下がると考えられる。",
+      "tags": [
+        "Anthropic",
+        "Claude Enterprise",
+        "セキュリティ"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://claude.com/blog/claude-enterprise-security-updates",
+      "original_title": "More visibility and control over Claude Enterprise for security teams",
+      "original_lang": "en",
+      "published_at": "2026-11-05T00:00:00Z",
+      "image_url": "https://claude.com/resources/articles/claude-enterprise-security-updates/opengraph-image/og",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "AWS公式「AWSエミュレータ」正式リリース",
+      "summary": "AWSは、AWSのAPIをローカルで再現する公式ツール「AWSエミュレータ」を正式公開した。無料でAWSアカウントも不要。",
+      "detail": "開発者がAWSのAPIを呼ぶコードをテストする際、実際のAWS環境や有料のアカウントが必要になる負担があった。新ツールはAWS SDKやCLIからの呼び出しをローカルで再現し、正しい呼び出しには同じ結果を、誤った呼び出しには同じエラーを返す。ソースコードはGitHubでCC0（パブリックドメイン）として公開されている。特徴的なのは、数百の自律型AIエージェントがAmazon Bedrock AgentCore上で3チームに分かれ、テスト作成・不具合発見・修正のすべてを担って開発した点で、各変更はコンパイルやセキュリティ、実際のAWSへの忠実性を確認する自動ゲートを通過させている。",
+      "why_it_matters": "AI開発者向けのテストコストが下がるだけでなく、大規模な実用ソフトウェアの開発工程そのものをAIエージェント群に任せる事例として注目されると考えられる。",
+      "tags": [
+        "AWS",
+        "開発ツール",
+        "AIエージェント"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/awsawsaws_1.html",
+      "original_title": "AWSをローカルマシン上でエミュレートする、AWS公式の「AWSエミューレタ」正式リリース",
+      "original_lang": "ja",
+      "published_at": "2026-11-12T15:09:51Z",
+      "image_url": "https://www.publickey1.jp/2026/5p5O7DMA.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Google Antigravityがリモートエージェント追加",
+      "summary": "GoogleはAI開発環境「Antigravity」に、クラウド上で動き続ける「リモートエージェント」機能を追加した。PCの電源を切っても作業が続く。",
+      "detail": "従来、Antigravityのエージェントはローカルのパソコン上で動作するため、作業中にPCを閉じると処理が止まる制約があった。新機能のリモートエージェントは、Google管理のクラウド仮想マシン上でタスクを実行するため、就業時間外や外出中でも作業を継続できる。コードやファイルはGitHubリポジトリ、Googleドライブ、直接アップロードのいずれからも渡せ、確認や追加指示が必要な場面ではスマートフォンから介入できる。現時点ではGoogle AI ProおよびUltraプランの個人アカウント向けに提供されている。",
+      "why_it_matters": "AIエージェントの実行場所がローカル端末からクラウドへ移ることで、人がパソコンの前にいない時間も開発作業を進められるようになると考えられる。",
+      "tags": [
+        "Google",
+        "Antigravity",
+        "AIエージェント"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/google_antigravityaiai.html",
+      "original_title": "Google Antigravity、クラウド上でAIエージェントが働く「リモートエージェント」機能を搭載。就業時間外でもAIエージェントは働き続ける",
+      "original_lang": "ja",
+      "published_at": "2026-11-12T15:13:43Z",
+      "image_url": "https://www.publickey1.jp/2026/antigravity-remoteagent-ogp.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "OpenAI Codex、Amazon Bedrockで利用可能に",
+      "summary": "AWSは、OpenAI Codexの推論基盤としてAmazon Bedrockを使う企業向け導入ガイドを公開した。既存のIAMや監査基盤に組み込める。",
+      "detail": "企業がCodexを従業員に展開する際、モデルアクセスやID管理、監査を別の仕組みで構築する負担が課題になっていた。新ガイドでは、Codexからのモデル呼び出しをAmazon Bedrock経由にする構成を示し、IAM Identity Centerの一時認証情報を使う方法を推奨の出発点としている。AWSのAgentCore Gatewayや既存のLLM Gatewayと組み合わせる構成も選べ、実際の利用コストはAWS Cost and Usage Reportで確認する運用を推奨している。生成されたコード変更は必ず人がレビューし、設定を外せば新規呼び出しを即時拒否できるロールバック手順も示されている。",
+      "why_it_matters": "すでにAWSのID・運用基盤を持つ企業が、別の管理体系を増やさずにAIコーディングツールを安全に社内展開しやすくなると考えられる。",
+      "tags": [
+        "AWS",
+        "OpenAI Codex",
+        "Amazon Bedrock"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
+      "original_title": "OpenAI Codex on Amazon Bedrock",
+      "original_lang": "en",
+      "published_at": "2026-11-11T23:35:47Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21633-featured-image.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "ユナイテッド航空、AIエージェント予約を禁止",
+      "summary": "米ユナイテッド航空は、AIエージェントによる航空券の予約・管理を禁止すると発表した。セキュリティリスクを理由とする。",
+      "detail": "同社は、自社サイトだけでなく旅行代理店経由の利用も含め、承認されていない第三者のAIエージェントやアシスタントによる予約・発券・マイル利用を制限する。認証情報をAIアシスタントと共有すると機密情報が漏えいする恐れがあるほか、意図しない購入やアカウント変更が起きる可能性があるとしている。さらに、保安規則が人による確認を求める場面（手荷物の危険物確認など）にも触れ、連邦規則違反のおそれも理由に挙げた。記事は、同様にBank of Americaが顧客にAIアシスタントとパスワードを共有しないよう呼びかけた例も引き、米大企業でAIエージェントへの警戒が広がっているとしている。",
+      "why_it_matters": "AIエージェントに認証情報を渡して代行させる使い方に対し、大手企業側がリスクを理由に線引きを始めたことを示していると考えられる。",
+      "tags": [
+        "AIエージェント",
+        "航空",
+        "セキュリティ"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+      "original_title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "original_lang": "en",
+      "published_at": "2026-11-12T17:17:58Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/united-airlines-2231866642.jpg?resize=1200,801",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "AnthropicのIPO動画、計算基盤戦略を明かす",
+      "summary": "AnthropicのIPOロードショー動画で、AMD GPUへの対応をわずか3日で終えたことなど、計算基盤戦略の内部情報が明らかになった。",
+      "detail": "IPO手続きの一環として公開されたロードショー動画で、共同創業者のTom Brown氏が計算資源戦略を説明した。ClaudeはAWS Trainium・Google TPU・NVIDIA GPU・AMD GPUの4系統すべてで学習・推論を行う「マルチチップ戦略」を採っており、今年新たに対応したAMD GPUへの移植では、AIエージェント群「Mythos」に作業を任せた結果、通常なら数十人のエンジニアが数カ月かける作業をほぼ無人で3日で終えたという。同社は「実効的な総コンピュート」を重視し、同じ性能を少ない計算量で得られる改善（コンピュート・マルチプライヤー）の発見が積み重なることで競争優位になるとしている。",
+      "why_it_matters": "AIモデル企業の競争力が、特定チップへの依存を避けた計算基盤運用そのものに移りつつあることを示していると考えられる。",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "計算基盤"
+      ],
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow",
+      "original_title": "Anthropic's IPO roadshow video",
+      "original_lang": "en",
+      "published_at": "2026-11-11T15:11:59Z"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "パナソニック、250人体制でフィジカルAI",
+      "summary": "パナソニックHDは、AIとロボットを組み合わせた「フィジカルAI」の開発体制を250人規模に強化すると発表した。",
+      "detail": "同社は10月1日付で専門部署を新設し、工場や物流など自社が強みを持つ現場を対象に、3〜5年先を見据えた「フィジカルAI」の研究開発を進める。目指すのは、図面だけでは伝わらない熟練作業者の暗黙知（位置関係や力加減、段取りなど）をロボットに学習させることで、3D空間認識やロボット制御、センサーデータからの学習などが技術的な軸になる。まずは自社グループの工場で技術を検証し、その後、外部企業向けに製品・サービスとして展開することも視野に入れている。",
+      "why_it_matters": "大手製造業が自社の現場知見を生かしてフィジカルAIに本格参入することで、製造・物流分野でのロボット活用が加速する可能性があると考えられる。",
+      "tags": [
+        "パナソニック",
+        "フィジカルAI",
+        "ロボット"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/business/articles/2611/12/news037.html",
+      "original_title": "パナソニックが250人体制で挑む「フィジカルAI」　職人の暗黙知をAI化、外販も視野に",
+      "original_lang": "ja",
+      "published_at": "2026-11-12T04:30:00Z",
+      "image_url": "https://image.itmedia.co.jp/business/articles/2611/12/cover_news037.jpg",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "OpenAI API、GPT-6 Lunaで国内推論可能に",
+      "summary": "OpenAIのAPIで、軽量モデル「GPT-6 Luna」に限り推論処理を日本国内に閉じる「国内推論」が可能になった。",
+      "detail": "対象はResponses APIとChat Completions APIの従量課金（Standard）利用で、利用にはOpenAIへの申請と、不正利用監視方法の変更（MAM）・ゼロデータ保持（ZDR）の適用が必要になる。通常はAPI利用時のプロンプトや応答を不正利用監視のため最大30日間保持するが、承認された利用者はこの監視ログから内容を除外できる。料金は入力100万トークンあたり0.1ドル、出力0.5ドルで、コストパフォーマンスに優れる位置づけの軽量モデル。送信データはユーザーが明示的に同意しない限り学習には使われないとされている。",
+      "why_it_matters": "データを国内で処理したい日本企業にとって、API利用のハードルが下がり、企業向けAI活用が進む可能性があると考えられる。",
+      "tags": [
+        "OpenAI",
+        "API",
+        "データ主権"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003129",
+      "original_title": "OpenAI APIで国内推論可能に　GPT-6 Lunaのみ",
+      "original_lang": "ja",
+      "published_at": "2026-11-12T02:25:53Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/12/2000003129/10011950/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "Notion AI漏えい懸念、国内企業に拡大",
+      "summary": "NotionのAI機能のチャット記録流出懸念を受け、国内でもSecureNaviなど複数企業が情報漏えいの可能性を報告した。",
+      "detail": "原因は、Notionが利用状況分析機能「Insights」で連携していた米Fireworks.aiへの不正アクセスで、同社にとって2か月連続のセキュリティ侵害だった。盗まれたのは請求情報や一部データセットとされ、攻撃者の狙いはLLMへの不正アクセス権を転売する金銭目的とみられている。国内ではSecureNavi、LRM、フェイガーの3社が11日、顧客企業名や問い合わせ内容を含むチャット記録が流出した可能性があると公表した。Notionは11月3日にFireworksとの接続を遮断し保存データを削除したとしており、各社は対象利用者への個別連絡や、なりすましの不審な連絡への注意を呼びかけている。",
+      "why_it_matters": "AI機能を支える海外の委託先を経由した情報漏えいが、国内企業の顧客対応にまで実害を及ぼしていることを示していると考えられる。",
+      "tags": [
+        "Notion",
+        "情報漏えい",
+        "Fireworks AI"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003140",
+      "original_title": "Notionの「AIチャット流出懸念」影響広がる　国内企業が相次ぎ報告　「打ち合わせ内容」も漏えいか",
+      "original_lang": "ja",
+      "published_at": "2026-11-12T05:43:18Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/12/2000003140/10011860/2048",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
