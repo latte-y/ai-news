@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T06:50:00+09:00",
+  "headline": "AIが決済代行、Huang氏は議会証言へ",
+  "lead": "OpenAIはAIエージェントが承認制で購入を完了する「ChatGPT Wallet」を発表し、Metaの「Muse」も米企業への電話代行を全面展開するなど、AIが日常の用事を代行する動きが広がった。一方でNvidiaを退任したジェンセン・フアン氏は議会証言に同意し、NotionのAI機能ではデータ漏えいの恐れが明らかになるなど、AI活用の裏側にあるリスクも相次いで表面化した。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAI、AIが決済代行する「ChatGPT Wallet」発表",
+      "summary": "OpenAIはAIエージェント「dots」が承認制で購入を完了できる「ChatGPT Wallet」を発表。米国のChatGPT Pro利用者から先行提供する。",
+      "detail": "ChatGPTのエージェント「dots」が商品選びから購入までを代行する新機能で、対応カードは米国発行のVisa・Mastercard・American Expressに限られ、18歳以上の米国ChatGPT Pro利用者から先行提供される。決済はカード番号そのものではなく支払いトークンを使うため、カード情報はdotsや販売者には渡らない。購入前に商品・合計金額・使用カードを確認でき、最終承認はFace IDや指紋認証などの本人確認で行う。OpenAIは今後、利用限度額の設定や対応店舗の拡大を進めるとしている。",
+      "why_it_matters": "AIエージェントが人に代わって決済まで行う仕組みが主要プラットフォームで動き始め、エージェント経済の広がりを示す動きと考えられる。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "エージェント"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "original_title": "Introducing ChatGPT Wallet",
+      "original_lang": "en",
+      "published_at": "2026-11-13T15:00:00Z"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "ローカルLLM基盤「llama.cpp」v1.0.0公開",
+      "summary": "オープンソースのローカルLLM実行基盤「llama.cpp」が初のメジャーバージョンv1.0.0を公開し、API互換性の方針を明文化した。",
+      "detail": "llama.cppは一般的なPCからサーバーまで幅広いハードウェアでマルチモーダルLLMを動かせるオープンソースの推論基盤で、多くのアプリケーションが依存ライブラリとして利用している。v1.0.0では本体のlibllamaとテンソルライブラリggmlが揃ってv1.0.0となり、公開C APIの破壊的変更はメジャー、後方互換の機能追加はマイナー、API変更を伴わないバグ修正はパッチとするセマンティックバージョニングの方針を明文化した。配布もLinux・macOS・Windows・Android・iOS向けの事前リリースバイナリに加え、Docker・Homebrew・conda-forgeなど多数のチャネルに拡大している。",
+      "why_it_matters": "依存プロジェクトが多いライブラリの互換性方針が明確になったことで、ローカルAI活用の基盤がより安定すると考えられる。",
+      "tags": [
+        "llama.cpp",
+        "OSS",
+        "ローカルLLM"
+      ],
+      "source_name": "ggml.ai",
+      "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "original_title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "original_lang": "en",
+      "published_at": "2026-11-13T14:05:22Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+      "image_credit": "ggml.ai"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "LangChain、評価額30億ドルに到達",
+      "summary": "AIエージェント開発ツールのLangChainがシリーズCで3億ドルを調達し、評価額が30億ドルに達した。LangSmithの顧客は7000社という。",
+      "detail": "LangChainは2022年に始まったオープンソースプロジェクトで、現在はAIエージェントの作成・管理ソフトウェア「LangSmith」を主力製品としている。CapitalGが主導し、シンガポール政府系のGIC、DFJ Growth、IVP、Sapphire Venturesが参加したシリーズCで3億ドルを調達し、約1年前の12.5億ドルから評価額が2倍以上の30億ドルに拡大した。特定のモデルやクラウドに利用者を縛らない構成を強みとし、Harvey・Rippling・Clayのほか、Nvidia・Toyota・Salesforceなど7000社が顧客という。",
+      "why_it_matters": "モデル非依存のエージェント運用ツールへの投資家の評価が急伸しており、エージェント基盤市場の競争が強まっていると考えられる。",
+      "tags": [
+        "LangChain",
+        "資金調達",
+        "エージェント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+      "original_title": "AI agent startup LangChain hits $3B valuation",
+      "original_lang": "en",
+      "published_at": "2026-11-13T19:37:57Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "MetaのAI「Muse」、米企業への電話代行を全面展開",
+      "summary": "Metaの消費者向けAI「Muse」が米国の有料加入者全員向けに、企業への電話代行機能を展開した。予約や問い合わせを代わりにかけられる。",
+      "detail": "Museは9月から一部利用者限定でテストしていた電話代行機能を、米国の有料加入者全員に開放した。ケーブルテレビ会社への問い合わせやDMVへの連絡、オンライン予約のないレストランへの予約など、電話をかける手間がかかる用事を代行できるとしている。料金は月20ドル(週5億Museトークン)からで、ヘビーユーザー向けには月100ドルのプランもある。無料ユーザーには電話機能は提供されないが、メール送信機能は近く無料ユーザーにも展開予定という。",
+      "why_it_matters": "音声でのAI代行利用が日常的な用事にまで広がり始めており、消費者向けAIエージェント競争が実務領域に移っていると考えられる。",
+      "tags": [
+        "Meta",
+        "Muse",
+        "AIエージェント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay",
+      "original_title": "Muse can now place calls to US businesses — if you pay",
+      "original_lang": "en",
+      "published_at": "2026-11-12T22:22:28Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/muse-calls.jpg?w=1104",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、AgentCore runtimeを次世代版に刷新",
+      "summary": "AWSがAmazon Bedrock AgentCore runtimeを刷新し、セッション起動を最大15倍高速化、リソース上限を4倍に拡大した。",
+      "detail": "新世代のAgentCore runtimeは、セッションごとにハードウェアで隔離されたFirecracker MicroVM上で動作する前提を維持しつつ、起動時間をイメージサイズや同時実行数に関係なく2秒未満に短縮し、最大15倍高速化した。リソース上限は前バージョン比4倍の最大8vCPU・32GBメモリ、コンテナイメージは最大10GBまで対応する。エージェントがメモリを解放すると数分でアイドル課金が止まり、常時稼働エージェントにはベースラインの最低料金とバースト課金を組み合わせた料金モデルを導入した。北米・南米・欧州・アジア太平洋の各リージョンで発表当日から利用できる。",
+      "why_it_matters": "長時間稼働するAIエージェントの実行基盤がより高速・低コストになり、企業の本番導入が進みやすくなると考えられる。",
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "AgentCore"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime",
+      "original_title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+      "original_lang": "en",
+      "published_at": "2026-11-12T17:59:59Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/ML-22215-1.jpg",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "industry",
+      "importance": 5,
+      "title": "Huang前Nvidia CEO、不倫疑惑巡り議会証言へ",
+      "summary": "Nvidiaを退任したジェンセン・フアン氏が、複数議員からの召喚状の動きを経て、米議会での証言に同意した。",
+      "detail": "フアン氏は、中国のスパイ容疑がかけられた女性との不倫疑惑が報じられた後にNvidia CEOを退任した。下院の複数の委員会(外交・対中国特別・情報)の議員が11月4日付で出席を要求する書簡を送り、召喚状発行をちらつかせたところ、フアン氏は証言に同意した。証言は感謝祭までに非公開で行われる予定で、映像記録と書き起こしが作成される見込みという。民主党は別途、NvidiaとTrump政権との関係や対中輸出を巡る調査も始めている。",
+      "why_it_matters": "AI産業で最重要企業とされるNvidiaの創業CEOの進退が議会の関与する政治問題に発展しており、業界への影響が注視されると考えられる。",
+      "tags": [
+        "Nvidia",
+        "ジェンセン・フアン",
+        "議会"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
+      "original_title": "Jensen Huang agrees to testify before Congress",
+      "original_lang": "en",
+      "published_at": "2026-11-12T16:36:37Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 2,
+      "title": "M365障害、ChatGPT・Claudeのコネクタにも影響",
+      "summary": "Microsoft 365の障害でOutlookやTeamsに加え、OpenAIとAnthropicのM365連携コネクタも正常に動作しない状態になった。",
+      "detail": "日本時間11月13日午前8時55分時点で、Microsoft 365のOutlook・Teams・Copilotなど複数サービスで接続しづらい状態が発生した。これに伴い、ChatGPTとClaudeがM365と連携するコネクタ機能も影響を受け、Anthropicはメール・カレンダー・検索ツールの「ほとんどのリクエストで動作しない」と説明した。Claude for Outlookも影響を受けている。Microsoftは一部サーバーの復旧や代替経路での対応を進めているとしている。",
+      "why_it_matters": "クラウド基盤の障害がAIサービス側にも連鎖し、企業の業務利用におけるAI連携の脆さが示されたと考えられる。",
+      "tags": [
+        "Microsoft365",
+        "障害",
+        "コネクタ"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164",
+      "original_title": "M365障害、ChatGPT／Claudeのコネクタにも影響　「ほとんどのリクエストで動作しない」",
+      "original_lang": "ja",
+      "published_at": "2026-11-13T00:08:39Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/13/2000003164/10012056/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Notion AI、委託先経由で漏えいの恐れ",
+      "summary": "Notionは委託先Fireworks.aiへの不正アクセスにより、法人向けZDR利用者を含めNotion AIのチャット記録が漏えいした恐れがあると発表した。",
+      "detail": "NotionはAI機能の利用状況分析機能「Insights」のチャット記録を処理するため米Fireworks.aiにデータを送っていたが、同社への不正アクセスにより記録が漏えいした恐れがあることを11月9日に発表した。Insightsは法人向けプランのZDR(ゼロデータ保持)の対象外だったにもかかわらず利用者がZDRを前提にしていた可能性があり、Fireworks側の該当エンドポイントでもデータが保持されていたことが判明した。NotionはFireworks.aiとの接続を停止し、他の委託先についても調査しているという。",
+      "why_it_matters": "AI機能の裏側で外部委託先にデータが渡る構造が、データ非保持の前提を崩すリスクとして改めて注目されると考えられる。",
+      "tags": [
+        "Notion",
+        "データ漏えい",
+        "ZDR"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003172",
+      "original_title": "「AI処理、データ非保持が守られず」――Notionが委託先の問題指摘、漏えいの恐れ巡り",
+      "original_lang": "ja",
+      "published_at": "2026-11-13T01:22:05Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/13/2000003172/10012075/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "AIチャットボットが偽ショップサイトを紹介、調査",
+      "summary": "知財保護企業Podqiの調査で、ChatGPT・Gemini・Perplexityの回答の約9%に偽・不審なショップサイトが含まれていた。",
+      "detail": "Podqiは3つのAIチャットボットに買い物に関する質問を投げ、計6795件の回答を分析した結果、約9%にリスクのあるサイトが含まれていたと報告した。チャットボット別では、Perplexityが15%、ChatGPTが8%、Geminiが4%で最も高かった。調査では4437件のドメインを精査し、718件を偽サイトや休眠・再登録ドメインなどリスクありと分類した。Podqiは、個人情報やカード情報を入力する前に出典を自分で確かめるよう勧めている。",
+      "why_it_matters": "AIの回答を鵜呑みにした購買行動が詐欺被害に直結しうることが数字で示され、AI検索の信頼性に課題があると考えられる。",
+      "tags": [
+        "AI検索",
+        "詐欺",
+        "調査"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "original_title": "AI chatbots are recommending fake retail websites, study finds",
+      "original_lang": "en",
+      "published_at": "2026-11-12T17:00:00Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "輸出禁止Nvidiaチップ、中国AIモデル学習に使用か",
+      "summary": "元OpenAI研究者の分析で、中国DeepSeekやMoonshot AIの最新モデルが輸出禁止のNvidia Blackwell GPUで学習された可能性が指摘された。",
+      "detail": "非営利研究団体Unemployment Labsを率いるWill DePue氏(元OpenAI研究者)が、公開された大規模言語モデルの重みの構造を分析し、学習に使われたチップ構成の痕跡を調べた。対象はDeepSeek・Moonshot AI(Kimi K3)・MiniMax・Ant Groupのモデルで、輸出規制対象のNvidia Blackwell GPUで学習された可能性があるとされた。Epoch AIの推定では2024・2025年に約200万個の先端チップが最終的な仕向け先を隠す形で中国に流入したとされ、マレーシア経由の輸入やチップの香港滞留も指摘されている。ただし海外データセンター経由で使われた可能性もあり、輸出管理法が破られたと断定はされていない。",
+      "why_it_matters": "対中輸出規制の実効性に疑問が投げかけられ、AIチップを巡る米中の覇権争いに影響しうると考えられる。",
+      "tags": [
+        "Nvidia",
+        "輸出規制",
+        "中国"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "original_title": "Export-banned Nvidia chips are behind China's most powerful AI models — uh oh, Jensen!",
+      "original_lang": "en",
+      "published_at": "2026-11-13T18:40:30Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "Sakana AI、ゼロからのモデル開発に着手",
+      "summary": "Sakana AIが既存モデルを使わず、事前学習から自社でAIモデル開発を始めると発表。2027年春に重みを公開する計画。",
+      "detail": "Sakana AIはこれまで海外のオープンモデルに事後学習を施す手法を中心にしてきたが、10月26日のシンポジウムで、事前学習から自社で手がける新モデル「Sawara」(仮称)の開発着手を明らかにした。オープンウェイトモデルの性能向上や学習知見の普及で開発コストが下がったことを背景に挙げている。12月に小規模版「Sawara Small」の事前学習を始め、順調なら2027年春に重みを公開する計画で、将来的には数千億パラメータ規模の大規模版も構想している。学習データや手法を含め全体を自社で管理することで透明性を確保し、自律的に動くAIエージェント向けの基盤にする狙いという。",
+      "why_it_matters": "日本のAI企業が他社モデルに依存しない独自基盤の構築に踏み出したことは、国内のAI開発力を測る試金石になると考えられる。",
+      "tags": [
+        "Sakana AI",
+        "日本",
+        "モデル開発"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003141",
+      "original_title": "「好機が来た」――なぜ今Sakana AIは、イチからAIモデルを作るのか　“新たな一手”のねらいを聞いた",
+      "original_lang": "ja",
+      "published_at": "2026-11-13T01:44:00Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/13/2000003141/10011983/2048",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
