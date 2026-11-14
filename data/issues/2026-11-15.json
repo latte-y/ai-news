@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T07:10:00+09:00",
+  "headline": "Huang氏退任の余波、資金調達と政治に拡大",
+  "lead": "Nvidiaを退任したジェンセン・フアン氏の復帰を求める署名が11万人を超え、投資家からはAIスタートアップへの資金供給に穴が開くとの懸念が相次いだ。各国政府も動向を注視し始めるなど、一人のCEO退任がAI業界の資金とガバナンスの両面に波紋を広げている。一方でGoogleやAWSからは実務向けの新サービスも発表された。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Huang氏退任、AIスタートアップ資金に打撃",
+      "summary": "Nvidia前CEOジェンセン・フアン氏の退任により、同社が支えてきたAIスタートアップへの資金供給に穴が開くと投資家が懸念している。",
+      "detail": "NvidiaはPitchBookの集計で今年105件の投資ラウンドに参加し、多くで最大の出資者だった。Hugging Faceの130億ドル買収やCoreWeave、Crusoe、Mistral AIなどへの出資も進めてきた。VCのMaria Davidson氏は、Nvidiaの方針転換が「多くの若い企業にとって大きな打撃」になると指摘する。暫定CEOのColette Kress氏は従来より保守的な投資姿勢を取るとみられ、評価額の下落も予想されている。GoogleやAmazonなどの大手がこの空白を完全に埋めるのは難しいとの見方もある。",
+      "why_it_matters": "GPU大手自身が主要な投資家でもあった構造のため、トップの交代がAI業界全体の資金循環に波及しかねない。",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "VC",
+        "資金調達"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+      "original_title": "Jensen Huang's departure blasts big hole in AI startup funding, VCs and founders say",
+      "original_lang": "en",
+      "published_at": "2026-11-13T22:43:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Huang氏復帰求める署名、11万人超に",
+      "summary": "Nvidiaを辞任したフアン氏の復帰を求める署名活動に11万5000人以上が参加。Elon Musk氏らも名を連ねた。",
+      "detail": "署名には現職従業員約6000人、元従業員約1100人、株主約6万3000人が参加し、Tesla・SpaceXのElon Musk氏、ReplitのAmjad Masad氏、Epic GamesのTim Sweeney氏も加わった。フアン氏は、中国のスパイ疑惑がある人物との関係を認めた後、木曜日に辞任した。署名者は取締役会に対し、独立調査が終わるまで復帰させること、公正な調査、情報公開の拡大を求めている。Nvidiaは暫定CEOにCFOのColette Kress氏を任命し、後任を探している。株価は金曜に2%下落した。",
+      "why_it_matters": "従業員・株主・著名経営者を巻き込んだ異例の署名運動で、取締役会のガバナンス対応が今後も注目される。",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "ガバナンス"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+      "original_title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "original_lang": "en",
+      "published_at": "2026-11-14T21:41:22Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "経産省、Huang氏退任後のNvidia動向を注視",
+      "summary": "経済産業省はNvidiaを日本のAI半導体産業の要と位置づけ、フアン氏退任後の動向を注視するとした。",
+      "detail": "フアン氏の辞任を受け、アジア各国政府が反応を示した。日本の経済産業省はNvidiaを国内AI半導体産業の重要なプレーヤーと位置づけ、退任後の動向を注視する方針を示した。尾崎正直官房副長官は、世界のAI産業への影響を評価するのは時期尚早としつつ、半導体の安定供給確保を優先する考えを強調した。韓国は26万基の先端GPU供給計画の継続を確認し緊急会合を開いたほか、台湾は経済部が影響は限定的との見方を示すなど、各国で対応が分かれている。",
+      "why_it_matters": "Nvidia製GPUへの依存度が高い日本のAI・半導体政策にとって、供給継続の見通しが引き続き重要な論点になる。",
+      "tags": [
+        "Nvidia",
+        "経済産業省",
+        "半導体政策"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+      "original_title": "Asian governments react to Nvidia CEO Jensen Huang's exit",
+      "original_lang": "en",
+      "published_at": "2026-11-14T16:34:15Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Google、文章生成しない「決定専用」API公開",
+      "summary": "Googleが閉じた選択肢の判定に特化した「Gemini Decisions API」とモデル「Gemini Decision 1」を公開した。",
+      "detail": "Gemini Decisions APIは、はい/いいえ判定・2〜255択の選択・ルーブリック採点という3種類の質問に、文章を生成せず1回の順伝播でスコアを返す。1リクエストで最大256Kトークンの入力に対し最大1000件の質問を同時処理できる。価格は入力100万トークンあたり0.10ドル、出力は無料で、Googleは同種ベンチマークでGemini 3.5 Flash-Liteより約5倍安いとしている。遅延は150〜250ミリ秒とされ、ツール選択やポリシー判定、モデルへのルーティングなどの用途を想定する。Gemini APIとAI Studioでv1beta提供中、Google Cloud版は今後対応予定。",
+      "why_it_matters": "生成コストの高い大規模モデルを使わずに頻発する判定処理を安く高速化でき、エージェントの実運用コスト削減につながる可能性がある。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "API"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "original_title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "original_lang": "en",
+      "published_at": "2026-11-11T18:00:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+      "image_credit": "Google"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、コーディングAIの振り分け基盤を公開",
+      "summary": "AWSがNVIDIAのNeMo Switchyardを使い、コーディングエージェントのリクエストを適切なモデルへ振り分ける構成例を公開した。",
+      "detail": "LiteLLMゲートウェイにNeMo Switchyardのルーティングプラグインを組み込み、AWS CDKでAmazon ECS on Fargate上に構築する。高性能モデルと低コストモデルを使い分ける「Stageルーティング」と、A/Bテスト用の重み付き「Randomルーティング」の2方式を備える。推論はBedrockのConverse/ConverseStream API経由で、AWSネットワーク内に留まる。評価指標として「テストが通った実行1件あたりのコスト」を提案し、検証ではClaude Opus 5.5とNVIDIA Nemotron 3 Super 120Bを組み合わせた。サンプルコードはGitHubのaws-samplesで公開されているが、実験的段階で本番利用は推奨されていない。",
+      "why_it_matters": "Claude CodeやCodex CLIのようなコーディングエージェントのコストを、モデルの使い分けで最適化する具体的な手法が示された。",
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "NVIDIA",
+        "コーディングエージェント"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard",
+      "original_title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+      "original_lang": "en",
+      "published_at": "2026-11-13T22:30:12Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/ML-22318-featured-image.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "質問の裏にある目的、AIは読めるか測るXYBench",
+      "summary": "Ai2が、誤った前提の質問にAIが本来の目的まで応えられるかを測るベンチマーク「XYBench」を公開した。",
+      "detail": "XYBenchはAi2がCarnegie Mellon・NVIDIA・Johns Hopkinsと共同開発し、EMNLP 2026でBest Resource Paper Awardを受賞した。Stack Overflowなどから集めた8115問で構成し、質問された内容（Y）への解決策だけでなく、質問者が本来達成したい目的（X）への解決策を示せているかを評価する。Stack Overflowの問題では、Yへの解決策は75〜86%の回答に含まれていたのに対し、Xへの解決策は59〜71%にとどまった。Claude Sonnet 4.6やGPT-5など主要モデルはいずれも、人間の回答より誤解の指摘率が低かったという。",
+      "why_it_matters": "表面的な質問にだけ答えて誤った前提を見逃すAIの弱点が、主要モデル共通の課題として数値で示された。",
+      "tags": [
+        "Ai2",
+        "ベンチマーク",
+        "評価"
+      ],
+      "source_name": "Hugging Face (Ai2)",
+      "source_url": "https://huggingface.co/blog/allenai/xybench",
+      "original_title": "XYBench: Helping with the problem behind the question",
+      "original_lang": "en",
+      "published_at": "2026-11-13T17:02:35Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
+      "image_credit": "Hugging Face (Ai2)"
+    },
+    {
+      "section": "research",
+      "importance": 2,
+      "title": "生体分子構造予測「OpenFold3」、AWSで利用可能に",
+      "summary": "タンパク質やDNA・RNAの立体構造を予測する「OpenFold3」が、Amazon SageMaker JumpStartから利用できるようになった。",
+      "detail": "OpenFold3はOpenFold ConsortiumとColumbia大学AlQuraishi Labが開発した全原子の生体分子構造予測モデルで、タンパク質・DNA・RNA・低分子リガンドの配列から複合体を含む3D構造を予測する。SageMaker JumpStartではモデルID経由でデプロイでき、S3を介した非同期推論エンドポイントとしてml.g6系インスタンス上で動作し、アイドル時のゼロスケールにも対応する。コードとモデル重みはApache License 2.0で公開されており、開発元は現バージョン(0.4.1)を研究プレビューと位置づけている。",
+      "why_it_matters": "オープンな構造予測モデルがクラウド上で手軽に使えるようになり、創薬・生命科学研究の参入障壁が下がる。",
+      "tags": [
+        "AWS",
+        "SageMaker",
+        "タンパク質構造予測"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures",
+      "original_title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+      "original_lang": "en",
+      "published_at": "2026-11-13T21:53:40Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-22226-featured-image.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "ElevenLabs、チーム向け議事録アプリを発表",
+      "summary": "ElevenLabsが、会議の議事録作成とディクテーションを組み合わせたチーム向けアプリ「ElevenAI」を発表した。",
+      "detail": "ElevenAIは11月11日のElevenLabs Summitで発表された、現在プレビュー段階の実験的アプリ。複数会議をまたいだ議事録作成や録音通知、過去の会議内容の検索、ElevenAgentと連携したフォローアップメール作成の自動化などの機能を備える。任意のアプリで使える音声入力機能も搭載し、90以上の言語に対応、業界特有の用語の認識も意識しているという。個人向けではなくチーム・企業向けを想定し、現在は事前登録制の早期アクセスのみ。Fireflies・Wispr Flow・Granolaなど競合も同種機能を提供している。",
+      "why_it_matters": "音声AI専業のElevenLabsが、単機能ツールから企業の会議業務全体を担うエージェント型アプリへ事業領域を広げる動きとなる。",
+      "tags": [
+        "ElevenLabs",
+        "音声AI",
+        "議事録"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams",
+      "original_title": "ElevenLabs' new app combines meeting note-taking and dictation for teams",
+      "original_lang": "en",
+      "published_at": "2026-11-13T14:44:48Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-7.19.18-PM.jpg?resize=1200,774",
+      "image_credit": "TechCrunch"
+    }
+  ]
+}
