@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T07:10:00+09:00",
+  "headline": "AIチップ輸出規制、議会で再燃",
+  "lead": "Nvidiaの前CEOを巡るスパイ疑惑を受け、米議会でAIチップの対中輸出規制を強化する法案が与野党双方の支持を得て再び動き始めた。開発の現場では、PostgreSQL 19のリリース延期やCloudflareの新ブラウザ公開など、AIが開発プロセスやツールのあり方を変えている様子も目立つ。Anthropicは安全性評価の指針を示し、拒否率だけに頼らない評価の重要性を訴えている。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Nvidiaスパイ疑惑、議会がAIチップ輸出規制強化へ",
+      "summary": "米議会で、Nvidia前CEOの外国情報機関接触疑惑を受け、AIチップの対中輸出を規制する複数の法案を来年度国防権限法に残す動きが与野党で進んでいる。",
+      "detail": "Nvidiaの前CEOジェンセン・フアン氏が中国の情報機関関係者とされる人物と接触していた疑惑を受け、同社やホワイトハウスの反対で一度は国防権限法案から外れていたAIチップ輸出規制の3法案(Chip Security Act、AI Overwatch Act、MATCH Act)を、与野党の議員が再び法案に残すよう動いている。上院案には既に3法案が含まれ、下院民主党のジェフリーズ院内総務も残す方向で調整すると述べたと報じられている。成立すれば、先端AIチップの密輸対策や同盟国による対中輸出制限の強化につながる可能性があるが、採決の時期や成立の見通しは不明だ。",
+      "why_it_matters": "AIチップの対中輸出規制が強化されれば、中国のAI開発力やNvidiaなど半導体企業の事業戦略に直接影響する可能性がある。",
+      "tags": [
+        "Nvidia",
+        "AIチップ",
+        "輸出規制",
+        "米議会"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "original_title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "original_lang": "en",
+      "published_at": "2026-11-15T19:15:43Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "PostgreSQL19延期、AIレビューでバグ検出加速が一因",
+      "summary": "PostgreSQL19の正式リリースが11月19日に延期された。開発者はLLMによるコードレビューでバグ検出が加速したことを延期の一因に挙げている。",
+      "detail": "PostgreSQL19は例年9〜10月にリリースされてきたが、今回はベータ4で多数の新機能が取り下げられ、正式版は11月19日にずれ込む見通しとなった。取り下げられたのはSQL/PGQやオンラインでのチェックサム切り替え、パーティションのMERGE・SPLITなどだ。コミッターのPeter Eisentraut氏は、LLMを使ったコードレビューで不具合報告が急増し、修正が追いつかなくなったことを一因に挙げているとされる。取り下げられた機能は将来のメジャーリリースで再提案される可能性がある。",
+      "why_it_matters": "AIによるコードレビューの精度向上が、大規模オープンソースプロジェクトの開発プロセスや品質基準そのものを変えうることを示す事例といえる。",
+      "tags": [
+        "PostgreSQL",
+        "OSS",
+        "AIコードレビュー"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
+      "original_title": "PostgreSQL 19リリース延期の背景。β4で多くの新機能取り下げが発生、原因はAIによるコードレビューか",
+      "original_lang": "ja",
+      "published_at": "2026-11-15T15:31:49Z",
+      "image_url": "https://www.publickey1.jp/2026/postgresql19-logo.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Cloudflare、AI向け軽量ブラウザKitesurfをOSS公開",
+      "summary": "CloudflareがAIエージェント専用の軽量ヘッドレスブラウザ「Kitesurf」をApache2.0でオープンソース公開した。Chromium比でCPU・メモリ効率が3〜7倍良いとしている。",
+      "detail": "Kitesurfはタブやブックマーク、拡張機能など人間向けのUI機能を省き、多数のAIエージェントを同時に動かすことを想定した軽量ヘッドレスブラウザだ。ChromiumやNode.jsに依存せず、主にRustで書かれWebAssemblyにコンパイルされ、Cloudflare Workers上での実行を想定する。Chrome DevTools Protocolに対応しPuppeteerなど既存クライアントから接続できるほか、Wranglerでローカル実行も可能だ。ライセンスはApache License 2.0で、GitHubで公開されている。",
+      "why_it_matters": "AIエージェントがウェブ操作を行う機会が増える中、軽量・高速なブラウザ基盤の選択肢が広がることは、エージェント運用コストの低減につながる可能性がある。",
+      "tags": [
+        "Cloudflare",
+        "AIエージェント",
+        "OSS"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/cloudflareaikitesurf.html",
+      "original_title": "Cloudflare、AI専用でタブやテーマや拡張などない軽量ヘッドレスブラウザ「Kitesurf」、オープンソースで公開",
+      "original_lang": "ja",
+      "published_at": "2026-11-15T15:30:19Z",
+      "image_url": "https://www.publickey1.jp/2026/Ys9MKQWA.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "Anthropic、拒否率に頼らない安全性評価指針を公開",
+      "summary": "Anthropicは安全性評価の設計・採点・報告に関する指針を公開した。拒否率ではなく分野別ルーブリックによる適切応答率などを重視する。",
+      "detail": "Anthropicは2026年11月13日、AIの安全性評価を設計・実行・報告する際の推奨事項をまとめたガイドを公開した。拒否率のような単純な数字ではなく、分野ごとに専門家が作ったルーブリックで「適切な応答」を測り、有害な依頼への無害な応答率と良性の依頼への過剰拒否率を組み合わせて評価するとしている。複数ターンの会話を模擬ユーザーで評価する手法や、採点基準の事前登録、信頼区間の算出など統計的な厳密さも求めている。Claudeのシステムカードで実際に使われている手法が基になっているという。",
+      "why_it_matters": "「拒否率が低い=安全」という単純な評価がAI業界で広がる中、より実態に近い安全性評価の標準を示す動きとして注目される。",
+      "tags": [
+        "Anthropic",
+        "AI安全性",
+        "評価手法"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "original_title": "Building strong safety evaluations",
+      "original_lang": "en",
+      "published_at": "2026-11-13T00:00:00Z",
+      "image_url": "https://assets.claude.com/04a298be2efa241bd5a4a810b97c62bb8ef257dc.jpg",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "research",
+      "importance": 2,
+      "title": "MIT発VISTA、生画像記憶でARC-AGI-3を効率的に解く",
+      "summary": "MITの研究者らが、画像をそのまま記憶し参照できるAIエージェント「VISTA」を公開した。ARC-AGI-3で人間より57.4%少ない操作で全25課題を解いたとされる。",
+      "detail": "VISTAは、従来のように画像を圧縮した埋め込みに変換するのではなく、見た画像をそのまま記憶として保存し、必要な場面で過去の画像を呼び出して拡大できる視覚ハーネスだ。MITのQiushi Han氏らが開発したとされる。公開資料によれば、ARC-AGI-3の公開25課題で、初めて挑戦する人間の平均操作数より57.4%少ない操作数で全問を解いたという。過去の行動とその結果も記録し、同じ失敗を繰り返さない仕組みも備える。",
+      "why_it_matters": "画像を圧縮せず保持する記憶方式は、長時間の視覚タスクをこなすAIエージェントの精度向上に役立つ可能性がある。",
+      "tags": [
+        "AIエージェント",
+        "マルチモーダル",
+        "研究"
+      ],
+      "source_name": "Qiita",
+      "source_url": "https://qiita.com/mhamadajp/items/a863b048760846945059",
+      "original_title": "画像を「捨てない」コンテキスト設計",
+      "original_lang": "ja",
+      "published_at": "2026-11-15T20:31:06Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkY4NDY5NyUyRmIyMDIyNDVjNDc1OTU0NmJmNjc2MDQ2MDllNmU4ODlmYTFlYmMyYjElMkZ4X2xhcmdlLnBuZyUzRjE3NjgxNzIxMjI_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPWUwZmZkZjAwYWJlMWY3NTExMDQ0YjMxMjIyNWI3NGU3%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D3b972c6db4f87964b38e7e8277f26ef3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU3JTk0JUJCJUU1JTgzJThGJUUzJTgyJTkyJUUzJTgwJThDJUU2JThEJUE4JUUzJTgxJUE2JUUzJTgxJUFBJUUzJTgxJTg0JUUzJTgwJThEJUUzJTgyJUIzJUUzJTgzJUIzJUUzJTgzJTg2JUUzJTgyJUFEJUUzJTgyJUI5JUUzJTgzJTg4JUU4JUE4JUFEJUU4JUE4JTg4JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9OTcyMzllOTUwNjg0ZTQ3NzJkMWJjNzU4ZmQ2NDI4ZjM&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBtaGFtYWRhanAmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz03ODc5NzcyODM5YTc3NTcwYjJlYmEyYzUyN2JkMTRlOA&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=9afe584314c8676718d3f71f623942e6",
+      "image_credit": "Qiita"
+    },
+    {
+      "section": "japan",
+      "importance": 2,
+      "title": "声で答えて認知機能チェック、稲城市でLINE連携開始",
+      "summary": "日本テクトシステムズのONSEI Proが、日本コンピューターのLINEアプリ「脳活ラボ」と連携した。東京都稲城市の65歳以上を対象に11月15日開始。",
+      "detail": "ONSEI Proは音声ガイドの質問に利用者が声で答え、AIがその音声を解析して認知機能の状態を5段階で示すセルフチェックアプリだ。今回、日本コンピューターが提供するLINEアプリ「脳活ラボ」のメニューから使えるようになり、過去の結果も見返せるようになった。第一弾として東京都稲城市に住む65歳以上の住民を対象に、2026年11月15日からサービスが始まった。利用料は無料だが、通信料は利用者の自己負担となる。",
+      "why_it_matters": "高齢者の認知機能チェックを身近なLINEから無料で行えるようにする自治体連携の一例で、他自治体への展開可能性も考えられる。",
+      "tags": [
+        "ヘルスケアAI",
+        "自治体",
+        "LINE"
+      ],
+      "source_name": "AI Quotidia",
+      "source_url": "https://qiita.com/quotidia/items/7076456bdb2ae8ad4932",
+      "original_title": "ONSEI ProとLINE「脳活ラボ」連携の要点：声で答えて認知機能を5段階で、稲城市の65歳以上から",
+      "original_lang": "ja",
+      "published_at": "2026-11-15T21:01:22Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9T05TRUklMjBQcm8lRTMlODElQThMSU5FJUUzJTgwJThDJUU4JTg0JUIzJUU2JUI0JUJCJUUzJTgzJUE5JUUzJTgzJTlDJUUzJTgwJThEJUU5JTgwJUEzJUU2JTkwJUJBJUUzJTgxJUFFJUU4JUE2JTgxJUU3JTgyJUI5JUVGJUJDJTlBJUU1JUEzJUIwJUUzJTgxJUE3JUU3JUFEJTk0JUUzJTgxJTg4JUUzJTgxJUE2JUU4JUFBJThEJUU3JTlGJUE1JUU2JUE5JTlGJUU4JTgzJUJEJUUzJTgyJTkyNSVFNiVBRSVCNSVFOSU5QSU4RSVFMyU4MSVBNyVFMyU4MCU4MSVFNyVBOCVCMiVFNSU5RiU4RSVFNSVCOCU4MiVFMyU4MSVBRTY1JUU2JUFEJUIzJUU0JUJCJUE1JUU0JUI4JThBJUUzJTgxJThCJUUzJTgyJTg5JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9NGJhODJkMzRiM2ZjMjYwZDEzODZlNDdmYzE4YzY2Mjk&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=4cbd704fb582df21500b3cd480a9c6cd",
+      "image_credit": "AI Quotidia"
+    }
+  ]
+}
