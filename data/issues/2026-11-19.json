@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T06:50:00+09:00",
+  "headline": "NVIDIAがフアン氏の復帰を否定",
+  "lead": "NVIDIA取締役会は、辞任したジェンセン・フアン氏をCEOに戻さない方針を決算会見で明らかにした。同じ頃、Anthropicは、AmazonとGoogleがIPO後に合計で3割弱の株式を持つことを開示し、両社とAI業界の結びつきの深さが改めて浮き彫りになった。AI活用が広がる一方で、サイバー攻撃対策やAIエージェント利用時の責任分担など、安全に使うための課題も次々と表面化している。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "NVIDIA、フアン氏のCEO復帰を否定",
+      "summary": "NVIDIA取締役会は、辞任したジェンセン・フアン氏をCEOに復帰させない方針を示した。暫定CEOのコレット・クレス氏が後任探しの間、指揮を執る。",
+      "detail": "NVIDIAのジェンセン・フアンCEOは、素行に関する取締役会の調査を経て11月12日に辞任し、最高財務責任者のコレット・クレス氏が暫定CEOに就いた。フアン氏は11月17日、自身のX上でCEO復帰を望む考えを示したが、同日の決算会見で会長のハーベイ・ジョーンズ氏は「フアン氏をCEOに戻す意向はない」と明言した。取締役会は社内外から次期CEOを探すとしており、米証券取引委員会(SEC)も同社を調査しているとされる。イーロン・マスク氏らがフアン氏の復帰を求める書簡に署名するなど、業界からの反応も広がっている。",
+      "why_it_matters": "AI半導体市場を主導するNVIDIAの経営体制の混乱は、サプライチェーン全体の先行きに影響しうる。",
+      "tags": [
+        "NVIDIA",
+        "ジェンセン・フアン",
+        "経営"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
+      "original_title": "Nvidia says it doesn't plan to reappoint Jensen Huang as CEO",
+      "original_lang": "en",
+      "published_at": "2026-11-17T22:42:27Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Amazon・Google、Anthropic株3割弱保有へ",
+      "summary": "Anthropicは、AmazonとGoogleがIPO後に合計で約28%の株式を持つことを開示した。両社の保有分は無議決権株式となる。",
+      "detail": "Anthropicは11月17日、IPOに向けた開示で主要株主の保有比率を明らかにした。Amazonは2023・24年に提供した転換可能融資の転換により約14.7%を保有し、残りの転換権も使えば最大23.8%まで引き上げ可能という。Googleは融資の転換と私募増資への出資により約13.7%を保有し、両社合計では約28%に達する。両社の株式は無議決権で、売却時に通常のクラスA株へ転換できる。AMD、Broadcom、Google、Micron、Microsoft、NVIDIA、TSMC Partnersが参加した260億ドル規模の私募増資では、GoogleとNVIDIAがそれぞれ100億ドルを出資したとされる。",
+      "why_it_matters": "Anthropicの資本構成が明らかになったことで、IPO後の経営独立性やクラウド大手との関係への影響が注目される。",
+      "tags": [
+        "Anthropic",
+        "Amazon",
+        "Google",
+        "IPO"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+      "original_title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "original_lang": "en",
+      "published_at": "2026-11-17T22:29:05Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Google、「Gemini 4 Neon」を発表",
+      "summary": "Googleは、Gemini 4ファミリーの新モデル「Neon」を発表した。コーディングやナレッジワーク向けに性能と速度のバランスを狙う。",
+      "detail": "Gemini 4 Neonは、最上位の「Carbon」と高速版「Hydrogen」の間に位置するモデルで、11月18日に発表された。Artificial Analysis Intelligence Indexで総合3位、コーディング特化のCoding Agent Indexで1位を記録したとGoogleは説明する。最大100万トークンのコンテキストでスプレッドシートやPDF、音声・動画を扱え、Google Antigravity上では並列サブエージェントの実行にも対応する。価格は入力100万トークン当たり3ドル、出力15ドルで、同じ高推論設定でCarbonより約32%安いとされる。開発者はGemini APIやAI Studio、企業向けはAntigravity、一般利用者はGeminiアプリのProおよびUltraプランで利用できる。",
+      "why_it_matters": "高性能モデルを手頃な価格で使えるようにすることで、企業の生成AI活用の裾野がさらに広がる可能性がある。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "モデル"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "original_title": "Introducing Gemini 4 Neon",
+      "original_lang": "en",
+      "published_at": "2026-11-18T21:35:43Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+      "image_credit": "Google"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "Google、世界モデル「Genie 4」を一般提供",
+      "summary": "Google DeepMindは、対話や操作で生成した世界を探索できる世界モデル「Genie 4」の提供を始めた。まずGoogle AI Ultra加入者が対象となる。",
+      "detail": "Genie 4は「Project Genie」を通じて提供され、テキストや画像、対話から双方向に探索可能な世界を生成する。セッション中に新しい指示を加えて天候やキャラクターを変えたり、環境音や会話が場面に応じて変化する点が特徴という。1回の生成時間は前バージョンの60秒から最大3分に延び、360度パノラマから世界を生成したり、複数の世界をつなげたりできるようになった。生成した世界はコミュニティギャラリーで公開・改変できる。すべての映像・音声にはSynthIDの電子透かしが付き、入出力は安全性チェックを経るとしている。Proプランの利用者は順番待ちリストに登録できる。",
+      "why_it_matters": "対話で操作できる世界モデルが一般提供されることで、教育やエンタメ分野での活用が広がる可能性がある。",
+      "tags": [
+        "Google DeepMind",
+        "Genie",
+        "世界モデル"
+      ],
+      "source_name": "Google DeepMind",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "original_title": "Genie 4 is now available",
+      "original_lang": "en",
+      "published_at": "2026-11-18T18:13:42Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+      "image_credit": "Google DeepMind"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "マイクロソフト、コーディングAI「MAI Code 2」発表",
+      "summary": "マイクロソフトは、コーディング向けAIモデル「MAI Code 2」と軽量版「MAI Code 2 Flash」を発表した。低コストを強みに据える。",
+      "detail": "両モデルは、年次イベント「Microsoft Ignite 2026」で発表された。上位モデルのMAI Code 2は本番環境向けのコード生成や難しいデバッグ、リポジトリ全体を踏まえた推論に強みを持つとし、マイクロソフトの測定では企業向けタスクのベンチマーク平均でGPT-6.1 Solの98%、Claude Opus 5.5の96%の性能を示しながら、コストはそれぞれ40%・5%程度にとどまるという。軽量版のMAI Code 2 Flashは、コードの解説や細かな修正など頻度の高い作業向けで、GPT-6 LunaやClaude Haiku 5.5と同等の性能をより低いコストで示すとされる。これらの性能・価格の比較はマイクロソフト自身の発表に基づくもので、提供開始日や対応地域の詳細は記事執筆時点では確認できていない。",
+      "why_it_matters": "低コストのコーディング専用モデルが増えることで、企業がAI開発ツールを選ぶ際の価格競争が一段と進む可能性がある。",
+      "tags": [
+        "Microsoft",
+        "MAI Code 2",
+        "コーディングAI"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html",
+      "original_title": "［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表",
+      "original_lang": "ja",
+      "published_at": "2026-11-17T21:48:15Z",
+      "image_url": "https://www.publickey1.jp/2026/maicode2-ann01.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Snapchat、AIコーディング支援でARレンズ開発",
+      "summary": "Snapchatは、Claude CodeやCursorなどのAIコーディング支援ツールでARレンズを作れる「Easy Lens CLI」を発表した。",
+      "detail": "Easy Lens CLIは、プロンプト1つでレンズを生成する既存の「Easy Lens」を、開発者が普段使うコーディング環境に拡張したツールである。自然言語で作りたいレンズを伝えると、AIコーディング支援ツールが100種類超のAR部品や50種類超のAI素材生成機能を使ってビルド・テスト・エラー修正・公開までを行い、更新版をスマートフォンに直接送れるという。Snapchatは、アイデアから公開まで1日で完了できるとしている。リーダーボード付きのWebゲームやカメラ効果、ブランドのAR体験などへの応用を想定する。CLIはMac・Windows・Linuxで動作し、「Lens+ Payouts」に登録したクリエイターは収益化もできる。",
+      "why_it_matters": "AIコーディング支援ツールがARコンテンツ制作にも広がることで、個人クリエイターの参入障壁がさらに下がる可能性がある。",
+      "tags": [
+        "Snapchat",
+        "Claude Code",
+        "AR"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+      "original_title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "original_lang": "en",
+      "published_at": "2026-11-18T19:56:39Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg?w=1200",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "cloud",
+      "importance": 4,
+      "title": "マイクロソフト、AI対AIの防御サービス開始",
+      "summary": "マイクロソフトは、AIによるサイバー攻撃にAIエージェントで対抗するセキュリティサービス「Microsoft Perception」の一般提供を始めた。",
+      "detail": "Microsoft Perceptionは、年次イベント「Microsoft Ignite 2026」で発表された。攻撃者視点で脆弱性を見つける「レッドチーム」、攻撃の検知・調査・対応を担う「ブルーチーム」、脆弱性やバグの修正を担う「グリーンチーム」という3種のAIエージェントで構成される。各エージェントは手順書である「プレイブック」に従って日常的に連携しながら自律的に動き、重要な判断が必要な場面では人間に確認するという。グリーンチーム用のプレイブックは、マイクロソフトのプラットフォームに加えAWSやGoogle Cloudもカバーするとされる。料金や対応環境の詳細は記事執筆時点では確認できていない。",
+      "why_it_matters": "AIを使った攻撃にAIで対抗する動きが大手クラウド事業者から本格的に始まったことを示す。",
+      "tags": [
+        "Microsoft",
+        "サイバーセキュリティ",
+        "AIエージェント"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/aiaimicrosoft_perception.html",
+      "original_title": "マイクロソフト、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始",
+      "original_lang": "ja",
+      "published_at": "2026-11-18T16:00:37Z",
+      "image_url": "https://www.publickey1.jp/2026/HXWPdJiXoAAF46K.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "ラッキー氏、AIサイバー攻撃の加速に警鐘",
+      "summary": "Anduril共同創業者のパーマー・ラッキー氏は、AIを使ったサイバー攻撃が守る側の対応を上回る速さで進化していると警鐘を鳴らした。",
+      "detail": "ラッキー氏は11月18日、ニューヨーク・タイムズ主催の「DealBookサミット」で発言した。相次ぐIT障害を受けた議論の中で、同氏は攻撃側の進化の速さと、古いシステムを使い続ける組織の対応の遅さとの「ミスマッチ」を指摘し、北朝鮮など一部の国家がこの隙を戦略的・金銭的に利用しているとの見方を示した。長期的にはAIを防御に最も効果的に使う側に優位が傾くとも述べ、「備えがどれだけできているかが鍵だ」と警戒を促した。同氏の発言に具体的な統計の提示はない。",
+      "why_it_matters": "AIを使った攻撃と防御の競争が実務家の間でも強く意識されていることを示す。",
+      "tags": [
+        "サイバーセキュリティ",
+        "Anduril",
+        "AI"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
+      "original_title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: 'It's time to start running'",
+      "original_lang": "en",
+      "published_at": "2026-11-18T21:34:13Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305757563-Medium.jpeg?w=594",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "米銀、AIエージェント利用の責任を利用者に",
+      "summary": "米銀各社が利用規約を改定し、AIエージェントに口座情報を渡して被害を受けた場合の責任は利用者が負うと明記し始めた。",
+      "detail": "米3位のシティバンクは今週、オンライン利用規約を改定し、サードパーティーのAIツールに口座へのアクセスを許可した顧客は、そのツールの行動について責任を負うと定めた。認証情報が漏えいした場合の責任も顧客側にあるとしつつ、自社提供のAIエージェントには追加の責任を課さないという。JPモルガン・チェースとバンク・オブ・アメリカは10月に同様の方針を発表済みで、8位のPNCも11月18日に規約を変更した。シチズンズも利用者に注意を促すメールを送ったという。対照的に、Anthropicが11月に始めた個人向け資産管理機能は「読み取り専用」で、資金の移動や投資はできないとされる。",
+      "why_it_matters": "AIエージェントの普及が進む一方、被害時の責任の所在が利用者側に偏りつつある実態を示す。",
+      "tags": [
+        "AIエージェント",
+        "銀行",
+        "セキュリティ"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+      "original_title": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "original_lang": "en",
+      "published_at": "2026-11-18T17:32:10Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-1497343848.jpeg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "孫正義氏、アンソロピック出資見送りを後悔",
+      "summary": "ソフトバンクグループの孫正義会長兼社長は、米Anthropicへの出資を見送ったことを「自分の失敗」の一つだったと振り返った。",
+      "detail": "孫氏は11月18日、日本経済新聞社主催イベントで、Anthropicのダリオ・アモデイCEOと直接会って出資を検討したものの、当時すでに進めていた米OpenAIへの大規模投資が障害となり、出資に踏み切れなかったと明かした。ソフトバンクグループは出資先企業同士のつながりを生み出す「群戦略」を基本方針としており、孫氏は好機を逃した判断として振り返っているという。発言の詳細な金額などの数字は記事からは確認できていない。",
+      "why_it_matters": "国内最大のAI投資家の判断の揺れは、Anthropicの企業価値への評価の変化を映している可能性がある。",
+      "tags": [
+        "ソフトバンク",
+        "孫正義",
+        "Anthropic"
+      ],
+      "source_name": "ITmedia",
+      "source_url": "https://www.itmedia.co.jp/business/articles/2611/18/news086.html",
+      "original_title": "孫正義氏が明かす、アンソロピック出資見送りの舞台裏　「僕の失敗」「あん時入れときゃよかった」",
+      "original_lang": "ja",
+      "published_at": "2026-11-18T13:03:00Z",
+      "image_url": "https://image.itmedia.co.jp/business/articles/2611/18/cover_news086.jpg",
+      "image_credit": "ITmedia"
+    }
+  ]
+}
