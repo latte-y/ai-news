@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T07:10:00+09:00",
+  "headline": "NVIDIA揺れる中、AI各社は前進",
+  "lead": "NVIDIAは好決算を発表した一方、フアン氏のCEO復帰を求める声を取締役会が拒否するなど経営の不透明感が続いた。国連では自律型兵器の規制交渉が不調に終わり、AWSは推論基盤と文書処理AIの新機能を発表した。IDC調査はAI活用企業ほど増員する傾向を示し、医療AIの評価指標の読み方にも注意が必要な事例が報告された。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "NVIDIA決算好調、フアン氏復帰は拒否",
+      "summary": "NVIDIAは11月17日発表の決算で売上高1158億ドル(前年比約103%増)を記録した。同時に進むフアン氏のCEO復帰要求を取締役会は拒否した。",
+      "detail": "NVIDIAは11月17日、2027年度第3四半期決算で売上高1158億ドル(前年比約103%増)、データセンター部門が1076億ドルだったと発表し、次期は売上高1300億ドル前後(上下3%)を見込むとした。フアン氏は11月中旬にCEOを退任し、CFOのコレット・クレス氏が暫定CEOを務めている。取締役会長のハーヴェイ・ジョーンズ氏は決算会見で、フアン氏の復帰は予定していないと述べた。イーロン・マスク氏らがフアン氏の復帰を求める請願を広め、フアン氏本人も復帰に前向きな姿勢を示したが、NVIDIAは請願を速やかに否定している。",
+      "why_it_matters": "AIブームを支える最大手の経営体制が不安定なままなのは、AI業界全体のサプライチェーンに影響しうると考えられる。",
+      "tags": [
+        "NVIDIA",
+        "決算",
+        "半導体",
+        "経営"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
+      "original_title": "A tale of two Nvidias",
+      "original_lang": "en",
+      "published_at": "2026-11-21T21:07:42Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "国連、自律兵器規制で合意できず",
+      "summary": "国連の自律型兵器(「キラーロボット」)規制交渉は合意に至らず、法的拘束力あるルール案の提案期限を当初目標の1年から2年に延ばす妥協にとどまった。",
+      "detail": "ジュネーブで開かれた国連の会議では、自律型兵器(通称「キラーロボット」)を規制する法的拘束力のあるルール作りが議題となった。赤十字国際委員会は1年以内の策定を訴え、国連事務総長やローマ教皇も支持したが、交渉の結果は2年以内に規制案を提案するという妥協にとどまり、一部の規制は「任意」とする余地も残された。ロシアは初日に議題そのものに異議を唱え、米国は拘束力のない指針について5年の検討期間を提案するなど、ロシア・イスラエル・米国が交渉の主な障害になったと報じられている。半自律型兵器や無人機は、ウクライナ・ガザ・スーダンなどで民間人被害の一因になっているとされる。",
+      "why_it_matters": "AIを搭載した自律型兵器の国際ルールづくりが遅れることで、規制の空白が長期化する可能性があると考えられる。",
+      "tags": [
+        "自律型兵器",
+        "国連",
+        "AI政策",
+        "安全保障"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "original_title": "The UN fails to agree on rules regulating 'killer robots'",
+      "original_lang": "en",
+      "published_at": "2026-11-21T20:03:37Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "AI高ROI企業ほど増員、IDC調査",
+      "summary": "IDC調査で、AI投資のROIが50%超の「リーダー」企業の68%が今後18か月でエントリー層の増員を見込むと分かった。削減見込みはどの階層も12%以下。",
+      "detail": "IDCが2026年5月に18か国のIT部門意思決定者を対象に実施した調査によると、AI投資で50%超のROIを得た「リーダー」企業は、エントリー層の68%、中間管理職の63%、上級管理職の59%が今後18か月で増員を見込むと回答した。一方、ROIが出ていない「ラガード」企業はいずれの階層も30~40%台にとどまった。人員削減を見込む割合はリーダーでも12%以下で、中間・上級管理職では3%だった。IDCは、AIが代替するのは仕事そのものではなく個々の作業であり、リーダー企業は削減と増員を同時に進めて人員配置を組み替えていると分析している。",
+      "why_it_matters": "「AI導入で人員は減る」という通説に反する結果で、企業のAI活用戦略の見直しを促す可能性がある。",
+      "tags": [
+        "IDC",
+        "AIと雇用",
+        "調査",
+        "働き方"
+      ],
+      "source_name": "ITmedia エンタープライズ",
+      "source_url": "https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html",
+      "original_title": "AIで成果を出す企業ほど「人を増やす」？　“通説”を否定する調査結果をIDCが発表",
+      "original_lang": "ja",
+      "published_at": "2026-11-21T00:00:00Z",
+      "image_url": "https://image.itmedia.co.jp/enterprise/articles/2611/21/cover_news003.jpg",
+      "image_credit": "ITmedia エンタープライズ"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Ek氏、AI研究者の核融合企業に出資",
+      "summary": "Spotify創業者ダニエル・エク氏が、AI研究者ナンタス・ナルデッリ氏が英国で立ち上げた核融合スタートアップ「Europa Fusion」を支援していると報じられた。出資額は非公表。",
+      "detail": "Europa Fusionは、Google DeepMindなどでAI研究に携わったナンタス・ナルデッリ氏が2026年2月に英国で立ち上げたステルス状態のスタートアップである。核融合の先行企業Pacific Fusionと同様、電流パルスで燃料を圧縮して核融合反応を起こす「パルスパワー方式」を採用するが、ナルデッリ氏は物理装置そのものよりシミュレーションとデータを重視する方針とされる。Spotify創業者のダニエル・エク氏が出資していることをBloombergが報じたが、出資額は公表されていない。核融合が実用化すれば、AIの電力消費拡大への懸念を和らげる電源となる可能性がある。",
+      "why_it_matters": "AI研究者が核融合に転じる動きは、AI業界の電力需要拡大が新たな投資テーマを生んでいることを示していると考えられる。",
+      "tags": [
+        "核融合",
+        "スタートアップ",
+        "出資",
+        "AIと電力"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+      "original_title": "Daniel Ek backs AI researcher's fusion power startup. Here's what they're building.",
+      "original_lang": "en",
+      "published_at": "2026-11-20T19:53:41Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、推論基盤を複数リージョンで一元化",
+      "summary": "AWSはSageMaker HyperPodに「Global Inference Gateway」を発表し、複数クラスター・複数リージョンの推論基盤を単一エンドポイントでルーティングできるようにした。",
+      "detail": "SageMaker HyperPodは従来、クラスターごとに1つの推論エンドポイントを提供していたが、クラスターやリージョンをまたぐ負荷分散は利用者側で構築する必要があった。新しいGlobal Inference Gatewayは、登録した全クラスターを横断してリクエストを振り分ける単一のマネージド型エンドポイントで、KVキャッシュの空き・キュー長・リージョン近接性・エラー率の4指標でクラスターを採点し、障害時は自動でフェイルオーバーする。通信はAWS PrivateLinkで行い、SigV4とIAMで認証する。東京を含む13リージョンで利用できる。",
+      "why_it_matters": "GPU容量の確保が難しくなる中、複数拠点のAI推論基盤を一つの窓口で運用できることは、コスト効率と可用性の両立につながると考えられる。",
+      "tags": [
+        "AWS",
+        "SageMaker",
+        "推論基盤",
+        "クラウド"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters",
+      "original_title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+      "original_lang": "en",
+      "published_at": "2026-11-20T22:35:24Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/ML-22376-1-1.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "AWS、検証可能な文書生成AIを提供開始",
+      "summary": "AWSは文書から自然言語で指定した項目を抽出し、各値に信頼度スコアとページ根拠を付けて返す「Amazon Textract Insights」を一般提供開始した。",
+      "detail": "Textract Insightsは、請求書や契約書、W-2・給与明細・銀行取引明細証書などが混在した複数文書の束を対象に、自然言語で定義した項目(ブループリント)を抽出する新機能。1ファイル最大3000ページを分割し、各サブ文書を適切なブループリントに照合して値を抽出し、根拠となるページと座標、信頼度スコアを返す。従来の自前パイプラインや汎用LLMでは出典の追跡や信頼度の付与が難しかった課題に対応する。同時にTextract Core自体の読み取り精度も改善し、対応言語を40言語に拡大、東京とチューリッヒのリージョンでも利用できるようになった。",
+      "why_it_matters": "抽出結果の根拠と確信度が分かることで、人手レビューを低信頼の項目だけに絞り込め、文書処理の自動化範囲を広げられると考えられる。",
+      "tags": [
+        "AWS",
+        "Textract",
+        "文書AI",
+        "生成AI"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents",
+      "original_title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+      "original_lang": "en",
+      "published_at": "2026-11-20T20:22:00Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22308-2.jpg",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "卵巣がんAI検査「99.5%」の読み方",
+      "summary": "慶應義塾大学などの研究チームが血液中の糖ペプチドをAIで解析する卵巣がん検査を報告したと伝えられるが、「99.5%」は特異度で、感度は65%だったとされる。",
+      "detail": "慶應義塾大学医学部・東海大学・湘南医療大学・NECの研究チームは、血液中の糖ペプチド約1700種類と腫瘍マーカー、年齢を2段階の機械学習(LightGBM)で判定する卵巣がん検査を報告したと伝えられる。卵巣がん患者553人と非がん者1144人による内部検証では、がんでない人を正しく判定する「特異度」が99.5%だった一方、がんのある人を正しく見つける「感度」は65%で、約3人に1人以上が見逃される可能性があるという。特異度の高さだけを見ると精度が高い検査に見えるが、感度と合わせて評価する必要がある。検証は内部データのみで、外部データでの検証は今後の課題とされている。",
+      "why_it_matters": "医療AIの性能を一つの指標だけで判断すると過大評価につながりかねず、特異度と感度を区別して報じる重要性を示す事例だと考えられる。",
+      "tags": [
+        "医療AI",
+        "卵巣がん",
+        "機械学習",
+        "日本の研究"
+      ],
+      "source_name": "AI Quotidia",
+      "source_url": "https://qiita.com/quotidia/items/943ba3a0bb4bce13506d",
+      "original_title": "慶應義塾大学などの血液AI解析のがん検査、卵巣がんの「99.5%」は、がんでない人を見分けた割合",
+      "original_lang": "ja",
+      "published_at": "2026-11-21T21:01:02Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU2JTg1JUI2JUU2JTg3JTg5JUU3JUJFJUE5JUU1JUExJUJFJUU1JUE0JUE3JUU1JUFEJUE2JUUzJTgxJUFBJUUzJTgxJUE5JUUzJTgxJUFFJUU4JUExJTgwJUU2JUI2JUIyQUklRTglQTclQTMlRTYlOUUlOTAlRTMlODElQUUlRTMlODElOEMlRTMlODIlOTMlRTYlQTQlOUMlRTYlOUYlQkIlRTMlODAlODElRTUlOEQlQjUlRTUlQjclQTMlRTMlODElOEMlRTMlODIlOTMlRTMlODElQUUlRTMlODAlOEM5OS41JTI1JUUzJTgwJThEJUUzJTgxJUFGJUUzJTgwJTgxJUUzJTgxJThDJUUzJTgyJTkzJUUzJTgxJUE3JUUzJTgxJUFBJUUzJTgxJTg0JUU0JUJBJUJBJUUzJTgyJTkyJUU4JUE2JThCJUU1JTg4JTg2JUUzJTgxJTkxJUUzJTgxJTlGJUU1JTg5JUIyJUU1JTkwJTg4JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9MTE1YjY4MDVhNWMxMzYxMTRlYzdjNmVkMTZjYmQ1MWM&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=7c5661b6e31b36fe634bdbb8c808e398",
+      "image_credit": "AI Quotidia"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "AIで「顔」ライセンス、ハリウッドに波及?",
+      "summary": "マイクロドラマ企業Shorticalが俳優アキ・アヴニ氏の顔をAIアバター化してライセンスする契約を結び、全編AI制作の作品を公開した。報酬額は非公開。",
+      "detail": "Shorticalは俳優アキ・アヴニ氏の顔から作ったデジタルアバターを使い、本人役で自分の顔を映画会社にライセンスするという筋書きの全編AI制作作品「Inevitable」をロサンゼルスで公開した。同社にとって初めての顔ライセンス契約で、報酬額は非公開だが「AIを使わない演技と同等の業界標準」と説明されている。同社は一般ユーザーからも顔の利用希望を募る「LICENSE YOUR FACE」という枠組みを用意しているが、現時点で成立した契約はないという。中国では同種のマイクロドラマでの顔ライセンスが既に広がっており、無断利用を訴えるクリエイターもいるとされる。業界関係者は、若手の経験の場が縮小する懸念や同意・肖像権の問題を指摘している。",
+      "why_it_matters": "生成AIによる「顔のライセンス化」が広がれば、俳優や映像業界の労働条件や肖像権のルールに大きな影響を与えうると考えられる。",
+      "tags": [
+        "AI動画",
+        "肖像権",
+        "エンタメ",
+        "生成AI"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "original_title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "original_lang": "en",
+      "published_at": "2026-11-21T16:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200",
+      "image_credit": "TechCrunch"
+    }
+  ]
+}
