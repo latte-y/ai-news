@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T06:47:46+09:00",
+  "headline": "リーマン予想「証明」にAIが挑む",
+  "lead": "Anthropicの数学者がClaudeと共同で数学最大の難問の一つ「リーマン予想」の証明を発表し、Lean/Mathlibコミュニティが形式検証で正しいと認定した。一方でOpenAIはAI開発の速度を測る共通指標を提案するなど、能力拡大と安全性のバランスを巡る動きが相次いだ。データセンター拡大への反発やAIベンダーの security インシデントも表面化している。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Claudeと数学者、リーマン予想証明を主張",
+      "summary": "Anthropicの数学者がClaudeと共同でリーマン予想の証明を発表し、Lean/Mathlibコミュニティが1700万行の形式証明を検証して正しいと認定した。",
+      "detail": "リーマン予想は167年間解かれていない数学最大の難問の一つ。Anthropic所属の数学者レベント・アルポーゲ氏は11月20日、Claudeと共同で証明を発見したと自身のサイトで発表し、証明支援系Leanで記述された約1700万行の形式証明を公開した。MITの研究者らが独立にコードをコンパイルして確認し、21日にはLean/Mathlibコミュニティも数十人による再現検証を経て「証明は正しい」と認定する共同声明を出した。証明は一般化リーマン予想も解決するとされる。ただし人間の数学者が読める論文はまだ公開されておらず、内容の理解・査読はこれからだ。",
+      "why_it_matters": "形式検証で正しいと認められても、数学界による内容の理解・査読が済むまでは「解決」と確定しない点に注意が必要と考えられる。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "数学",
+        "リーマン予想"
+      ],
+      "source_name": "ITmedia",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/22/2000003388",
+      "original_title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張　Leanコミュニティが「正しい」と認定",
+      "original_lang": "ja",
+      "published_at": "2026-11-21T23:21:31Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/22/2000003388/10012748/2048",
+      "image_credit": "ITmedia"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "OpenAI、AI開発速度の共通指標を提案",
+      "summary": "OpenAIのチーフサイエンティストが、AI開発の速度制限に使う共通指標として「パープレキシティ」を提案し、自社モデルの内部データを初公開した。",
+      "detail": "AnthropicのCEOがAI開発の速度を企業間で合意して抑える構想を示すなど、開発減速を求める議論が高まっている。OpenAIのチーフサイエンティスト、ヤクブ・パチョツキ氏は、速度の合意には共通の測定基準が必要だとして、次トークン予測の精度を示す指標「パープレキシティ」(対数損失)を提案した。GPT-3.5の約0.99からGPT-4の約0.91、最新モデルの0.76への推移を公開し、0.8を下回る水準から数学などで画期的な能力が現れ始めたと説明している。各社がこの指標を基準に「共通の上限」を設け、AIの挙動を監視できる具体的な技術が実現するまで超えないという枠組みを提案した。",
+      "why_it_matters": "業界横断でAI開発の速度を測る共通言語を作る試みで、実現すれば開発競争を抑える仕組みの土台になる可能性がある。",
+      "tags": [
+        "OpenAI",
+        "AI安全性",
+        "パープレキシティ"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/perplexity-and-intelligence",
+      "original_title": "Perplexity and Intelligence",
+      "original_lang": "en",
+      "published_at": "2026-11-22T00:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Signal、AI監視を懸念しスクショ制限",
+      "summary": "Signalがエージェント型AIによる監視を「存亡の脅威」と位置づけ、Android・iOS版にもスクリーンショット制限を追加導入した。",
+      "detail": "WindowsやAndroidなどのOSは、エージェント型AIが画面上の情報を読み取れるようになっており、Signal社長のメレディス・ウィテカー氏はこれがSignal独自のプライバシー保証を損なうと指摘している。Signalは金曜のブログ投稿で、これまでWindows版で既定だったスクリーンショット制限を、AndroidとiOS版にも新たに加えると発表した。利用者は設定で無効化できるが、無効にするとプライバシー保証が損なわれるという。ウィテカー氏自身、AIエージェントがアプリデータへアクセスする「より巧妙な方法」には対処できておらず、対策は「不完全」だと認めている。",
+      "why_it_matters": "OSに組み込まれたAIエージェントがプライベートな会話を取得しうるという懸念が、プライバシー重視アプリの設計にも影響を及ぼし始めていることを示す。",
+      "tags": [
+        "Signal",
+        "プライバシー",
+        "AIエージェント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "original_title": "Signal restricts mobile screenshots as it confronts 'existential threat' of AI surveillance",
+      "original_lang": "en",
+      "published_at": "2026-11-21T21:37:10Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/signal-app-icon-phone.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "国連、自律型兵器の条約交渉入り見送り",
+      "summary": "国連CCW再検討会議は、AIなどで人の判断を介さず標的を選ぶ自律型兵器について、法的拘束力のある条約交渉入りを決められなかった。",
+      "detail": "スイス・ジュネーブで開かれた特定通常兵器使用禁止制限条約(CCW)の第7回再検討会議(締約国128)で、AIなどを使い人の操作を待たずに標的を選ぶ自律型兵器の規制が議題となった。11月21日未明、会議は法的拘束力のある条約の交渉入りを決めず、2年かけて規制文書を協議するという妥協案で終了したと報じられている。7か国は1年以内の条約交渉入りを求めたが通らず、米国は拘束力のない指針を5年かけて作る案を出したとされる。この文書が将来法的拘束力を持つかどうかは未定のままで、規制の実現は少なくとも2年先に持ち越された。",
+      "why_it_matters": "AIによる自律的な攻撃対象選定への国際的な歯止めづくりが遅れることで、軍事分野でのAI活用が規制のない状態で進む可能性があると考えられる。",
+      "tags": [
+        "自律型兵器",
+        "国連",
+        "AI安全性"
+      ],
+      "source_name": "AI Quotidia",
+      "source_url": "https://qiita.com/quotidia/items/7ac343daabaa1c0cb8fe",
+      "original_title": "国連の会議、AIなどで標的を選ぶ自律型兵器の条約交渉入りを決められず。2年かけて規制の文書を話し合う",
+      "original_lang": "ja",
+      "published_at": "2026-11-22T21:01:13Z",
+      "image_url": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDQzMzI3MSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc3OTAwNzIzNT9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9YWY5NDIyNzdmMjZlOGJhMzVmYmZlY2IwOGU2ZWQ2NTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Df59d4b48280797c581d3f62880665fc3?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU1JTlCJUJEJUU5JTgwJUEzJUUzJTgxJUFFJUU0JUJDJTlBJUU4JUFEJUIwJUUzJTgwJTgxQUklRTMlODElQUElRTMlODElQTklRTMlODElQTclRTYlQTglOTklRTclOUElODQlRTMlODIlOTIlRTklODElQjglRTMlODElQjYlRTglODclQUElRTUlQkUlOEIlRTUlOUUlOEIlRTUlODUlQjUlRTUlOTklQTglRTMlODElQUUlRTYlOUQlQTElRTclQjQlODQlRTQlQkElQTQlRTYlQjglODklRTUlODUlQTUlRTMlODIlOEElRTMlODIlOTIlRTYlQjElQkElRTMlODIlODElRTMlODIlODklRTMlODIlOEMlRTMlODElOUElRTMlODAlODIyJUU1JUI5JUI0JUUzJTgxJThCJUUzJTgxJTkxJUUzJTgxJUE2JUU4JUE2JThGJUU1JTg4JUI2JUUzJTgxJUFFJUU2JTk2JTg3JUU2JTlCJUI4JUUzJTgyJTkyJUU4JUE5JUIxJUUzJTgxJTk3JUU1JTkwJTg4JUUzJTgxJTg2JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9YjNkNTcxOGUxNGQ3OTE5OGY4YjEwYTgwZDU3NmI5NGU&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBxdW90aWRpYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhNjI0NjUzMTU4ODhjZWUzZDIxNjI0N2Q4Y2JjZDY2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=57e8782704c88b76e4976c4ec8a27d86",
+      "image_credit": "AI Quotidia"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "データセンター急増に住民反発、超党派に",
+      "summary": "データセンターの急拡大への住民の反発が米国各地で広がり、水・電力使用への懸念が政治問題化していると著書「Hyperscale」の著者が指摘した。",
+      "detail": "TechCrunchが著書「Hyperscale」の著者パリス・マークス氏に取材した。チリや米オレゴン州、アイルランドなど各地で、データセンターの水・電力利用への懸念から住民運動が起きている。アイルランドではデータセンターが国内電力の2割超を消費し、2022年にダブリン周辺で新規系統接続が一時停止された例や、グーグルがオレゴン州の水の29%を使用していたと住民の情報開示請求で判明した例が紹介されている。マークス氏は、データセンターへの反発が米中間選挙の結果の一因になったとの見方を示した。マイクロソフト・アマゾン・OpenAIは自治体との交渉でNDAを使わない方針を示したが、マークス氏は「大きな違いはない」と評価している。",
+      "why_it_matters": "AIインフラの拡大ペースが地域社会の資源や政治と衝突し始めており、超党派の政治問題化が今後の建設計画に影響しうると考えられる。",
+      "tags": [
+        "データセンター",
+        "電力",
+        "インフラ"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+      "original_title": "Why data centers are at the center of the Big Tech backlash",
+      "original_lang": "en",
+      "published_at": "2026-11-22T18:08:43Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Notion AI、委託先侵害でチャット流出か",
+      "summary": "Notionは、AI推論を委託するFireworks AIへの不正アクセスにより、Notion AIのチャット記録の一部が流出した可能性があると公表した。",
+      "detail": "Notionは社内機能「Insights」の分類処理に、外部のAI推論基盤Fireworks AIを使っていた。Fireworksは10月下旬、研究開発用マシンを置くクラウド環境への侵入を受けたとされる。Notionは11月9日、この侵害によりNotion AIのチャット記録の一部が流出した可能性があると顧客に通知した。影響を受けたのはワークスペース全体の1%未満とされ、Notionは11月3日にFireworksとの接続を切り、該当機能を停止したと説明している。貼り付けたパスワードやAPIキーがチャットに含まれていた利用者には、認証情報の変更が勧められている。",
+      "why_it_matters": "AI機能の裏側で使われる外部推論ベンダーの侵害が利用企業側のデータ漏えいに直結する、サプライチェーンリスクの実例になったと考えられる。",
+      "tags": [
+        "Notion",
+        "セキュリティ",
+        "AIベンダー"
+      ],
+      "source_name": "Notion",
+      "source_url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor-nov10",
+      "original_title": "Notice about the Fireworks AI incident that may impact some Notion workspaces",
+      "original_lang": "en",
+      "published_at": "2026-11-09T00:00:00Z"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "SMSで使えるAI秘書サービスが急増",
+      "summary": "iMessageやSMSから使える個人向けAIエージェントが急増し、予定管理や買い物代行などを担うサービスが相次いで登場している。",
+      "detail": "スマホのメッセージアプリから直接指示できるAIエージェント「秘書役」サービスが相次いで登場している。TechCrunchが整理した一覧では、CaddyやFambot、Martin、Maverickなど20以上のサービスが、iMessage・SMS・WhatsAppなどから予定登録やメール対応、サブスク解約、旅行手配などを代行すると紹介されている。価格は無料ベータから月20ドル超まで幅があり、評価額100億ドルの非公開ベータ企業(Instinct)もある。専用アプリを開かず、普段使うメッセージアプリの文章だけでタスクを依頼できる手軽さが売りで、Appleのビジネス向けメッセージ機能を使った承認例(Poke)も出てきている。",
+      "why_it_matters": "AIエージェントの入り口が専用アプリからメッセージアプリに移ることで、日常的な利用のハードルが下がる可能性があると考えられる。",
+      "tags": [
+        "AIエージェント",
+        "メッセージアプリ",
+        "個人アシスタント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "original_title": "All the AI agents that can live in your text messages",
+      "original_lang": "en",
+      "published_at": "2026-11-21T17:00:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
+      "image_credit": "TechCrunch"
+    }
+  ]
+}
