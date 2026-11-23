@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T07:30:00+09:00",
+  "headline": "NVIDIA騒動収束、Claudeが出荷まで自動化",
+  "lead": "NVIDIAは不倫関係を認めて辞任したジェンセン・フアンCEOを10日余りで復帰させ、トランプ大統領の擁護もあって株価が急騰した。一方Anthropicは、プルリクエストのレビューから修正・承認までを担うベータ機能「Claude Ship」を発表。AI企業への大型投資やGrokの安全性を問う訴訟も相次ぎ、AI業界の勢いと摩擦が同時に表面化した一日となった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "NVIDIA、フアンCEOが辞任から復帰",
+      "summary": "NVIDIAの取締役会は、不倫関係を認めて11月12日ごろに辞任したジェンセン・フアンCEOを23日に復帰させると発表した。トランプ大統領も復帰を支持し、株価は寄り付きで30%急騰した。",
+      "detail": "フアン氏は1993年にNVIDIAを共同創業し、AI向け半導体で世界最大の企業に育てた中心人物。11月12日ごろ、複数の不倫関係(相手の一人は米政府が中国のスパイと疑っていた人物)を認めて辞任し、CFOのコレット・クレス氏が暫定CEOに就いていた。取締役会は一時後任探しの人材会社を起用していたが、イーロン・マスク氏らの復帰要請やトランプ大統領の擁護もあり方針を転換。23日、米政府高官との協議を経て「国家安全保障上のリスクはない」と判断し、全会一致でフアン氏をPresident兼CEOに復帰させると発表した。株価は時間外から上昇し、寄り付きで30%高となった。",
+      "why_it_matters": "AIチップ市場を事実上支配する企業の経営混乱が10日余りで収束したことで、AI業界全体の供給計画への不確実性がひとまず和らいだと考えられる。",
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "半導体"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
+      "original_title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "original_lang": "en",
+      "published_at": "2026-11-23T14:21:59Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Claude、PRレビューと承認を自動化",
+      "summary": "Anthropicは、プルリクエストのレビュー・修正・承認判断までを担うベータ機能「Claude Ship」を発表した。Claude Codeの新コマンド「/ship」で開発者もすぐ試せる。",
+      "detail": "Claude Codeでコードの大半をAIに書かせる開発者が増える一方、PR以降のレビューや修正、承認は手作業が残っていた。Claude Shipは既存の「Code Review」に加え、CI失敗やマージ競合、レビュー指摘に対応してPRを直す「PR Steward」、チームが定めたポリシーに基づき定型的な変更を自動承認する「Claude Approvals」の3エージェントで構成される。対象はTeam・Enterprise向けのGitHub連携リポジトリで、新コマンド「/ship」を使うとClaudeがプッシュ・PR作成・レビュー対応までを一括で行う。課金はトークン量に応じ、Enterprise向けには来年1月15日まで申請できる1万ドル分の利用クレジットが用意されている。",
+      "why_it_matters": "コード作成だけでなくレビューや承認までAIに委ねる動きが進むことで開発速度は上がる一方、人間のレビューが形だけになるリスクも指摘されうる。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "開発ツール"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "original_title": "Introducing Claude Ship",
+      "original_lang": "en",
+      "published_at": "2026-11-23T20:00:00Z",
+      "image_url": "https://claude.com/resources/articles/introducing-claude-ship/opengraph-image/og",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Amazon、Decart買収でTrainium強化",
+      "summary": "AmazonはイスラエルのスタートアップDecartのAI最適化技術・チームを約75億ドルで買収することで合意したと報じられた。自社AIチップTrainiumの外販に向け効率化を進める狙いとされる。",
+      "detail": "DecartはリアルタイムAI動画生成や「ワールドモデル」(最新版Oasis 3)で知られるイスラエルのAIスタートアップ。Amazonは会社全体ではなく、モデルをNvidia・Amazon・Google各社のハードウェア上で効率的に動かす最適化ソフト「Decart Optimization Stack」の技術と、創業チームを含む研究者・エンジニア陣を取得するとみられる。買収額はBloombergの報道によると約75億ドルで、Amazon自身は金額を確認していない。Amazonはこれまで自社データセンター向けだったAIチップ「Trainium」を外部顧客にも販売してNvidiaと競う準備を進めており、同社幹部は「チップから多くを引き出すことがAIの飛躍につながる」と説明したという。",
+      "why_it_matters": "独自チップの効率を高める技術を取り込むことで、Amazonがクラウド向けAI半導体市場でNvidiaに対抗する動きを強めていると考えられる。",
+      "tags": [
+        "Amazon",
+        "Decart",
+        "AIチップ"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+      "original_title": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "original_lang": "en",
+      "published_at": "2026-11-23T17:14:23Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "オレゴン・バージニア州、Grokで提訴",
+      "summary": "オレゴン州とバージニア州の司法長官が、Grokのディープフェイクなど安全対策を怠ったとしてSpaceXをそれぞれ消費者保護法違反で提訴したと報じられた。",
+      "detail": "The Vergeによると、オレゴン州司法長官ダン・レイフィールド氏とバージニア州司法長官ジェイ・ジョーンズ氏は23日、別個だが類似する訴訟をそれぞれ提起した。両州は、SpaceXが業界標準の安全対策を怠りながらX(旧Twitter)とGrokの安全性を偽って宣伝したとして、州の消費者保護法違反を主張している。バージニア州の訴状では、イーロン・マスク氏が故意に関与したとも主張されているという。Grokは過去にも、本人の同意なく性的なディープフェイク画像を生成する問題が複数の州や被害者から指摘されてきた。",
+      "why_it_matters": "複数の州がAIチャットボットの安全性表示そのものを問題視して法的措置に踏み出したことで、生成AIの安全対策への州レベルの監視が強まる可能性があると考えられる。",
+      "tags": [
+        "xAI",
+        "Grok",
+        "ディープフェイク"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "original_title": "Oregon and Virginia sue SpaceX over Grok's porn deepfakes",
+      "original_lang": "en",
+      "published_at": "2026-11-23T18:26:47Z",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK419_DEEPFAKE_CVIRGINIA_F.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "image_credit": "The Verge"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Sierra、半年で評価額300億ドルに倍増",
+      "summary": "AIカスタマー対応エージェントを手がけるSierraが、評価額300億ドル・調達額17.5億ドルのシリーズFを実施したと報じられた。半年前の評価額から倍増した。",
+      "detail": "Sierraは元Salesforce共同CEOのブレット・テイラー氏らが創業した企業向けカスタマーエクスペリエンス企業で、BNYやHSBC、Wells Fargoなど大手企業にAIエージェントを提供している。成果報酬型の料金体系を採用し、年間換算売上は5カ月で2倍の4億ドルに達したという。今回のシリーズFはGreenoaksとLightspeed Venture Partnersが主導し、評価額は半年前の150億ドルから倍増した。資金はエージェント機能の拡充や営業体制の強化に使うとされ、ElevenLabsやDecagonなど同分野のスタートアップでも高額な資金調達が続いている。",
+      "why_it_matters": "企業向けAIエージェント分野への投資熱が、半年で評価額を倍増させる規模まで過熱していることを示していると考えられる。",
+      "tags": [
+        "Sierra",
+        "資金調達",
+        "AIエージェント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off",
+      "original_title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "original_lang": "en",
+      "published_at": "2026-11-23T14:43:03Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/10/AP22166762816752.jpg?w=1200",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "DeepMind、AIで量子回路を効率化",
+      "summary": "Google DeepMindは、複数のAIエージェントと形式検証系Leanを組み合わせ、量子アルゴリズムの回路を改良したと発表した。核融合シミュレーションでは計算コストを11.8倍削減した。",
+      "detail": "量子コンピュータは将来重要な計算で古典コンピュータを超える可能性があるが、現実的な応用には初期の量子ハードウェアでは不足する計算資源が必要とされる。DeepMindとGoogle Quantum AIは、Gemini 4のエージェントチームに既知の量子アルゴリズムの改良を探らせ、提案を証明支援系Leanで検証してから採用する手法を用いた。核融合(慣性閉じ込め核融合)のシミュレーションでは必要な誤り訂正済み量子ビットを5650から4338に減らし、計算コストを11.8倍削減。薬物代謝に関わる酵素のシミュレーションでも2.5倍の改善を得たという。検証済みのLeanライブラリと解はGitHubで公開されている。",
+      "why_it_matters": "数学的な正しさを保証した上でAIエージェントに量子アルゴリズムの改良を探索させる手法が、他の科学分野の研究加速にも応用できる可能性があると考えられる。",
+      "tags": [
+        "Google DeepMind",
+        "量子コンピュータ",
+        "Lean"
+      ],
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "original_title": "Finding faster quantum algorithms with agents and formal verification",
+      "original_lang": "en",
+      "published_at": "2026-11-23T16:59:40Z",
+      "image_url": "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w528-h297-n-nu-rw-lo",
+      "image_credit": "Google DeepMind"
+    },
+    {
+      "section": "tools",
+      "importance": 3,
+      "title": "Google検索、AI ModeがDrive等と連携",
+      "summary": "Googleは検索のパーソナライズ機能をGoogle WalletとDriveにも拡大し、AI Modeが支出データや文書を踏まえて回答できるようにした。Walletは本日提供開始、Driveは数週間以内の予定。",
+      "detail": "Googleの検索パーソナライズ機能「Personal Intelligence」は既にGmail・カレンダー・フォトと連携していたが、新たにGoogle WalletとGoogle Driveが対象に加わる。Walletと連携すると、AI Modeが支出傾向の分析や特典カードの最適化提案に利用できる。口座情報は読み取りのみで、送金や資産管理はできない。Driveとの連携は数週間以内に順次展開され、ドキュメントやスプレッドシートの内容を踏まえた回答が可能になる。いずれもオプトイン制で、検索設定の「接続済みアプリ」からいつでも有効・無効にできる。",
+      "why_it_matters": "検索が利用者個人の文書や支出データまで参照するようになることで、回答の有用性が高まる一方、連携範囲の管理方法への関心も高まると考えられる。",
+      "tags": [
+        "Google",
+        "検索",
+        "AI Mode"
+      ],
+      "source_name": "Google",
+      "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "original_title": "A more tailored Google Search that's uniquely yours",
+      "original_lang": "en",
+      "published_at": "2026-11-23T17:00:00Z",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.max-600x600.format-webp.webp",
+      "image_credit": "Google"
+    },
+    {
+      "section": "models",
+      "importance": 4,
+      "title": "Z.ai、初の「ループ型」モデルGLM-5.4",
+      "summary": "中国Z.aiは、同一の層を2回通す「ループ・トランスフォーマー」構造を採用した新モデルGLM-5.4を発表した。既存モデルを追加学習で変換したという。",
+      "detail": "GLM-5.4は、既存モデルGLM-5のベースを新たに事前学習するのではなく、追加学習によって「ループ・トランスフォーマー」構造に変換したモデル。28層からなるベースの層を2回通すことで、パラメータ数を増やさずに推論の深さを増しているとされる。報道によるとベースの規模は約7500億パラメータで、Z.aiは2〜3兆パラメータ級のモデルに匹敵する性能を主張しているが、発表時点ではベンチマーク数値は未公開で今後公開予定という。当面はZ.ai自身が提供するGLM Coding PlanやZCode、Z.ai Chat経由でのみ利用でき、API提供とオープンウェイト公開は今後予定されている。",
+      "why_it_matters": "パラメータを増やさず同じ層を繰り返し使うことで推論の深さを得る手法が実用化されれば、モデルの計算コストと性能のバランスを変える可能性があると考えられる。",
+      "tags": [
+        "Z.ai",
+        "GLM-5.4",
+        "LLM"
+      ],
+      "source_name": "Z.ai",
+      "source_url": "https://z.ai/blog/glm-5.4",
+      "original_title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "original_lang": "en",
+      "published_at": "2026-11-23T10:06:43Z"
+    }
+  ]
+}
