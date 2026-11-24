@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T06:49:40+09:00",
+  "headline": "フアン氏復帰、Claude Ship始動",
+  "lead": "Nvidiaのジェンスン・フアンCEOがスキャンダルからの退任を経て復帰し、トランプ大統領の関与が波紋を呼んでいる。AnthropicはAIエージェントがPRを審査・承認まで行う「Claude Ship」を発表した一方、自社株はIPO価格を割り込んだ。OpenAIはタンパク質設計や系外惑星探索でAIの新しい応用を示し、国内ではDeNAの「AI社員」外販や生成AI活用を巡る騒動も報じられた。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Anthropic、PRレビューと承認をAIに委ねる新機能",
+      "summary": "Anthropicはコードレビューから修正、承認判断までをAIエージェントに任せる「Claude Ship」を発表した。Claude TeamとEnterprise向けにベータで提供する。",
+      "detail": "Claude Codeチームの経験では、6月から9月にかけてマージされるPRが2倍以上に増え、差し戻し率は40%以上下がったという。新機能はCIの失敗やマージ競合を直すPR Stewardと、リポジトリ内に書いた承認ポリシーに基づき定型変更を自動承認するClaude Approvalsからなる。承認は観察専用モードから始め、信頼度を見てブランチ保護で必須化する運用が推奨されている。開発者はClaude Codeの新コマンド「/ship」で変更の提出からレビュー対応までを一括で行える。",
+      "why_it_matters": "AIがコードを書くだけでなく、レビューと承認という人間の最終判断の領域にまで関与し始めたことを示す。",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "コードレビュー"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "original_title": "Introducing Claude Ship",
+      "original_lang": "en",
+      "published_at": "2026-11-23T20:00:00Z",
+      "image_url": "https://claude.com/resources/articles/introducing-claude-ship/opengraph-image/og",
+      "image_credit": "Anthropic"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "ジェンスン・フアン氏、Nvidia CEOに復帰",
+      "summary": "不倫問題で退任していたNvidiaのジェンスン・フアンCEOが復帰した。トランプ大統領の介入が報じられ、12月に上院証言を控える。",
+      "detail": "フアン氏は複数の不倫関係が問題視され、その一つは中国のスパイとされる人物との関係だったとされる。Nvidia取締役会は「率直さを欠いた」としてCEO職を退任させたが、株価急落や約20万人規模の復帰要望署名を受け、11月23日に方針を転換しCEOと社長に復帰させた。トランプ大統領が取締役会に電話で参加し復帰を後押ししたと報じられているが、詳細は確認されていない。イーロン・マスク氏らテック業界の著名人は復帰を歓迎した一方、一部の上院議員は国家安全保障上の疑義が解消していないと指摘している。",
+      "why_it_matters": "AI向け半導体で最大の影響力を持つNvidiaのトップ人事と米中の輸出管理問題が絡み、業界全体の先行き不透明感を強めている。",
+      "tags": [
+        "Nvidia",
+        "ジェンスン・フアン",
+        "半導体"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
+      "original_title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "original_lang": "en",
+      "published_at": "2026-11-23T21:47:41Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2227140868.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "GPT-6、専用モデルなしでタンパク質を設計",
+      "summary": "OpenAIはGPT-6系モデルが専門の生物学モデルなしで推論だけでタンパク質を設計できると発表。実験で複数の標的への結合を確認した。",
+      "detail": "研究用モデルを使った実験では、5つの標的タンパク質に対するミニバインダー322種のうち35種(10.9%)が結合の兆候を示した。既存抗体の一部を改変した断片では272件中179件(66%)が元の標的に結合した。計算機評価では、モチーフ足場設計で既存の専門モデルを上回る結果も出たが、完全な構造予測は専門モデルに大きく劣るなど限界も残る。OpenAIはPreparedness Frameworkに基づき生物兵器転用などのリスク評価も進めるとしている。",
+      "why_it_matters": "汎用の言語モデルが専門ツールに依存せず分子設計に使える可能性を示すもので、新薬開発を加速させる一方、悪用のリスクも伴うと考えられる。",
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "タンパク質設計"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "original_title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "original_lang": "en",
+      "published_at": "2026-11-24T13:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "Google検索のAI Mode、DriveとWalletに対応",
+      "summary": "GoogleはAI ModeがGoogleドライブやWalletの情報を参照し、より個人化した回答を返せるようにした。連携は任意でオン・オフできる。",
+      "detail": "ドライブ連携では文書やスプレッドシートの内容を踏まえた回答が可能になり、確定申告の計画作成などに使える。Wallet連携では支出管理やカード特典の活用を助けるが、送金などの操作はできない仕組みになっている。Gemini appで検討した内容をAI Modeに引き継げる機能や、回答がどの情報を参照したか確認できる「Personalization」アイコンも近日提供予定という。既存のGmail・カレンダー・フォトとの連携に続く拡張で、2026年11月23日に発表された。",
+      "why_it_matters": "検索とパーソナルデータを組み合わせる機能競争が、Googleの強みであるサービス間連携を軸に進んでいることを示す。",
+      "tags": [
+        "Google",
+        "検索",
+        "AI Mode"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses",
+      "original_title": "Google Search's AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "original_lang": "en",
+      "published_at": "2026-11-23T19:14:46Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/ai-mode-google.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "tools",
+      "importance": 4,
+      "title": "OpenAIとCisco、無停止で脆弱性を防ぐOSSを公開",
+      "summary": "OpenAIとCiscoは、パッチ適用や再起動を待たずに稼働中のLinuxを守るオープンソース「Shirudo」を発表した。",
+      "detail": "ShirudoはeBPFを使い、脆弱性を突く動作だけを狙って遮断する「シールド」を再起動なしで適用する仕組み。AIエージェントが脆弱性を調査しシールドを作成できるよう設計されているが、実際に何を展開するかは運用チームが判断する。シールドは暗号署名で検証され、TPMで読み込み・削除の記録を残せる。デモでは、CodexでJavaのBase64デコーダ向けのシールドを作り、稼働中のElasticsearchに適用して攻撃を防いだという。ソースコードはGitHubで公開され、12月15日に技術ウェビナーが予定されている。",
+      "why_it_matters": "脆弱性の発見速度とパッチ展開の遅さのギャップを、AIエージェントとOSSで埋める試みとして注目される。",
+      "tags": [
+        "OpenAI",
+        "Cisco",
+        "セキュリティ"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-shirudo",
+      "original_title": "Introducing Shirudo",
+      "original_lang": "en",
+      "published_at": "2026-11-23T21:20:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "AWS、Bedrock上でClaudeのデータ保持を自社管理可能に",
+      "summary": "AWSはBedrockの信頼アクセスAPIを一般提供し、Claudeモデル向けにデータを自社のS3で管理できる仕組みを公開した。",
+      "detail": "新しい「Enterprise Frontier Safeguards」では、入出力データを顧客自身のS3バケットにKMS鍵で暗号化して保持し、AnthropicもAWSもコピーを保持しない。自動の安全監視が不正利用の兆候を検知すると「ケース」を顧客のバケットに作成し、人間のレビューはAWSやAnthropicではなく顧客側が行う。データをAWS管理のストレージに置く代替案「Enterprise Data Controls」も用意され、1つの申請で両方に登録できる。対象はClaude FableやOpus/Sonnet 5.5などで、現在は公開プレビュー。",
+      "why_it_matters": "医療や金融など規制が厳しい業種が、安全監視を保ちながらデータの主権を確保してフロンティアモデルを使える道を開くものと考えられる。",
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "Claude"
+      ],
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls",
+      "original_title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+      "original_lang": "en",
+      "published_at": "2026-11-24T05:01:14Z",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/24/ecf6fcd5b73dc5eb-efs-figure1-v10b.png",
+      "image_credit": "AWS Machine Learning Blog"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "アマチュア天文家、AIで系外惑星の候補を発見",
+      "summary": "OpenAIのAIツール「Astra」を使い、アマチュア天文家や研究者が公開データから系外惑星の候補を複数見つけた。",
+      "detail": "OpenAIのエンジニアはCodexでケプラー望遠鏡の約10万個の恒星データを探索し、200件超の信号を検出、うち10件は既知の惑星だった。残る候補からこと座の恒星(地球の2.4倍の大きさの惑星候補、13.8日周期)と別の恒星(海王星より小さい候補、4.8日周期)を抽出し、SETI研究所の天文学者が独立に同じ信号を確認した。別の研究者はAstraでTESSなど約1900万個の恒星データを分析し、有力候補をTESS研究チームに提出して精査中という。いずれも確認には追加観測や査読論文での公表が必要で、現時点では未確定の候補にとどまる。",
+      "why_it_matters": "専門望遠鏡を持たない個人でも、AIを使えば公開天文データから新たな発見に貢献できる可能性を示している。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "系外惑星"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "original_title": "Searching for distant planets with Astra",
+      "original_lang": "en",
+      "published_at": "2026-11-24T11:00:00Z",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "Anthropic株、IPO価格を下回る",
+      "summary": "11月19日に上場したAnthropicの株価が24日に一時76ドルまで下落し、IPO価格83ドルを下回った。AI関連株全体も売られた。",
+      "detail": "Anthropicは想定価格帯を上回る1株83ドルでIPOし、初値は111.50ドルだったが、24日の取引で前日終値から約12%安の76ドルまで下げ、IPO価格を割り込んだ。同日はAI関連株全般が下落し、前日にジェンスン・フアン氏のNvidia CEO復帰を受けて30%超上昇したNvidia株も日中に7%超下げた。IPO価格を下回ることは引受証券会社による価格設定が市場の需要を読み誤った兆候とされ、公開市場がAIセクターをどう評価しているかを示す指標として注目されている。",
+      "why_it_matters": "大型AI企業の上場後の評価が揺らぐと、他の非公開AIスタートアップの資金調達環境にも影響しかねないと考えられる。",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "株式市場"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
+      "original_title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "original_lang": "en",
+      "published_at": "2026-11-24T18:30:42Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "industry",
+      "importance": 4,
+      "title": "CrowdStrike、Zscalerを7兆円規模で買収",
+      "summary": "CrowdStrikeがZscalerを企業価値約439億ドルで買収すると発表。狙いはAIエージェントの挙動を端末からネットワークまで追跡・管理することだ。",
+      "detail": "全額株式交換による買収で、両社取締役会は全会一致で承認し、完了はCrowdStrikeの2028会計年度後半を見込む。CrowdStrike CEOのジョージ・カーツ氏は、企業がAIエージェントの所在や行動、アクセスするデータを把握できていないという声に応えると説明した。端末・クラウドをCrowdStrikeの「Falcon Guardian」が、ネットワークをZscalerが担う体制で統合し、顧客は単一契約「Falcon Flex」で両社の製品を使えるようになる。両社はもともと2000社超の共通顧客を持ち、統合後の年間経常収益は100億ドル超を見込むという。",
+      "why_it_matters": "AIエージェントが社内システムを自律的に操作するようになる中で、その安全管理が企業セキュリティの新たな主戦場になっていることを示している。",
+      "tags": [
+        "CrowdStrike",
+        "Zscaler",
+        "セキュリティ"
+      ],
+      "source_name": "ITmedia NEWS",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/24/2000003398",
+      "original_title": "CrowdStrike、Zscalerを約439億ドルで買収へ　狙いはAIエージェントの安全確保",
+      "original_lang": "ja",
+      "published_at": "2026-11-23T22:20:30Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/24/2000003398/10012791/2048",
+      "image_credit": "ITmedia NEWS"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Tidal、AI生成音楽を禁止へ",
+      "summary": "音楽配信のTidalは12月9日から完全AI生成の楽曲を削除・配信禁止にする。年末までに2900万曲超が対象になる見通し。",
+      "detail": "過去90日にアップロードされた楽曲の43%以上がAI生成で、完全AI生成の楽曲は約2700万曲、全体の6.3%を占めるという。そのうち約96%は再生回数がゼロで、新ルールでは1日あたり8万~8.5万曲を拒否する見込みとしている。Tidalは6月にAI生成曲の収益化を停止していたが抑止効果が不十分だったとして、配信メタデータで完全AI生成と示された楽曲の受け付けを拒否する方針に踏み切った。一方、AIを補助的に使った楽曲は引き続き受け付ける。SpotifyやYouTube Musicはラベル表示にとどめており、対応は分かれている。",
+      "why_it_matters": "AI生成コンテンツが音楽配信を侵食する実害が数字で示され、プラットフォームごとに対応が分かれ始めていることを浮き彫りにしている。",
+      "tags": [
+        "Tidal",
+        "AI音楽",
+        "音楽配信"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+      "original_title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "original_lang": "en",
+      "published_at": "2026-11-24T16:46:00Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/tidal-brand.jpg?w=720",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "DeNA、「AI社員」を企業向けに外販",
+      "summary": "DeNAはAIエージェントを社員のように部署配属できる「AI社員 by DeNA」の提供を発表した。利用量は「残業時間」で管理する。",
+      "detail": "導入企業は専用アカウントでAI社員を部署に配属し、担当の人間社員が業務の進め方を教えると覚えていく。経験を積んだ業務は手順をスクリプト化し自律的に実行できるという。トークン使用量を「勤務時間」とみなし、残業時間の上限を設定することで過剰利用を防ぐ仕組みを備える。動作は固有IDでログ化され、必要最小限の権限付与や、権限を超える作業での人間承認も設定できる。DeNA社内では既に30人のAI社員が購買や情報システムなどで稼働し、会計システムのチームでは8営業日で52.6時間分の業務を担ったという。11月から事前登録を受け付ける。",
+      "why_it_matters": "AIエージェントの利用量を「労務管理」の発想で統制する考え方は、企業導入が進むAIエージェントのガバナンスの一つの型になりうる。",
+      "tags": [
+        "DeNA",
+        "AIエージェント",
+        "企業導入"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406",
+      "original_title": "DeNA、「AI社員」を外販　使い過ぎを“残業時間”で管理",
+      "original_lang": "ja",
+      "published_at": "2026-11-24T03:26:08Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/24/2000003406/10012810/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "japan",
+      "importance": 2,
+      "title": "「GetBackers」AI活用映像に原作者への説明不足",
+      "summary": "人気マンガのボイスコミック公式が生成AIを使った告知映像を公開し混乱を招き謝罪。原作者への説明・確認が不十分だったという。",
+      "detail": "ボイスコミック公式は11月18日、作中のコマと生成AIによる加工を組み合わせた告知映像をXで公開したが、制作手法の説明不足から新作アニメ化や生成AIによるアニメ化と誤解された。制作を担ったAI企業IMAKAIは22日、生成AI使用を含む制作方法について「先生方への説明と確認が十分でなかった」と認めて声明を出し、ボイスコミック運営側も謝罪した。実際の告知は、一時休止していたボイスコミック配信を12月1日に再開するというもので、原作への生成AI加工や本編の生成AIアニメ化の予定はないと説明された。原作出版元の講談社は、今回の制作判断には関与していないとしている。",
+      "why_it_matters": "生成AIを創作物の二次利用に使う際、原作者への事前説明や合意形成を欠くと信頼を損ないかねないことを示す事例と考えられる。",
+      "tags": [
+        "生成AI",
+        "著作権",
+        "マンガ"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003424",
+      "original_title": "「GetBackers」AI利用の告知映像で謝罪　「作者への説明と確認が十分でなかった」　ボイスコミック制作巡り",
+      "original_lang": "ja",
+      "published_at": "2026-11-24T10:51:37Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/24/2000003424/10012854/2048",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
