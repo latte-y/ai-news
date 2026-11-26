@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T07:30:00+09:00",
+  "headline": "Nvidiaに逆風、Claude Duetは日本へ",
+  "lead": "Nvidiaは米国の対中規制強化を受けて東南アジア4カ国への出荷を一時停止し、S&Pはガバナンス不安を理由に信用格付け引き下げを検討している。AnthropicのエージェントClaude Duetは日本など4カ国に展開を広げた。一方でGitHub上のAI向け隠し指示や脆弱性発見数の急増など、AIが攻守双方のセキュリティを揺さぶる動きも相次いだ。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "Nvidia、対中規制強化で東南アジア出荷停止",
+      "summary": "Nvidiaはマレーシア・シンガポール・タイ・インドネシア向けサーバー出荷を一時停止した。米国の対中輸出規制の抜け穴対応とみられる。",
+      "detail": "Wall Street Journalの報道によると、Nvidiaは製造パートナーのDellやSuper Microなどに対し、マレーシア・シンガポール・タイ・インドネシアの4カ国へのサーバー出荷を期間未定で一時停止するよう伝えた。中国企業がこれらの国のデータセンターにあるNvidiaチップを遠隔利用しており、米商務省が11月にこの抜け穴を塞いだことが背景にあるとされる。シンクタンクInstitute for Progressの推計では、こうした遠隔データセンターが中国のAI計算能力の約24％を供給しているという。NvidiaやDell、米政府からの公式コメントは現時点で確認されていない。",
+      "why_it_matters": "東南アジアが中国への実質的な迂回供給路になっていた疑いが強まる形で、AIチップの輸出規制がさらに厳格化する可能性がある。",
+      "tags": [
+        "Nvidia",
+        "輸出規制",
+        "半導体"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "original_title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "original_lang": "en",
+      "published_at": "2026-11-26T20:03:54Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "AnthropicのエージェントClaude Duet、日本で開始",
+      "summary": "Anthropicは能動的に動くAIエージェント「Claude Duet」の研究プレビューを日本など4カ国に拡大した。Pro/Max/Ultraの招待者から利用が始まっている。",
+      "detail": "Claude Duetは、仮想マシン上の専用ブラウザでGmailやSlack、カレンダーなどの連携アカウントを定期的に確認し、ユーザーの端末の電源が切れていても見逃したメッセージへの返信や予定準備を手伝うAIエージェントだ。米国では2025年10月21日からウェイトリスト制の研究プレビューを提供していたが、Anthropicのカラン・アフジャ氏が11月25日、提供国を日本・インド・ブラジル・インドネシアに拡大すると発表した。日本では11月26日から、事前登録していたPro・Max・Ultraユーザーへの招待が届き始めている。Teamプランは管理者による有効化が今後可能になる予定で、研究プレビュー期間中はProに利用上限の3回リセット、Max・Ultraに1回のリセットが提供される。",
+      "why_it_matters": "能動的に動くAIエージェントが米国以外の市場でも実際に使われ始めることで、日常業務をどこまで任せられるかの実例が増えると考えられる。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AIエージェント"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003483",
+      "original_title": "「Claude Duet」日本でも開始　AnthropicのAIエージェント、研究プレビューを米国外に拡大",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T05:09:57Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/26/2000003483/10013044/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "S&P、Nvidiaの格付け引き下げ検討",
+      "summary": "S&Pは、フアンCEOの解任・復帰で浮いた統治懸念を理由にNvidiaの格付けをAAからAA-へ引き下げるか検討中。90日以内に審査結果が出る。",
+      "detail": "S&P Global Ratingsは、Nvidiaの信用格付けを現在のAAから4番目に高いAA-へ引き下げるかどうかの審査を始め、90日以内に結論を出すとしている。理由として、ジェンスン・フアンCEOが一時解任され復帰した経緯から生じた「経営陣の監督の弱さ」や「後継者計画の欠如」への懸念、そして同社の将来が同氏個人に大きく依存する「キーマンリスク」を挙げた。財務実績自体は好調と認めている。Nvidiaは8月にGoldman SachsやApollo、Blackstoneなど6社と総額5000億ドル規模のAIインフラ向け資金調達計画を結び、自ら融資の一部を保証してきたが、格付けが下がれば貸し手がより大きな保証を求める可能性があるという。投資適格級を失う可能性はないとされる。",
+      "why_it_matters": "格下げが実現すれば、Nvidiaが保証する周辺のデータセンター企業の資金調達コストにも波及し、AIインフラ投資全体への影響が出る可能性がある。",
+      "tags": [
+        "Nvidia",
+        "格付け",
+        "コーポレートガバナンス"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+      "original_title": "S&P considers Nvidia credit downgrade over governance and 'key man' risks",
+      "original_lang": "en",
+      "published_at": "2026-11-25T22:44:32Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "GPT-6.2、使用量計算の誤りを修正",
+      "summary": "OpenAIはGPT-6.2 Astra/Solの使用量計算の誤りを修正したと発表。上限到達がAstraで40％、Solで25％早まる見込み。",
+      "detail": "OpenAIのプロダクト責任者ティボー・ソティオ氏は11月25日、Xで、17日にリリースされた「GPT-6.2 Astra」と「GPT-6.2 Sol」の使用量が実際より少なく計算されていた誤りがあったと明らかにした。誤りは既に修正済みで、修正前と比べて利用上限に達する時期はAstraで40％、Solで25％早くなる見込みだという。具体的にどの処理で計算を誤っていたかは説明されていない。同氏は今回の誤りへの「ささやかなお詫び」として、有料プランの利用者に利用枠のリセット権を1回分付与すると発表した。",
+      "why_it_matters": "ヘビーユーザーほど実質的な利用可能量が想定より少なかったことになり、有料プランの使用感への不満につながる可能性がある。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT-6.2"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003495",
+      "original_title": "GPT-6.2の使用量「誤って割引されていた」　修正後はAstraで上限に40％早く達する見込み",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T07:43:35Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/26/2000003495/10013071/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Amazon・Meta、Museの購買ブロック解除を協議",
+      "summary": "AmazonとMetaは、MuseがAmazonで直接商品を購入できるようにする協議を進めていると報じられた。検索結果表示と広告の扱いが論点。",
+      "detail": "Metaの自律型AIエージェント「Muse」のユーザーは2026年9月ごろから、Amazonでの購入時にチェックアウトでエラーが出て買えない状態になっていた。Amazonの経営陣には、サードパーティのエージェントが自社の広告事業や消費者との直接の関係に影響することへの懸念があったとされる。Fortuneの報道によると、両社は11月25日までに複数回協議し、Museが商品検索結果をどう表示し、広告をどう扱うかを中心に、ブロック解除に向けた条件を話し合っている。合意にはまだ至っておらず、両社CEOの承認が必要とされる。",
+      "why_it_matters": "大手ECサイトが自律型購買エージェントをどう扱うかの前例となり、他のAIエージェントの商取引への受け入れ方針にも影響しうる。",
+      "tags": [
+        "Amazon",
+        "Meta",
+        "Muse",
+        "AIエージェント"
+      ],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse",
+      "original_title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "original_lang": "en",
+      "published_at": "2026-11-25T14:10:18Z",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+      "image_credit": "TechCrunch"
+    },
+    {
+      "section": "research",
+      "importance": 4,
+      "title": "GitHubの隠しAI向け指示、1.4億件調査",
+      "summary": "RadwareとテクニオンがGitHub上の約1億4500万件を調査、人に見えない隠し指示2281件を発見。43件は他者のAIを狙う悪意ある攻撃だった。",
+      "detail": "イスラエルのセキュリティ企業Radwareとテクニオン・イスラエル工科大学の研究者が、GitHub上の投稿やREADME約1億4500万件を解析し、画面上は見えないがAIエージェントには読み取れる隠しテキストを2281件見つけた。内訳は、開発チーム自身がAIへの指示や作業分担メモとして使う例が67％、出力言語などの設定指示が16％、人間用欄の編集制限が15％で、残り2％（43件）が他者のAIエージェントを狙う悪意ある攻撃だった。攻撃の44％は大手ベンダーのリポジトリを狙い、最多の目的は認証情報の窃取(44％)だった。再現実験では、処理件数が多い小型モデルの1つが43件中8件で指示に従ったという。",
+      "why_it_matters": "AIコーディングエージェントが読む公開テキストに誰でも指示を書き込める以上、投稿者を確認しない限り偽の承認や指示に従ってしまう危険があると考えられる。",
+      "tags": [
+        "セキュリティ",
+        "AIエージェント",
+        "GitHub",
+        "プロンプトインジェクション"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/26/2000003460",
+      "original_title": "GitHubに「人には見えない隠し文字」　小型AIの操作狙うものも……1億4500万件を調査",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T03:00:00Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/26/2000003460/10012959/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "research",
+      "importance": 3,
+      "title": "脆弱性発見、AIで1年2倍超に急増",
+      "summary": "2026年にCVE登録された脆弱性は11月時点で10万件を超え、2025年全体の2倍以上。AIが発見・悪用双方を加速させている。",
+      "detail": "Krebs On Securityなどの集計によると、Microsoftが2026年に修正した脆弱性は5100件を超え、1年前の月平均100件前後から11月は1093件に急増した。全ベンダー合計でも2026年にCVEが割り当てられた脆弱性は11月13日時点で10万件を超え、2025年の年間合計の2倍以上という。Microsoftは、AIの進化で脆弱性の発見・修正が大量にできるようになったと説明する一方、CrowdStrikeの調査では2026年上半期の攻撃の88％が、PoCコード公開から48時間以内に発生していた。ただし実際に悪用が確認された脆弱性はごく一部で、VulnCheckの悪用確認リストは1425件にとどまる。",
+      "why_it_matters": "発見数の急増がそのまま被害増につながるわけではないが、露出管理など対応側の優先順位付けの重要性が一段と高まると考えられる。",
+      "tags": [
+        "セキュリティ",
+        "脆弱性",
+        "CVE"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446",
+      "original_title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T05:04:44Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/26/2000003446/10012927/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "マネーフォワード、家計データをMuse/ChatGPTに提供",
+      "summary": "マネーフォワードは「MF ME」の家計データをMCP経由でMuseとChatGPTに提供している。参照のみで、利用者はいつでも解除できる。",
+      "detail": "マネーフォワードは、自社で高品質な家計相談チャットを作るよりMCP（AIが外部サービスを呼び出す共通規格）で提供する方が早いと判断し、2026年10月26日からMF MEの家計・資産データをMuseとChatGPTに提供し始めた。利用者が許可したデータのみが渡され、AIからの更新や取引はできず参照に限られる。マネーフォワードはMCPを一般公開せず偽サイトでの流出を防いでおり、Meta側もMuseの会話データを広告に使わないとしている。無料では4口座まで連携でき、5口座以上はプレミアム会員が必要で、AI連携が有料プラン誘導にもつながっている。同社は次の焦点として書き込み権限への対応を検討中という。",
+      "why_it_matters": "家計簿サービス最大手が自社データを外部AIに開放したことで、データ保有企業が自前のAI開発より連携を選ぶ動きが広がる可能性がある。",
+      "tags": [
+        "マネーフォワード",
+        "MCP",
+        "家計簿"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003490",
+      "original_title": "家計データをなぜ「Muse」「ChatGPT」に渡すのか？　マネーフォワードに聞いた狙いと安全策",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T06:09:25Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/26/2000003490/10013054/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "cloud",
+      "importance": 3,
+      "title": "さくらインターネット、月額固定「シンプルAI」",
+      "summary": "さくらインターネットは、システム組み込み向けに月額固定料金でAIを提供する新サービス「シンプルAI」を発表。12月10日提供開始。",
+      "detail": "さくらインターネットは11月25〜26日に開催した大規模イベント「SAKURA DEKIRU Conference 2026」の基調講演で、月額固定料金で使える新サービス「シンプルAI」を発表した。既存の従量課金API型サービス「さくらのAI Engine」とは異なり、システムやサービスへのAI組み込みを主な用途として想定している。プロダクト統括担当の田籠聡氏は、組み込み先でAIモデルの応答が変わると大きな問題になるため、長期的に安定した提供を目指すと説明した。政府情報システム向けのセキュリティ評価制度「ISMAP」への登録を申請中で、国産LLMの提供も検討している。提供開始は2026年12月10日の予定で、具体的な月額料金は発表されていない。",
+      "why_it_matters": "システム組み込み用途では応答の変化自体がリスクになるため、長期安定を前面に出した料金・提供方式が企業システムでのAI採用を後押しする可能性がある。",
+      "tags": [
+        "さくらインターネット",
+        "クラウド",
+        "国産LLM"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/aiai_1.html",
+      "original_title": "さくらインターネット、AIを月額固定料金で提供する「シンプルAI」発表、システムへの組み込み用途を想定",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T15:45:31Z",
+      "image_url": "https://www.publickey1.jp/2026/sakura-simpleai-ann01.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "industry",
+      "importance": 3,
+      "title": "Amodei氏「人間の自由意志を明け渡す」説を否定",
+      "summary": "AnthropicのアモデイCEOは、超知能AIに社会の意思決定権を委ねるべきだという報道内容をXで否定。社会統治と作業の自動化を混同していると反論した。",
+      "detail": "Axiosが、Anthropicのダリオ・アモデイCEOは超知能AIに人間の意思決定権を委ねるべきだと考えているという趣旨の記事を報じたのに対し、アモデイ氏はX上でこれを否定した。同氏は、個別タスクの自動化と社会全体の統治を混同した議論だと反論し、AIは民主的プロセスのもとで管理されるべきだという立場を強調した。AI企業の幹部が自社の研究・モデル開発を自動化する動きを進める中で、超知能時代の主導権を誰が握るべきかという論点は、OpenAIやMetaの幹部からも相次いで発言が出ており、業界内の議論として広がっている。",
+      "why_it_matters": "AI企業の経営陣自身が「AIにどこまで委ねるべきか」の線引きを公の場で争う構図は、今後の規制論議の前提にも影響しうる。",
+      "tags": [
+        "Anthropic",
+        "Dario Amodei",
+        "AI安全性"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/news/article/2611/26/2000003473",
+      "original_title": "AnthropicのアモデイCEO、「人間の自由意志をAIに明け渡す」考えを否定　AI企業間で議論",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T02:24:00Z",
+      "image_url": "https://www.itmedia.co.jp/news/article/ogp/2611/26/2000003473/10013014/2048",
+      "image_credit": "ITmedia AI+"
+    }
+  ]
+}
