@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T07:10:00+09:00",
+  "headline": "生成AIで社内の人員配置が転換",
+  "lead": "デロイトの調査で、生成AIの浸透に伴い人員配置を転換した企業の割合が明らかになり、IT部門が増員の最多、経理・財務が減員の最多となった。電通はGemini Enterpriseを使いこなす人材3000人の育成を始め、AI活用は「導入」から「現場での定着」へ重心を移している。一方でAIリスクの内部監査体制の遅れや、国内メディアによるAIクローラー対応の違いも浮かび上がった。",
+  "articles": [
+    {
+      "section": "top",
+      "importance": 5,
+      "title": "生成AIで部門間の人員配置転換が加速",
+      "summary": "デロイト調査で、生成AI導入に伴い人員配置転換を行う企業の46.7%が判明。IT部門は増員、経理・人事は減員が最多だった。",
+      "detail": "デロイト トーマツ グループが2026年8月、プライム市場上場かつ売上高1000億円以上の企業の部長級以上700人を対象に実施した調査結果を11月24日に公表した。生成AIの登場に伴い「人員の配置転換を行っている」との回答は46.7%。配置転換企業のうち増員部門で最多はIT部門(55%)、減員部門で最多は経理・財務(34.3%)、次いで人事・総務(33.0%)だった。全社的に生成AIを導入していると答えた割合は62.1%で、2024年の26.4%、2025年の47.0%から急増した。デロイトは、企業がAI活用を前提とした組織運営へ移行し始めていると分析する。",
+      "why_it_matters": "生成AIの浸透が号令だけでなく実際の人員配置を動かす段階に入ったことを示す調査結果で、日本企業の組織設計に影響しうる。",
+      "tags": [
+        "生成AI",
+        "働き方",
+        "デロイト"
+      ],
+      "source_name": "ITmedia AI+",
+      "source_url": "https://www.itmedia.co.jp/aiplus/article/2611/27/2000003505",
+      "original_title": "生成AI登場で人員増えた部門、減った部門は？　デロイト調査",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T23:00:00Z",
+      "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/27/2000003505/10013096/2048",
+      "image_credit": "ITmedia AI+"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "電通、Gemini使う「FDE」3000人育成へ",
+      "summary": "電通グループ4社が、Google CloudのGemini Enterpriseを活用できる人材3000人規模の育成プログラムを開始した。",
+      "detail": "電通、電通デジタル、電通総研、イグニション・ポイントの国内電通グループ4社は、Google Cloudの企業向けAI基盤「Gemini Enterprise」を使いこなせる人材をグループ横断で約3000人規模育成するプログラムを始めた。目的は生成AIの技術習得そのものではなく、クライアントの現場課題を捉えてプロジェクトを主導できる「FDE（Forward Deployed Engineer）」「FDM（同Marketer）」の育成だとされる。FDEは戦略構想からコンテンツ制作、効果検証、日常業務への組み込みまで現場に伴走する役割を想定しているという。",
+      "why_it_matters": "大手広告代理店グループが現場業務への生成AI実装を担う専門人材育成を大規模に始めたことは、企業のAI活用が「導入」から「定着」へ進む一例と考えられる。",
+      "tags": [
+        "Gemini Enterprise",
+        "電通",
+        "人材育成"
+      ],
+      "source_name": "ITmedia",
+      "source_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news038.html",
+      "original_title": "電通が「Geminiを使いこなすFDE」ら3000人育成プログラムを開始　その内容とは？",
+      "original_lang": "ja",
+      "published_at": "2026-11-27T00:45:00Z"
+    },
+    {
+      "section": "japan",
+      "importance": 2,
+      "title": "AIリスクの内部監査実施率わずか5.7%",
+      "summary": "内部監査関係者調査で、AIリスクの監査を既に実施している企業は5.7%にとどまった。半数超がAIを重要リスクに挙げる。",
+      "detail": "アビタスが2026年10月22日〜11月4日、内部監査・リスク管理担当者158人を対象に実施した調査によると、AIリスクに関する内部監査を「すでに実施」と答えたのは5.7%、「1年以内に実施予定」は7.6%で、合計でも13.3%にとどまった。一方、今後3年で重要性が高まるリスクとしてAI・生成AIを挙げた回答は56.3%に達した。非AI領域では、内部監査が十分対応できていない重要リスクとしてサイバーセキュリティを挙げた割合が72.2%と最も高く、海外・サプライヤーリスクや組織文化・人事の対応不足も指摘された。",
+      "why_it_matters": "AIをリスクとして重視する認識は広がる一方、監査体制の整備は遅れており、ガバナンス面での対応の遅れが推測される。",
+      "tags": [
+        "AIガバナンス",
+        "内部監査",
+        "調査"
+      ],
+      "source_name": "ITmedia",
+      "source_url": "https://www.itmedia.co.jp/enterprise/articles/2611/26/news037.html",
+      "original_title": "AIリスク監査の実施、わずか5.7％　内部監査が追い付かない「もう一つのリスク」とは？",
+      "original_lang": "ja",
+      "published_at": "2026-11-27T01:50:00Z",
+      "image_url": "https://image.itmedia.co.jp/enterprise/articles/2611/26/cover_news037.jpg",
+      "image_credit": "ITmedia"
+    },
+    {
+      "section": "japan",
+      "importance": 3,
+      "title": "国内メディア15/19サイトがGPTBot拒否",
+      "summary": "日本の主要メディア19サイトのrobots.txtを調査した結果、15サイトがGPTBotの全面拒否を宣言していた。",
+      "detail": "個人開発者が2026年11月27日、新聞・通信社・放送局・ポータル・IT系メディアの国内主要19サイトのrobots.txtとllms.txtを読み、AIクローラーごとの全面拒否（Disallow: /）宣言の有無を数えた結果を公開した。学習用クローラーのGPTBot（OpenAI）とGoogle-Extendedを全面拒否するサイトが19サイト中15と最多で、検索連動型のOAI-SearchBotやClaude-SearchBotは拒否が相対的に少なかった。同一企業でもYahoo! JAPANのトップページとYahoo!ニュースで拒否範囲が異なるなど、サイトごとの対応のばらつきも明らかになった。robots.txtの記載は意図表示であり、実際のアクセス遮断や契約の有無を証明しないと著者は注記している。",
+      "why_it_matters": "AI学習用クローラーへの対応は媒体ごとに大きく割れており、ニュースコンテンツとAIの関係を巡る線引きが今も流動的であることが分かる。",
+      "tags": [
+        "AIクローラー",
+        "robots.txt",
+        "メディア"
+      ],
+      "source_name": "Zenn",
+      "source_url": "https://zenn.dev/vnlworks/articles/40685833afc67c",
+      "original_title": "主要メディア19サイトのrobots.txtを読んだら、15サイトがGPTBotにサイト全体のDisallowを宣言していた",
+      "original_lang": "ja",
+      "published_at": "2026-11-27T07:16:54Z",
+      "image_url": "https://res.cloudinary.com/zenn/image/upload/s--UuyQhzN9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25B8%25BB%25E8%25A6%2581%25E3%2583%25A1%25E3%2583%2587%25E3%2582%25A3%25E3%2582%25A219%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2581%25AErobots.txt%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%258115%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2581%258CGPTBot%25E3%2581%25AB%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E5%2585%25A8%25E4%25BD%2593%25E3%2581%25AEDisallow%25E3%2582%2592%25E5%25AE%25A3...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A4%25A7%25E7%2594%25B0%25EF%25BC%2588VNL%2520Works%2520%25E4%25BB%25A3%25E8%25A1%25A8%25EF%25BC%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG5SOVR4aDRNUW1OaTJIUlBxeGlhOFNYZjdXTDN5cEVQNE5BSVFfZ2FEa25xbGF3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+      "image_credit": "Zenn"
+    },
+    {
+      "section": "cloud",
+      "importance": 2,
+      "title": "さくら、他クラウド対応の新ストレージ発表",
+      "summary": "さくらインターネットが、AWSやAzureなど他クラウドのバックアップにも使える新ストレージ「OS2」を発表した。",
+      "detail": "さくらインターネットは11月26日開催の「SAKURA DEKIRU Conference 2026」基調講演で、新ストレージサービス「Object Storage Suite（OS2）」を発表した。低頻度アクセスのバックアップ用途を想定し、ペタバイト級の大容量データに対応する。AWSやGoogle Cloud、Microsoft Azureなどマルチクラウド環境のバックアップ先としても使える点が特徴とされる。価格はリクエスト数に応じた従量課金とは異なる体系を検討中で未定、提供開始は2027年中を予定しているという。同イベントでは東京リージョンの第三ゾーン新設や新ネットワーク基盤なども合わせて発表された。",
+      "why_it_matters": "海外クラウド依存からの分散を図る企業向けに、国内事業者がマルチクラウドバックアップの受け皿を用意する動きとして注目される。",
+      "tags": [
+        "クラウド",
+        "ストレージ",
+        "さくらインターネット"
+      ],
+      "source_name": "Publickey",
+      "source_url": "https://www.publickey1.jp/blog/26/awsazureobject_storage_suiteos2.html",
+      "original_title": "さくらインターネット、AWSやAzureなど他クラウドでバックアップ可能な新ストレージ「Object Storage Suite」（OS2）発表",
+      "original_lang": "ja",
+      "published_at": "2026-11-26T15:42:36Z",
+      "image_url": "https://www.publickey1.jp/2026/sakura-os2ann01.png",
+      "image_credit": "Publickey"
+    },
+    {
+      "section": "models",
+      "importance": 3,
+      "title": "Ant系inclusionAI、デザイン画像生成モデル公開",
+      "summary": "AntのinclusionAIが6Bのデザイン画像生成モデル「Ming-Image-0.2-Design」をMITライセンスで公開した。",
+      "detail": "Ant Group傘下のinclusionAIは、6BパラメータのDiTモデル「Ming-Image-0.2-Design」をMITライセンスで公開した。複雑な構図や光と影、文字のレンダリングを改善したビジュアルデザイン生成モデルで、ECサイトの商品画像やUIデザインの下書き、空間デザインのレンダリングなどへの活用を想定する。前世代が持っていた透明レイヤー分解機能を発展させ、キャラクターのパーツ単位まで分解できるという。モデルカードによると、Artificial Analysisの画像生成ランキングでオープンウェイトモデル中1位（2026年11月25日時点）とされる。推奨構成は単一GPUで80GiB以上のVRAM。",
+      "why_it_matters": "画像生成分野でも中国企業によるオープンウェイトモデルの性能向上が続いており、商用利用しやすいMITライセンスでの公開は実務活用を後押しすると考えられる。",
+      "tags": [
+        "画像生成",
+        "オープンウェイト",
+        "inclusionAI"
+      ],
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+      "original_title": "inclusionAI/Ming-Image-0.2-Design",
+      "original_lang": "en",
+      "published_at": "2026-11-26T00:00:00Z",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/Ming-Image-0.2-Design.png",
+      "image_credit": "Hugging Face"
+    },
+    {
+      "section": "tools",
+      "importance": 2,
+      "title": "llama.cpp、AMD向け性能ダッシュボード公開",
+      "summary": "llama.cpp開発チームがAMD製GPU向けの性能追跡ダッシュボードを公開。ビルドごとの推論速度変化を可視化する。",
+      "detail": "llama.cppの開発元ggml-orgは、AMDの協力を得て、Radeon 8060SやRadeon AI Pro R9700Sなど対象ハードウェア上での推論性能を追跡するベンチマークダッシュボードを公開した。プロンプト処理速度（PP512）とテキスト生成速度（TG128）をビルド・モデル・量子化方式ごとに比較できる「Overview」「Build history」「Context scaling」の3タブを備える。測定はビルド済みバイナリとllama-benchツールを用い、Flash Attentionの有無を含め毎週自動実行される。結果データは公開のストレージバケットでJSONL形式でも取得できる。",
+      "why_it_matters": "ビルドやカーネル変更がAMD環境での推論性能に与える影響を継続的に追跡できるようになり、ローカルLLM運用の最適化判断がしやすくなると考えられる。",
+      "tags": [
+        "llama.cpp",
+        "AMD",
+        "ベンチマーク"
+      ],
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "original_title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "original_lang": "en",
+      "published_at": "2026-11-26T11:37:17Z",
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+      "image_credit": "Hugging Face"
+    },
+    {
+      "section": "cloud",
+      "importance": 2,
+      "title": "AWS新チップでLTX-2.5動画生成を検証",
+      "summary": "Hugging Faceのエンジニアが、AWSのTrainium3チップ上で音声付き動画生成モデルLTX-2.5の性能を検証した。",
+      "detail": "Hugging Faceのエンジニアが、AWSと提携して1か月間アクセスを得たTrainium3搭載インスタンス（trn3.48xlarge、NeuronCore64基中32基使用）で、Lightricksの動画・音声同時生成モデル「LTX-2.5」を動かし性能を検証した。2048×1024の音声付き10秒クリップの生成に22〜23秒かかり、LTXのオンラインAPIが示す1080pクリップの23.7秒という数値をわずかに上回ったという。初期実装では同じ長さのクリップに5分20秒かかっており、実装の最適化で大幅に短縮した。生成コードはGitHubで、モデルはHugging Faceで公開されている。出力は下書き水準で、複数テイクの生成が必要とされる。",
+      "why_it_matters": "NVIDIA以外のAI専用チップでも動画生成が実用的な速度で動くことを示す事例で、推論基盤の選択肢の広がりを裏付けると考えられる。",
+      "tags": [
+        "AWS",
+        "Trainium3",
+        "動画生成"
+      ],
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/video-trainium3",
+      "original_title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "original_lang": "en",
+      "published_at": "2026-11-27T00:00:00Z",
+      "image_url": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+      "image_credit": "Hugging Face"
+    }
+  ]
+}
